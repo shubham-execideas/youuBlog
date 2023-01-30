@@ -1,35 +1,65 @@
 ---
-title: my homepage
+title: Homepage
 layout: 'base.njk'
----     
-<section class="hero">
-  <div class="container flow">
-      <div class="hero__content flow">
-        <h1 class="section-title">Welcome to my blog!</h1>
-        <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
-        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
-        <div class="flex-group">
-          <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
-          <a href="./blog" class="btn btn--neutral">Most recent articles</a>
-        </div>
-      </div>
-      <div>
-        <img src="//unsplash.it/510" alt="" class="hero__image">
-      </div>
+---
+
+<!--  cards section starts here  --->
+<div class="cards-section mt-28 flex">
+  <div class="w-2/6"></div>
+</div>
+<!--  cards section ends here  --->
+
+<!--  Blogs section starts here  --->
+<section class="w-full px-24 relative">
+  <h3 class="text-2xl font-bold">The Blog</h3>
+  <span>Catchup on the good stuff</span>
+  <div class="flex justify-end">
+    <div class="pagination flex justify-end mr-5 relative top-4"></div>
+    <div class="prev-button">
+      <img src="./assets/prev.svg" class="h-6" alt=""/>
+    </div>
+    <div class="next-button">
+      <img src="./assets/next.svg" class="h-6" alt=""/>
+    </div>
+  </div>
+  <div class="swiper mySwiper container">
+    <div class="swiper-wrapper w-96 content">
+      {%- for post in collections.post | reverse -%}
+        {% include 'article-snippts.njk' %}
+      {%- endfor -%}
+
+      <!-- <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="images/9.jpg" alt="" />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div class="name-profession">
+                <span class="name">Heather Cornwell</span>
+                <span class="profession">Systems Engineer</span>
+              </div>
+
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+
+              <div class="button">
+                <button class="aboutMe">About Me</button>
+                <button class="hireMe">Hire Me</button>
+              </div>
+            </div>
+          </div> -->
+    </div>
   </div>
 </section>
-
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <h2 class="section-title text-center ">Featured articles</h2>
-    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
-   <ul role="list" class="articles__list flow">
-    {%- for post in collections.featured | reverse -%}
-     {% include 'article-snippts.njk' %}
-    {%- endfor -%}
-  </ul>
-  </div>
-</section> 
-    
-   
-
+<!--  Blogs section ends here  --->
