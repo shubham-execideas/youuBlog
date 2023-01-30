@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "eleventy && npm run prod",
     "dev": "tailwindcss -i ./tailwind.css -o ./public/css/style.css --watch",
     "prod": "tailwindcss -i ./tailwind.css -o ./public/css/style.css"
   },
