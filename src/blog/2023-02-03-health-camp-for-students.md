@@ -1,12 +1,11 @@
 ---
-title: Health camp for students
-description: there is a perfect opportunity for under grads to know about their health
+title: Hello students
+description: Students
 author: Alex
-date: 2023-02-17T00:00:00+05:30
+date: 2023-02-28T00:00:00+05:30
 tags:
-  - Health
-  - Mental Illness
+  - Students
 image: assets/minion.jpg
-imageAlt: Health Camp
+imageAlt: students
 ---
-h﻿ealth camp
+s﻿tudents
