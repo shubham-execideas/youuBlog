@@ -19,7 +19,7 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "PostTags", 
+      - { label: "Post Tags", 
           name: "postTags", 
           widget: "list", 
           max: 4, 
