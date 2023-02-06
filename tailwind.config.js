@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./public/**/*.{html,njk}"],
   theme: {
-    extend: {},
+    extend: {
+      top: {
+        "-200%": "-200%",
+      },
+    },
   },
   plugins: [],
 };

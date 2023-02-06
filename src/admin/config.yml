@@ -55,3 +55,18 @@ collections:
       #       fields:
       #         - {label: Name, name: name, widget: string, default: "Emmet"}
       #         - {label: Avatar, name: avatar, widget: image, default: "/assets/blog.svg"}
+  - name: "feature"
+    label: "Feature"
+    folder: "src/features"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Label", name: "label", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+    

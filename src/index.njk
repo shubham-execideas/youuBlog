@@ -3,11 +3,24 @@ title: Homepage
 layout: 'base.njk'
 ---
 
- {# cards section starts here  #}
-<div class="cards-section mt-28 flex">
+
+
+{# Features Section Starts here #}
+<div class="cards-section grid grid-cols-4 gap-4 mt-28">
   <div class="w-2/6"></div>
+
+  <div class="cards-container grid col-span-3 lg:grid-cols-2 gap-10">
+    <h3 class="font-bold col-span-2 text-4xl w-2/3">
+            Why YOUU is the most powerful AI-interconnected, hyper-personalized
+            digital health platform ever.
+     </h3>
+       {%- for feature in collections.feature -%}
+        {% include 'feature.njk' %}
+      {%- endfor -%}
+   
+  </div>
 </div>
-{# cards section ends here #}
+{# Features Section Ends here #}
 
 {# Blogs section starts here #}
 <section class="w-full px-24 relative">
@@ -28,7 +41,7 @@ layout: 'base.njk'
         {% include 'article-snippts.njk' %}
       {%- endfor -%}
 
-{# <div class="swiper-slide card">
+      {# <div class="swiper-slide card">
             <div class="card-content">
               <div class="image">
                 <img src="images/9.jpg" alt="" />
