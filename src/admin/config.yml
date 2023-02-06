@@ -19,3 +19,30 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {label: "Gallery",
+  name: "galleryImages",
+  widget: "list",
+  summary: '{{fields.image}}',
+  field: {label: Image, name: image, widget: image}}
+      - {label: "Testimonials",
+  name: "testimonials",
+  widget: "list",
+  summary: '{{fields.quote}} - {{fields.author.name}}',
+  fields:
+    - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+    - label: Author
+      name: author
+      widget: object
+      fields:
+        - {label: Name, name: name, widget: string, default: "Emmet"}
+        - {label: Avatar, name: avatar, widget: image, default: "/assets/blog.svg"}
+}
+- {label: "Gallery",
+  name: "galleryImages",
+  widget: "list",
+  fields:
+    - { label: "Source", name: "src", widget: "string" }
+    - { label: "Alt Text", name: "alt", widget: "string" },
+  default:
+    - { src: "/img/tennis.jpg", alt: "Tennis" }
+    - { src: "/img/footbar.jpg", alt: "Football" }}
