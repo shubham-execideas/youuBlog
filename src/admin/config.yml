@@ -19,6 +19,13 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "PostTags", 
+          name: "postTags", 
+          widget: "list", 
+          max: 4, 
+          min: 1, 
+          default: ["EXCLUSIVE","MENTAL HEALTH","ADDCITION","DRUGS"] 
+        }
       # - { 
       #   label: "Gallery",
       #   name: "galleryImages",
