@@ -37,8 +37,8 @@ collections:
         - {label: Name, name: name, widget: string, default: "Emmet"}
         - {label: Avatar, name: avatar, widget: image, default: "/assets/blog.svg"}
 }
-- {label: "Gallery",
-  name: "galleryImages",
+- {label: "Gallery2",
+  name: "galleryImages2",
   widget: "list",
   fields:
     - { label: "Source", name: "src", widget: "string" }
