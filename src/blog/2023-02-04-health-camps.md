@@ -9,10 +9,12 @@ description: Lorem Ipsum is simply dummy text of the printing and typesetting
   Ipsum passages
 author: Alex
 date: 2023-02-17T00:00:00+05:30
-tags:
-  - post
 image: assets/blog.svg
 imageAlt: Health Camp
+tags: ["post", "featured"]
+postTags:
+  - ADDCITION
+  - DRUGS
 ---
 
 

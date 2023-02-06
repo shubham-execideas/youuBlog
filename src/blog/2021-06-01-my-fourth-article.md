@@ -3,8 +3,11 @@ title: My Fourth Article
 author: Kevin Powell
 date: 2021-06-01
 image: /assets/blog.svg
-tags: ["post", "featured"]
 imageAlt: This is a test
+tags: ["post", "featured"]
+postTags:
+  - EXCLUSIVE
+  - DRUGS
 description: four Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
 

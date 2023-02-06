@@ -4,6 +4,10 @@ author: Kevin Powell
 date: 2021-05-28
 image: /assets/blog.svg
 imageAlt: This is a test
+tags: ["post", "featured"]
+postTags:
+  - ADDCITION
+  - DRUGS
 description: three Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
 

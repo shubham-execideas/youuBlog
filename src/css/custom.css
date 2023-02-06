@@ -1,0 +1,27 @@
+.tabs .tab-header > div.active{
+    color: white;
+    background-color:#6C54A0;
+}
+
+.tabs .tab-content > div{
+    top: -200%;
+    transition: all 500ms ease-out;
+}
+
+.tabs .tab-content > div.active{
+    top: 0px;
+}
+
+.tabs .tab-indicator{
+    position: absolute;
+    width:4px;
+    height: 34px;
+    background: #6C54A0;
+    left: 280px;
+    top: 45px;
+    transition: all 500ms ease-in-out;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    top: 9px !important;
+}

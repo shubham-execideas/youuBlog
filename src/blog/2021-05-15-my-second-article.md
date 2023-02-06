@@ -4,6 +4,11 @@ author: Kevin Powell
 date: 2021-05-15
 image: /assets/blog.svg
 imageAlt: This is a test
+tags: ["post", "featured"]
+postTags:
+  - MENTAL HEALTH
+  - ADDCITION
+  - DRUGS
 description: two Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
 

@@ -2,9 +2,11 @@
 title: Mount Grace for Women Recovery Center Recognized as a National Center of Excellence
 author: Kevin Powell
 date: 2021-06-15
-tags: ["post", "featured"]
 image: /assets/blog.svg
 imageAlt: This is a test
+tags: ["post", "featured"]
+postTags:
+  - DRUGS
 description: DALLAS, TX, USA, September 1, 2022 /EINPresswire.com/ -- Mount Grace for Women has been named one of the top faith-based treatment centers within the Sober Peer Behavioral Health Network of national organizations dedicated to helping people with life-controlling behavioral and mental health issues. The designation of Mount Grace as a Center of Excellence is based on 22 operational, financial.
 ---
 
