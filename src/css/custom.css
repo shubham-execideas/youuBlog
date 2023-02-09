@@ -20,6 +20,7 @@
     left: 268px;
     top: 13px;
     transition: all 500ms ease-in-out;
+    border-radius: 30px;
 }
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
