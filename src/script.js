@@ -95,7 +95,7 @@ for (let i = 0; i < tabPanes.length; i++) {
       .classList.remove("active");
     tabPanes[i].classList.add("active");
 
-    // _class("tab-indicator")[0].style.top = `calc(13px + ${i * 39}px)`;
+    _class("tab-indicator")[0].style.top = `calc(13px + ${i * 56}px)`;
     // console.log(40 + (i * 40), i);
 
     _class("tab-content")[0]
