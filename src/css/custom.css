@@ -4,7 +4,7 @@
 }
 
 .tabs .tab-content>div {
-    top: -299%;
+    top: -300%;
     transition: all 500ms ease-out;
 }
 
