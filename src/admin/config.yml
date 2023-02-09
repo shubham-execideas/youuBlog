@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: youuBlog2
 media_folder: public/assets
 public_folder: assets
