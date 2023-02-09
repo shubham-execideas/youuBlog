@@ -87,7 +87,6 @@ function _class(name) {
 }
 
 let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
-console.log(tabPanes);
 
 for (let i = 0; i < tabPanes.length; i++) {
   tabPanes[i].addEventListener("click", function () {
@@ -96,18 +95,17 @@ for (let i = 0; i < tabPanes.length; i++) {
       .classList.remove("active");
     tabPanes[i].classList.add("active");
 
-    console.log(_class("tab-header")[0].getElementsByClassName("active")[0]);
-    _class("tab-indicator")[0].style.top = `calc(52px + ${i * 52}px)`;
+    // _class("tab-indicator")[0].style.top = `calc(13px + ${i * 39}px)`;
+    // console.log(40 + (i * 40), i);
 
     _class("tab-content")[0]
       .getElementsByClassName("active")[0]
       .classList.remove("active");
     // _class("tab-content")[0];
-    console.log(_class("tab-content")[0].getElementsByClassName("active")[0]);
 
     _class("tab-content")[0]
       .getElementsByTagName("div")
       [i].classList.add("active");
-    console.log(_class("tab-content")[0]);
+    console.log(_class("tab-content")[0].getElementsByTagName("div")[i]);
   });
 }
