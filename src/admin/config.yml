@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: shubham-execideas/youuBlog2
+  name: git-gateway
+  branch: youuBlog2
 media_folder: public/assets
 public_folder: assets
 local_backend: true
