@@ -1,22 +1,23 @@
-<div class="swiper-slide card w-9/12 shadow-md m-4 rounded-lg p-3">
+<div class="swiper-slide card w-10/12  rounded-lg p-3">
   <div class="card-content w-full">
     <img src="{{post.data.image}}" alt="{{post.data.imageAlt}}" >
-    <p class="text-xs">Published Date :- {{ post.date | postDate }}</p>
-    <div class="flex justify-between my-3">
+    <p class="text-xs mt-3">Published Date :- {{ post.date | postDate }}</p>
+    <div class="flex my-3 whitespace-nowrap">
       {% for tag in post.data.postTags %}
-        <p class="bg-pink-100 p-2 text-xs text-">
+        <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
           {{ tag }}
         </p>
       {%- endfor %}
     </div>
-
     <h4 class="font-semibold">
       {{post.data.title}}
     </h4>
-    <p>
+    <p class="mt-3">
       {{post.data.description}}
     </p>
-    <ul>
+    {# For Future purpose #}
+    {# 
+               <ul>
       {% for item in post.data.fruit %}
         <li>{{ item.name }}, cost: {{ item.cost }}, color: {{ item.color }}</li>
       {% endfor %}
@@ -24,7 +25,10 @@
 
     {% if post.data.show_footer %}
       <footer> Boolean footer true=> I am a footer</footer>
-    {% endif %}
-    <button class="text-purple-600 border-2 p-2 border-purple-400 rounded-md">Read Article</button>
+    {% endif %} #}
+
+    <button class="text-sumireVoilet px-4 border-2 py-2 mt-8 border-sumireVoilet rounded-md">
+                Read Article
+              </button>
   </div>
 </div>

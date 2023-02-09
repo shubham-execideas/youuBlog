@@ -7,10 +7,6 @@ layout: 'base.njk'
 {% include "./tabs.njk" %}
 {# Tabs section end here #}
 
-
-
-
-
 {# cards section starts here #}
 <div class="cards-section p-20  grid grid-cols-4 gap-4 pt-44">
   <div class="w-72">
@@ -32,16 +28,21 @@ layout: 'base.njk'
 {# cards section ends here #}
 
 {# Blogs section starts here #}
-<section class="w-full px-24 relative">
-  <h3 class="text-2xl font-bold">The Blog</h3>
-  <span>Catchup on the good stuff</span>
-  <div class="flex justify-end">
-    <div class="pagination flex justify-end mr-5 relative top-4"></div>
-    <div class="prev-button">
-      <img src="./assets/prev.svg" class="h-6" alt=""/>
+<section class="w-full mt-10 px-20 relative">
+  <div class="flex justify-between items-center mb-8">
+    <div>
+      <h3 class="text-4xl font-bold mb-3">The Blog</h3>
+      <span class="text-xs">Catchup on the good stuff</span>
     </div>
-    <div class="next-button">
-      <img src="./assets/next.svg" class="h-6" alt=""/>
+
+    <div class="flex justify-end">
+      <div class="pagination flex justify-end mr-5 relative top-2"></div>
+      <div class="prev-button w-14">
+        <img src="./assets/prev.svg" class="h-6 mr-3" alt=""/>
+      </div>
+      <div class="next-button w-14">
+        <img src="./assets/next.svg" class="h-6" alt=""/>
+      </div>
     </div>
   </div>
   <div class="swiper mySwiper container">
