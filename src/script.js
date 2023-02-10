@@ -88,6 +88,12 @@ function _class(name) {
 
 let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
 
+//we added this two classnames to first element of tab-content because when we convert the html code to template language it's causing some UI issues, so inorder to clear those issues we are adding these classnames dynamically
+_class("tab-content")[0]
+  .getElementsByTagName("div")[0]
+  .classList.add("relative");
+_class("tab-content")[0].getElementsByTagName("div")[0].classList.add("active");
+
 for (let i = 0; i < tabPanes.length; i++) {
   tabPanes[i].addEventListener("click", function () {
     _class("tab-header")[0]
