@@ -69,5 +69,20 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "slider"
+    label: "slider"
+    folder: "src/slider"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Button Text", name: "slideButtonText", widget: "string" }
+      - { label: "Short Title", name: "slideShortTitle", widget: "string" }
+      - { label: "Slide Title", name: "slideTitle", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["slider"] }
+      - { label: "Pointer", name: "sliderPointer", widget: "list" }
+      - { label: "Description", name: "sliderDescription", widget: "markdown"}
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
+      - { label: "video URL", name: "videoURL", widget: "string" }
+   
 
     
