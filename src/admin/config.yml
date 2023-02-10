@@ -9,7 +9,7 @@ collections:
     label: "Blog"
     folder: "src/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
@@ -59,7 +59,7 @@ collections:
     label: "Feature"
     folder: "src/features"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Label", name: "label", widget: "string" }
@@ -73,7 +73,7 @@ collections:
     label: "slider"
     folder: "src/slider"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Button Text", name: "slideButtonText", widget: "string" }
       - { label: "Short Title", name: "slideShortTitle", widget: "string" }
