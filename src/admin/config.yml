@@ -80,9 +80,7 @@ collections:
       - { label: "Slide Title", name: "slideTitle", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["slider"] }
       - { label: "Pointer", name: "sliderPointer", widget: "list" }
-      - { label: "Image Description", name: "image", widget: "image", required: false }
-      - { label: "Description", name: "string", widget: "string", required: false }
-      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Description", name: "sliderDescription", widget: "markdown"}
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
       - { label: "video URL", name: "videoURL", widget: "string" }
    
