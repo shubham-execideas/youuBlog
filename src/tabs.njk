@@ -13,6 +13,8 @@
       {%- for slider in collections.slider -%}
         {% include 'slider.njk' %}
       {%- endfor -%}
+      
+    {{ content | safe }}
     </div>
   </div>
 </div>
