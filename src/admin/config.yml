@@ -23,7 +23,7 @@ collections:
           min: 1, 
           default: ["Exclusive","Mental Health","Addicition","Drugs"] 
         }
-      - { label: "Featured Image", name: "image", widget: "image" , required: false, hint:"its for an image"}
+      - { label: "Featured Image", name: "image", widget: "image" , required: false, hint: "its for an image"}
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
