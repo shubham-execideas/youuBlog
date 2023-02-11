@@ -11,7 +11,7 @@ postTags:
   - Mental Health
   - Addicition
   - Drugs
-image: assets/blog.svg
+image: /assets/blog.svg
 imageAlt: image demo
 ---
 ***t﻿his is image***

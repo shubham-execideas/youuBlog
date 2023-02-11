@@ -35,3 +35,13 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
+
+.blog-body *{
+    width: 45%;
+    margin:12px;
+}
+
+.blog-body p img {
+    width: 100%;
+    margin:12px;
+}

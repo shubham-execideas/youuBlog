@@ -4,7 +4,7 @@ layout: 'base.njk'
 ---
 
 <article class="main-article">
-  <div class="container container--narrow flow px-20">
+  <div class="flow px-20">
     <div class="flex">
       <p>Published Date:</p>
       <p>{{ date | postDate }}</p>
@@ -19,30 +19,40 @@ layout: 'base.njk'
     <h1 class="article-title text-2xl font-bold">
       {{ title }}
     </h1>
-    <p>{{ description }}</p>
+    <p class="mb-8">{{ description }}</p>
     <div class="grid grid-cols-4">
-      <div class="col-span-3">
+      <div
+        class="col-span-3 h-fit">
         {# <div class="">{{videoURL}}</div> #}
         {%- if videoURL.length %}
-          <iframe width="560" height="315" src="{{videoURL}}" class="bg-purple-200 w-80 h-72" frameborder="0" allowfullscreen=""></iframe>
+          <div class="bg-white rounded-xl p-6">
+            <iframe height="500" src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg"></iframe>
+          </div>
         {%- endif -%}
-
+        <div class="flex flex-wrap blog-body">
+          {{ content | safe }}
+        </div>
       </div>
-      <div>
-        {{ content |safe }}
+      <div class="h-fit">
+        <h1 class="font-semibold text-2xl">Other Blogs</h1>
+        {%- for post in collections.post | reverse -%}
+          <a href = "{{ post.url }}" class="border-2 m-5 flex p-3">
+            <img src="{{ post.data.image }}" alt="" height="120" width="120">
+              <div>
+                <p>{{ post.data.title }}</p>
+                
+                <div class="flex my-2 flex-wrap whitespace-nowrap">
+                  {% for tag in  post.data.postTags %}
+                    <p class="bg-pink-50 uppercase p-1 mr-2" style="font-size: 10px;">
+                      {{ tag }}
+                    </p>
+                  {%- endfor %}
+                </div>
+                <p>{{ post.data.date | postDate }}</p>
+              </div>
+            </a>
+          {%- endfor -%}
+        </div>
       </div>
     </div>
-    {#  #}
-    {# <figure class="main-article__figure">
-            <img src="{{image}}" alt="{{imageAlt}}">
-            <figcaption>
-              {{imageAlt}}
-            </figcaption>
-          </figure> #}
-    {# <div>
-               {%- for post in collections.post | reverse -%}
-                {% include 'article-snippts.njk' %}
-              {%- endfor -%} 
-            </div> #}
-  </div>
-</article>
+  </article>
