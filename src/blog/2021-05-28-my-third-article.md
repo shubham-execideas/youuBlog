@@ -1,14 +1,20 @@
 ---
-title: My Third Article
 author: Kevin Powell
+title: My Third Article
+description: three Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae
+  delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio
+  aliquam?
 date: 2021-05-28
-image: /assets/blog.svg
-imageAlt: This is a test
-tags: ["post", "featured"]
+tags:
+  - post
+  - featured
 postTags:
   - ADDCITION
   - DRUGS
-description: three Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+image: /assets/blog.svg
+imageAlt: This is a test
+videoURL: https://www.youtube.com/embed/o1lz1OhqdSg
 ---
 
 three Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Ut sem nulla pharetra diam sit amet nisl. Est velit egestas dui id ornare. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Ut sem viverra aliquet eget. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. At augue eget arcu dictum. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Amet aliquam id diam maecenas ultricies mi.
