@@ -10,7 +10,7 @@ layout: 'base.njk'
       <p>{{ date | postDate }}</p>
     </div>
     <div class="flex my-3 whitespace-nowrap">
-        {% for tag in postTags %}
+      {% for tag in postTags %}
         <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
           {{ tag }}
         </p>
@@ -23,14 +23,17 @@ layout: 'base.njk'
     <div class="grid grid-cols-4">
       <div class="col-span-3">
         {# <div class="">{{videoURL}}</div> #}
-        <iframe width="560" height="315" src="{{videoURL}}" class="bg-purple-200 w-80 h-72" frameborder="0" allowfullscreen=""></iframe>
+        {%- if videoURL.length %}
+          <iframe width="560" height="315" src="{{videoURL}}" class="bg-purple-200 w-80 h-72" frameborder="0" allowfullscreen=""></iframe>
+        {%- endif -%}
+
       </div>
       <div>
-       {{ content |safe }}
+        {{ content |safe }}
       </div>
     </div>
     {#  #}
-  {# <figure class="main-article__figure">
+    {# <figure class="main-article__figure">
             <img src="{{image}}" alt="{{imageAlt}}">
             <figcaption>
               {{imageAlt}}
