@@ -10,6 +10,7 @@ collections:
     folder: "src/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
+    hint: "This is for blog posts"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
