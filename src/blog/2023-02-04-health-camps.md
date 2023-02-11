@@ -1,4 +1,5 @@
 ---
+author: Alex
 title: Health Camps
 description: Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text ever since
@@ -7,14 +8,16 @@ description: Lorem Ipsum is simply dummy text of the printing and typesetting
   the leap into electronic typesetting, remaining essentially unchanged. It was
   popularised in the 1960s with the release of Letraset sheets containing Lorem
   Ipsum passages
-author: Alex
 date: 2023-02-17T00:00:00+05:30
-image: /assets/blog.svg
-imageAlt: Health Camp
-tags: ["post", "featured"]
+tags:
+  - post
+  - featured
 postTags:
   - ADDCITION
   - DRUGS
+image: /assets/blog.svg
+imageAlt: Health Camp
+videoURL: https://www.youtube.com/embed/o1lz1OhqdSg
 ---
 
 
