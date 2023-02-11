@@ -10,7 +10,11 @@ layout: 'base.njk'
       <p>{{ date | postDate }}</p>
     </div>
     <div class="flex my-3 whitespace-nowrap">
-      <p class="bg-gray-100 uppercase p-1 mr-2 text-xs">{{ postTags }}</p>
+        {% for tag in postTags %}
+        <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
+          {{ tag }}
+        </p>
+      {%- endfor %}
     </div>
     <h1 class="article-title text-2xl font-bold">
       {{ title }}
