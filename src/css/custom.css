@@ -26,3 +26,12 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal {
     top: 9px !important;
 }
+
+.text {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
