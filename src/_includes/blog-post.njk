@@ -3,13 +3,13 @@ title: post
 layout: 'base.njk'
 ---
 
-<article class="main-article">
+<article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
   <div class="flow px-20">
     <div class="flex">
       <p>Published Date:</p>
       <p>{{ date | postDate }}</p>
     </div>
-    <div class="flex my-3 whitespace-nowrap">
+    <div class="flex  my-3 whitespace-nowrap">
       {% for tag in postTags %}
         <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
           {{ tag }}
@@ -20,9 +20,9 @@ layout: 'base.njk'
       {{ title }}
     </h1>
     <p class="mb-8">{{ description }}</p>
-    <div class="grid grid-cols-4">
+    <div class="lg:flex">
       <div
-        class="col-span-3 h-fit">
+        class="sm:w-full md:w-full lg:w-4/6">
         {# <div class="">{{videoURL}}</div> #}
         {%- if videoURL.length %}
           <div class="bg-white rounded-xl p-6">
@@ -33,22 +33,22 @@ layout: 'base.njk'
           {{ content | safe }}
         </div>
       </div>
-      <div class="h-fit">
+      <div class="h-fit sm:w-full md:w-full lg:w-2/6">
         <h1 class="font-semibold text-2xl">Other Blogs</h1>
         {%- for post in collections.post | reverse -%}
-          <a href = "{{ post.url }}" class="border-2 m-5 flex p-3">
-            <img src="{{ post.data.image }}" alt="" height="120" width="120">
-              <div>
-                <p>{{ post.data.title }}</p>
+          <a href = "{{ post.url }}" class="m-5 flex items-center p-3 rounded-lg bg-white">
+            <img src="{{ post.data.image }}" alt="" style="height: 120px; width:120px;" class="object-cover rounded-lg">
+              <div class=" ml-3">
+                <p class="text-xl font-semibold">{{ post.data.title }}</p>
                 
-                <div class="flex my-2 flex-wrap whitespace-nowrap">
+                <div class="flex my-2 flex-wrap whitespace-nowrap ">
                   {% for tag in  post.data.postTags %}
                     <p class="bg-pink-50 uppercase p-1 mr-2" style="font-size: 10px;">
-                      {{ tag }}
+                      {{ tag }} 
                     </p>
                   {%- endfor %}
                 </div>
-                <p>{{ post.data.date | postDate }}</p>
+                <p class="text-xs">Published Date: {{ post.data.date | postDate }}</p>
               </div>
             </a>
           {%- endfor -%}

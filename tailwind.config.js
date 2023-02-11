@@ -11,6 +11,25 @@ module.exports = {
       6: "6px",
       8: "8px",
     },
+    backgroundPosition: {
+      bottom: "bottom",
+      "bottom-4": "center left",
+      center: "center",
+      left: "left",
+      "left-bottom": "left bottom",
+      "left-top": "left top",
+      right: "right",
+      "right-bottom": "right bottom",
+      "right-top": "right top",
+      top: "top",
+      "top-4": "center top 1rem",
+    },backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      45: '45%',
+      '16': '4rem',
+    },
     extend: {
       top: {
         "-200%": "-200%",
