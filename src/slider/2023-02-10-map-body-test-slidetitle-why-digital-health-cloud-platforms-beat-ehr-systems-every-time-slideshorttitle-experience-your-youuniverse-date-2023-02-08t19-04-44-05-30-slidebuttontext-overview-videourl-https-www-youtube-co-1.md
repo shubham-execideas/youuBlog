@@ -1,5 +1,5 @@
 ---
-slideButtonText: overview
+slideButtonText: Overview
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
 tags:
