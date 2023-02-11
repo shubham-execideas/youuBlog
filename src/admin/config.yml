@@ -12,8 +12,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      # - { label: "Author", name: "author", widget: "string" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["Post","Featured"] }
       - { label: "Post Tags", 
