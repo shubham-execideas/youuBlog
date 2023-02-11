@@ -25,6 +25,7 @@ collections:
         }
       - { label: "Featured Image", name: "image", widget: "image" , required: false, hint: "its for an image"}
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Video URL", name: "videoURL", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
       # - { label: "Category",
@@ -82,7 +83,7 @@ collections:
       - { label: "Pointer", name: "sliderPointer", widget: "list" }
       - { label: "Description", name: "sliderDescription", widget: "text"}
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
-      - { label: "video URL", name: "videoURL", widget: "string" }
+      - { label: "Video URL", name: "videoURL", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
    
 
