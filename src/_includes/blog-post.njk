@@ -1,0 +1,41 @@
+---
+title: post
+layout: 'base.njk'
+---
+
+<article class="main-article">
+  <div class="container container--narrow flow">
+    <div class="flex">
+      <p>Published Date:</p>
+      <p>{{ date | postDate }}</p>
+    </div>
+    <div class="flex my-3 whitespace-nowrap">
+      <p class="bg-gray-100 uppercase p-1 mr-2 text-xs">{{ postTags }}</p>
+    </div>
+    <h1 class="article-title text-2xl font-bold">
+      {{ title }}
+    </h1>
+    <p>{{ description }}</p>
+    <div class="grid grid-cols-4">
+      <div class="col-span-3">
+        {# <div class="">{{videoURL}}</div> #}
+        <iframe width="560" height="315" src="{{videoURL}}" class="bg-purple-200 w-80 h-72" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+      <div>
+       {{ content |safe }}
+      </div>
+    </div>
+    {#  #}
+  {# <figure class="main-article__figure">
+            <img src="{{image}}" alt="{{imageAlt}}">
+            <figcaption>
+              {{imageAlt}}
+            </figcaption>
+          </figure> #}
+    {# <div>
+               {%- for post in collections.post | reverse -%}
+                {% include 'article-snippts.njk' %}
+              {%- endfor -%} 
+            </div> #}
+  </div>
+</article>
