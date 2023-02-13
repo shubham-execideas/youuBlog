@@ -1,0 +1,26 @@
+---
+layout: 'base.njk'
+---
+
+<div class="bg-white p-0.5 md:w-5/5 lg:w-5/6 mt-16 rounded-3xl">
+  <div class="card relative rounded-3xl h-96 p-6 bg-pink-200/50  hover:text-white hover:bg-gradient-to-r  hover:from-bgpurple hover:via-bgpink  hover:to-bgyellow">
+    <span
+              class="bg-gradient-to-r h-20 w-20 flex justify-center border-white border-3 items-center rounded-md from-bgpurple via-bgpink  to-bgyellow absolute"
+              style="top: -42px; left: 21px">
+
+      <img src="{{image}}" alt="{{imageAlt}}"/>
+    </span>
+
+    <p class="text-xs mt-7 uppercase">{{label}}</p>
+    <h4 class="my-3 font-semibold">
+      {{title}}
+    </h4>
+    {# <p class="text-sm">
+      {{description}}
+    </p> #}
+    {# <div class="flex flex-wrap blog-body">
+                    {{ content | safe }}
+                  </div> #}
+    
+  </div>
+</div>
