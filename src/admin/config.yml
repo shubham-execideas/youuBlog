@@ -92,8 +92,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
-      - { label: "Contact Number", name: "contact", widget: "text" }
-      
+      - { label: "Contact Number",
+          name: "contact", 
+          widget: "number",
+          value_type: "int",
+          min: 1,
+          max: 101,
+          step: 2,
+          }
+ 
    
 
     
