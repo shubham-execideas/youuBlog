@@ -96,8 +96,6 @@ collections:
           name: "contact", 
           widget: "number",
           value_type: "int",
-          min: 1,
-          max: 101,
           step: 2,
           }
  
