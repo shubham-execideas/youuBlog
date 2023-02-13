@@ -95,8 +95,6 @@ collections:
       - { label: "Contact Number",
           name: "contact", 
           widget: "number",
-          value_type: "int",
-          step: 2,
           }
  
    
