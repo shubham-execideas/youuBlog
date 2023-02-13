@@ -72,7 +72,7 @@ collections:
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "slider"
-    label: "slider"
+    label: "Slider"
     folder: "src/slider"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
@@ -87,14 +87,14 @@ collections:
       - { label: "Video URL", name: "videoURL", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
-    label: "contact"
+    label: "Contact"
     folder: "src/contact"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Contact Number",
           name: "contact", 
-          widget: "number",
+          widget: "string",
           }
  
    
