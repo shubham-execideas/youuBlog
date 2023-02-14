@@ -88,15 +88,15 @@ collections:
       - { label: "Video URL", name: "videoURL", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
-    label: "Contact"
+    label: "contact"
     folder: "src/contact"
-    create: true
+    create: false
     slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
     fields:
       - { label: "Contact Number",
           name: "contact", 
           widget: "string",
-          }
+        }
  
    
 
