@@ -14,20 +14,11 @@
       {%- for slider in collections.slider -%}
         {% include 'slider.njk' %}
       {%- endfor -%}
-      
     {{ content | safe }}
     </div>
   </div>
-  <div class="w-fit">
-    <div class="w-64 shadow-md rounded-md relative px-5 py-6 border-2">
-      <img src="/assets/contact_section.svg" alt="" class="absolute right-0 top-0 h-20">
-      <p class="font-semibold mb-4">Have Questions?</p>
-      <p class="mb-3">Reach Out to us</p>
-      <span class="flex">
-        <img src="/assets/phone.svg" alt="">
-        <p class="text-sumireVoilet font-bold ml-3">1-800-555-0991</p>
-      </span>
-    </div>
-  </div>
+      {%- for contact in collections.contact -%}
+        {% include 'contact.njk' %}
+      {%- endfor -%}
 </div>
 {# Tabs section ends here #}
