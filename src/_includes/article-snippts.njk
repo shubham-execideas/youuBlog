@@ -1,6 +1,6 @@
 <div class="swiper-slide card w-10/12  rounded-lg p-3">
   <div class="card-content w-full flex flex-col items-start">
-    <img src="{{post.data.image}}" alt="{{post.data.imageAlt}}" >
+    <img src="{{post.data.image}}" class="rounded-md" alt="{{post.data.imageAlt}}" style="height: 208px; width:426px">
     <p class="text-xs mt-3">Published Date : {{ post.date | postDate }}</p>
     <div class="flex my-3 whitespace-nowrap">
       {% for tag in post.data.postTags %}
