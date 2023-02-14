@@ -4,6 +4,7 @@ backend:
 media_folder: public/assets
 public_folder: /assets
 local_backend: true
+logo_url: /assets/youu_logo.svg
 collections:
   - name: "blog"
     label: "Blog"
