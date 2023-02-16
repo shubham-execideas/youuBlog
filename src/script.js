@@ -2,35 +2,39 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 5,
   //   slideClass: ".slider",
-  slidesPerGroup: 4,
+  slidesPerGroup: 3,
   loop: false,
   loopFillGroupWithBlank: true,
   pagination: {
     el: ".pagination",
     clickable: true,
+    // dynamicBullets: true,
   },
-  allowTouchMove: false,
+  allowTouchMove: true,
   navigation: {
     nextEl: ".next-button",
     prevEl: ".prev-button",
   },
-  //   breakpoints: {
-  //     // when window width is >= 320px
-  //     320: {
-  //       slidesPerView: 1,
-  //       spaceBetween: 5,
-  //     },
-  //     // when window width is >= 480px
-  //     480: {
-  //       slidesPerView: 2,
-  //       spaceBetween: 10,
-  //     },
-  //     // when window width is >= 640px
-  //     640: {
-  //       slidesPerView: 3,
-  //       spaceBetween: 20,
-  //     },
-  //   },
+  breakpoints: {
+    // when window width is >= 320px
+    0: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+      // spaceBetween: 5,
+    },
+    // when window width is >= 480px
+    520: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      // spaceBetween: 10,
+    },
+    // when window width is >= 640px
+    950: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      // spaceBetween: 20,
+    },
+  },
 });
 
 var swiper = new Swiper(".podcastSwiper", {
@@ -44,7 +48,7 @@ var swiper = new Swiper(".podcastSwiper", {
     el: ".pod-pagination",
     clickable: true,
   },
-  allowTouchMove: false,
+  allowTouchMove: true,
   navigation: {
     nextEl: ".pod-next-button",
     prevEl: ".pod-prev-button",
@@ -87,6 +91,62 @@ function _class(name) {
 }
 
 let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
+let emailValidation = document.getElementById("email");
+let submitButton = document.getElementById("submitButton"); 
+let email;
+let errorMsg = document.getElementById("errorMsg"); 
+
+emailValidation.addEventListener("keyup", function () { 
+  email = emailValidation.value;
+  // let value = data.target.value;
+  let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)
+    ? "Invalid email"
+    : "";
+  
+  if (error.length) {
+    errorMsg.innerHTML = error;
+  } else {
+    errorMsg.innerHTML = error;
+  }
+})
+
+submitButton.addEventListener("click", function () { 
+  //  newsletterSubmit = () => {
+     //Below is the testing details.
+     // var url =
+     //   'https://api.hsforms.com/submissions/v3/integration/submit/8723062/4a1234b0-fede-4e1b-bdcf-6813c28f5ac9';
+     var url =
+       "https://api.hsforms.com/submissions/v3/integration/submit/7393862/1ebe5cf0-a4ce-4bfd-9970-a3a2fd9ea1db";
+     var data = {
+       fields: [
+         {
+           name: "email",
+           value: email,
+         },
+       ],
+       context: {
+         pageUri: "www.soberpeer.com",
+         pageName: "newsletter",
+       },
+     };
+     axios
+       .post(url, data)
+       .then((response) => {
+         console.log("email success");
+        //  this.setState({ newsLetterSuccess: true, errorMsg: "" });
+         setTimeout(() => {
+          //  this.setState({ newsLetterSuccess: false, email: "" });
+           console.log("email fail");
+         }, 5000);
+         console.log(response);
+       })
+       .catch((error) => {
+         console.log(error);
+        //  this.setState({ EmailErrorMsg: "Invalid email" });
+         console.log("email invalid");
+       });
+  //  };
+});
 
 //to make first slide active dynamically
 _class("tab-content")[0]
@@ -124,3 +184,7 @@ for (let i = 0; i < tabPanes.length; i++) {
        [i].classList.add("relative");
   });
 }
+
+// const emailValidation = () => { 
+//   alert("email entered")
+// }

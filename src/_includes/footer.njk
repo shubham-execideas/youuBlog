@@ -1,6 +1,6 @@
 {# footer section starts here #}
-      <div class="p-14 mt-20 w-full text-white grid grid-cols-4" style="background-color: #31184C">
-      <div class="col-span-2">
+      <div class="p-14 mt-20 w-full text-white grid md:grid-cols-1 lg:grid-cols-4" style="background-color: #31184C">
+      <div class="lg:col-span-2 md:mt-5 lg:mt-0">
         <div class="flex items-center mb-3">
           <img src="/assets/youu_logo.svg" class="h-7 mr-2" alt="" />
           <p class="text-white text-4xl mb-3 relative font-semibold  after:content-['HEALTH'] after:text-xs after:text-white after:font-light after:absolute after:top-full after:right-0">youu</p>
@@ -15,28 +15,29 @@
           <img src="/assets/insta.svg" class="h-3" alt="" />
         </div>
       </div>
-      <div class="links">
+      {# <div class="links md:mt-5 lg:mt-0">
         <p class="font-medium mb-2">Links</p>
-        <ul class="flex w-40 flex-wrap font-light">
+        <ul class="flex md:w-full lg:w-40 flex-wrap font-light">
           <li class="text-sm mr-4 mb-2">Products</li>
           <li class="text-sm mr-4 mb-2">Use Cases</li>
           <li class="text-sm mr-4 mb-2">Learning</li>
           <li class="text-sm mr-4 mb-2">Support</li>
           <li class="text-sm mr-4 mb-2">Company</li>
         </ul>
-      </div>
-      <div class="about ">
+      </div> #}
+      <div class="about md:mt-5 lg:mt-0">
         <p class="font-medium mb-4">Subscribe to our newsletter</p>
         <span class="font-light">Stay up to date with the latest news from us!
         Sign up for our newsletter and get all the coolest
         \updates in your inbox.</span>
         <div class="mt-7">
-          <input type="text" class="border-gray-300 w-9/12 border-2 px-4 py-2 text-xs rounded-md"
-            placeholder="First Name" id="firstName" />
-            <button class="bg-sumireVoilet text-white p-2.5 text-sm rounded-md">
+          <input type="text" class="border-gray-300 focus:outline-none text-black w-9/12 border-2 px-4 py-2 text-xs rounded-md"
+            placeholder="Email" id="email"/>
+            <button class="bg-sumireVoilet text-white p-2.5 text-sm rounded-md" id="submitButton">
               Subscribe
             </button>
         </div>
+        <p id="errorMsg" class="absolute"></p>
       </div>
     </div>
     <p class="w-full text-center text-white text-xs pb-3" style="background-color: #31184c">
