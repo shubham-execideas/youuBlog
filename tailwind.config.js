@@ -37,6 +37,10 @@ module.exports = {
       width: {
         30: "30%",
         330: "330px",
+        19: '19%'
+      },
+      margin: {
+        1.2: '5px',
       },
       colors: {
         sumireVoilet: "#6c54a0",

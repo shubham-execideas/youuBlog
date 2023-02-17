@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .tabs .tab-header>div.active {
     color: white;
     background-color: #6C54A0;
@@ -17,7 +21,7 @@
     width: 4px;
     height: 39px;
     background: #6C54A0;
-    left: 268px;
+    left: 20%;
     top: 13px;
     transition: all 500ms ease-in-out;
     border-radius: 30px;

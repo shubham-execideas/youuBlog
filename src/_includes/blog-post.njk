@@ -4,8 +4,8 @@ layout: 'base.njk'
 ---
 
 <article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
-  <div class="flow px-20">
-    <div class="flex justify-between items-center">
+  <div class="flow md:px-8 lg:px-20">
+    <div class="md:block lg:flex justify-between items-center">
       <div>
         <div class="flex mt-10">
           <p>Published Date:</p>
@@ -20,18 +20,31 @@ layout: 'base.njk'
         </div>
       </div>
       <div class="social-links flex items-center w-330 justify-between">
-        <p class="uppercase">share</p>
-        <div class="social-icons bg-white rounded-full  h-10 w-10 flex justify-center items-center">
-          <img src="/assets/blog/linkdn.svg" alt="" class="h-5 w-5"></div>
-          <div class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
-            <img src="/assets/blog/facebook.svg" alt="" class="h-5 w-5"></div>
-            <div class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
-              <img src="/assets/blog/insta.svg" alt="" class="h-5 w-5"></div>
-              <div class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
-                <img src="/assets/blog/twitter.svg" alt="" class="h-5 w-5"></div>
-                <div class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
-                  <img src="/assets/blog/link.svg" alt="" class="h-5 w-5"></div>
-                </div>
+                <p class="uppercase">share</p>
+                <a
+                    href="https://www.linkedin.com/company/youuhealth/"
+                    target="_blank"
+                    class="social-icons bg-white rounded-full  h-10 w-10 flex justify-center items-center">
+                    <img src="/assets/blog/linkdn.svg" alt="" class="h-5 w-5"></a>
+                    <a
+                        href="https://twitter.com/youuhealth"
+                        target="_blank"
+                        class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
+                        <img src="/assets/blog/twitter.svg" alt="" class="h-5 w-5"></a>
+                        <a
+                            href="https://www.instagram.com/youuhealth/"
+                            target="_blank"
+                            class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
+                            <img src="/assets/blog/insta.svg" alt="" class="h-5 w-5"></a>
+                            <a
+                                href="https://www.facebook.com/youuhealth"
+                                target="_blank"
+                                class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
+                                <img src="/assets/blog/facebook.svg" alt="" class="h-5 w-5"></a>
+                                {# <a class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center">
+                                                                                            <img src="/assets/blog/link.svg" alt="" class="h-5 w-5">
+                                                                                            </a> #}
+                            </div>
               </div>
               <h1 class="article-title text-2xl font-bold">
                 {{ title }}
@@ -50,7 +63,7 @@ layout: 'base.njk'
                     {{ content | safe }}
                   </div>
                 </div>
-                <div class="h-fit sm:w-full md:w-full lg:w-2/6">
+                <div class="h-fit hidden sm:hidden md:hidden lg:inline-block sm:w-full md:w-full lg:w-2/6">
                   <h1 class="font-semibold text-2xl ml-5">Other Blogs</h1>
                   {%- for post in collections.post | reverse -%}
                     <a href="{{ post.url }}" class="m-5 flex items-center p-3 rounded-lg bg-white">
@@ -68,7 +81,7 @@ layout: 'base.njk'
                         </div>
                       </a>
                     {%- endfor -%}
-                    <div class="schedule-calendar bg-white rounded-xl text-center p-5 m-5">
+                    <div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 m-5">
                       <p class="text-3xl font-semibold">Meet Us for Any Queries</p>
                       <p class="mt-3">Select a time you like to meet with us</p>
                       <img src="/assets/blog/blog_schedule_calendar.svg" alt="calendar" class="-top-14 relative">
@@ -78,5 +91,84 @@ layout: 'base.njk'
                       </div>
                     </div>
                   </div>
-                </div>
-              </article>
+                  <section class="w-full mt-10 px-20 relative sm:inline-block md:inline-block lg:hidden">
+                    <div class="flex justify-between items-center mb-8">
+                      <div>
+                        <h3 class="text-4xl font-bold mb-3">Blogs</h3>
+                        {# <span class="text-sm">Catchup on the good stuff</span> #}
+                      </div>
+                      <div class="flex justify-end">
+                        <div class="blog-pagination flex justify-end mr-5 relative top-2"></div>
+                        <div class="blog-prev-button w-14">
+                          <img src="/assets/prev.svg" class="h-6 mr-3" alt=""/>
+                        </div>
+                        <div class="blog-next-button w-14">
+                          <img src="/assets/next.svg" class="h-6" alt=""/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper blog-Swiper container">
+                      <div class="swiper-wrapper w-96 content">
+                        {%- for post in collections.post | reverse -%}
+                          {# {% include 'article-snippts.njk' %} #}
+                          <div class="swiper-slide card w-10/12  rounded-lg p-3">
+                              <div class="card-content w-full flex flex-col items-start">
+                          <a href="{{ post.url }}" class="m-5 flex items-center p-3 rounded-lg bg-white">
+                            
+                                <img src="{{ post.data.image }}" alt="" style="height: 120px; width:120px;" class="object-cover rounded-lg">
+                                  <div class=" ml-3">
+                                    <p class="text-xl font-semibold blog-title-cut">{{ post.data.title }}</p>
+                                    <div class="flex my-2 flex-wrap whitespace-nowrap ">
+                                      {% for tag in  post.data.postTags %}
+                                        <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">
+                                          {{ tag }}
+                                        </p>
+                                      {%- endfor %}
+                                    </div>
+                                    <p class="text-xs">Published Date: {{ post.data.date | postDate }}</p>
+                                  </div>
+                                
+                            </a>
+                            </div>
+                              </div>
+                          {%- endfor -%}
+                        </div>
+                      </div>
+                    </section>
+                  </article>
+                  <script type="module">
+                    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+                    var swiper = new Swiper(".blog-Swiper", {
+                      slidesPerView: 4,
+                      spaceBetween: 5,
+                      // slideClass: ".slider",
+                      slidesPerGroup: 3,
+                      loop: false,
+                      loopFillGroupWithBlank: true,
+                      pagination: {
+                        el: ".blog-pagination",
+                        clickable: true
+                      },
+                      navigation: {
+                        nextEl: ".blog-next-button",
+                        prevEl: ".blog-prev-button"
+                      },
+                      breakpoints: {
+                        0: {
+                          slidesPerView: 1,
+                          slidesPerGroup: 1,
+                          // spaceBetween: 5,
+                        },
+                        520: {
+                          slidesPerView: 1,
+                          slidesPerGroup: 1,
+                          // spaceBetween: 10,
+                        },
+                        950: {
+                          slidesPerView: 1,
+                          slidesPerGroup: 1,
+                          // spaceBetween: 20,
+                        }
+                      }
+                    });
+                  </script>

@@ -2,7 +2,7 @@
   <div class="card-content w-full flex flex-col items-start">
     <img src="{{post.data.image}}" class="rounded-md" alt="{{post.data.imageAlt}}" style="height: 208px; width:426px">
     <p class="text-xs mt-3">Published Date : {{ post.date | postDate }}</p>
-    <div class="flex my-3 whitespace-nowrap">
+    <div class="flex flex-wrap my-3 whitespace-nowrap">
       {% for tag in post.data.postTags %}
         <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
           {{ tag }}
