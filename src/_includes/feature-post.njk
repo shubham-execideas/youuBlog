@@ -20,88 +20,88 @@ layout: 'base.njk'
                 </div>
             </div>
             {% include 'social-media.njk' %}
-                        </div>
-                        <h1 class="article-title text-2xl font-bold">
-                            {{ title }}
-                        </h1>
-                        <p class="mb-8">{{ description }}</p>
-                        <div class="lg:flex">
-                            <div
-                                class="sm:w-full md:w-full lg:w-4/6">
-                                {# <div class="">{{videoURL}}</div> #}
-                                {%- if videoURL.length %}
-                                    <div class="bg-white rounded-xl p-6">
-                                        <iframe height="500" src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg"></iframe>
-                                    </div>
-                                {%- endif -%}
-                                <div class="flex flex-wrap blog-body">
-                                    {{ content | safe }}
-                                </div>
-                            </div>
-                            {% include 'schedule.njk' %}
-                            </div>
-                        </div>
-                        <section class="w-full mt-10 px-20 relative">
-                            <div class="flex justify-between items-center mb-8">
-                                <div>
-                                    <h3 class="text-4xl font-bold mb-3">Blogs</h3>
-                                    {# <span class="text-sm">Catchup on the good stuff</span> #}
-                                </div>
-                                <div class="flex justify-end">
-                                    <div class="blog-pagination flex justify-end mr-5 relative top-2"></div>
-                                    <div class="blog-prev-button w-14">
-                                        <img src="/assets/prev.svg" class="h-6 mr-3" alt=""/>
-                                    </div>
-                                    <div class="blog-next-button w-14">
-                                        <img src="/assets/next.svg" class="h-6" alt=""/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper blog-Swiper container">
-                                <div class="swiper-wrapper w-96 content">
-                                    {%- for post in collections.post | reverse -%}
-                                        {% include 'article-snippts.njk' %}
-                                    {%- endfor -%}
-                                </div>
-                            </div>
-                        </section>
-                    </article>
-                    <script type="module">
-                        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-                        var swiper = new Swiper(".blog-Swiper", {
-                            slidesPerView: 3,
-                            spaceBetween: 5,
-                            // slideClass: ".slider",
-                            slidesPerGroup: 3,
-                            loop: false,
-                            loopFillGroupWithBlank: true,
-                            pagination: {
-                                el: ".blog-pagination",
-                                clickable: true
-                            },
-                            navigation: {
-                                nextEl: ".blog-next-button",
-                                prevEl: ".blog-prev-button"
-                            },
-                            breakpoints: {
-                                // when window width is >= 320px
-                                0: {
-                                    slidesPerView: 1,
-                                    slidesPerGroup: 1,
-                                    // spaceBetween: 5,
-                                },
-                                // when window width is >= 480px
-                                520: {
-                                    slidesPerView: 2,
-                                    slidesPerGroup: 2,
-                                    // spaceBetween: 10,
-                                },
-                                // when window width is >= 640px
-                                950: {
-                                    slidesPerView: 3,
-                                    slidesPerGroup: 3,
-                                    // spaceBetween: 20,
-                                }
-                            }
-                        });
-                    </script>
+        </div>
+        <h1 class="article-title text-2xl font-bold">
+            {{ title }}
+        </h1>
+        <p class="mb-8">{{ description }}</p>
+        <div class="lg:flex">
+            <div
+                class="sm:w-full md:w-full lg:w-4/6">
+                {# <div class="">{{videoURL}}</div> #}
+                {%- if videoURL.length %}
+                    <div class="bg-white rounded-xl p-6">
+                        <iframe height="500" src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg"></iframe>
+                    </div>
+                {%- endif -%}
+                <div class="flex flex-wrap blog-body">
+                    {{ content | safe }}
+                </div>
+            </div>
+            {% include 'schedule.njk' %}
+        </div>
+    </div>
+    <section class="w-full mt-10 px-20 relative">
+        <div class="flex justify-between items-center mb-8">
+            <div>
+                <h3 class="text-4xl font-bold mb-3">Blogs</h3>
+                {# <span class="text-sm">Catchup on the good stuff</span> #}
+            </div>
+            <div class="flex justify-end">
+                <div class="blog-pagination flex justify-end mr-5 relative top-2"></div>
+                <div class="blog-prev-button w-14">
+                    <img src="/assets/prev.svg" class="h-6 mr-3" alt=""/>
+                </div>
+                <div class="blog-next-button w-14">
+                    <img src="/assets/next.svg" class="h-6" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class="swiper blog-Swiper container">
+            <div class="swiper-wrapper w-96 content">
+                {%- for post in collections.post | reverse -%}
+                    {% include 'article-snippts.njk' %}
+                {%- endfor -%}
+            </div>
+        </div>
+    </section>
+</article>
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+    var swiper = new Swiper(".blog-Swiper", {
+        slidesPerView: 3,
+        spaceBetween: 5,
+        // slideClass: ".slider",
+        slidesPerGroup: 3,
+        loop: false,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".blog-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: ".blog-next-button",
+            prevEl: ".blog-prev-button"
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            0: {
+                slidesPerView: 1,
+                slidesPerGroup: 1,
+                // spaceBetween: 5,
+            },
+            // when window width is >= 480px
+            520: {
+                slidesPerView: 2,
+                slidesPerGroup: 2,
+                // spaceBetween: 10,
+            },
+            // when window width is >= 640px
+            950: {
+                slidesPerView: 3,
+                slidesPerGroup: 3,
+                // spaceBetween: 20,
+            }
+        }
+    });
+</script>

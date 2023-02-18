@@ -90,3 +90,12 @@
 .cards-section .card:hover .text-sumireVoilet{
     color: white;
 }
+
+#tabContent div{
+    right: -1000%;
+    transition: all 500ms ease-out;
+}
+
+#tabContent div.active{
+    right: 0;
+}

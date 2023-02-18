@@ -6,41 +6,42 @@ layout: 'base.njk'
 {# Tabs section start here #}
 {% include "./tabs.njk" %}
 {# Tabs section end here #}
-
 {# cards section starts here #}
-<div class="cards-section px-20 py-5  grid grid-cols-4 gap-4 pt-5">
-  <div class="w-72">
-   <a class="twitter-timeline" href="https://twitter.com/youuhealth?ref_src=twsrc%5Etfw">Tweets by youuhealth</a>
-   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div   style="margin-top:5px;border: 1.5px solid #e5e7eb;border-radius: 8px;overflow:hidden">
-  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fyouuhealth&tabs=timeline&width=288px&height=499&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="288" height="499" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
- </div>
-    
-    
-
+  <div class="cards-section px-4 lg:px-20 py-5  lg:grid lg:grid-cols-4 lg:gap-4 pt-5"> <div class="w-72">
+    <a class="twitter-timeline" href="https://twitter.com/youuhealth?ref_src=twsrc%5Etfw">Tweets by youuhealth</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div style="margin-top:5px;border: 1.5px solid #e5e7eb;border-radius: 8px;overflow:hidden">
+      <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fyouuhealth&tabs=timeline&width=288px&height=499&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"
+        width="288"
+        height="499"
+        style="border:none;overflow:hidden"
+        scrolling="no"
+        frameborder="0"
+        allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
   </div>
-
-  <div class="cards-container h-fit grid col-span-3 lg:grid-cols-2 gap-0">
-    <h3 class="font-bold col-span-2 text-4xl w-9/12">
-          Why YOUU is the most powerful AI-interconnected, hyper-personalized
-          digital health platform ever.
-        </h3>
+  <div class="col-span-3">
+    <h3 class="font-bold  text-4xl">
+      Why YOUU is the most powerful AI-interconnected, hyper-personalized digital health platform ever.
+    </h3>
+<div class="cards-container h-fit lg:grid  grid-cols-1 lg:grid-cols-2 gap-0">
     {%- for feature in collections.feature -%}
       {% include 'feature.njk' %}
     {%- endfor -%}
-
   </div>
+  </div>
+  
 </div>
 {# cards section ends here #}
-
 {# Blogs section starts here #}
 <section class="w-full mt-10 px-20 relative">
-  <div class="flex justify-between items-center mb-8">
+  <div class="flex justify-between items-center flex-wrap mb-8">
     <div>
       <h3 class="text-4xl font-bold mb-3">The Blog</h3>
       <span class="text-sm">Catchup on the good stuff</span>
     </div>
-
     <div class="flex justify-end">
       <div class="pagination flex justify-end mr-5 relative top-2"></div>
       <div class="prev-button w-14">
