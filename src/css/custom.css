@@ -99,3 +99,14 @@
 #tabContent div.active{
     right: 0;
 }
+
+option:checked{
+  color:white;
+  background-color:#6c54a0;
+}
+
+
+option:hover{
+  color:white;
+  background-color:#6c54a0;
+}
