@@ -84,7 +84,7 @@ layout: 'base.njk'
                             
                                 <img src="{{ post.data.image }}" alt="" style="height: 120px; width:120px;" class="object-cover rounded-lg">
                                   <div class=" ml-3">
-                                    <p class="text-xl font-semibold blog-title-cut">{{ post.data.title }}</p>
+                                    <p class="text-lg lg:text-xl font-semibold blog-title-cut">{{ post.data.title }}</p>
                                     <div class="flex my-2 flex-wrap whitespace-nowrap ">
                                       {% for tag in  post.data.postTags %}
                                         <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">

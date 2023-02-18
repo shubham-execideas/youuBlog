@@ -1,3 +1,4 @@
+// import Swiper from "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js";
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 5,
@@ -72,79 +73,65 @@ var swiper = new Swiper(".podcastSwiper", {
   //   },
 });
 
-// function openCity(evt, cityName) {
-//   var i, tabcontent, tablinks;
-//   tabcontent = document.getElementsByClassName("tabcontent");
-//   for (i = 0; i < tabcontent.length; i++) {
-//     tabcontent[i].style.display = "none";
-//   }
-//   tablinks = document.getElementsByClassName("tablinks");
-//   for (i = 0; i < tablinks.length; i++) {
-//     tablinks[i].className = tablinks[i].className.replace(" active", "");
-//   }
-//   document.getElementById(cityName).style.display = "block";
-//   evt.currentTarget.className += " active";
-// }
-
 function _class(name) {
   return document.getElementsByClassName(name);
 }
 
 let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
 let emailValidation = document.getElementById("email");
-let submitButton = document.getElementById("submitButton"); 
+let submitButton = document.getElementById("submitButton");
 let email;
-let errorMsg = document.getElementById("errorMsg"); 
+let errorMsg = document.getElementById("errorMsg");
 
-emailValidation.addEventListener("keyup", function () { 
+emailValidation.addEventListener("keyup", function () {
   email = emailValidation.value;
   // let value = data.target.value;
   let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)
     ? "Invalid email"
     : "";
-  
+
   if (error.length) {
     errorMsg.innerHTML = error;
   } else {
     errorMsg.innerHTML = error;
   }
-})
+});
 
-submitButton.addEventListener("click", function () { 
+submitButton.addEventListener("click", function () {
   //  newsletterSubmit = () => {
-     //Below is the testing details.
-     // var url =
-     //   'https://api.hsforms.com/submissions/v3/integration/submit/8723062/4a1234b0-fede-4e1b-bdcf-6813c28f5ac9';
-     var url =
-       "https://api.hsforms.com/submissions/v3/integration/submit/7393862/1ebe5cf0-a4ce-4bfd-9970-a3a2fd9ea1db";
-     var data = {
-       fields: [
-         {
-           name: "email",
-           value: email,
-         },
-       ],
-       context: {
-         pageUri: "www.soberpeer.com",
-         pageName: "newsletter",
-       },
-     };
-     axios
-       .post(url, data)
-       .then((response) => {
-         console.log("email success");
-        //  this.setState({ newsLetterSuccess: true, errorMsg: "" });
-         setTimeout(() => {
-          //  this.setState({ newsLetterSuccess: false, email: "" });
-           console.log("email fail");
-         }, 5000);
-         console.log(response);
-       })
-       .catch((error) => {
-         console.log(error);
-        //  this.setState({ EmailErrorMsg: "Invalid email" });
-         console.log("email invalid");
-       });
+  //Below is the testing details.
+  // var url =
+  //   'https://api.hsforms.com/submissions/v3/integration/submit/8723062/4a1234b0-fede-4e1b-bdcf-6813c28f5ac9';
+  var url =
+    "https://api.hsforms.com/submissions/v3/integration/submit/7393862/1ebe5cf0-a4ce-4bfd-9970-a3a2fd9ea1db";
+  var data = {
+    fields: [
+      {
+        name: "email",
+        value: email,
+      },
+    ],
+    context: {
+      pageUri: "www.soberpeer.com",
+      pageName: "newsletter",
+    },
+  };
+  axios
+    .post(url, data)
+    .then((response) => {
+      console.log("email success");
+      //  this.setState({ newsLetterSuccess: true, errorMsg: "" });
+      setTimeout(() => {
+        //  this.setState({ newsLetterSuccess: false, email: "" });
+        console.log("email fail");
+      }, 5000);
+      console.log(response);
+    })
+    .catch((error) => {
+      console.log(error);
+      //  this.setState({ EmailErrorMsg: "Invalid email" });
+      console.log("email invalid");
+    });
   //  };
 });
 
@@ -154,7 +141,6 @@ _class("tab-content")[0]
   .classList.add("relative");
 _class("tab-content")[0].getElementsByTagName("div")[0].classList.add("active");
 _class("tab-header")[0].getElementsByTagName("div")[0].classList.add("active");
-
 
 for (let i = 0; i < tabPanes.length; i++) {
   tabPanes[i].addEventListener("click", function () {
@@ -169,7 +155,7 @@ for (let i = 0; i < tabPanes.length; i++) {
     _class("tab-content")[0]
       .getElementsByClassName("active")[0]
       .classList.remove("active");
-    
+
     _class("tab-content")[0]
       .getElementsByClassName("relative")[0]
       .classList.remove("relative");
@@ -177,14 +163,42 @@ for (let i = 0; i < tabPanes.length; i++) {
 
     _class("tab-content")[0]
       .getElementsByTagName("div")
-    [i].classList.add("active");
-    
-     _class("tab-content")[0]
-       .getElementsByTagName("div")
-       [i].classList.add("relative");
+      [i].classList.add("active");
+
+    _class("tab-content")[0]
+      .getElementsByTagName("div")
+      [i].classList.add("relative");
   });
 }
 
-// const emailValidation = () => { 
+// const emailValidation = () => {
 //   alert("email entered")
 // }
+
+
+let title = document.getElementById("tabTitle");
+let tabContent = _class("tabContent")[0].getElementsByTagName("div");
+_class("tabContent")[0].getElementsByTagName("div")[0].classList.add("active");
+_class("tabContent")[0].getElementsByTagName("div")[0].classList.add("relative");
+
+
+title.addEventListener("change", function () {
+  for (let i = 0; i < tabContent.length; i++) {
+    if (tabContent[i].id == title.value) { 
+      _class("tabContent")[0]
+        .getElementsByClassName("relative")[0]
+        .classList.remove("relative");
+        
+      _class("tabContent")[0]
+        .getElementsByClassName("active")[0]
+        .classList.remove("active");
+      
+      
+      
+      tabContent[i].classList.add("active");
+      tabContent[i].classList.add("relative");
+
+    }
+   }
+ })
+
