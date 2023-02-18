@@ -38,7 +38,11 @@ layout: 'base.njk'
                     {{ content | safe }}
                 </div>
             </div>
+            <div>
+{% include 'download_whitepaper.njk' %}
             {% include 'schedule.njk' %}
+            </div>
+            
         </div>
     </div>
     <section class="w-full mt-10 px-8 lg:px-20 relative">
