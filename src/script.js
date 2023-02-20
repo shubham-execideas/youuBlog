@@ -73,14 +73,10 @@ var swiper = new Swiper(".podcastSwiper", {
   //   },
 });
 
-function _class(name) {
-  return document.getElementsByClassName(name);
-}
-
-let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
 let emailValidation = document.getElementById("email");
 let submitButton = document.getElementById("submitButton");
 let email;
+let emailSent;
 let errorMsg = document.getElementById("errorMsg");
 
 emailValidation.addEventListener("keyup", function () {
@@ -92,8 +88,10 @@ emailValidation.addEventListener("keyup", function () {
 
   if (error.length) {
     errorMsg.innerHTML = error;
+    emailSent = false;
   } else {
     errorMsg.innerHTML = error;
+    emailSent = true;
   }
 });
 
@@ -116,24 +114,32 @@ submitButton.addEventListener("click", function () {
       pageName: "newsletter",
     },
   };
-  axios
-    .post(url, data)
-    .then((response) => {
-      console.log("email success");
-      //  this.setState({ newsLetterSuccess: true, errorMsg: "" });
-      setTimeout(() => {
-        //  this.setState({ newsLetterSuccess: false, email: "" });
-        console.log("email fail");
-      }, 5000);
-      console.log(response);
-    })
-    .catch((error) => {
-      console.log(error);
-      //  this.setState({ EmailErrorMsg: "Invalid email" });
-      console.log("email invalid");
-    });
-  //  };
+  console.log(emailSent, "emailSent");
+  if (emailSent) {
+    axios
+      .post(url, data)
+      .then((response) => {
+        console.log("email success");
+        setTimeout(() => {
+          console.log("email fail");
+        }, 5000);
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error);
+        console.log("email invalid");
+      });
+    //  };
+  }
 });
+
+function _class(name) {
+  return document.getElementsByClassName(name);
+}
+
+let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
+
+
 
 //to make first slide active dynamically
 _class("tab-content")[0]
@@ -150,8 +156,7 @@ for (let i = 0; i < tabPanes.length; i++) {
     tabPanes[i].classList.add("active");
 
     _class("tab-indicator")[0].style.top = `calc(13px + ${i * 56}px)`;
-    // console.log(40 + (i * 40), i);
-
+    
     _class("tab-content")[0]
       .getElementsByClassName("active")[0]
       .classList.remove("active");
@@ -184,11 +189,11 @@ _class("tabContent")[0].getElementsByTagName("div")[0].classList.add("relative")
 
 title.addEventListener("change", function () {
   for (let i = 0; i < tabContent.length; i++) {
-    if (tabContent[i].id == title.value) { 
+    if (tabContent[i].id == title.value) {
       _class("tabContent")[0]
         .getElementsByClassName("relative")[0]
         .classList.remove("relative");
-        
+
       _class("tabContent")[0]
         .getElementsByClassName("active")[0]
         .classList.remove("active");
@@ -199,6 +204,19 @@ title.addEventListener("change", function () {
       tabContent[i].classList.add("relative");
 
     }
-   }
- })
+  }
+});
 
+function MyClick(e) {
+  let list = document.getElementById("nav-item");
+
+  e.name === "menu-outline"
+    ? ((e.name = "close-outline"),
+      list.classList.remove("-top-1/2"),
+      list.classList.add("top-25"),
+      list.classList.add("w-full"))
+    : ((e.name = "menu-outline"),
+      list.classList.add("-top-1/2"),
+      list.classList.remove("top-25"),
+      list.classList.add("w-full"));
+}
