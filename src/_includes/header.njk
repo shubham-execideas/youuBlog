@@ -3,7 +3,7 @@
     <div class="flex justify-between">
       <a href="/">
         <span class="flex items-center">
-          <img src="/assets/youu_logo.svg" class="h-10 mr-2" alt=""/>
+          <img src="/assets/youu_logo.svg" class="h-7 lg:h-10 mr-2" alt=""/>
           <p class="text-purple-900 text-3xl lg:text-5xl relative mb-5 font-semibold before:content-['TM'] before:text-xs
               before:text-black before:absolute before:top-0 before:-right-4 after:content-['HEALTH'] after:text-xs after:lg:text-sm
               after:text-black after:absolute after:top-full after:right-0">
@@ -53,7 +53,7 @@
         <li class="text-sm mx-4">Company</li>
       </ul>
     {# </nav> #}
-    <div class="flex items-center">
+    <div class="flex items-center mt-4">
       <div class="contact flex justify-between mx-4">
         {# <p class="mr-2 text-sm">Contact Us</p> #}
         {# {% for contact in collections.contact | reverse %} #}
@@ -63,11 +63,27 @@
       <a
         href="https://provider.soberpeer.com/#/"
         target="_blank"
-        class="bg-purple-900 mx-4 text-xs px-4 py-2 rounded-md opacity-80 text-white">
+        class="bg-purple-900 mx-4 text-sm px-4 py-2 rounded-md opacity-80 text-white">
         Login
       </a>
     </div>
   </div>
 </header>
+
+<script>
+  function MyClick(e) {
+  let list = document.getElementById("nav-item");
+
+  e.name === "menu-outline"
+    ? ((e.name = "close-outline"),
+      list.classList.remove("-top-1/2"),
+      list.classList.add("top-25"),
+      list.classList.add("w-full"))
+    : ((e.name = "menu-outline"),
+      list.classList.add("-top-1/2"),
+      list.classList.remove("top-25"),
+      list.classList.add("w-full"));
+}
+</script>
 
 {# {{ contact.data.contact }} #}
