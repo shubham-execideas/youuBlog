@@ -1,5 +1,5 @@
 {# Tabs section starts here #}
-<div class="px-20 py-5 h-auto mb-10 hidden lg:inline-block">
+<div class="px-20 py-5 h-auto mb-10 hidden overflow-hidden lg:inline-block">
   <div class="tabs flex h-auto relative">
     <div class="tab-header pr-2 h-auto w-1/5 border-r-4 ml-1.2">
 
@@ -33,7 +33,7 @@
       {# {% include 'feature.njk' %} #}
       <div class="absolute mx-4" id="{{ slider.data.slideButtonText }}">
         <p class="mb-5">{{ slider.data.slideShortTitle }}</p>
-        <h2 class="font-bold text-4xl mb-5">
+        <h2 class="font-bold text-3xl lg:text-4xl mb-5">
           {{ slider.data.slideTitle }}
         </h2>
         <p class="mb-5">
@@ -53,9 +53,9 @@
               <img src="/assets/read_study_case.svg" alt="" style="display:inline-block; margin-bottom:3px;margin-left:2px"></a>
             </span>
             <span
-              class=" rounded-md shadow-md inline-block mt-4">
+              class=" rounded-md shadow-md inline-block mt-4 w-full">
               <!-- <img src="./assets/tab_photo.svg" alt="" class="h-72 w-80" /> -->
-              <iframe src="{{ slider.data.videoURL }}" class="bg-purple-200  h-72" frameborder="0" allowfullscreen style="width: 512px"></iframe>
+              <iframe src="{{ slider.data.videoURL }}" class="bg-purple-200  h-72" frameborder="0" allowfullscreen style="width: 100%"></iframe>
               <img src="./assets/tab_footer_photo.svg" alt="" class="w-64 m-auto"/>
             </span>
           </div>
