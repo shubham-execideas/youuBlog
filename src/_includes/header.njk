@@ -1,11 +1,11 @@
 <header>
-  <div class="bg-white relative z-20 header-section lg:flex lg:justify-between lg:items-center py-2 px-4 lg:px-24">
+  <div class="bg-white relative z-20 header-section lg:flex lg:justify-between lg:items-center py-2 px-4 lg:px-16">
     <div class="flex justify-between">
       <a href="/">
         <span class="flex items-center">
-          <img src="/assets/youu_logo.svg" class="h-7 lg:h-10 mr-2" alt=""/>
-          <p class="text-purple-900 text-3xl lg:text-5xl relative mb-5 font-semibold before:content-['TM'] before:text-xs
-              before:text-black before:absolute before:top-0 before:-right-4 after:content-['HEALTH'] after:text-xs after:lg:text-sm
+          <img src="/assets/youu_logo.svg" class="max-[1024px]:h-7 h-10 mr-2" alt=""/>
+          <p class="text-purple-900 max-[1024px]:text-3xl text-5xl relative mb-5 font-semibold before:content-['TM'] before:text-xs
+              before:text-black before:absolute before:top-0 before:-right-4 after:content-['HEALTH'] after:max-[1024px]:text-xs after:text-sm
               after:text-black after:absolute after:top-full after:right-0">
             youu
           </p>
@@ -16,7 +16,7 @@
         <ion-icon name="menu-outline" onclick="MyClick(this)" class=" text-sumireVoilet text-4xl"></ion-icon>
       </div>
     </div>
-    {# <nav class="hidden lg:inline-block">
+    <nav class="hidden lg:inline-block max-[1024px]:ml-10">
       <ul class="flex justify-between flex-wrap">
         <li class="text-sm mx-4">Products</li>
         <li class="text-sm mx-4">Use Cases</li>
@@ -24,14 +24,14 @@
         <li class="text-sm mx-4">Support</li>
         <li class="text-sm mx-4">Company</li>
       </ul>
-    </nav> #}
+    </nav>
     <div class="hidden lg:flex justify-center items-center">
       <img src="/assets/search_icon.svg" class="h-6 mx-4 hidden  md:inline-block lg:inline-block" alt=""/>
       <div class="flex justify-around items-center">
         <div class="contact flex justify-between mx-4">
-          <p class="mr-2 text-sm">Contact Us</p>
+          <p class="mr-2 text-sm whitespace-nowrap">Contact Us</p>
           {% for contact in collections.contact | reverse %}
-            <span class="text-purple-700 text-sm font-semibold flex items-center"><img class="mr-2 h-5" src="/assets/phone.svg" alt=""/> {{ contact.data.contact }}</span>
+            <span class="text-purple-700 text-sm font-semibold flex items-center whitespace-nowrap"><img class="mr-2 h-5" src="/assets/phone.svg" alt=""/> {{ contact.data.contact }}</span>
           {%- endfor %}
         </div>
         <a
@@ -43,21 +43,21 @@
       </div>
     </div>
   </div>
-  <div id="nav-item" class="-top-1/2 opacity-0 z-10 inline-block lg:hidden absolute transition-all ease-in duration-200">
+  <div id="nav-item" class="-top-full opacity-0 z-10 inline-block lg:hidden absolute transition-all ease-in duration-200">
     {# <nav class=""> #}
-      {# <ul class="">
+      <ul class="">
         <li class="text-sm mx-4">Products</li>
         <li class="text-sm mx-4">Use Cases</li>
         <li class="text-sm mx-4">Learning</li>
         <li class="text-sm mx-4">Support</li>
         <li class="text-sm mx-4">Company</li>
-      </ul> #}
+      </ul>
     {# </nav> #}
     <div class="flex items-center mt-4">
       <div class="contact flex justify-between mx-4">
         {# <p class="mr-2 text-sm">Contact Us</p> #}
         {# {% for contact in collections.contact | reverse %} #}
-          <span class="text-purple-700 border-2 border-sumireVoilet py-2 px-3 rounded-md text-sm font-semibold flex items-center"><img class="mr-2 h-5" src="/assets/phone.svg" alt=""/> Contact Us </span>
+          <span class="text-purple-700 border-2 whitespace-nowrap border-sumireVoilet py-2 px-3 rounded-md text-sm font-semibold flex items-center"><img class="mr-2 h-5" src="/assets/phone.svg" alt=""/> Contact Us </span>
         {# {%- endfor %} #}
       </div>
       <a
@@ -76,11 +76,11 @@
 
   e.name === "menu-outline"
     ? ((e.name = "close-outline"),
-      list.classList.remove("-top-1/2"),
+      list.classList.remove("-top-full"),
       list.classList.add("top-25"),
       list.classList.add("w-full"))
     : ((e.name = "menu-outline"),
-      list.classList.add("-top-1/2"),
+      list.classList.add("-top-full"),
       list.classList.remove("top-25"),
       list.classList.add("w-full"));
 }

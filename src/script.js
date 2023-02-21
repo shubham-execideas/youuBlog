@@ -212,11 +212,11 @@ function MyClick(e) {
 
   e.name === "menu-outline"
     ? ((e.name = "close-outline"),
-      list.classList.remove("-top-1/2"),
+      list.classList.remove("-top-full"),
       list.classList.add("top-25"),
       list.classList.add("w-full"))
     : ((e.name = "menu-outline"),
-      list.classList.add("-top-1/2"),
+      list.classList.add("-top-full"),
       list.classList.remove("top-25"),
       list.classList.add("w-full"));
 }
