@@ -31,7 +31,7 @@ layout: 'base.njk'
             {# <div class="">{{videoURL}}</div> #}
             {%- if videoURL.length %}
                 <div class="bg-white rounded-xl p-6">
-                    <iframe height="500" src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg"></iframe>
+                    <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe>
                 </div>
             {%- endif -%}
             <div class="flex flex-wrap blog-body">
@@ -42,7 +42,7 @@ layout: 'base.njk'
         </div>
     </div>
     <section class="w-full mt-10 px-20 relative">
-        <div class="flex justify-between items-center mb-8">
+        <div class="flex justify-between items-center flex-wrap mb-8">
             <div>
                 <h3 class="text-4xl font-bold mb-3">Blogs</h3>
                 {# <span class="text-sm">Catchup on the good stuff</span> #}
