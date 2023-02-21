@@ -29,7 +29,7 @@
       <img src="/assets/search_icon.svg" class="h-6 max-[1024px]:mx-0 mx-3 hidden md:inline-block lg:inline-block" alt=""/>
       <div class="flex justify-around items-center">
         <div class="contact flex justify-between mx-4">
-          <p class="mr-2 text-sm whitespace-nowrap">Contact Us</p>
+          <a href="tel:+2147551837" class="mr-2 text-sm whitespace-nowrap">Contact Us</a>
           {% for contact in collections.contact | reverse %}
             <span class="text-purple-700 text-sm font-semibold flex items-center whitespace-nowrap"><img class="mr-2 h-5" src="/assets/phone.svg" alt=""/> {{ contact.data.contact }}</span>
           {%- endfor %}
