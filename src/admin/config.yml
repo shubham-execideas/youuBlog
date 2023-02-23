@@ -87,6 +87,7 @@ collections:
       - { label: "Description", name: "sliderDescription", widget: "text"}
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
       - { label: "Video URL", name: "videoURL", widget: "string" }
+      - { label: "White paper", name: "sliderWhitePaper", widget: "file" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
     label: "contact"
