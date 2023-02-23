@@ -4,105 +4,121 @@ layout: 'base.njk'
 ---
 
 <article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
-<div class="flow md:px-8 px-8 lg:px-20">
-<div class="md:block lg:flex mt-10 justify-between items-center">
-<div>
-<div class="flex">
-<p>Published Date:</p>
-<p>{{ date | postDate }}</p>
-</div>
-{# <div class="flex  my-3 whitespace-nowrap">
-{% for tag in postTags %}
-<p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
-    {{ tag }}
-</p>
-{%- endfor %}
-</div> #}
-</div>
-{% include 'social-media.njk' %}
-    </div>
-    <h1 class="article-title text-2xl font-bold">
-        {{ slideTitle }}
-    </h1>
-    <p class="mb-8">{{ sliderDescription }}</p>
-    <div class="lg:flex">
-        <div
-            class="sm:w-full md:w-full lg:w-4/6">
-            {# <div class="">{{videoURL}}</div> #}
-            {%- if videoURL.length %}
-                <div class="bg-white rounded-xl p-6">
-                    <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe>
-                </div>
-            {%- endif -%}
-            <div class="flex flex-wrap blog-body">
-                {{ content | safe }}
-            </div>
-        </div>
-        {% include 'schedule.njk' %}
-        </div>
-    </div>
-    <section class="w-full mt-10 px-20 relative">
-        <div class="flex justify-between items-center flex-wrap mb-8">
+    <div class="flow md:px-8 px-8 lg:px-20">
+        <div class="md:block lg:flex mt-10 justify-between items-center">
             <div>
-                <h3 class="text-4xl font-bold mb-3">Blogs</h3>
-                {# <span class="text-sm">Catchup on the good stuff</span> #}
-            </div>
-            <div class="flex justify-end">
-                <div class="blog-pagination flex justify-end mr-5 relative top-2"></div>
-                <div class="blog-prev-button w-14">
-                    <img src="/assets/prev.svg" class="h-6 mr-3" alt=""/>
+                <div class="flex">
+                    <p>Published Date:</p>
+                    <p>{{ date | postDate }}</p>
                 </div>
-                <div class="blog-next-button w-14">
-                    <img src="/assets/next.svg" class="h-6" alt=""/>
+                {# <div class="flex  my-3 whitespace-nowrap">
+                {% for tag in postTags %}
+                <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
+                    {{ tag }}
+                </p>
+                {%- endfor %}
+                </div> #}
+            </div>
+            {% include 'social-media.njk' %}
+        </div>
+        <h1 class="article-title text-2xl font-bold">
+            {{ slideTitle }}
+        </h1>
+        <p class="mb-8">{{ sliderDescription }}</p>
+        <div class="lg:flex">
+            <div
+                class="sm:w-full md:w-full lg:w-4/6">
+                {# <div class="">{{videoURL}}</div> #}
+                {%- if videoURL.length %}
+                    <div class="bg-white rounded-xl p-6">
+                        <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe>
+                    </div>
+                {%- endif -%}
+                <div class="flex flex-wrap blog-body">
+                    {{ content | safe }}
+                </div>
+            </div>
+            <div>
+                <div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 m-5">
+                    <p class="text-3xl font-semibold">Download White Paper</p>
+                    <p class="my-3">Download our white paper to know more
+                    </p>
+                    <div class="relative text-center">
+                        <img src="/assets/features/white_paper_blur.png" alt="whitepaper" class=""/>
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img src="/assets/features/paper.svg" alt="whitepaper" class="mx-auto">
+                                <p class="mb-3.5 font-semibold">Download our white paper to know more</p>
+                                <a href="{{ sliderWhitePaper }}" target="_blank" class="text-white bg-sumireVoilet cursor-pointer p-3 rounded-md" download>Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    {# {% include 'download_whitepaper.njk' %} #}
+                    {% include 'schedule.njk' %}
                 </div>
             </div>
         </div>
-        <div class="swiper blog-Swiper container">
-            <div class="swiper-wrapper w-96 content">
-                {%- for post in collections.post | reverse -%}
-                    {% include 'article-snippts.njk' %}
-                {%- endfor -%}
+        <section class="w-full mt-10 px-20 relative">
+            <div class="flex justify-between items-center flex-wrap mb-8">
+                <div>
+                    <h3 class="text-4xl font-bold mb-3">Blogs</h3>
+                    {# <span class="text-sm">Catchup on the good stuff</span> #}
+                </div>
+                <div class="flex justify-end">
+                    <div class="blog-pagination flex justify-end mr-5 relative top-2"></div>
+                    <div class="blog-prev-button w-14">
+                        <img src="/assets/prev.svg" class="h-6 mr-3" alt=""/>
+                    </div>
+                    <div class="blog-next-button w-14">
+                        <img src="/assets/next.svg" class="h-6" alt=""/>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-</article>
-<script type="module">
-    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-    var swiper = new Swiper(".blog-Swiper", {
-        slidesPerView: 3,
-        spaceBetween: 5,
-        // slideClass: ".slider",
-        slidesPerGroup: 3,
-        loop: false,
-        loopFillGroupWithBlank: true,
-        pagination: {
-            el: ".blog-pagination",
-            clickable: true
-        },
-        allowTouchMove: false,
-        navigation: {
-            nextEl: ".blog-next-button",
-            prevEl: ".blog-prev-button"
-        },
-         breakpoints: {
-            // when window width is >= 320px
-            0: {
-                slidesPerView: 1,
-                slidesPerGroup: 1,
-                // spaceBetween: 5,
+            <div class="swiper blog-Swiper container">
+                <div class="swiper-wrapper w-96 content">
+                    {%- for post in collections.post | reverse -%}
+                        {% include 'article-snippts.njk' %}
+                    {%- endfor -%}
+                </div>
+            </div>
+        </section>
+    </article>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+        var swiper = new Swiper(".blog-Swiper", {
+            slidesPerView: 3,
+            spaceBetween: 5,
+            // slideClass: ".slider",
+            slidesPerGroup: 3,
+            loop: false,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".blog-pagination",
+                clickable: true
             },
-            // when window width is >= 480px
-            520: {
-                slidesPerView: 2,
-                slidesPerGroup: 2,
-                // spaceBetween: 10,
+            allowTouchMove: false,
+            navigation: {
+                nextEl: ".blog-next-button",
+                prevEl: ".blog-prev-button"
             },
-            // when window width is >= 640px
-            950: {
-                slidesPerView: 3,
-                slidesPerGroup: 3,
-                // spaceBetween: 20,
+            breakpoints: {
+                // when window width is >= 320px
+                0: {
+                    slidesPerView: 1,
+                    slidesPerGroup: 1,
+                    // spaceBetween: 5,
+                },
+                // when window width is >= 480px
+                520: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                    // spaceBetween: 10,
+                },
+                // when window width is >= 640px
+                950: {
+                    slidesPerView: 3,
+                    slidesPerGroup: 3,
+                    // spaceBetween: 20,
+                }
             }
-        }
-    });
-</script>
+        });
+    </script>

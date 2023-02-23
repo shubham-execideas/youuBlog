@@ -1,6 +1,6 @@
 // import Swiper from "https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js";
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
+  slidesPerView: 3.5,
   spaceBetween: 5,
   //   slideClass: ".slider",
   slidesPerGroup: 3,
@@ -19,19 +19,19 @@ var swiper = new Swiper(".mySwiper", {
   breakpoints: {
     // when window width is >= 320px
     0: {
-      slidesPerView: 1,
+      slidesPerView: 1.5,
       slidesPerGroup: 1,
       // spaceBetween: 5,
     },
     // when window width is >= 480px
     520: {
-      slidesPerView: 2,
-      slidesPerGroup: 2,
+      slidesPerView: 3.5,
+      slidesPerGroup: 3.5,
       // spaceBetween: 10,
     },
     // when window width is >= 640px
     950: {
-      slidesPerView: 3,
+      slidesPerView: 3.5,
       slidesPerGroup: 3,
       // spaceBetween: 20,
     },
