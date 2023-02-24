@@ -97,6 +97,16 @@
   color: white;
 }
 
+.cards-section .card:hover .svg-icon {
+  fill: white;   
+}
+
+
+.cards-section .card .svg-icon {
+  fill: #6C54A0;   
+}
+
+
 #tabContent div {
   right: -1000%;
   transition: all 500ms ease-out;
