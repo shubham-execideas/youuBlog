@@ -147,6 +147,10 @@ _class("tab-content")[0]
   .classList.add("relative");
 _class("tab-content")[0].getElementsByTagName("div")[0].classList.add("active");
 _class("tab-header")[0].getElementsByTagName("div")[0].classList.add("active");
+_class("tab-header")[0]
+  .getElementsByTagName("div")[0]
+  .classList.add("font-bold");
+
 
 for (let i = 0; i < tabPanes.length; i++) {
   tabPanes[i].addEventListener("click", function () {
@@ -154,6 +158,11 @@ for (let i = 0; i < tabPanes.length; i++) {
       .getElementsByClassName("active")[0]
       .classList.remove("active");
     tabPanes[i].classList.add("active");
+
+    _class("tab-header")[0]
+      .getElementsByClassName("font-bold")[0]
+      .classList.remove("font-bold");
+    tabPanes[i].classList.add("font-bold");
 
     _class("tab-indicator")[0].style.top = `calc(13px + ${i * 56}px)`;
     
