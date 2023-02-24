@@ -2,12 +2,12 @@
   <div class="card relative rounded-3xl h-96 p-6 bg-pink-200/50 hover:text-white hover:bg-gradient-to-r hover:from-bgpurple
       hover:via-bgpink hover:to-bgyellow">
     <span
-      class="bg-gradient-to-r h-20 w-20 flex justify-center border-white border-3 items-center rounded-md from-bgpurple
+      class="bg-gradient-to-r py-2 px-4 flex justify-center border-white border-3 items-center rounded-md from-bgpurple
         via-bgpink to-bgyellow absolute"
       style="top: -42px; left: 21px">
-      <img src="{{feature.data.image}}" alt="{{feature.data.imageAlt}}"/>
+      <img class="h-[2.5rem]" src="{{feature.data.image}}" alt="{{feature.data.imageAlt}}"/>
+      <p class="text-base font-bold text-white ml-2 uppercase">{{feature.data.label}}</p>
     </span>
-    <p class="text-sm mt-6 uppercase">{{feature.data.label}}</p>
     <h4 class="my-2 font-semibold feature-title">
       {{feature.data.title}}
     </h4>
