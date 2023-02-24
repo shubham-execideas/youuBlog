@@ -35,7 +35,7 @@
 }
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  top: 9px !important;
+  top: 13px !important;
 }
 
 .blog-description {
@@ -81,7 +81,7 @@
   display: -moz-box;
   display: -ms-box;
   overflow: hidden;
-  -webkit-line-clamp: 7;
+  -webkit-line-clamp: 9;
   -webkit-box-orient: vertical;
 }
 
