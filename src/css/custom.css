@@ -66,7 +66,7 @@
 
 .blog-body * {
   width: 45%;
-  margin: 12px;
+  margin: 12px 12px 12px 0;
   /* you can remove the bottom line if you are not liking the blog layout. */
   flex: 1 1 auto;
 }

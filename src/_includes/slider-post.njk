@@ -21,10 +21,10 @@ layout: 'base.njk'
             </div>
             {% include 'social-media.njk' %}
         </div>
-        <h1 class="article-title text-2xl font-bold">
+        <h1 class="article-title text-2xl font-bold mb-3">
             {{ slideTitle }}
         </h1>
-        <p class="mb-8">{{ sliderDescription }}</p>
+        <p class="mb-8 text-lg">{{ sliderDescription }}</p>
         <div class="lg:flex">
             <div
                 class="sm:w-full md:w-full lg:w-4/6">
@@ -34,7 +34,7 @@ layout: 'base.njk'
                         <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe>
                     </div>
                 {%- endif -%}
-                <div class="flex flex-wrap blog-body">
+                <div class="flex flex-wrap blog-body text-lg">
                     {{ content | safe }}
                 </div>
             </div>
@@ -44,7 +44,7 @@ layout: 'base.njk'
                     <p class="my-3">Download our white paper to know more
                     </p>
                     <div class="relative text-center">
-                        <img src="/assets/features/white_paper_blur.png" alt="whitepaper" class=""/>
+                        <img src="/assets/features/white_paper_blur.png" alt="whitepaper" class="w-full"/>
                         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                             <img src="/assets/features/paper.svg" alt="whitepaper" class="mx-auto">
                                 <p class="mb-3.5 font-semibold">Download our white paper to know more</p>
