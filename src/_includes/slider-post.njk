@@ -12,12 +12,12 @@ layout: 'base.njk'
                     <p>{{ date | postDate }}</p>
                 </div>
                 {# <div class="flex  my-3 whitespace-nowrap">
-                {% for tag in postTags %}
-                <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
-                    {{ tag }}
-                </p>
-                {%- endfor %}
-                </div> #}
+                                {% for tag in postTags %}
+                                <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
+                                    {{ tag }}
+                                </p>
+                                {%- endfor %}
+                                </div> #}
             </div>
             {% include 'social-media.njk' %}
         </div>
@@ -103,13 +103,13 @@ layout: 'base.njk'
             breakpoints: {
                 // when window width is >= 320px
                 0: {
-                    slidesPerView: 1.5,
+                    slidesPerView: 1.2,
                     slidesPerGroup: 1,
                     // spaceBetween: 5,
                 },
                 // when window width is >= 480px
                 520: {
-                    slidesPerView: 2.5,
+                    slidesPerView: 2.2,
                     slidesPerGroup: 2,
                     // spaceBetween: 10,
                 },
