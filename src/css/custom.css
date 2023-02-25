@@ -3,40 +3,40 @@
 }
 
 .tabs .tab-header > div.active {
-  color: white;
-  background-color: #6c54a0;
+  color: white !important;
+  background-color: #6c54a0 !important;
 }
 
 .tabs .tab-content > div {
-  top: -300%;
-  transition: all 500ms ease-out;
+  top: -300% !important;
+  transition: all 500ms ease-out !important;
 }
 
 .top-animation {
-  top: -300%;
+  top: -300% !important;
 }
 .bottom-animation {
-  bottom: -300%;
+  bottom: -300% !important;
 }
 
 .tabs .tab-content > div.active {
-  top: 0px;
+  top: 0px !important;
 }
 
 .tabs .tab-indicator {
-  position: absolute;
-  width: 4px;
-  height: 39px;
-  background: #6c54a0;
-  left: 20%;
-  top: 13px;
-  transition: all 500ms ease-in-out;
-  border-radius: 30px;
+  position: absolute !important;
+  width: 4px !important;
+  height: 39px !important;
+  background: #6c54a0 !important;
+  left: 20% !important;
+  top: 13px !important;
+  transition: all 500ms ease-in-out !important;
+  border-radius: 30px !important;
 }
 
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-  top: 0;
-}
+/* .swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 0 !important;
+} */
 
 .blog-description {
   display: -webkit-box;
@@ -94,22 +94,22 @@
   -webkit-box-orient: vertical;
 }
 .cards-section .card:hover .read-case {
-  color: white;
+  color: white !important;
 }
 
 .cards-section .card:hover .svg-icon {
-  fill: white;   
+  fill: white !important;   
 }
 
 
 .cards-section .card .svg-icon {
-  fill: #6C54A0;   
+  fill: #6C54A0 !important;   
 }
 
 
 #tabContent div {
-  right: -1000%;
-  transition: all 500ms ease-out;
+  right: -1000% !important;
+  transition: all 500ms ease-out !important;
 }
 
 #tabContent div.active {
@@ -131,15 +131,15 @@
 }
 
 #nav-item {
-  background-color: white;
+  background-color: white !important;
   /* width:100% */
-  height: 100vh;
+  height: 100vh !important;
 }
 
 #nav-item ul li {
   color: #6c54a0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  font-size: 14px;
-  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 10px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
 }
