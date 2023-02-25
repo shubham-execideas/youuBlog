@@ -1,9 +1,9 @@
 <div class="bg-white p-0.5 w-full lg:w-11/12 mt-16 rounded-3xl">
-  <div class="card relative rounded-3xl h-96 p-4 lg:p-6 bg-pink-200/50 hover:text-white hover:bg-gradient-to-r hover:from-bgpurple
+  <div class="card relative rounded-3xl lg:h-96 p-4 lg:p-6 bg-pink-200/50 hover:text-white hover:bg-gradient-to-r hover:from-bgpurple
       hover:via-bgpink hover:to-bgyellow">
     <span
       class="bg-gradient-to-r py-2 px-4 flex justify-center border-white border-3 items-center rounded-md from-bgpurple
-        via-bgpink to-bgyellow absolute top-[-8%]">
+        via-bgpink to-bgyellow absolute top-[-8%] md:top-[-11%] lg:top-[-8%]">
       <img class="h-[2.5rem]" src="{{feature.data.image}}" alt="{{feature.data.imageAlt}}"/>
       <p class="text-base font-bold max-[1024px]:text-[0.85rem] text-white ml-2 uppercase">{{feature.data.label}}</p>
     </span>
@@ -13,7 +13,7 @@
     <p class="text-base feature-description">
       {{feature.data.description}}
     </p>
-    <div class="footer absolute bottom-6">
+    <div class="footer relative lg:absolute mt-5 lg:mt-0 lg:bottom-6">
       <button class="bg-sumireVoilet px-4 py-2 text-sm rounded-md font-semibold text-white">
         Watch Demo
       </button>

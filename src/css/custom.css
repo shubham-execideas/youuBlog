@@ -60,7 +60,7 @@
   display: -moz-box;
   display: -ms-box;
   overflow: hidden;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
 
@@ -76,14 +76,14 @@
   margin: 12px;
 }
 
-.feature-description {
+/* .feature-description {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-box;
   overflow: hidden;
   -webkit-line-clamp: 9;
   -webkit-box-orient: vertical;
-}
+} */
 
 .feature-title {
   display: -webkit-box;

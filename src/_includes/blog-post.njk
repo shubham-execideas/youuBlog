@@ -80,8 +80,8 @@ layout: 'base.njk'
                   {# {% include 'article-snippts.njk' %} #}
                   <div class="swiper-slide card w-10/12  rounded-lg p-3">
                     <div class="card-content w-full flex flex-col items-start">
-                      <a href="{{ post.url }}" class="flex items-center p-3 rounded-lg bg-white">
-                        <img src="{{ post.data.image }}" alt="" style="height: 120px; width:120px;" class="object-cover rounded-lg">
+                      <a href="{{ post.url }}" class="flex p-3 rounded-lg w-full bg-white">
+                        <img src="{{ post.data.image }}" alt="" class="object-cover h-[50px] w-[50px] md:h-[100px] md:w-[100px] rounded-lg">
                           <div class=" ml-3">
                             <p class="text-lg lg:text-[1.2rem] font-semibold blog-title-cut">{{ post.data.title }}</p>
                             <div class="flex my-2 flex-wrap whitespace-nowrap ">
@@ -124,19 +124,19 @@ layout: 'base.njk'
           breakpoints: {
             // when window width is >= 320px
             0: {
-              slidesPerView: 1.2,
+              slidesPerView: 1,
               slidesPerGroup: 1,
               // spaceBetween: 5,
             },
             // when window width is >= 480px
             520: {
-              slidesPerView: 2.2,
+              slidesPerView: 2,
               slidesPerGroup: 2,
               // spaceBetween: 10,
             },
             // when window width is >= 640px
             950: {
-              slidesPerView: 3.5,
+              slidesPerView: 3,
               slidesPerGroup: 3,
               // spaceBetween: 20,
             }
