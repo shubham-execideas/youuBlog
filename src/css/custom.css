@@ -125,9 +125,9 @@
 
 .top-25 {
   top: 72px;
-  z-index: 10;
-  width: 100%;
-  opacity: 100;
+  z-index: 10 !important;
+  width: 100% !important;
+  opacity: 100 !important;
 }
 
 #nav-item {
