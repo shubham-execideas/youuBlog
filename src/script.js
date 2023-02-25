@@ -9,7 +9,6 @@ var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".pagination",
     clickable: true,
-    // dynamicBullets: true,
   },
   allowTouchMove: true,
   navigation: {
@@ -22,12 +21,20 @@ var swiper = new Swiper(".mySwiper", {
       slidesPerView: 1.2,
       slidesPerGroup: 1,
       // spaceBetween: 5,
+      // pagination: {
+      //   dynamicBullets: true,
+      //   dynamicMainBullets: 1,
+      // },
     },
     // when window width is >= 480px
     520: {
       slidesPerView: 2.2,
       slidesPerGroup: 2,
       // spaceBetween: 10,
+      // pagination: {
+      //   dynamicBullets: true,
+      //   dynamicMainBullets: 4,
+      // },
     },
     // when window width is >= 640px
     950: {
@@ -218,14 +225,17 @@ title.addEventListener("change", function () {
 
 function MyClick(e) {
   let list = document.getElementById("nav-item");
+  const body = document.querySelector("body");
 
   e.name === "menu-outline"
     ? ((e.name = "close-outline"),
       list.classList.remove("-top-full"),
       list.classList.add("top-25"),
-      list.classList.add("w-full"))
+      list.classList.add("w-full"),
+      (body.style.overflow = "hidden"))
     : ((e.name = "menu-outline"),
       list.classList.add("-top-full"),
       list.classList.remove("top-25"),
-      list.classList.add("w-full"));
+      list.classList.add("w-full"),
+      (body.style.overflow = "auto"));
 }

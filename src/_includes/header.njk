@@ -52,7 +52,7 @@
         <li class="text-sm mx-4">Company</li>
       </ul>
     {# </nav> #}
-    <div class="flex items-center mt-4">
+    <div class="flex items-center absolute bottom-[120px] mt-4">
       <div class="contact flex justify-between mx-4">
         {# <p class="mr-2 text-sm">Contact Us</p> #}
         {% for contact in collections.contact | reverse %}
@@ -72,16 +72,19 @@
 <script>
   function MyClick(e) {
   let list = document.getElementById("nav-item");
+  const body = document.querySelector("body");
 
   e.name === "menu-outline"
     ? ((e.name = "close-outline"),
       list.classList.remove("-top-full"),
       list.classList.add("top-25"),
-      list.classList.add("w-full"))
+      list.classList.add("w-full"),
+      (body.style.overflow = "hidden"))
     : ((e.name = "menu-outline"),
       list.classList.add("-top-full"),
       list.classList.remove("top-25"),
-      list.classList.add("w-full"));
+      list.classList.add("w-full"),
+      (body.style.overflow = "auto"));
 }
 </script>
 

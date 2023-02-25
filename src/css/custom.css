@@ -35,7 +35,7 @@
 }
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  top: 13px !important;
+  top: 0;
 }
 
 .blog-description {
@@ -76,14 +76,14 @@
   margin: 12px;
 }
 
-/* .feature-description {
+.feature-description {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-box;
   overflow: hidden;
-  -webkit-line-clamp: 9;
+  -webkit-line-clamp: 8;
   -webkit-box-orient: vertical;
-} */
+}
 
 .feature-title {
   display: -webkit-box;
