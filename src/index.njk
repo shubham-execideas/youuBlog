@@ -55,7 +55,7 @@ layout: 'base.njk'
       </div>
     </div>
   </div>
-  <div class="swiper mySwiper container">
+  <div class="swiper mySwiper mx-0">
     <div class="swiper-wrapper w-96 content">
       {%- for post in collections.post | reverse -%}
         {% include 'article-snippts.njk' %}
