@@ -31,7 +31,7 @@ layout: 'base.njk'
                 {# <div class="">{{videoURL}}</div> #}
                 {%- if videoURL.length %}
                     <div class="bg-white rounded-xl p-6">
-                        <iframe height="500" src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg"></iframe>
+                        <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe>
                     </div>
                 {%- endif -%}
                 <div class="lg:flex md:flex flex-wrap blog-body text-lg">
