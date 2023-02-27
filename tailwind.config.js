@@ -12,6 +12,16 @@ module.exports = {
       6: "6px",
       8: "8px",
     },
+    screens: {
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+      lg: "1025px",
+      // => @media (min-width: 1024px) { ... }
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+    },
     backgroundPosition: {
       bottom: "bottom",
       "bottom-4": "center left",
@@ -24,12 +34,13 @@ module.exports = {
       "right-top": "right top",
       top: "top",
       "top-4": "center top 1rem",
-    },backgroundSize: {
-      'auto': 'auto',
-      'cover': 'cover',
-      'contain': 'contain',
-      45: '45%',
-      '16': '4rem',
+    },
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      45: "45%",
+      16: "4rem",
     },
     extend: {
       top: {
@@ -38,10 +49,10 @@ module.exports = {
       width: {
         30: "30%",
         330: "330px",
-        19: '19%'
+        19: "19%",
       },
       margin: {
-        1.2: '5px',
+        1.2: "5px",
       },
       colors: {
         sumireVoilet: "#6c54a0",
