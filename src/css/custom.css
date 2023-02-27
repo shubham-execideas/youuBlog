@@ -98,14 +98,12 @@
 }
 
 .cards-section .card:hover .svg-icon {
-  fill: white !important;   
+  fill: white !important;
 }
-
 
 .cards-section .card .svg-icon {
-  fill: #6C54A0 !important;   
+  fill: #6c54a0 !important;
 }
-
 
 #tabContent div {
   right: -1000% !important;
@@ -115,7 +113,6 @@
 #tabContent div.active {
   right: 0 !important;
 }
-
 
 .top-62 {
   top: 28%;
@@ -142,4 +139,13 @@
   padding: 10px !important;
   font-size: 14px !important;
   font-weight: 500 !important;
+}
+
+@media screen and (max-width: 640px) {
+  .blog-body * {
+    width: 100%;
+    margin: 12px 12px 12px 0;
+    /* you can remove the bottom line if you are not liking the blog layout. */
+    flex: 1 1 auto;
+  }
 }
