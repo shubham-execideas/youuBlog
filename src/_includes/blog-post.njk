@@ -34,7 +34,7 @@ layout: 'base.njk'
             <iframe height="500" src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg"></iframe>
           </div>
         {%- endif -%}
-        <div class="flex flex-wrap blog-body text-lg">
+        <div class="lg:flex md:flex flex-wrap blog-body text-lg">
           {{ content | safe }}
         </div>
       </div>
@@ -42,8 +42,9 @@ layout: 'base.njk'
         <div class="hidden sm:hidden md:hidden lg:inline-block">
           <h1 class="font-semibold text-2xl ml-5">Other Blogs</h1>
           {%- for post in collections.post | reverse -%}
-            <a href="{{ post.url }}" class="m-5 flex items-center p-3 rounded-lg bg-white">
-              <img src="{{ post.data.image }}" alt="" style="height: 120px; width:120px;" class="object-cover rounded-lg">
+          {%- if loop.index <= 4  %}
+              <a href="{{ post.url }}" class="m-5 flex items-center p-3 rounded-lg bg-white">
+              <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 120px; width:120px;" class="object-cover rounded-lg">
                 <div class=" ml-3">
                   <p class="text-[1.2rem] font-semibold blog-title-cut">{{ post.data.title }}</p>
                   <div class="flex my-2 flex-wrap whitespace-nowrap ">
@@ -56,6 +57,8 @@ layout: 'base.njk'
                   <p class="text-xs">Published Date: {{ post.data.date | postDate }}</p>
                 </div>
               </a>
+        {%- endif -%}
+            
             {%- endfor -%}
           </div>
           <section class="w-full mt-10 relative sm:inline-block md:inline-block lg:hidden">

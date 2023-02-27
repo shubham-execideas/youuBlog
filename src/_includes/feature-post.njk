@@ -34,7 +34,7 @@ layout: 'base.njk'
                         <iframe height="500" src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg"></iframe>
                     </div>
                 {%- endif -%}
-                <div class="flex flex-wrap blog-body text-lg">
+                <div class="lg:flex md:flex flex-wrap blog-body text-lg">
                     {{ content | safe }}
                 </div>
             </div>
