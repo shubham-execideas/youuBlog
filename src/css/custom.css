@@ -133,6 +133,11 @@
   height: 100vh !important;
 }
 
+select option{
+  background-color: white !important;
+  color: #6c54a0;
+}
+
 #nav-item ul li {
   color: #6c54a0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
