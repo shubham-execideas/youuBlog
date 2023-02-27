@@ -16,7 +16,7 @@ layout: 'base.njk'
       <img src="./assets/next.svg" class="h-6" alt=""/>
     </div>
   </div>
-  <div class="swiper mySwiper container">
+  <div class="swiper mySwiper">
     <div class="swiper-wrapper w-96 content">
       {%- for post in collections.post | reverse -%}
         {% include 'article-snippts.njk' %}
