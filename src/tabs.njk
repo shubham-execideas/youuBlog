@@ -1,12 +1,19 @@
 {# Tabs section starts here #}
 <div class="px-16 py-5 h-auto mb-10 hidden overflow-hidden lg:inline-block">
   <div class="tabs flex h-auto relative">
-    <div class="tab-header pr-2 h-fit w-1/5 border-r-4 ml-1.2">
+    <div class="w-1/5">
+      <div class="tab-header pr-2 h-fit  border-r-4 ml-1.2">
 
       {%- for slider in collections.slider -%}
         {% include 'sliderTitle.njk' %}
       {%- endfor -%}
+      
     </div>
+    {%- for contact in collections.contact -%}
+        {% include 'contact.njk' %}
+      {%- endfor -%}
+    </div>
+    
     
     <div class="tab-indicator"></div>
     <!-- col-span-2 relative h-full overflow-hidden -->
@@ -17,9 +24,7 @@
     {{ content | safe }}
     </div>
   </div>
-      {%- for contact in collections.contact -%}
-        {% include 'contact.njk' %}
-      {%- endfor -%}
+      
 </div>
 
 <div class=" relative  sm:inline-block md:inline-block lg:hidden overflow-hidden" style="width: 100%">
