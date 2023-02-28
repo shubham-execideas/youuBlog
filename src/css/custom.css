@@ -64,7 +64,7 @@
   -webkit-box-orient: vertical;
 }
 
-.blog-body * {
+.blog-body p {
   width: 45%;
   margin: 12px 12px 12px 0;
   /* you can remove the bottom line if you are not liking the blog layout. */
@@ -161,7 +161,7 @@ select option {
     display: -moz-box;
     display: -ms-box;
     overflow: hidden;
-    -webkit-line-clamp: 8;
+    -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
   }
 }
