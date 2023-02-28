@@ -22,7 +22,7 @@ collections:
           widget: "list", 
           max: 4, 
           min: 1, 
-          default: ["Exclusive","Mental Health","Addicition","Drugs"] ,
+          default: ["Exclusive","Mental Health","Addiction","Drugs"] ,
           hint: "you can write instruction here"
         }
       - { label: "Featured Image", name: "image", widget: "image" , required: false, hint: "you can write instruction here"}
