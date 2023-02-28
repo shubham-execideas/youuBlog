@@ -15,7 +15,7 @@ description: The article highlights insights gained from asking patients one
 date: 2023-02-28T11:32:18+05:30
 postTags:
   - MENTAL HEALTH
-  - ADDCITION
+  - ADDICTION
   - DRUGS
 imageAlt: Student Camp
 fruit:
