@@ -15,7 +15,7 @@ postTags:
   - Mental Health
   - Addicition
   - Drugs
-image: /assets/digital-twin.jpeg
+image: /assets/ai-twin.webp
 imageAlt: Digital Twin
 videoURL: https://video.wixstatic.com/video/1640dc_c28a98469d4e405ab812b7f66f361d0c/1080p/mp4/file.mp4
 ---
