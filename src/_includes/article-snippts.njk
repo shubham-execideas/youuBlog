@@ -1,37 +1,37 @@
 <div class="swiper-slide card rounded-lg p-3">
   <div class="card-content w-full flex flex-col items-start">
-    <img src="{{post.data.image}}" class="rounded-md object-cover w-[275px] h-[275px] lg:w-[335px] lg:h-[335px]" alt="{{post.data.imageAlt}}">
-    <p class="text-xs mt-3">Published Date : {{ post.date | postDate }}</p>
-    <div class="flex blog-title my-3 whitespace-nowrap">
-      {% for tag in post.data.postTags %}
-        <p class="bg-pink-50 uppercase p-1 mr-1 lg:mr-2 text-[0.62rem] font-semibold">
-          {{ tag }}
-        </p>
-      {%- endfor %}
+    <img src="{{ post.data.image }}" class="rounded-md object-cover w-[275px] h-[275px] lg:w-[335px] lg:h-[335px]" alt="{{ post.data.imageAlt }}">
+      <p class="text-xs mt-3">Published Date : {{ post.date | postDate }}</p>
+      <div class="flex blog-title my-3 whitespace-nowrap">
+        {% for tag in post.data.postTags %}
+          {%- if loop.index <= 3 %}
+            <p class="bg-pink-50 uppercase p-1 mr-1 lg:mr-2 text-[0.62rem] font-semibold">
+              {{ tag }}
+            </p>
+          {%- endif -%}
+        {%- endfor %}
+      </div>
+      <h4 class="font-semibold blog-title text-[1.3rem]">
+        <a href="{{ post.url }}" target="_blank">
+          {{ post.data.title }}
+        </a>
+      </h4>
+      <p class="mt-3 blog-description h-24">
+        {{ post.data.description }}
+      </p>
+      {# For Future purpose #}
+      {# 
+                           <ul>
+                  {% for item in post.data.fruit %}
+                    <li>{{ item.name }}, cost: {{ item.cost }}, color: {{ item.color }}</li>
+                  {% endfor %}
+                </ul>
+            
+                {% if post.data.show_footer %}
+                  <footer> Boolean footer true=> I am a footer</footer>
+                {% endif %} #}
+      <a href="{{ post.url }}" class="text-sumireVoilet px-4 border-2 py-2 mt-8 border-sumireVoilet rounded-md">
+        Read Article
+      </a>
     </div>
-    <h4 class="font-semibold blog-title text-[1.3rem]">
-      <a href="{{ post.url }}" target="_blank">
-                {{post.data.title}}
-    </a>
-   
-    </h4>
-    <p class="mt-3 blog-description h-24">
-      {{post.data.description}}
-    </p>
-    {# For Future purpose #}
-    {# 
-               <ul>
-      {% for item in post.data.fruit %}
-        <li>{{ item.name }}, cost: {{ item.cost }}, color: {{ item.color }}</li>
-      {% endfor %}
-    </ul>
-
-    {% if post.data.show_footer %}
-      <footer> Boolean footer true=> I am a footer</footer>
-    {% endif %} #}
-
-    <a href="{{ post.url }}"  class="text-sumireVoilet px-4 border-2 py-2 mt-8 border-sumireVoilet rounded-md">
-                Read Article
-    </a>
   </div>
-</div>
