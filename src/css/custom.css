@@ -147,7 +147,7 @@ select option {
 }
 
 @media screen and (max-width: 640px) {
-  .blog-body * {
+  .blog-body p {
     width: 100%;
     margin: 12px 12px 12px 0;
     /* you can remove the bottom line if you are not liking the blog layout. */
