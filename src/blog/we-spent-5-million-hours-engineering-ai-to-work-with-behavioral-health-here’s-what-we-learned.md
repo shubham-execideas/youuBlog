@@ -31,7 +31,7 @@ tags:
 postTags:
   - Exclusive
   - Mental Health
-  - Addicition
+  - Addiction
   - Drugs
 image: /assets/5-million-hrs.webp
 imageAlt: 5 million Hours
