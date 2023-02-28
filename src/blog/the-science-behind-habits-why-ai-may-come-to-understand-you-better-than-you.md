@@ -28,7 +28,7 @@ postTags:
   - Mental Health
   - Addicition
   - Drugs
-image: /assets/knows-you-better-than-you.png
+image: /assets/know-you.webp
 imageAlt: knows you better
 videoURL: https://video.wixstatic.com/video/1640dc_fcfae5efaca843ce846f5bbd21361230/1080p/mp4/file.mp4
 ---
