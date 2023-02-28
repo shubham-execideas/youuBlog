@@ -33,7 +33,7 @@ postTags:
   - Mental Health
   - Addicition
   - Drugs
-image: /assets/5-million-hours.png
+image: /assets/5-million-hrs.webp
 imageAlt: 5 million Hours
 videoURL: https://video.wixstatic.com/video/1640dc_c28a98469d4e405ab812b7f66f361d0c/1080p/mp4/file.mp4
 ---
