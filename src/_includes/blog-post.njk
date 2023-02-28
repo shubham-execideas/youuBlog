@@ -81,12 +81,12 @@ layout: 'base.njk'
               <div class="swiper-wrapper w-96 content">
                 {%- for post in collections.post | reverse -%}
                   {# {% include 'article-snippts.njk' %} #}
-                  <div class="swiper-slide card w-10/12  rounded-lg p-3">
+                  <div class="swiper-slide card rounded-lg">
                     <div class="card-content w-full flex flex-col items-start">
                       <a href="{{ post.url }}" class="flex p-3 rounded-lg w-full bg-white">
                         <img src="{{ post.data.image }}" alt="" class="object-cover h-[50px] w-[50px] md:h-[100px] md:w-[100px] rounded-lg">
                           <div class=" ml-3">
-                            <p class="text-lg lg:text-[1.2rem] font-semibold blog-title-cut">{{ post.data.title }}</p>
+                            <p class="text-base lg:text-[1.2rem] font-semibold blog-title-cut">{{ post.data.title }}</p>
                             <div class="flex my-2 flex-wrap whitespace-nowrap ">
                               {% for tag in  post.data.postTags %}
                                 <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">
@@ -110,7 +110,7 @@ layout: 'base.njk'
       <script type="module">
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
         var swiper = new Swiper(".blog-Swiper", {
-          slidesPerView: 1,
+          slidesPerView: 1.1,
           spaceBetween: 5,
           // slideClass: ".slider",
           slidesPerGroup: 1,
@@ -127,19 +127,19 @@ layout: 'base.njk'
           breakpoints: {
             // when window width is >= 320px
             0: {
-              slidesPerView: 1,
+              slidesPerView: 1.1,
               slidesPerGroup: 1,
               // spaceBetween: 5,
             },
             // when window width is >= 480px
             520: {
-              slidesPerView: 2,
+              slidesPerView: 2.2,
               slidesPerGroup: 2,
               // spaceBetween: 10,
             },
             // when window width is >= 640px
             950: {
-              slidesPerView: 3,
+              slidesPerView: 3.5,
               slidesPerGroup: 3,
               // spaceBetween: 20,
             }
