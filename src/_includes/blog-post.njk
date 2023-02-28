@@ -77,7 +77,7 @@ layout: 'base.njk'
       </div>
     </div>
             </div>
-            <div class="swiper blog-Swiper container">
+            <div class="swiper blog-Swiper">
               <div class="swiper-wrapper w-96 content">
                 {%- for post in collections.post | reverse -%}
                   {# {% include 'article-snippts.njk' %} #}
@@ -138,7 +138,7 @@ layout: 'base.njk'
               // spaceBetween: 10,
             },
             // when window width is >= 640px
-            950: {
+            1025: {
               slidesPerView: 3.5,
               slidesPerGroup: 3,
               // spaceBetween: 20,
