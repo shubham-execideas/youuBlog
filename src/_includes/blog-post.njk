@@ -43,10 +43,10 @@ layout: 'base.njk'
           <h1 class="font-semibold text-2xl ml-5">Other Blogs</h1>
           {%- for post in collections.post | reverse -%}
           {%- if loop.index <= 4  %}
-              <a href="{{ post.url }}" class="m-5 flex p-3 rounded-lg bg-white">
-              <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 90px; width:90px;" class="object-cover rounded-lg">
+              <a href="{{ post.url }}" class="m-5 flex items-center p-3 rounded-lg bg-white">
+              <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 100px; width:100px;" class="object-cover rounded-lg">
                 <div class=" ml-3">
-                  <p class="text-[1rem] font-semibold blog-title-cut">{{ post.data.title }}</p>
+                  <p class="text-[1.2rem] font-semibold blog-title-cut">{{ post.data.title }}</p>
                   <div class="flex my-2 flex-wrap whitespace-nowrap ">
                     {% for tag in  post.data.postTags %}
                       <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">
@@ -54,7 +54,7 @@ layout: 'base.njk'
                       </p>
                     {%- endfor %}
                   </div>
-                  {# <p class="text-xs">Published Date: {{ post.data.date | postDate }}</p> #}
+                  <p class="text-xs">Published Date: {{ post.data.date | postDate }}</p>
                 </div>
               </a>
         {%- endif -%}

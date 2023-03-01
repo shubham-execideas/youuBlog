@@ -27,7 +27,7 @@ collections:
         }
       - { label: "Featured Image", name: "image", widget: "image" , required: false, hint: "you can write instruction here"}
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Video", name: "videoURL", widget: "file", required: false ,hint: "you can only use embed url for videos."}
+      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "you can only use embed url for videos."}
       - { label: "Body", name: "body", widget: "markdown", hint: "you can write instruction here"}
 
       # - { label: "Category",
