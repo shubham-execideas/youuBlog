@@ -13,7 +13,7 @@ tags:
 postTags:
   - Exclusive
   - Mental Health
-  - Addicition
+  - Addiction
   - Drugs
 image: /assets/doc-s.webp
 imageAlt: Doc's
