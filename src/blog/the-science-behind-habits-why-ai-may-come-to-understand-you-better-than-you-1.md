@@ -14,7 +14,7 @@ tags:
 postTags:
   - Exclusive
   - Mental Health
-  - Addicition
+  - Addiction
   - Drugs
 image: /assets/know-you.webp
 imageAlt: Know you better
