@@ -16,7 +16,7 @@ sliderDescription: "Our hyper-connected health cloud allows you to quickly build
   productivity you can bet on. Here’s why more and more healthcare innovators
   want in:"
 date: 2023-02-08T19:04:44+05:30
-videoURL: https://www.youtube.com/embed/o1lz1OhqdSg
+videoURL: /assets/animation-opener.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: test slider
 title: test slider
