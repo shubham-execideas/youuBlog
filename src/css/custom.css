@@ -64,16 +64,11 @@
   -webkit-box-orient: vertical;
 } */
 
-.blog-body p {
-  width: 45%;
-  margin: 12px 12px 12px 0;
+.blog-body * {
+  /* width: 45%; */
+  margin: 30px 0 0 0;
   /* you can remove the bottom line if you are not liking the blog layout. */
-  flex: 1 1 auto;
-}
-
-.blog-body p img {
-  width: 100%;
-  margin: 12px;
+  /* flex: 1 1 auto; */
 }
 
 /* .feature-description {
@@ -146,14 +141,6 @@ select option {
   font-weight: 500 !important;
 }
 
-@media screen and (max-width: 640px) {
-  .blog-body p {
-    width: 100%;
-    margin: 30px 12px 12px 0;
-    /* you can remove the bottom line if you are not liking the blog layout. */
-    flex: 1 1 auto;
-  }
-}
 
 @media screen and (min-width: 1024px) {
   .feature-description {
@@ -169,4 +156,8 @@ select option {
 .twitter-timeline.twitter-timeline-rendered {
   height: 700px;
   overflow-y: scroll;
+}
+
+.menu-items li{
+  cursor: pointer;
 }
