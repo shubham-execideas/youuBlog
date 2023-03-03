@@ -171,7 +171,7 @@ for (let i = 0; i < tabPanes.length; i++) {
       .classList.remove("font-bold");
     tabPanes[i].classList.add("font-bold");
 
-    _class("tab-indicator")[0].style.top = `calc(13px + ${i * 56}px)`;
+    _class("tab-indicator")[0].style.top = `calc(10px + ${i * 56}px)`;
     
     _class("tab-content")[0]
       .getElementsByClassName("active")[0]

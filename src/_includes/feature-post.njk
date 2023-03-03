@@ -31,7 +31,13 @@ layout: 'base.njk'
                 {# <div class="">{{videoURL}}</div> #}
                 {%- if videoURL.length %}
                     <div class="bg-white rounded-xl p-6">
-                        <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe>
+                        {# <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe> #}
+                        {%- if videoURL.includes("youtube") -%}
+                            <iframe src="{{ videoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
+                        {%- else -%}
+                            <video controls class="w-full rounded-lg h-[300px] lg:h-[500px]" name="media">
+                                <source src="{{ videoURL }}" type="video/mp4"></video>
+                            {%- endif -%}
                     </div>
                 {%- endif -%}
                 <div class="lg:flex md:flex flex-wrap blog-body text-lg">

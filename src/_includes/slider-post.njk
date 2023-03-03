@@ -12,12 +12,12 @@ layout: 'base.njk'
                     <p>{{ date | postDate }}</p>
                 </div>
                 {# <div class="flex  my-3 whitespace-nowrap">
-                                {% for tag in postTags %}
-                                <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
-                                    {{ tag }}
-                                </p>
-                                {%- endfor %}
-                                </div> #}
+                                                {% for tag in postTags %}
+                                                <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
+                                                    {{ tag }}
+                                                </p>
+                                                {%- endfor %}
+                                                </div> #}
             </div>
             {% include 'social-media.njk' %}
         </div>
@@ -31,94 +31,100 @@ layout: 'base.njk'
                 {# <div class="">{{videoURL}}</div> #}
                 {%- if videoURL.length %}
                     <div class="bg-white rounded-xl p-6">
-                        <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe>
+                        {%- if videoURL.includes("youtube") -%}
+                            <iframe src="{{ videoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
+                        {%- else -%}
+                            <video controls class="w-full rounded-lg h-[300px] lg:h-[500px]" name="media">
+                                <source src="{{ videoURL }}" type="video/mp4"></video>
+                            {%- endif -%}
+                        </div>
+                    {%- endif -%}
+                    <div class="lg:flex md:flex flex-wrap blog-body text-lg">
+                        {{ content | safe }}
                     </div>
-                {%- endif -%}
-                <div class="lg:flex md:flex flex-wrap blog-body text-lg">
-                    {{ content | safe }}
                 </div>
-            </div>
-            <div>
-                <div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5">
-                    <p class="text-3xl font-semibold">Download White Paper</p>
-                    <p class="my-3">Download our white paper to know more
-                    </p>
-                    <div class="relative text-center">
-                        <img src="/assets/features/white_paper_blur.png" alt="whitepaper" class="w-full"/>
-                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[212px]">
-                            <img src="/assets/features/paper.svg" alt="whitepaper" class="mx-auto mb-2">
-                                <p class="mb-7 font-semibold">Download our white paper to know more</p>
-                                <a href="{{ sliderWhitePaper }}" target="_blank" class="text-white bg-sumireVoilet cursor-pointer p-3 rounded-md" download>Download</a>
+                <div>
+                    <div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5">
+                        <p class="text-3xl font-semibold">Download White Paper</p>
+                        <p class="my-3">Download our white paper to know more
+                        </p>
+                        <div class="relative text-center">
+                            <img src="/assets/features/white_paper_blur.png" alt="whitepaper" class="w-full"/>
+                            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[212px]">
+                                <img src="/assets/features/paper.svg" alt="whitepaper" class="mx-auto mb-2">
+                                    <p class="mb-7 font-semibold">Download our white paper to know more</p>
+                                    <a href="{{ sliderWhitePaper }}" target="_blank" class="text-white bg-sumireVoilet cursor-pointer p-3 rounded-md" download>Download</a>
+                                </div>
                             </div>
                         </div>
+                        {# {% include 'download_whitepaper.njk' %} #}
+                        {% include 'schedule.njk' %}
                     </div>
-                    {# {% include 'download_whitepaper.njk' %} #}
-                    {% include 'schedule.njk' %}
                 </div>
             </div>
-        </div>
-        <section class="w-full mt-10 px-4 lg:px-20 relative">
-            <div class="flex justify-between items-center flex-wrap mb-8">
-                <div>
-                    <h3 class="text-4xl font-bold mb-3">Blogs</h3>
-                    <span class="text-[1.5rem]">Catchup on the good stuff</span>
+            <section class="w-full mt-10 px-4 lg:px-20 relative">
+                <div class="flex justify-between items-center flex-wrap mb-8">
+                    <div>
+                        <h3 class="text-4xl font-bold mb-3">Blogs</h3>
+                        <span class="text-[1.5rem]">Catchup on the good stuff</span>
+                    </div>
+                    <div class="flex lg:justify-end justify-between m-[15px]">
+                        <div class="order-2 lg:order-none blog-pagination flex md:justify-center lg:justify-end md:top-[16px] top-[7px] lg:top-[13px]
+                            lg:mr-5 relative"></div>
+                        <div class="order-1 lg:order-none blog-prev-button w-14 lg:mr-[11px]">
+                            <img src="/assets/prev.svg" alt="" class="h-6 md:h-fit lg:h-fit"/>
+                        </div>
+                        <div class="order-3 lg:order-none blog-next-button w-14">
+                            <img src="/assets/next.svg" alt="" class="h-6 md:h-fit lg:h-fit"/>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex lg:justify-end justify-between m-[15px]">
-      <div class="order-2 lg:order-none blog-pagination flex md:justify-center lg:justify-end  md:top-[16px] top-[7px] lg:top-[13px] lg:mr-5 relative"></div>
-      <div class="order-1 lg:order-none blog-prev-button w-14 lg:mr-[11px]">
-        <img src="/assets/prev.svg" alt="" class="h-6 md:h-fit lg:h-fit"/>
-      </div>
-      <div class="order-3 lg:order-none blog-next-button w-14">
-        <img src="/assets/next.svg" alt="" class="h-6 md:h-fit lg:h-fit"/>
-      </div>
-    </div>
-            </div>
-            <div class="swiper blog-Swiper">
-                <div class="swiper-wrapper w-96 content">
-                    {%- for post in collections.post | reverse -%}
-                        {% include 'article-snippts.njk' %}
-                    {%- endfor -%}
+                <div class="swiper blog-Swiper">
+                    <div class="swiper-wrapper w-96 content">
+                        {%- for post in collections.post | reverse -%}
+                            {% include 'article-snippts.njk' %}
+                        {%- endfor -%}
+                    </div>
                 </div>
-            </div>
-        </section>
-    </article>
-    <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-        var swiper = new Swiper(".blog-Swiper", {
-            slidesPerView: 3.5,
-            spaceBetween: 5,
-            // slideClass: ".slider",
-            slidesPerGroup: 3,
-            loop: false,
-            loopFillGroupWithBlank: true,
-            pagination: {
-                el: ".blog-pagination",
-                clickable: true
-            },
-            allowTouchMove: true,
-            navigation: {
-                nextEl: ".blog-next-button",
-                prevEl: ".blog-prev-button"
-            },
-            breakpoints: {
-                // when window width is >= 320px
-                0: {
-                    slidesPerView: 1.2,
-                    slidesPerGroup: 1,
-                    // spaceBetween: 5,
+            </section>
+        </article>
+        <script type="module">
+            import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+            var swiper = new Swiper(".blog-Swiper", {
+                slidesPerView: 3.5,
+                spaceBetween: 5,
+                // slideClass: ".slider",
+                slidesPerGroup: 3,
+                loop: false,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: ".blog-pagination",
+                    clickable: true
                 },
-                // when window width is >= 480px
-                520: {
-                    slidesPerView: 2.2,
-                    slidesPerGroup: 2,
-                    // spaceBetween: 10,
+                allowTouchMove: true,
+                navigation: {
+                    nextEl: ".blog-next-button",
+                    prevEl: ".blog-prev-button"
                 },
-                // when window width is >= 640px
-                950: {
-                    slidesPerView: 3.5,
-                    slidesPerGroup: 3,
-                    // spaceBetween: 20,
+                breakpoints: {
+                    // when window width is >= 320px
+                    0: {
+                        slidesPerView: 1.2,
+                        slidesPerGroup: 1,
+                        // spaceBetween: 5,
+                    },
+                    // when window width is >= 480px
+                    520: {
+                        slidesPerView: 2.2,
+                        slidesPerGroup: 2,
+                        // spaceBetween: 10,
+                    },
+                    // when window width is >= 640px
+                    950: {
+                        slidesPerView: 3.5,
+                        slidesPerGroup: 3,
+                        // spaceBetween: 20,
+                    }
                 }
-            }
-        });
-    </script>
+            });
+        </script>

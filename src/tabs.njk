@@ -3,32 +3,30 @@
   <div class="tabs flex h-auto relative">
     <div class="w-1/5">
       <div class="tab-header pr-2 h-fit  border-r-4 ml-1.2">
-
-      {%- for slider in collections.slider -%}
-        {% include 'sliderTitle.njk' %}
-      {%- endfor -%}
-      
-    </div>
-    {%- for contact in collections.contact -%}
+        {%- for slider in collections.slider -%}
+          {% include 'sliderTitle.njk' %}
+        {%- endfor -%}
+      </div>
+      {%- for contact in collections.contact -%}
         {% include 'contact.njk' %}
       {%- endfor -%}
     </div>
-    
-    
     <div class="tab-indicator"></div>
     <!-- col-span-2 relative h-full overflow-hidden -->
     <div class="tab-content h-auto w-4/5">
       {%- for slider in collections.slider -%}
         {% include 'slider.njk' %}
       {%- endfor -%}
-    {{ content | safe }}
+      {{ content | safe }}
     </div>
   </div>
-      
 </div>
-
 <div class=" relative  sm:inline-block md:inline-block lg:hidden overflow-hidden" style="width: 100%">
-  <select name="" id="tabTitle" style="width: 92%" class="mb-8 mt-5 mx-4 border-2 p-2.5 rounded-md bg-sumireVoilet text-white font-semibold outline-0 border-sumireVoilet ">
+  <select
+    name=""
+    id="tabTitle"
+    style="width: 92%"
+    class="mb-8 mt-5 mx-4 border-2 p-2.5 rounded-md bg-sumireVoilet text-white font-semibold outline-0 border-sumireVoilet ">
     {%- for slider in collections.slider -%}
       <option value="{{ slider.data.slideButtonText }}">{{ slider.data.slideButtonText }}</option>
     {%- endfor -%}
@@ -46,21 +44,20 @@
         </p>
         <span class="mb-5 flex items-start">
           <img src="./assets/pointer.svg" class="mr-3 mt-1" alt="">
-            <p>Our super smart YOUUtilityTM Augmented Intelligence, value-based interconnected care workflows and mobile devices
-              makes providing care easier with less hassle.</p>
+            <p>	Our super smart YOUUtility <sup>TM </sup> Augmented Intelligence, value-based interconnected care workflows and mobile devices makes providing care easier with less hassle.</p>
           </span>
           <span class="mb-3 flex items-start text-lg">
-            <img src="./assets/pointer.svg" class="mr-3 mt-1" alt="" />
+            <img src="./assets/pointer.svg" class="mr-3 mt-1" alt=""/>
             <p>
-                It gets you closer to the customer and transforms your traditional business model into digital value-based care communities
+             	It gets you closer to the customer and transforms your traditional business model into digital value-based care communities. Keep your existing systems, or your EHR, or use ours – it’s really good!
             </p>
-        </span>
-        <span class="mb-3 flex items-start text-lg">
-            <img src="./assets/pointer.svg" class="mr-3 mt-1" alt="" />
+          </span>
+          <span class="mb-3 flex items-start text-lg">
+            <img src="./assets/pointer.svg" class="mr-3 mt-1" alt=""/>
             <p>
-                It's no longer about simply providing care; it's about adding value, removing risk and engaging the customer – for life.
+              	It's no longer about simply providing care; it's about adding value, removing risk and engaging the customer – for life.
             </p>
-        </span>
+          </span>
           <span class="footer top-full">
             <button class="bg-sumireVoilet px-4 py-2 text-sm rounded-md font-semibold text-white">
               Watch Demo
@@ -69,14 +66,18 @@
               READ THE CASE STUDY
               <img src="/assets/read_study_case.svg" alt="" style="display:inline-block; margin-bottom:3px;margin-left:2px"></a>
             </span>
-            <span
-              class=" rounded-md shadow-md inline-block mt-6 w-full">
+            <span class=" rounded-md shadow-md inline-block mt-6 w-full">
               <!-- <img src="./assets/tab_photo.svg" alt="" class="h-72 w-80" /> -->
-              <iframe src="{{ slider.data.videoURL }}" class="bg-purple-200  h-72" frameborder="0" allowfullscreen style="width: 100%"></iframe>
-              <img src="./assets/tab_footer_photo.svg" alt="" class="w-64 m-auto"/>
-            </span>
-          </div>
-        {%- endfor -%}
+              {# <iframe src="{{ slider.data.videoURL }}" class="bg-purple-200  h-72" frameborder="0" allowfullscreen style="width: 100%"></iframe> #}
+                {%- if slider.data.videoURL.includes("youtube") -%}<iframe src="{{ slider.data.videoURL }}" id="iframe" class="bg-purple-200  h-72" style="width: 100%" frameborder="0" allowfullscreen> </iframe>
+              {%- else -%}
+                <video controls class="bg-purple-200  h-72" style="width: 100%" name="media">
+                  <source src="{{ slider.data.videoURL }}" type="video/mp4"></video>
+                {%- endif -%}
+                <img src="./assets/tab_footer_photo.svg" alt="" class="w-64 m-auto"/>
+              </span>
+            </div>
+          {%- endfor -%}
+        </div>
       </div>
-    </div>
-{# Tabs section ends here #}
+      {# Tabs section ends here #}
