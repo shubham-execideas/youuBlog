@@ -6,7 +6,7 @@ description: Value-based care, which prioritizes patient outcomes over the
   healthcare delivery and payment systems. This has led to challenges in
   implementing and scaling value-based care initiatives across the healthcare
   industry.
-date: 2023-02-28T12:10:51+05:30
+date: 2023-03-24T12:10:51+05:30
 tags:
   - Post
   - Featured
