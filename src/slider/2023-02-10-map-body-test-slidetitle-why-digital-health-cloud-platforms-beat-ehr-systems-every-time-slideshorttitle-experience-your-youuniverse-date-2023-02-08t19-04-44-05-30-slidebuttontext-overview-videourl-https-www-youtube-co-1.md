@@ -41,4 +41,4 @@ Unlike first generation HealthIT that focuses merely on record keeping and billi
 
 **It’s engineered to manage risk and control your healthy practice. [Here’s why](https://www.youuniverse.ai/post/the-truth-behind-value-based-payments-hype-real-or-fiction).**
 
-The core concept around value-based care (code word for payments) relies on mastering one simple idea: *risk*. Providers are just beginning to understand how to get their heads around the concept and how to win using it – or more accurately stated, how to avoid it. The YOUUniverse was purpose built to understand the cost, outcomes of care and patient risk associated with a better care model***.***
+The core concept around value-based care (code word for payments) relies on mastering one simple idea: *risk*. Providers are just beginning to understand how to get their heads around the concept and how to win using it – or more accurately stated, how to avoid it. The YOUUniverse was purpose built to understand the cost, outcomes of care and patient risk associated with a better care model
