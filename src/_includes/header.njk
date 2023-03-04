@@ -12,11 +12,11 @@
       </a>
       <nav class="hidden lg:inline-block ml-6 max-[1024px]:ml-10">
       <ul class="flex justify-between menu-items font-normal flex-wrap">
-       <li class="text-sm mx-4"><a>About Us</a></li>
+       <li class="text-md font-semibold mx-4  hover:text-sumireVoilet"><a>About Us</a></li>
         {# <li class="text-sm mx-4">Use Cases</li> #}
-        <li class="text-sm mx-4"><a>Learning</a></li>
-        <li class="text-sm mx-4"> <a>Support</a></li>
-        <li class="text-sm mx-4"><a href="/blog/" >Blogs</a></li>
+        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"><a>Learning</a></li>
+        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"> <a>Support</a></li>
+        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"><a href="/blog/" >Blogs</a></li>
       </ul>
     </nav>
       <div class="lg:hidden flex items-center">
@@ -28,7 +28,7 @@
       {# <img src="/assets/search_icon.svg" class="h-6 max-[1024px]:mx-0 mx-3 hidden md:inline-block lg:inline-block" alt=""/> #}
       <div class="flex justify-around items-center">
         <div class="contact flex justify-between mx-4">
-          <a class="mr-2 text-sm whitespace-nowrap">Contact Us</a>
+          <a class="mr-2 text-md font-semibold whitespace-nowrap">Contact Us</a>
           {% for contact in collections.contact | reverse %}
             <a href="tel:{{ contact.data.contact }}" class="text-purple-700 text-sm font-semibold flex items-center whitespace-nowrap"><img class="mr-2 h-5" src="/assets/phone.svg" alt=""/> {{ contact.data.contact }} </a>
           {%- endfor %}
