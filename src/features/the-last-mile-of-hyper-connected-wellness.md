@@ -8,7 +8,7 @@ description: Control the last mile In hyper-connected wellness while you connect
   services, or introduce a robust library of digital health services. You’ll
   master a more patient-centered model of care while you reduce costs associated
   with your healthcare delivery. Find out how
-date: 2023-02-11T00:00:00+05:30
+date: 2023-02-15T00:00:00+05:30
 image: /assets/consumers.svg
 imageAlt: consumers
 ---

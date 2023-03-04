@@ -9,7 +9,7 @@ description: Imagine a digital community for your YOUUNIVERSE TM. Find and
   lifestyle, health and wellness, counseling or clinical application. Share your
   best ideas, practices, educational resources and develop innovative solutions.
   Find out how.
-date: 2023-02-11T00:00:00+05:30
+date: 2023-02-17T00:00:00+05:30
 image: /assets/communities.svg
 imageAlt: Other Communities
 ---
