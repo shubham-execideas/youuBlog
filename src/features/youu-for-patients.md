@@ -10,7 +10,7 @@ description: YOUU for Patients ™ is the most powerful, self-reporting remote
   automatically identify any potential health risks or issues before they become
   more serious. Patients love that kind of power over their health and they’ll
   appreciate you for it. Find out how
-date: 2023-02-11T00:00:00+05:30
+date: 2023-02-13T00:00:00+05:30
 image: /assets/patientssvg.svg
 imageAlt: patients
 ---

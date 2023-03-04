@@ -9,7 +9,7 @@ description: Edge connected healthcare devices are the future. They’re able to
   interact with other connected devices so integrated care becomes more
   personalized care. Connect your Edge Device to a YOUUNIVERSETM of options.
   Find out how
-date: 2023-02-12T00:00:00+05:30
+date: 2023-02-11T00:00:00+05:30
 image: /assets/medtech.svg
 imageAlt: medtech
 ---
