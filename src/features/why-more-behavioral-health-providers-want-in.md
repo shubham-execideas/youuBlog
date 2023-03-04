@@ -27,4 +27,8 @@ With the YOUUniverse you’ll be empowered to access the most disruptive technol
 * Augment your diagnostic and treatment perspectives with proven AI models that have been specially built for behavioral health and are almost indistinguishable from humans;
 * Incorporate wearables and other MedTech devices for monitoring physical activity, sleep patterns, moods, substance use, craving sensation, etc., and,
 * Deliver evidence-based interventions delivered through advanced analytics for better outcomes.
-* Wrap your clinical practices into a value-based economic model to control risk, cost and outcomes encouraging profitability and scalability.
+* Wrap your clinical practices into a value-based economic model to control risk, cost and outcomes encouraging profitability and scalability.  
+
+
+
+With the YOUUniverse, you’ll gain deeper insight into patient behavior so you’ll enjoy personalized treatment plans based on what works best for each person seeking help with up to 30% less time spent on unproductive clinical time.  [Find out why your workforce will L.O.V.E. augmented, intelligent case review and diagnostics](https://www.youuniverse.ai/post/gpt-3-why-behavioral-healthcare-is-going-to-l-o-v-e-it).
