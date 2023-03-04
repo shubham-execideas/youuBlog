@@ -62,7 +62,7 @@ collections:
     label: "Feature"
     folder: "src/features"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
+    slug:  "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Label", name: "label", widget: "string" }
@@ -77,7 +77,7 @@ collections:
     label: "Slider"
     folder: "src/slider"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
+    slug:  "{{title}}"
     fields:
       - { label: "Button Text", name: "slideButtonText", widget: "string" }
       - { label: "Short Title", name: "slideShortTitle", widget: "string" }
@@ -93,7 +93,7 @@ collections:
     label: "contact"
     folder: "src/contact"
     create: false
-    slug: "{{year}}-{{month}}-{{day}}-{{hour}}-{{minute}}-{{second}}"
+    slug:  "{{title}}"
     fields:
       - { label: "Contact Number",
           name: "contact", 
