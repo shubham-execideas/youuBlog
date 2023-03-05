@@ -7,7 +7,7 @@ description: The article describes the process of engineering artificial
   approach in developing AI tools for mental health care, as well as the
   potential for these tools to improve access to care, reduce stigma, and
   enhance treatment outcomes.
-date: 2023-02-28T12:07:20+05:30
+date: 2023-06-01T12:07:20+05:30
 tags:
   - Post
   - Featured
