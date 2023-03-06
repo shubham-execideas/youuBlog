@@ -2,6 +2,7 @@
 slideButtonText: Overview
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
+postTitle: Preparing you for a new care model
 tags:
   - slider
 sliderPointer:
@@ -15,18 +16,13 @@ sliderDescription: "Our hyper-connected health cloud allows you to quickly build
   workflows you need to save you up to 30% more time.  And, that’s the
   productivity you can bet on. Here’s why more and more healthcare innovators
   want in:"
+postDescription: Where are we headed with our health systems of tomorrow?
 date: 2023-02-08T19:04:44+05:30
 videoURL: /assets/animation-opener.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: test slider
 title: test slider
 ---
-
-
-Where are we headed with our health systems of tomorrow?
-
-**Preparing you for a new care model**
-
 ## **Build your healthy community in one easy-to-use platform.**
 
 Our hyper-connected health cloud allows you to quickly build digital healthcare communities across any care continuum for the life of your client, student, member or patient. Wrap your existing systems with important revenue-driving and outcome-producing workflows.  You’ll have everything you need to prepare yourself for a new value-based care model. 
