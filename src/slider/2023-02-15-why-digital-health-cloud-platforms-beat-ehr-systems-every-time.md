@@ -17,6 +17,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
 postDescription: "Why building a healthy community matters to best-in-class providers   "
 date: 2023-02-08T19:04:44+05:30
 videoURL: https://www.youtube.com/embed/o1lz1OhqdSg
+postVideoURL: /assets/youu-habits_final.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: test slider
 title: test slider
