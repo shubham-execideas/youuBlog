@@ -65,12 +65,16 @@ collections:
     slug:  "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Post Title", name: "postTitle", widget: "string" }
       - { label: "Label", name: "label", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["feature"] }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Post Description", name: "postDescription", widget: "string" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false }
+      - { label: "Post Image", name: "postImage", widget: "image", required: false  }
       - { label: "White paper", name: "whitePaper", widget: "file" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "slider"
@@ -82,11 +86,15 @@ collections:
       - { label: "Button Text", name: "slideButtonText", widget: "string" }
       - { label: "Short Title", name: "slideShortTitle", widget: "string" }
       - { label: "Slide Title", name: "slideTitle", widget: "string" }
+      - { label: "Post Title", name: "postTitle", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["slider"] }
       - { label: "Pointer", name: "sliderPointer", widget: "list" }
       - { label: "Description", name: "sliderDescription", widget: "text"}
+      - { label: "Post Description", name: "postDescription", widget: "string" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
       - { label: "Video", name: "videoURL", widget: "file" }
+      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false }
+      - { label: "Post Image", name: "postImage", widget: "image",required: false  }
       - { label: "White paper", name: "sliderWhitePaper", widget: "file" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
