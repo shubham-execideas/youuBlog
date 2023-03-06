@@ -21,7 +21,7 @@ layout: 'base.njk'
       </div>
       {% include 'social-media.njk' %}
     </div>
-    <h1 class="article-title text-2xl font-bold mb-3">
+    <h1 class="article-title text-[2rem] font-bold mb-3">
       {{ title }}
     </h1>
     <p class="mb-8 text-lg">{{ description }}</p>
@@ -48,10 +48,10 @@ layout: 'base.njk'
             <h1 class="font-semibold text-2xl ml-5">Other Blogs</h1>
             {%- for post in collections.post | reverse -%}
               {%- if loop.index <= 4 %}
-                <a href="{{ post.url }}" class="m-5 flex items-center p-3 rounded-lg bg-white">
-                  <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 100px; width:100px;" class="object-cover rounded-lg">
+                <a href="{{ post.url }}" class="m-5 flex p-3 rounded-lg bg-white">
+                  <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 90px; width:90px; margin-top: 10px;" class="object-cover rounded-lg">
                     <div class=" ml-3">
-                      <p class="text-[1.2rem] font-semibold blog-title-cut">{{ post.data.title }}</p>
+                      <p class="text-lg font-semibold blog-title-cut">{{ post.data.title }}</p>
                       <div class="flex my-2 flex-wrap whitespace-nowrap ">
                         {% for tag in  post.data.postTags %}
                           <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">

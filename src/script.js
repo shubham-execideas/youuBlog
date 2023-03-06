@@ -144,7 +144,7 @@ function _class(name) {
   return document.getElementsByClassName(name);
 }
 
-let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
+let tabPanes = _class("tab-header")[0].getElementsByTagName("a");
 
 
 
@@ -153,9 +153,9 @@ _class("tab-content")[0]
   .getElementsByTagName("div")[0]
   .classList.add("relative");
 _class("tab-content")[0].getElementsByTagName("div")[0].classList.add("active");
-_class("tab-header")[0].getElementsByTagName("div")[0].classList.add("active");
+_class("tab-header")[0].getElementsByTagName("a")[0].classList.add("active");
 _class("tab-header")[0]
-  .getElementsByTagName("div")[0]
+  .getElementsByTagName("a")[0]
   .classList.add("font-bold");
 
 
@@ -173,22 +173,22 @@ for (let i = 0; i < tabPanes.length; i++) {
 
     _class("tab-indicator")[0].style.top = `calc(10px + ${i * 56}px)`;
     
-    _class("tab-content")[0]
-      .getElementsByClassName("active")[0]
-      .classList.remove("active");
+    // _class("tab-content")[0]
+    //   .getElementsByClassName("active")[0]
+    //   .classList.remove("active");
 
-    _class("tab-content")[0]
-      .getElementsByClassName("relative")[0]
-      .classList.remove("relative");
-    // _class("tab-content")[0];
+    // _class("tab-content")[0]
+    //   .getElementsByClassName("relative")[0]
+    //   .classList.remove("relative");
+    // // _class("tab-content")[0];
 
-    _class("tab-content")[0]
-      .getElementsByTagName("div")
-      [i].classList.add("active");
+    // _class("tab-content")[0]
+    //   .getElementsByTagName("div")
+    //   [i].classList.add("active");
 
-    _class("tab-content")[0]
-      .getElementsByTagName("div")
-      [i].classList.add("relative");
+    // _class("tab-content")[0]
+    //   .getElementsByTagName("div")
+    //   [i].classList.add("relative");
   });
 }
 

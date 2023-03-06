@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.tabs .tab-header > div.active {
+.tabs .tab-header > a.active {
   color: white !important;
   background-color: #6c54a0 !important;
 }
@@ -30,7 +30,7 @@
   background: #6c54a0 !important;
   left: 19.7%;
   top: 10px;
-  transition: all 500ms ease-in-out !important;
+  transition: all 200ms ease-in-out !important;
   border-radius: 30px !important;
 }
 
@@ -69,6 +69,11 @@
   margin: 30px 0 0 0;
   /* you can remove the bottom line if you are not liking the blog layout. */
   /* flex: 1 1 auto; */
+}
+
+.blog-body ul {
+  list-style-type: disc;
+  padding-left: 50px;
 }
 
 /* .feature-description {
@@ -148,7 +153,7 @@ select option {
     display: -moz-box;
     display: -ms-box;
     overflow: hidden;
-    -webkit-line-clamp: 10;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
   }
 }
