@@ -15,6 +15,7 @@ postDescription: Why building a healthy community matters to best-in-class provi
 date: 2023-02-13T00:00:00+05:30
 image: /assets/patientssvg.svg
 imageAlt: patients
+postVideoURL: /assets/animation-opener.mp4
 whitePaper: /assets/dummy-1-.pdf
 ---
 
