@@ -18,7 +18,7 @@ postDescription: "With the YOUUniverse you’ll be empowered to access the most
   disruptive technologies that are going to drive the future of your behavioral
   health delivery including: "
 date: 2023-02-08T19:04:44+05:30
-videoURL: https://www.youtube.com/embed/o1lz1OhqdSg
+videoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
 postImage: /assets/youuniverse-health-cloud-continumm-pyramid-500x500-jpg-1-.jpg
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: test slider
