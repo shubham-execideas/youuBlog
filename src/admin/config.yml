@@ -62,7 +62,7 @@ collections:
     label: "Feature"
     folder: "src/features"
     create: true
-    slug:  "{{title}}"
+    slug:  "{{postTitle}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Post Title", name: "postTitle", widget: "string" }
@@ -81,7 +81,7 @@ collections:
     label: "Slider"
     folder: "src/slider"
     create: true
-    slug:  "{{title}}"
+    slug:  "{{postTitle}}"
     fields:
       - { label: "Button Text", name: "slideButtonText", widget: "string" }
       - { label: "Short Title", name: "slideShortTitle", widget: "string" }
