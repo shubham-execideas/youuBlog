@@ -111,10 +111,11 @@ collections:
     label: "Team"
     folder: "src/team"
     create: true
-    slug:  "{{title}}"
+    slug:  "{{name}}"
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Designation", name: "designation", widget: "string" }
+      - { label: "Image", name: "image", widget: "image"  }
       - { label: "LinkedIn URL", name: "linkedIn", widget: "string", required: false }
       - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
       - { label: "Twitter URL", name: "twitter", widget: "string", required: false }
