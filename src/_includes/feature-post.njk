@@ -41,8 +41,8 @@ layout: 'base.njk'
                     </div>
                 {%- endif -%}
                 {%- if postImage.length %}
-                    <div class="bg-white rounded-xl p-6">
-                        <img src="{{postImage}}" alt="whitepaper" class="w-full"/>
+                    <div class="bg-white rounded-xl p-6 h-[500px]">
+                        <img src="{{postImage}}" alt="whitepaper" class="w-full object-contain"/>
                         </div>
                     {%- endif -%}
                 <div class="blog-body text-lg">
