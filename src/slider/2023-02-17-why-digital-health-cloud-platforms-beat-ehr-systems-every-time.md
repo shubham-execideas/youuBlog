@@ -1,8 +1,8 @@
 ---
-slideButtonText: College/Universities
+slideButtonText: Consumers
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
-postTitle: "Shaping Campus, Careers and Lifestyle Communities "
+postTitle: "Building your consumer-connected community "
 tags:
   - slider
 sliderPointer:
@@ -14,12 +14,12 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   patient. Keep your existing systems, or your EHR (or, use ours – it’s really
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
-postDescription: Helping Students Build Healthy & Productive Lives
+postDescription: Designing a winning formula with consumers
 date: 2023-02-08T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
-sliderWhitePaper: /assets/dummy-1-.pdf
-label: test slider
-title: test slider
+sliderWhitePaper: /assets/dummy-3-.pdf
+label: Building your consumer-connected community
+title: Building your consumer-connected community
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
@@ -681,14 +681,12 @@ title: test slider
 
 <!--StartFragment-->
 
-The college campus institution is a complex and often overwhelming environment for students. With so many demands on their time, it can be difficult for them to maintain healthy and productive lifestyles. YOUU, a component of our YOUUniversity solution series is designed to help students build the skills they need to stay healthy and successful in college. And make it fun in doing so.
+At YOUU Health we believe the pursuit of healthy and productive lifestyles most influences a productive society. Our YOUUniverse Health Cloud delivers all the tools you need to build, support and seamlessly integrate consumers with physical care, or lifestyle productivity strategies consumers will appreciate.
 
-YOUU integrates daily campus life with pathways that promote student wellness while also providing predictive signaling when additional help is needed.
+We find the key components of consumer success often depends on social support, hope and motivation for positive change, knowledge of life options, life skills development and self-efficacy. Social support helps individuals with encouragement from family members or peers. Our health cloud focuses on delivering robust functionality to surround these goals with easy-to-build and configure community-building technology.
 
-YOUUniversity integrates Student Affairs and Academic Affairs so colleges can provide better support systems for their students. Students use our YOUU app where they manage their daily tasks and are encouraged to interact between private lifestyle groups, public groups as well as community organizations. If assistance is needed along the way, YOUU helps removes any friction from the process of getting assistance or advice when it is needed the most. Colleges will better understand each student’s individual needs like never before, and also help them build healthier habits through behavior design techniques specifically tailored towards better outcomes in school life overall..
+You find yourself free to rethink and deliver these core components to your community. You can wrap your current electronic healthcare recording-keeping systems with applications that gather, interpret and feed valuable continuing care data directly from consumers. Use augmented intelligence applications to summarize and access data with our digital assistants without the need to over-burden your staff to manually query traditional systems. You could realize a savings of up to 50% of care delivery costs. Just ask your app any question and you get what you want — in the form and fashion that is the most insightful and convenient for you and your consumers.
 
-YOUU’s predictive signaling capabilities combined with integrated Student-Academic Affairs care assistance approaches ensure universities are in control to approach any student issue.  Your student will have access to the right kind of guidance required - making sure everyone has equal opportunities regardless of background, care need or personal circumstances.
-
-YOUU creates more engaging campus environments where all members have access to resources necessary for success both academically and personally – something every institution strives to achieve.
+Ask us how The YOUUniverse can help you build your next generation of interconnected, hyper-personalized community of consumers.
 
 <!--EndFragment-->

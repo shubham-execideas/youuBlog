@@ -1,8 +1,8 @@
 ---
-slideButtonText: Med Tech
+slideButtonText: Patients
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
-postTitle: Get connected with your connected device
+postTitle: "Digital health changes everything "
 tags:
   - slider
 sliderPointer:
@@ -14,13 +14,13 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   patient. Keep your existing systems, or your EHR (or, use ours – it’s really
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
-postDescription: Edge devices scale healthy communities and build innovative practices
+postDescription: "Why building a healthy community matters to best-in-class providers   "
 date: 2023-02-08T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
-postImage: /assets/phone2.png
+postVideoURL: /assets/youu-habits_final.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
-label: test slider
-title: test slider
+label: Digital health changes everything
+title: Digital health changes everything
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
@@ -682,18 +682,14 @@ title: test slider
 
 <!--StartFragment-->
 
-The YOUUniverse allows you to easily build healthy communities and connect them with edge devices. If you are a Medtech supplier, or a provider who uses a remote device, you can build a network and scale it to any size in the YOUUniverse. Scale means better population health and healthy practices for providers.  
+YOUUniverse is purpose-built to create interaction between the patient, their healthcare provider and their community. It relies on the four fundamentals that make communities successful; membership, influence, integration and fulfillment of needs through shared connections. 
 
-The use cases are limitless. When paired with our intelligent machine learning and analytics, you’ll enhance your device, and its data, with powerful workflows that can measure predict and prescribe healthy solutions. Not only will your device be far more capable, it will be more insightful when combined with large data sets within the YOUUniverse.
+Our Health Cloud makes it easy to build a community – any kind of community and communicate inside it. It has all the requisite tools, like social feeds, texting, video collaboration, etc. But, most important is its ability to sense, through interactive patient signaling, other important big data like; emotional affect, attitudes, patient trending, patient outcome scoring and dynamic push polling to understand the patient like never before. And with our AI-assistant it can interact the both the patient and the provider via our language model, ask and answer patient inquiries and provide important self-improvement suggestions without the direct involvement of the provider. It also encourages participation through gamification and notifications helping to keep the community engaged. 
 
-Edge automation can save you 75% more time when assessing your population thus freeing yourself from the mundane data gathering and documentation. And, because patients are providing important data you won’t be burdened with managing costs but instead be rewarded with a large care practice and extended client rosters you never imagined possible.
+There a variety of reasons why the YOUUniverse can significantly improve your patient interaction. When your patients are engaged, they feel they have a relationship with you. This builds trust and understanding – one of the key components in healthy communities. Digital health ensures your patients receive personalized care that is tailored specifically to their needs and lifestyle.
 
-Remote monitoring is one of the most important use cases for edge devices in the behavioral health field. By using sensors connected to mobile or wearable technology such as breathalyzers, kiosks, smartphones or smartwatches, you can manage complex patient data including physiological and psychological signals from afar. 
+Then there’s data. The exchange of data is an important lever of positive outcomes. As more data is dynamically collected, its insights into how your patients interact with their care treatment will improve health. Data-driven decisions drive better outcomes and cost savings.
 
-The YOUUniverse is fully compatible with any use case and handles multi-level acuities including support from clinical, non-clinical, personal growth or lifestyle communities.
-
-Improved communication between providers and patients is a major benefit offered by edge device usage within the context of delivering quality care through telehealth platforms allowing clinicians access into remote locations where it isn’t practical or possible due physical distancing.
-
-The YOUUniverse is an always-on edge supported technology infrastructure offering numerous advantages for delivering high quality care across multiple domains including but not limited to remote patient monitoring capabilities and improved communications among stakeholders.
+Ask the YOUUniverse for more on predictive analytics to help you make faster diagnoses, anticipate potential complications, and spot potential health issues before they occur. The YOUUniverse will free you from the mundane and give you more time for prevention instead of reacting after something has already happened—a major benefit for a digital health community.
 
 <!--EndFragment-->
