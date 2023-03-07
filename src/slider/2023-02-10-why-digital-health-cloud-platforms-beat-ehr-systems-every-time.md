@@ -16,7 +16,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   workflows. That’ll save you time and money. Ask us how
 postDescription: Where are we headed with our health systems of tomorrow?
 date: 2023-02-08T19:04:44+05:30
-videoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
+videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postVideoURL: /assets/youuniverse-health-cloud-1-.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: test slider
