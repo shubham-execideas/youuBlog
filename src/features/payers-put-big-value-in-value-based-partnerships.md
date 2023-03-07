@@ -18,7 +18,7 @@ postDescription: A tectonic shift to value-based care is coming.  Most EHR
 date: 2023-02-11T00:00:00+05:30
 image: /assets/payer.svg
 imageAlt: payer
-postVideoURL: /assets/youu-habits_final.mp4
+postVideoURL: https://drdevattach.blob.core.windows.net/public/YOUUMakesValueBasedPaymentEasy.mp4
 whitePaper: /assets/dummy-1-.pdf
 ---
 
