@@ -17,7 +17,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
 postDescription: "Why building a healthy community matters to best-in-class providers   "
 date: 2023-02-08T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
-postVideoURL: /assets/youu-habits_final.mp4
+postVideoURL: https://drdevattach.blob.core.windows.net/public/YouuHabitsFinal.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: Digital health changes everything
 title: Digital health changes everything
