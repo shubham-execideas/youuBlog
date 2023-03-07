@@ -17,7 +17,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
 postDescription: "A tectonic shift to value-based care is coming.  Most EHR
   technology isn’t equipped to help. "
 date: 2023-02-08T19:04:44+05:30
-videoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
+videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YOUUMakesValueBasedPaymentEasy.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: Why the YOUUniverse changes the Payer and Provider conversation
