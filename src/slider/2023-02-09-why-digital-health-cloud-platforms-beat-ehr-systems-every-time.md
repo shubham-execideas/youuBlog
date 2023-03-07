@@ -17,7 +17,7 @@ sliderDescription: "Our hyper-connected health cloud allows you to quickly build
   productivity you can bet on. Here’s why more and more healthcare innovators
   want in:"
 postDescription: Where are we headed with our health systems of tomorrow?
-date: 2023-02-08T19:04:44+05:30
+date: 2022-11-01T19:04:44+05:30
 videoURL: /assets/animation-open.mp4
 postVideoURL: /assets/youuniverse-health-cloud-1-.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
