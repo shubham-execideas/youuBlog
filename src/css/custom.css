@@ -201,10 +201,15 @@ select option {
 
 .social-media .social-media-header div:hover{
   background-color: #6C54A0;
+  transition: all 300ms ease-out !important;
+
 }
 
 .social-media .social-media-header div:hover .social-media-icons{
   color: white;
+  transition: all 300ms ease-out !important;
+
+
 }
 
 .social-media-icon-card{
@@ -213,10 +218,16 @@ select option {
 }
 
 .social-media-icon-card::after{
+  content: '';
   position: absolute;
   width: 2px;
   height: 25px;
-  top:25px;
+  top:21px;
   background-color: #E7E4F0;
-  right: 0;
+  right: -2px;
+}
+
+.social-media .social-media-header div:hover .social-media-icon-card::after{
+  content: '';
+  background-color: #6C54A0;
 }
