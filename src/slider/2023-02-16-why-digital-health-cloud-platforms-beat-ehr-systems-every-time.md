@@ -18,7 +18,7 @@ postDescription: Monitoring of public populations is an important public benefit
   and critical to the development of policy initiatives. The YOUUniverse is
   designed to be a hyper-personalized, interconnected public community serving
 date: 2023-02-08T19:04:44+05:30
-videoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
+videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: PUBLIC SECTOR
 title: PUBLIC SECTOR
