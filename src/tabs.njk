@@ -1,8 +1,8 @@
 {# Tabs section starts here #}
 <div class="px-16 py-5 h-auto mb-10 hidden lg:inline-block">
-  <div class="tabs flex h-auto relative">
-    <div class="w-1/5">
-      <div class="tab-header pr-2 h-fit  border-r-4 ml-1.2">
+  <div class="tabs grid grid-cols-5 h-auto relative">
+    <div class="relative">
+      <div class="tab-header relative pr-2 h-fit  border-r-4 ml-1.2">
         {%- for slider in collections.slider -%}
           {% include 'sliderTitle.njk' %}
         {%- endfor -%}
@@ -13,7 +13,7 @@
     </div>
     <div class="tab-indicator"></div>
     <!-- col-span-2 relative h-full overflow-hidden -->
-    <div class="tab-content h-auto w-4/5">
+    <div class="tab-content col-span-4 h-auto">
       {%- for slider in collections.slider -%}
         {% include 'slider.njk' %}
       {%- endfor -%}
