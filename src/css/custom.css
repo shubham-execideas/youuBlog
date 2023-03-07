@@ -183,3 +183,40 @@ select option {
 .menu-items li{
   cursor: pointer;
 }
+
+
+.social-media .social-media-content > div{
+  left: -300%;
+  transition: all 500ms ease-out !important;
+}
+
+.social-media .social-media-content > div.active {
+  left: 0px !important;
+}
+
+.social-media-icons{
+  color: #9EA1AD;
+  font-size: 25px; 
+}
+
+.social-media .social-media-header div:hover{
+  background-color: #6C54A0;
+}
+
+.social-media .social-media-header div:hover .social-media-icons{
+  color: white;
+}
+
+.social-media-icon-card{
+  padding: 20px 31.2px;
+  position: relative;
+}
+
+.social-media-icon-card::after{
+  position: absolute;
+  width: 2px;
+  height: 25px;
+  top:25px;
+  background-color: #E7E4F0;
+  right: 0;
+}

@@ -236,3 +236,39 @@ function MyClick(e) {
       list.classList.remove("top-25"),
       list.classList.add("w-full"));
 }
+
+
+let socialMediaPanes = _class("social-media-header")[0].getElementsByTagName("div");
+
+//to make first slide active dynamically
+_class("social-media-content")[0]
+  .getElementsByTagName("div")[0]
+  .classList.add("relative");
+_class("social-media-content")[0].getElementsByTagName("div")[0].classList.add("active");
+_class("social-media-header")[0].getElementsByTagName("div")[0].classList.add("active");
+
+for (let i = 0; i < socialMediaPanes.length; i++) {
+  socialMediaPanes[i].addEventListener("click", function () {
+    _class("social-media-header")[0]
+      .getElementsByClassName("active")[0]
+      .classList.remove("active");
+    socialMediaPanes[i].classList.add("active");
+
+    _class("social-media-content")[0]
+      .getElementsByClassName("active")[0]
+      .classList.remove("active");
+
+    _class("social-media-content")[0]
+      .getElementsByClassName("relative")[0]
+      .classList.remove("relative");
+    // _class("tab-content")[0];
+
+    _class("social-media-content")[0]
+      .getElementsByTagName("div")
+      [i].classList.add("active");
+
+    _class("social-media-content")[0]
+      .getElementsByTagName("div")
+      [i].classList.add("relative");
+  });
+}
