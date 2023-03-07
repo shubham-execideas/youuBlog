@@ -21,8 +21,8 @@ date: 2022-11-01T19:04:44+05:30
 videoURL: /assets/animation-open.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/Youuniverse%20Health%20Cloud.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
-label: test slider
-title: test slider
+label: Preparing you for a new care model
+title: Preparing you for a new care model
 ---
 ## **Build your healthy community in one easy-to-use platform.**
 
