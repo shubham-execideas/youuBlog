@@ -190,6 +190,15 @@ select option {
   transition: all 500ms ease-out !important;
 }
 
+.social-media .social-media-header > div.active{
+  background-color: #6C54A0;
+}
+
+.social-media .social-media-header > div.active .social-media-icons{
+  color: white;
+}
+
+
 .social-media .social-media-content > div.active {
   left: 0px !important;
 }
@@ -213,7 +222,7 @@ select option {
 }
 
 .social-media-icon-card{
-  padding: 20px 31.2px;
+  padding: 20px 22.3px;
   position: relative;
 }
 
