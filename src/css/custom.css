@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 .tabs .tab-header > a.active {
@@ -10,6 +11,15 @@
 .tabs .tab-content > div {
   top: -300% !important;
   transition: all 500ms ease-out !important;
+}
+
+.tab-content{
+  /* font-family: 'Open Sans',Arial,sans-serif !important; */
+}
+
+.tab-content .text-lg{
+  font-weight: 300 !important;
+  font-size: 20px !important;
 }
 
 .top-animation {
