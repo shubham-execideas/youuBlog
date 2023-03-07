@@ -17,7 +17,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
 postDescription: Edge devices scale healthy communities and build innovative practices
 date: 2023-02-08T19:04:44+05:30
 videoURL: https://www.youtube.com/embed/o1lz1OhqdSg
-postImage: /assets/image-11-.png
+postImage: /assets/phone2.png
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: test slider
 title: test slider
