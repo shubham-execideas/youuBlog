@@ -18,6 +18,7 @@ postDescription: "A tectonic shift to value-based care is coming.  Most EHR
   technology isn’t equipped to help. "
 date: 2023-02-08T19:04:44+05:30
 videoURL: https://www.youtube.com/embed/o1lz1OhqdSg
+postVideoURL: /assets/youu-makes-value-based-payment-easy-1-.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: test slider
 title: test slider
