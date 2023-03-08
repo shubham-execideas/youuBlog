@@ -15,7 +15,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
 postDescription: Edge devices scale healthy communities and build innovative practices
-date: 2023-02-08T19:04:44+05:30
+date: 2023-02-11T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postImage: /assets/phone2.png
 sliderWhitePaper: /assets/dummy-3-.pdf
