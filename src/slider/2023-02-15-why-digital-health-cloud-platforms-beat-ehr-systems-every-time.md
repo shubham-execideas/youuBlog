@@ -16,7 +16,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   workflows. That’ll save you time and money. Ask us how
 postDescription: "A tectonic shift to value-based care is coming.  Most EHR
   technology isn’t equipped to help. "
-date: 2023-02-08T19:04:44+05:30
+date: 2023-02-14T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YOUUMakesValueBasedPaymentEasy.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
