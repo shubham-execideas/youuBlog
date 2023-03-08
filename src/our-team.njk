@@ -11,7 +11,7 @@ layout: 'base.njk'
         {% for team in collections.team %}
           
         <div class="team-card flex  flex-col overflow-hidden text-left lg:text-center relative bg-white rounded-2xl m-5 p-5 lg:w-2/5">
-            <img src="{{ team.data.image }}" alt="" class="rounded-2xl order-1 h-[400px] w-[600px]">
+            <img src="{{ team.data.image }}" alt="" class="rounded-2xl order-1 h-[300px] lg:h-[400px] w-[600px]">
             <p class="team-member-name text-3xl mt-4 font-bold whitespace-nowrap order-2">{{ team.data.name }}</p>
             <p class="team-member-designation text-2xl mt-1 font-medium whitespace-nowrap order-3">{{ team.data.designation }}</p>
             <div class="flex justify-center mt-5 order-5 lg:order-4">

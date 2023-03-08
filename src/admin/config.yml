@@ -112,10 +112,12 @@ collections:
     folder: "src/team"
     create: true
     slug:  "{{name}}"
+    sortable_fields: ['date']
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Designation", name: "designation", widget: "string" }
       - { label: "Image", name: "image", widget: "image"  }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
       - { label: "LinkedIn URL", name: "linkedIn", widget: "string", required: false }
       - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
       - { label: "Twitter URL", name: "twitter", widget: "string", required: false }
