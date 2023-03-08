@@ -82,6 +82,7 @@ collections:
     folder: "src/slider"
     create: true
     slug:  "{{postTitle}}"
+    sortable_fields: ['date']
     fields:
       - { label: "Button Text", name: "slideButtonText", widget: "string" }
       - { label: "Short Title", name: "slideShortTitle", widget: "string" }
@@ -91,7 +92,7 @@ collections:
       - { label: "Pointer", name: "sliderPointer", widget: "list" }
       - { label: "Description", name: "sliderDescription", widget: "text"}
       - { label: "Post Description", name: "postDescription", widget: "string" }
-      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
       - { label: "Video", name: "videoURL", widget: "file" }
       - { label: "Post Video", name: "postVideoURL", widget: "file", required: false }
       - { label: "Post Image", name: "postImage", widget: "image",required: false  }
