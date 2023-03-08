@@ -2,7 +2,7 @@
 name: James H. Blanchard
 designation: "- Co-Founder"
 image: /assets/john.svg
-date: 2023-03-09T00:00:00+05:30
+date: 2023-03-17T00:00:00+05:30
 description: >-
   James brings a proven history and award-winning leadership in software
   innovation and market disruption via emerging software and technology.
