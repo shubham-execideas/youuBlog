@@ -15,7 +15,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
 postDescription: "Why building a healthy community matters to best-in-class providers   "
-date: 2023-02-08T19:04:44+05:30
+date: 2023-02-12T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YouuHabitsFinal.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
