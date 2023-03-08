@@ -3,7 +3,7 @@ title: slider
 layout: 'base.njk'
 ---
 
-<div class="px-16 py-5 main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50 h-auto mb-10 hidden lg:inline-block">
+<div class="px-16 py-5 main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50 h-auto mb-10">
   <div class="tabs grid grid-cols-5 h-auto relative">
     <div class="relative">
       <div class="tab-header relative pr-2 h-fit  border-r-4 ml-1.2">
@@ -20,11 +20,13 @@ layout: 'base.njk'
     <div class="tab-content col-span-4 h-auto">
       <article class="">
     <div class="flow md:px-8 px-8">
-        <div class="md:block lg:flex mt-10 justify-between items-center">
-            <div>
-                <div class="flex">
-                    <p>Published Date:</p>
-                    <p>{{ date | postDate }}</p>
+        <div class="flex flex-col-reverse lg:flex-row mt-10 justify-between  lg:items-center">
+            <div style="width: 60%">
+                <div class="">
+                    <h1 class="article-title text-[2rem] font-bold mb-1">
+            {{ postTitle }}
+        </h1>
+        <p class="mb-8 text-base italic">{{ postDescription }}</p>
                 </div>
                 {# <div class="flex  my-3 whitespace-nowrap">
                                                 {% for tag in postTags %}
@@ -36,10 +38,7 @@ layout: 'base.njk'
             </div>
             {% include 'social-media.njk' %}
         </div>
-        <h1 class="article-title text-[2rem] font-bold mb-1">
-            {{ postTitle }}
-        </h1>
-        <p class="mb-8 text-base italic">{{ postDescription }}</p>
+        
         <div class="lg:flex">
             <div
                 class="sm:w-full md:w-full lg:w-4/6">

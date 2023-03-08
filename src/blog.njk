@@ -35,7 +35,7 @@ layout: 'base.njk'
     <div class="flex flex-wrap">
       {%- for post in collections.post | reverse -%}
         {%- if loop.index != 1 %}
-          <div class="m-5 p-3 lg:p-5 border-2  shadow-sm inline-flex items-start flex-col w-full lg:w-[47%] rounded-lg bg-white">
+          <div class="m-5 p-3 lg:p-5 border-2  shadow-sm inline-flex items-start flex-col w-full lg:w-[45%] rounded-lg bg-white">
             <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 400px; width:790px;" class="object-cover rounded-lg">
               <p class="text-xs mt-5">Published Date: {{ post.data.date | postDate }}</p>
               {# <div class=" ml-3"> #}
