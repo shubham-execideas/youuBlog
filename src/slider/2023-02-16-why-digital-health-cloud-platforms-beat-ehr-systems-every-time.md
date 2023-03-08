@@ -17,7 +17,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
 postDescription: Monitoring of public populations is an important public benefit
   and critical to the development of policy initiatives. The YOUUniverse is
   designed to be a hyper-personalized, interconnected public community serving
-date: 2023-02-08T19:04:44+05:30
+date: 2023-02-15T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: PUBLIC SECTOR
