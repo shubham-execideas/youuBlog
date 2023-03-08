@@ -21,8 +21,8 @@ date: 2023-02-10T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postImage: /assets/youuniverse-health-cloud-continumm-pyramid-500x500-jpg-1-.jpg
 sliderWhitePaper: /assets/dummy-3-.pdf
-label: test slider
-title: test slider
+label: Why you’ll want in. And why
+title: Why you’ll want in. And why
 ---
 * Increased access. Build your purpose-driven community for outcomes and scale;
 * Collect real-time data-driven insights into patient behavior 24-hours per day;

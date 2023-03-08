@@ -19,8 +19,8 @@ date: 2023-02-09T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
-label: test slider
-title: test slider
+label: Preparing you for a new care model
+title: Preparing you for a new care model
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
