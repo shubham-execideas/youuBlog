@@ -2,7 +2,7 @@
 slideButtonText: Public Sector
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
-postTitle: PUBLIC SECTOR
+postTitle: Think globally. Act locally.
 tags:
   - slider
 sliderPointer:
@@ -14,15 +14,15 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   patient. Keep your existing systems, or your EHR (or, use ours – it’s really
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
-postDescription: Monitoring of public populations is an important public benefit
-  and critical to the development of policy initiatives. The YOUUniverse is
-  designed to be a hyper-personalized, interconnected public community serving
+postDescription: " How digital engagement drives healthy communities"
 date: 2023-02-15T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 sliderWhitePaper: /assets/dummy-3-.pdf
 label: PUBLIC SECTOR
 title: PUBLIC SECTOR
 ---
+Monitoring of public populations is an important public benefit and critical to the development of policy initiatives. The YOUUniverse is designed to be a hyper-personalized, interconnected public community serving
+
 * health providers,
 * corrections,
 * courts,
