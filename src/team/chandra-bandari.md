@@ -1,7 +1,7 @@
 ---
 name: Chandra Bandari
 designation: "- Chief Information Officer"
-image: /assets/chandra_bandari.svg
+image: /assets/chandra.svg
 date: 2023-03-11T00:00:00+05:30
 description: Chandra has been an IT executive and thought leader for more than
   15 years. She has extensive experience developing enterprise IT strategy and
