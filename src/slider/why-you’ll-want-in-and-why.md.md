@@ -14,9 +14,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   patient. Keep your existing systems, or your EHR (or, use ours – it’s really
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
-postDescription: "With the YOUUniverse you’ll be empowered to access the most
-  disruptive technologies that are going to drive the future of your behavioral
-  health delivery including: "
+postDescription: Finally, everything you need in one place.
 date: 2023-02-10T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postImage: /assets/youuniverse-health-cloud-continumm-pyramid-500x500-jpg-1-.jpg
@@ -24,6 +22,8 @@ sliderWhitePaper: /assets/dummy-3-.pdf
 label: Why you’ll want in. And why
 title: Why you’ll want in. And why
 ---
+With the YOUUniverse you’ll be empowered to access the most disruptive technologies that are going to drive the future of your behavioral health delivery including: 
+
 * Increased access. Build your purpose-driven community for outcomes and scale;
 * Collect real-time data-driven insights into patient behavior 24-hours per day;
 * Augment your diagnostic and treatment perspectives with proven AI models that have been specially built for behavioral health and are almost indistinguishable from humans;
