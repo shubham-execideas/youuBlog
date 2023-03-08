@@ -3,8 +3,23 @@ title: slider
 layout: 'base.njk'
 ---
 
-<article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
-    <div class="flow md:px-8 px-8 lg:px-20">
+<div class="px-16 py-5 main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50 h-auto mb-10 hidden lg:inline-block">
+  <div class="tabs grid grid-cols-5 h-auto relative">
+    <div class="relative">
+      <div class="tab-header relative pr-2 h-fit  border-r-4 ml-1.2">
+        {%- for slider in collections.slider -%}
+          {% include 'sliderTitle.njk' %}
+        {%- endfor -%}
+      </div>
+      {%- for contact in collections.contact -%}
+        {% include 'contact.njk' %}
+      {%- endfor -%}
+    </div>
+    <div class="tab-indicator"></div>
+    <!-- col-span-2 relative h-full overflow-hidden -->
+    <div class="tab-content col-span-4 h-auto">
+      <article class="">
+    <div class="flow md:px-8 px-8">
         <div class="md:block lg:flex mt-10 justify-between items-center">
             <div>
                 <div class="flex">
@@ -21,10 +36,10 @@ layout: 'base.njk'
             </div>
             {% include 'social-media.njk' %}
         </div>
-        <h1 class="article-title text-[2rem] font-bold mb-3">
+        <h1 class="article-title text-[2rem] font-bold mb-1">
             {{ postTitle }}
         </h1>
-        <p class="mb-8 text-lg">{{ postDescription }}</p>
+        <p class="mb-8 text-base italic">{{ postDescription }}</p>
         <div class="lg:flex">
             <div
                 class="sm:w-full md:w-full lg:w-4/6">
@@ -67,7 +82,12 @@ layout: 'base.njk'
                     </div>
                 </div>
             </div>
-            <section class="w-full mt-10 px-4 lg:px-20 relative">
+           
+        </article>
+    </div>
+  </div>
+</div>
+ <section class="w-full mt-10 px-4 lg:px-20 relative">
                 <div class="flex justify-between items-center flex-wrap mb-8">
                     <div>
                         <h3 class="text-4xl font-bold mb-3">Blogs</h3>
@@ -92,7 +112,8 @@ layout: 'base.njk'
                     </div>
                 </div>
             </section>
-        </article>
+
+
         <script type="module">
             import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
             var swiper = new Swiper(".blog-Swiper", {
@@ -132,4 +153,51 @@ layout: 'base.njk'
                     }
                 }
             });
+            function _class(name) {
+  return document.getElementsByClassName(name);
+}
+
+let tabPanes = _class("tab-header")[0].getElementsByTagName("a");
+            _class("tab-content")[0]
+  .getElementsByTagName("div")[0]
+  .classList.add("relative");
+_class("tab-content")[0].getElementsByTagName("div")[0].classList.add("active");
+_class("tab-header")[0].getElementsByTagName("a")[0].classList.add("active");
+_class("tab-header")[0]
+  .getElementsByTagName("a")[0]
+  .classList.add("font-bold");
+
+
+for (let i = 0; i < tabPanes.length; i++) {
+  tabPanes[i].addEventListener("click", function () {
+    _class("tab-header")[0]
+      .getElementsByClassName("active")[0]
+      .classList.remove("active");
+    tabPanes[i].classList.add("active");
+
+    _class("tab-header")[0]
+      .getElementsByClassName("font-bold")[0]
+      .classList.remove("font-bold");
+    tabPanes[i].classList.add("font-bold");
+
+    _class("tab-indicator")[0].style.top = `calc(10px + ${i * 56}px)`;
+    
+    // _class("tab-content")[0]
+    //   .getElementsByClassName("active")[0]
+    //   .classList.remove("active");
+
+    // _class("tab-content")[0]
+    //   .getElementsByClassName("relative")[0]
+    //   .classList.remove("relative");
+    // // _class("tab-content")[0];
+
+    // _class("tab-content")[0]
+    //   .getElementsByTagName("div")
+    //   [i].classList.add("active");
+
+    // _class("tab-content")[0]
+    //   .getElementsByTagName("div")
+    //   [i].classList.add("relative");
+  });
+}
         </script>
