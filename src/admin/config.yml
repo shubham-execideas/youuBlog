@@ -134,6 +134,21 @@ collections:
       - { label: "Question", name: "question", widget: "string" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
       - { label: "Description", name: "description", widget: "text"}
+
+  - name: "news"
+    label: "News"
+    folder: "src/news"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" , hint: "you can write instruction here"}
+      - { label: "Description", name: "description", widget: "text" , hint: "you can write instruction here"}
+      # - { label: "Author", name: "author", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "you can write instruction here"}
+      - { label: "Featured Image", name: "image", widget: "image" , required: false, hint: "you can write instruction here"}
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "you can only use embed url for videos."}
+      - { label: "Body", name: "body", widget: "markdown", hint: "you can write instruction here"}
    
 
     

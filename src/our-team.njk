@@ -11,7 +11,7 @@ layout: 'base.njk'
         {% for team in collections.team %}
           
         <div class="team-card flex  flex-col overflow-hidden text-left lg:text-center relative bg-white rounded-2xl m-5 p-5 w-fit">
-            <img src="{{ team.data.image }}" alt="" class="rounded-2xl order-1 h-[300px] w-[300px] md:h-[614px] md:w-[633px] lg:h-[400px] lg:w-[410px]">
+            <img src="{{ team.data.image }}" alt="" class="rounded-2xl order-1 h-[300px] w-[300px] md:h-[614px] md:w-[633px] lg:h-[300px] lg:w-[410px]">
             <p class="team-member-name text-3xl mt-4 font-bold whitespace-nowrap order-2">{{ team.data.name }}</p>
             <p class="team-member-designation text-2xl mt-1 font-medium whitespace-nowrap order-3">{{ team.data.designation }}</p>
             <div class="flex justify-center mt-5 order-5 lg:order-4">
@@ -28,7 +28,7 @@ layout: 'base.njk'
             <div class="team-member-description order-4 lg:order-5  lg:bg-gradient-to-r lg:from-bgpurple lg:via-bgpink lg:to-bgyellow block lg:absolute mt-5 w-fit">
                 <p class="team-member-name hidden lg:block lg:text-white text-4xl mt-4 font-bold whitespace-nowrap">{{ team.data.name }}</p>
                 <p class="team-member-designation hidden lg:inline-block  mb-3  lg:text-white text-3xl mt-2 font-semibold whitespace-nowrap">{{ team.data.designation }}</p>
-                <p class="lg:text-white text-2xl">
+                <p class="lg:text-white text-xl">
                 {{ team.data.description }}
             </p>
             </div>
