@@ -7,10 +7,13 @@ layout: 'base.njk'
 <section class="w-full lg:px-16 relative">
   <span class="ml-5 text-2xl font-semibold">Featured</span>
   <div>
-    {%- for post in collections.post | reverse -%}
+    {%- for post in collections.news | reverse -%}
       {%- if loop.index == 1 %}
         <div class="m-5 flex flex-col lg:flex-row p-3 border-2  shadow-sm rounded-lg bg-white mt-2">
-          <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 500px; width:800px;" class="object-cover rounded-lg"/>
+            <div>
+                
+            </div>
+          <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 500px; width:500px;" class="rounded-lg"/>
           <div class=" lg:ml-8 flex flex-col justify-center items-start">
             <p class="text-xl order-3 lg:order-1 font-semibold lg:text-4xl blog-title-cut">{{ post.data.title }}</p>
             <p class="text-xs mt-3 order-1 lg:order-2">Published Date : {{ post.date | postDate }}</p>
@@ -33,7 +36,7 @@ layout: 'base.njk'
       {%- endif -%}
     {%- endfor -%}
     <div class="flex flex-wrap">
-      {%- for post in collections.post | reverse -%}
+      {%- for post in collections.news | reverse -%}
         {%- if loop.index != 1 %}
           <div class="m-5 p-3 lg:p-5 border-2  shadow-sm inline-flex items-start flex-col w-full lg:w-[45%] rounded-lg bg-white">
             <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 400px; width:790px;" class="object-cover rounded-lg">

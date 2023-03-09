@@ -80,8 +80,11 @@
   /* you can remove the bottom line if you are not liking the blog layout. */
   /* flex: 1 1 auto; */
   /* font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif; */
-  font-family: 'Open Sans',Arial,sans-serif;
   font-weight: 300;
+}
+
+.blog-body p strong{
+  font-weight: bolder;
 }
 
 .blog-body li {
