@@ -39,7 +39,7 @@
   background: #6c54a0 !important;
   left: 19.7%;
   top: 10px;
-  transition: all 200ms ease-in-out !important;
+  /* transition: all 500ms ease-in-out !important; */
   border-radius: 30px !important;
 }
 
