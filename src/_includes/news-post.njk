@@ -47,7 +47,7 @@ layout: 'base.njk'
         <div class="h-fit sm:w-full md:w-full lg:w-2/6">
           <div class="hidden sm:hidden md:hidden lg:inline-block">
             <h1 class="font-semibold text-2xl ml-5">Other News</h1>
-            {%- for post in collections.post | reverse -%}
+            {%- for post in collections.news | reverse -%}
               {%- if loop.index <= 4 %}
                 <a href="{{ post.url }}" class="m-5 flex p-3 rounded-lg bg-white">
                   <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 90px; width:90px; margin-top: 10px;" class="object-cover rounded-lg">
@@ -85,7 +85,7 @@ layout: 'base.njk'
               </div>
               <div class="swiper blog-Swiper">
                 <div class="swiper-wrapper w-96 content">
-                  {%- for post in collections.post | reverse -%}
+                  {%- for post in collections.news | reverse -%}
                     {# {% include 'article-snippts.njk' %} #}
                     <div class="swiper-slide card rounded-lg">
                       <div class="card-content w-full flex flex-col items-start">
