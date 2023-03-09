@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif; */
 }
 
 .tabs .tab-header > a.active {
@@ -78,6 +79,9 @@
   margin: 30px 0 0 0;
   /* you can remove the bottom line if you are not liking the blog layout. */
   /* flex: 1 1 auto; */
+  /* font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif; */
+  font-family: 'Open Sans',Arial,sans-serif;
+  font-weight: 300;
 }
 
 .blog-body li {
@@ -262,4 +266,72 @@ select option {
 
   background-color: #6c54a0  !important;
 
+}
+
+
+
+/* body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+} */
+
+.accordion{
+  /* max-width: 800px; */
+}
+
+.accordion .contentBx{
+  position: relative;
+  margin: 10px 20px;  
+}
+
+.accordion .contentBx .label{
+  position : relative;
+  background-color: white;
+  padding: 15px;
+  /* color: white; */
+  cursor: pointer;
+}
+
+/* .accordion .contentBx{
+  /* border: 1px solid rgba(0,0,0,0.1) 
+
+} */
+
+.accordion .contentBx .label::before{
+  content: '<';
+  transform: rotate(90deg);
+  position: absolute;
+/*   top: 50%; */
+  right: 20px;
+/*   transform: translateY(-50%); */
+  font-size: 1rem;  
+  transition: 0.5s;
+  
+}
+
+.accordion .contentBx.active .label::before{
+  content: '<';
+  transform: rotate(-90deg);
+  transition: 0.5s;
+  
+}
+
+.accordion .contentBx .content{
+  position: relative;
+  background-color: white;
+  height: 0;
+  overflow: hidden;
+  /* transition: 0.5s; */
+/*   overflow-y: auto; */
+/*   padding:10px; */
+}
+
+
+.accordion .contentBx.active .content{
+  height: fit-content;
+/*   max-height: 100%; */
+  padding:10px;
 }
