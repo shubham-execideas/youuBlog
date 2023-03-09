@@ -124,7 +124,16 @@ collections:
       - { label: "Twitter URL", name: "twitter", widget: "string", required: false }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown", required: false }
- 
+  - name: "faq"
+    label: "FAQ"
+    folder: "src/faq"
+    create: true
+    slug:  "{{question}}"
+    sortable_fields: ['date']
+    fields:
+      - { label: "Question", name: "question", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
+      - { label: "Description", name: "description", widget: "text"}
    
 
     
