@@ -158,6 +158,7 @@ collections:
     fields:
       - { label: "Description", name: "description", widget: "text", required: false, }
       - { label: "Body", name: "body", widget: "markdown"}
+      
   - name: "terms"
     label: "Terms and Conditions"
     folder: "src/terms"
