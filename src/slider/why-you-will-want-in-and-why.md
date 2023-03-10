@@ -18,7 +18,7 @@ postDescription: Finally, everything you need in one place.
 date: 2023-02-10T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postImage: /assets/youuniverse-health-cloud-continumm-pyramid-500x500-jpg-1-.jpg
-sliderWhitePaper: /assets/dummy-3-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: Why you’ll want in. And why
 title: Why you’ll want in. And why
 ---
