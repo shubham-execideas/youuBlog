@@ -14,7 +14,7 @@ date: 2023-02-12T00:00:00+05:30
 image: /assets/medtech.svg
 imageAlt: medtech
 postImage: /assets/image-11-.png
-whitePaper: /assets/dummy-1-.pdf
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
