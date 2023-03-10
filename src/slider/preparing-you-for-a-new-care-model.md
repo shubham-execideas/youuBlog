@@ -20,7 +20,7 @@ postDescription: Where are we headed with our health systems of tomorrow?
 date: 2023-02-08T18:33:05+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/AnimationOpen.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
-sliderWhitePaper: /assets/dummy-3-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: Preparing you for a new care model
 title: Preparing you for a new care model
 ---
