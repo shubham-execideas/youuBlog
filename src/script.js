@@ -153,7 +153,7 @@ _class("tab-content")[0]
   .getElementsByTagName("div")[0]
   .classList.add("relative");
 _class("tab-content")[0].getElementsByTagName("div")[0].classList.add("active");
-_class("tab-header")[0].getElementsByTagName("a")[0].classList.add("active");
+// _class("tab-header")[0].getElementsByTagName("a")[0].classList.add("active");
 _class("tab-header")[0]
   .getElementsByTagName("a")[0]
   .classList.add("font-bold");
