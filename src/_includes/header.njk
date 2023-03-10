@@ -24,8 +24,8 @@
       </div>
     </div>
 
-    <nav class="hidden lg:inline-block ml-6 max-[1024px]:ml-10">
-      <ul class="flex justify-between menu-items font-normal flex-wrap">
+    <nav class="hidden lg:inline-block ml-6 max-[1024px]:ml-10 nav-bar">
+      <ul class="flex justify-between menu-items font-normal flex-wrap nav-items">
        <li class="text-md font-semibold mx-4  hover:text-sumireVoilet"><a href="/">Home</a></li>
        <li class="text-md font-semibold mx-4  hover:text-sumireVoilet"><a href="/about/">About Us</a></li>
         <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"><a href="/our-team/">Our Team</a></li>
@@ -66,7 +66,6 @@
         <li class="text-sm mx-4"> <a href="/support/">Support</a></li>
         <li class="text-sm mx-4"><a href="/blog/" >Blogs</a></li>
         <li class="text-sm mx-4"> <a href="/news/">News</a></li>
-
       </ul>
     {# </nav> #}
     <div class="flex items-center absolute bottom-[140px] mt-4">
@@ -100,6 +99,28 @@
       list.classList.remove("top-25"),
       list.classList.add("w-full"));
 }
-</script>
 
-{# {{ contact.data.contact }} #}
+
+let navItems = document.getElementsByClassName("nav-items")[0];
+let url = window.location.pathname;
+
+function _class(name) {
+  return document.getElementsByClassName(name);
+}
+
+let urlPathnames = [
+                " ", "about", "our-team", "contact", "support", "blog", "news" 
+            ]
+
+for(let i = 0 ; i < navItems.getElementsByTagName("li").length ; i++){
+
+  if(url == "/"){
+  navItems.getElementsByTagName("li")[0].classList.add("text-sumireVoilet");
+  }
+else if(i != 0 && url.includes(urlPathnames[i])){
+  navItems.getElementsByTagName("li")[i].classList.add("text-sumireVoilet");
+}
+
+}
+
+</script>
