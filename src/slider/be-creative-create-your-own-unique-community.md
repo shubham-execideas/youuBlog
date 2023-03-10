@@ -16,7 +16,7 @@ sliderDescription: "The digital world has revolutionized the way we communicate
 postDescription: We’re built on a simple idea; let’s live together for a better society.
 date: 2023-02-17T17:03:02+05:30
 videoURL: /assets/animation-opener.mp4
-sliderWhitePaper: /assets/dummy-3-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: Be creative. Create your own unique community
 title: Be creative. Create your own unique community
 ---
