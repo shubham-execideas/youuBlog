@@ -17,7 +17,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
 postDescription: Helping Students Build Healthy & Productive Lives
 date: 2023-02-13T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
-sliderWhitePaper: /assets/dummy-1-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: Shaping Campus, Careers and Lifestyle Communities
 title: Shaping Campus, Careers and Lifestyle Communities
 ---
