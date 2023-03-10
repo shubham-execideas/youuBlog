@@ -153,8 +153,15 @@ collections:
   - name: "about"
     label: "About Us"
     folder: "src/About"
-    create: true
+    create: false
     slug: "About Us"
     fields:
       - { label: "Description", name: "description", widget: "text", required: false, }
       - { label: "Body", name: "body", widget: "markdown"}
+  - name: "terms"
+    label: "Terms and Conditions"
+    folder: "src/terms"
+    create: true
+    slug: "Terms and Conditions"
+    fields:
+      - { label: "Terms and Conditions", name: "body", widget: "markdown"}
