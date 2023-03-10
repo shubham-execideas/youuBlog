@@ -19,7 +19,7 @@ postDescription: "A tectonic shift to value-based care is coming.  Most EHR
 date: 2023-02-14T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YOUUMakesValueBasedPaymentEasy.mp4
-sliderWhitePaper: /assets/dummy-3-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: Why the YOUUniverse changes the Payer and Provider conversation
 title: Why the YOUUniverse changes the Payer and Provider conversation
 ---
