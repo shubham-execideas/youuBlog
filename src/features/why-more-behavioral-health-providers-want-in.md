@@ -15,7 +15,7 @@ date: 2023-02-10T00:00:00+05:30
 image: /assets/provider.svg
 imageAlt: provider
 postImage: /assets/youuniverse-health-cloud-continumm-pyramid-500x500-jpg-1-.jpg
-whitePaper: /assets/dummy-1-.pdf
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 
 
