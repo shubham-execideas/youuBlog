@@ -13,7 +13,7 @@ postDescription: We’re built on a simple idea; let’s live together for a bet
 date: 2023-02-17T00:00:00+05:30
 image: /assets/communities.svg
 imageAlt: Other Communities
-whitePaper: /assets/dummy-1-.pdf
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 
 
