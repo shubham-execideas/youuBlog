@@ -18,7 +18,7 @@ postDescription: Edge devices scale healthy communities and build innovative pra
 date: 2023-02-11T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postImage: /assets/phone2.png
-sliderWhitePaper: /assets/dummy-3-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: Get connected with your connected device
 title: Get connected with your connected device
 ---
