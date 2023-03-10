@@ -16,7 +16,7 @@ date: 2023-02-13T00:00:00+05:30
 image: /assets/patientssvg.svg
 imageAlt: patients
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YouuHabitsFinal.mp4
-whitePaper: /assets/dummy-1-.pdf
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 
 
