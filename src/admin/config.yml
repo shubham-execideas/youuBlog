@@ -153,7 +153,7 @@ collections:
   - name: "about"
     label: "About Us"
     folder: "src/About"
-    create: false
+    create: true
     slug: "About Us"
     fields:
       - { label: "Description", name: "description", widget: "text", required: false, }
