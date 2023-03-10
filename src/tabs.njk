@@ -28,7 +28,9 @@
     style="width: 92%"
     class="mb-8 mt-5 mx-4 border-2 p-2.5 rounded-md bg-sumireVoilet text-white font-semibold outline-0 border-sumireVoilet ">
     {%- for slider in collections.slider -%}
-      <option value="{{ slider.data.slideButtonText }}">{{ slider.data.slideButtonText }}</option>
+      <option value="{{ slider.data.slideButtonText }}">
+        <a href="{{ slider.url }}">{{ slider.data.slideButtonText }}</a>
+      </option>
     {%- endfor -%}
   </select>
   <div id="tabContent" class="tabContent" style="min-height: 500px">

@@ -20,7 +20,7 @@ layout: 'base.njk'
         <div class="tab-content col-span-4 h-auto">
             <article class="">
                 <div class="flow md:px-8 px-8">
-                    <div class="flex flex-col-reverse lg:flex-row mt-10 justify-between  lg:items-center">
+                    {# <div class="flex flex-col-reverse lg:flex-row mt-10 justify-between  lg:items-center">
                         <div style="width: 60%">
                             <div class="">
                                 <h1 class="article-title text-[2rem] font-bold mb-1">
@@ -28,16 +28,15 @@ layout: 'base.njk'
                                 </h1>
                                 <p class="mb-8 text-base italic">{{ postDescription }}</p>
                             </div>
-                            {# <div class="flex  my-3 whitespace-nowrap">
-                                                                            {% for tag in postTags %}
-                                                                            <p class="bg-pink-50 uppercase p-1 mr-2 text-xs">
-                                                                                {{ tag }}
-                                                                            </p>
-                                                                            {%- endfor %}
-                                                                            </div> #}
+                            
                         </div>
                         {% include 'social-media.njk' %}
-                    </div>
+                    </div> #}
+                    <h1 class="article-title mt-10 text-[2rem] font-bold mb-3">
+      {{ postTitle }}
+    </h1>
+    <p class="mb-8 text-lg italic">{{ postDescription }}</p>
+    {% include 'social-media.njk' %}
                     <div class="lg:flex">
                         <div
                             class="sm:w-full md:w-full lg:w-4/6">

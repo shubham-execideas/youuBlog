@@ -1,7 +1,7 @@
 <div class="swiper-slide card rounded-lg p-3">
   <div class="card-content w-full flex flex-col items-start">
     <img src="{{ post.data.image }}" class="rounded-md object-cover w-[275px] h-[275px] lg:w-[335px] lg:h-[335px]" alt="{{ post.data.imageAlt }}">
-      <p class="text-xs mt-3">Published Date : {{ post.date | postDate }}</p>
+      {# <p class="text-xs mt-3">Published Date : {{ post.date | postDate }}</p> #}
       <div class="flex blog-title my-3 whitespace-nowrap">
         {% for tag in post.data.postTags %}
           {%- if loop.index <= 3 %}

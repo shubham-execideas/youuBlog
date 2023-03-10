@@ -8,34 +8,11 @@ layout: 'base.njk'
     <span class="text-4xl font-bold">About Us</span>
     <div class="flex flex-col lg:flex-row mt-5">
         <div class="about-us-content w-full lg:w-1/2">
-            <p class="text-lg">
-                The YOUUniverse is a part of a family of healthy community health platforms. We serve many vertical applications and all
-                acuities from hospitalization, partial hospitalization, outpatient, continuing care and lifestyle communities that
-                encourage treatment, prevention and personal development.
-            </p>
-            <p class="text-lg">
-                These communities are part of three important health segments; mental and behavioral health and personal development. We
-                serve people who need clinical assistance with a life-controlling issue or non-clinical community management for
-                self-improvement and personal growth.
-            </p>
-            <p class="text-lg">
-                We operate worldwide in over 125 markets where any community builder can now reach anywhere in the world to
-                hyper-connect other communities to build the size, scope and revenue opportunity large markets have to offer. If you’re
-                a single physician, or a multi-state clinical operator, a church, a university or virtual community, we’ve got an
-                easy-to-use solution for “youu”.
-            </p>
-            <p class="text-lg">
-                We’re revolutionizing community building by transforming client engagement through augmented intelligence. It delivers
-                hyper-personalized support that exceeds human capabilities with real-time assistance and data-driven insights. It’s the
-                future of healthcare.
-            </p>
+        {%- for about in collections.about -%}
+            {{ about.templateContent | safe }}
+        {%- endfor -%}
             
-            <div>
-<p class="font-semibold mb-7 text-xl">
-                Just Ask the YOUUniverse. You’ll be amazed.
-            </p>
-            <a href="" class="bg-sumireVoilet  px-4 py-2 text-sm rounded-md font-semibold text-white">Learn More</a>
-            </div>
+            {# <a href="" class="bg-sumireVoilet  px-4 py-2 text-sm rounded-md font-semibold text-white">Learn More</a> #}
         </div>
         <div class="about-us-image w-full lg:w-1/2">
             <img src="/assets/about_us/about_img.svg" alt="">

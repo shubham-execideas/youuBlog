@@ -13,7 +13,7 @@ layout: 'base.njk'
           <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 500px; width:800px;" class="object-cover rounded-lg"/>
           <div class=" lg:ml-8 flex flex-col justify-center items-start">
             <p class="text-xl order-3 lg:order-1 font-semibold lg:text-4xl blog-title-cut">{{ post.data.title }}</p>
-            <p class="text-xs mt-3 order-1 lg:order-2">Published Date : {{ post.date | postDate }}</p>
+            {# <p class="text-xs mt-3 order-1 lg:order-2">Published Date : {{ post.date | postDate }}</p> #}
             <div class="flex my-2 flex-wrap order-2 lg:order-3 whitespace-nowrap ">
               {% for tag in  post.data.postTags %}
                 <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">
@@ -35,9 +35,9 @@ layout: 'base.njk'
     <div class="flex flex-wrap">
       {%- for post in collections.post | reverse -%}
         {%- if loop.index != 1 %}
-          <div class="m-5 p-3 lg:p-5 border-2  shadow-sm inline-flex items-start flex-col w-full lg:w-[45%] rounded-lg bg-white">
+          <div class="m-5 p-3 h-fit lg:p-5 border-2  shadow-sm inline-flex items-start flex-col w-full lg:w-[45%] rounded-lg bg-white">
             <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 400px; width:790px;" class="object-cover rounded-lg">
-              <p class="text-xs mt-5">Published Date: {{ post.data.date | postDate }}</p>
+              {# <p class="text-xs mt-5">Published Date: {{ post.data.date | postDate }}</p> #}
               {# <div class=" ml-3"> #}
               <div class="flex my-2 flex-wrap whitespace-nowrap ">
                 {% for tag in  post.data.postTags %}
