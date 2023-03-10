@@ -149,6 +149,12 @@ collections:
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "you can only use embed url for videos."}
       - { label: "Body", name: "body", widget: "markdown", hint: "you can write instruction here"}
-   
 
-    
+  - name: "about"
+    label: "About Us"
+    folder: "src/About"
+    create: true
+    slug: "About Us"
+    fields:
+      - { label: "Description", name: "description", widget: "text", required: false, }
+      - { label: "Body", name: "body", widget: "markdown"}
