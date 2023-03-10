@@ -13,7 +13,7 @@ postDescription: Helping Students Build Healthy & Productive Lives
 date: 2023-02-16T00:00:00+05:30
 image: /assets/college.svg
 imageAlt: college
-whitePaper: /assets/dummy-1-.pdf
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
