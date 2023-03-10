@@ -1,3 +1,6 @@
+---
+description: About
+---
 
 
 The YOUUniverse is a part of a family of healthy community health platforms. We serve many vertical applications and all acuities from hospitalization, partial hospitalization, outpatient, continuing care and lifestyle communities that encourage treatment, prevention and personal development.
