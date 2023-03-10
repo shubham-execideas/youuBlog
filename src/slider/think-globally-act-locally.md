@@ -17,7 +17,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
 postDescription: " How digital engagement drives healthy communities"
 date: 2023-02-15T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
-sliderWhitePaper: /assets/dummy-3-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: PUBLIC SECTOR
 title: PUBLIC SECTOR
 ---
