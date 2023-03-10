@@ -16,7 +16,7 @@ postDescription: "Monitoring of public populations is an important public
 date: 2023-02-13T00:00:00+05:30
 image: /assets/public_sector.svg
 imageAlt: public sector
-whitePaper: /assets/dummy-1-.pdf
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 * health providers,
 * corrections,
