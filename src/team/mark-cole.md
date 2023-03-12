@@ -3,12 +3,11 @@ name: Mark Cole
 designation: "- Chief Operating Officer"
 image: /assets/mark.svg
 date: 2023-03-10T00:00:00+05:30
-description: Before joining Sober Peer, Mark served as President and CEO of Hope
-  LoanPort (HLP), a national intermediary technology platform that enabled
-  counselors, advocates, mortgage lenders, servicers, investors, attorneys, and
-  government agencies help more than 750,000 families achieve and sustain
-  homeownership. Prior to HLP, Mark served as a senior-level executive in the
-  nonprofit financial counseling sector for more than 25 years, most recently as
-  chief operating officer for the nation’s second largest nonprofit credit
-  counseling agency.
+description: >-
+  Mark is the Chief Operating Officer for Sober Peer. From start-ups to national
+  federated associations, he has served as a senior-level executive and led
+  counseling, human services, and technology companies through a broad range of
+  business cycles and stages of evolution..
+
+  During his career, he has consistently forged strategic relationships that met the needs of both the partner company and their constituents, employees and customers. He has also led highly-complex service organizations to deliver promised results through direct service channels and collaborative technology platforms.
 ---
