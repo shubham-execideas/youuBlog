@@ -80,65 +80,65 @@ var swiper = new Swiper(".podcastSwiper", {
   //   },
 });
 
-let emailValidation = document.getElementById("email");
-let submitButton = document.getElementById("submitButton");
-let email;
-let emailSent;
-let errorMsg = document.getElementById("errorMsg");
+// let emailValidation = document.getElementById("email");
+// let submitButton = document.getElementById("submitButton");
+// let email;
+// let emailSent;
+// let errorMsg = document.getElementById("errorMsg");
 
-emailValidation.addEventListener("keyup", function () {
-  email = emailValidation.value;
-  // let value = data.target.value;
-  let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)
-    ? "Invalid email"
-    : "";
+// emailValidation.addEventListener("keyup", function () {
+//   email = emailValidation.value;
+//   // let value = data.target.value;
+//   let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)
+//     ? "Invalid email"
+//     : "";
 
-  if (error.length) {
-    errorMsg.innerHTML = error;
-    emailSent = false;
-  } else {
-    errorMsg.innerHTML = error;
-    emailSent = true;
-  }
-});
+//   if (error.length) {
+//     errorMsg.innerHTML = error;
+//     emailSent = false;
+//   } else {
+//     errorMsg.innerHTML = error;
+//     emailSent = true;
+//   }
+// });
 
-submitButton.addEventListener("click", function () {
-  //  newsletterSubmit = () => {
-  //Below is the testing details.
-  // var url =
-  //   'https://api.hsforms.com/submissions/v3/integration/submit/8723062/4a1234b0-fede-4e1b-bdcf-6813c28f5ac9';
-  var url =
-    "https://api.hsforms.com/submissions/v3/integration/submit/7393862/1ebe5cf0-a4ce-4bfd-9970-a3a2fd9ea1db";
-  var data = {
-    fields: [
-      {
-        name: "email",
-        value: email,
-      },
-    ],
-    context: {
-      pageUri: "www.soberpeer.com",
-      pageName: "newsletter",
-    },
-  };
-  console.log(emailSent, "emailSent");
-  if (emailSent) {
-    axios
-      .post(url, data)
-      .then((response) => {
-        console.log("email success");
-        setTimeout(() => {
-          console.log("email fail");
-        }, 5000);
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-        console.log("email invalid");
-      });
-    //  };
-  }
-});
+// submitButton.addEventListener("click", function () {
+//   //  newsletterSubmit = () => {
+//   //Below is the testing details.
+//   // var url =
+//   //   'https://api.hsforms.com/submissions/v3/integration/submit/8723062/4a1234b0-fede-4e1b-bdcf-6813c28f5ac9';
+//   var url =
+//     "https://api.hsforms.com/submissions/v3/integration/submit/7393862/1ebe5cf0-a4ce-4bfd-9970-a3a2fd9ea1db";
+//   var data = {
+//     fields: [
+//       {
+//         name: "email",
+//         value: email,
+//       },
+//     ],
+//     context: {
+//       pageUri: "www.soberpeer.com",
+//       pageName: "newsletter",
+//     },
+//   };
+//   console.log(emailSent, "emailSent");
+//   if (emailSent) {
+//     axios
+//       .post(url, data)
+//       .then((response) => {
+//         console.log("email success");
+//         setTimeout(() => {
+//           console.log("email fail");
+//         }, 5000);
+//         console.log(response);
+//       })
+//       .catch((error) => {
+//         console.log(error);
+//         console.log("email invalid");
+//       });
+//     //  };
+//   }
+// });
 
 function _class(name) {
   return document.getElementsByClassName(name);

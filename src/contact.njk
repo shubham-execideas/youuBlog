@@ -71,7 +71,7 @@ layout: 'base.njk'
                                 <img src="/assets/calendar.svg" class="h-32 inline-block md:hidden lg:hidden mb-[40px] lg:mb-0" alt=""/>
                                     <div class="input mb-[35px] lg:mb-0 lg:pb-7 md:mt-[30px] lg:mt-[30px]">
 
-                                        <a class="bg-sumireVoilet text-white p-3 text-sm rounded-md">
+                                        <a href="https://meetings.hubspot.com/rlubeck" target="_blank" class="bg-sumireVoilet text-white p-3 text-sm rounded-md">
                                             Schedule Now
                                         </a>
                                     </div>
@@ -88,11 +88,15 @@ layout: 'base.njk'
         newsletter and get all the coolest updates in your inbox & stay ahead
         of the game.
       </p>
-      <div class="input flex flex-wrap pb-7">
-    
-        <input type="email" class="border-gray-300 md:w-1/2 w-full lg:w-30 border-2 px-4 py-2 text-xs rounded-md"
-          placeholder="Email" id="email" />
-        <button class="bg-sumireVoilet md:ml-5 mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md">
+      <div class="input flex items-center flex-wrap pb-7">
+        <div class="md:w-1/2 w-full lg:w-30">
+            <input type="email" class="border-gray-300 w-full border-2 px-4 py-2 text-xs rounded-md"
+          placeholder="Email" id="emailContact" />
+      <p id="errorContactMsg" class="absolute"></p>
+        </div>
+        
+          
+        <button class="bg-sumireVoilet md:ml-5 mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="submitButtonContact">
           Subscribe
         </button>
       </div>
@@ -102,4 +106,71 @@ layout: 'base.njk'
     </div>
                     
                 </section>
+
+
+                <script>
+                    
+let emailContactValidation = document.getElementById("emailContact");
+let submitButtonContact = document.getElementById("submitButtonContact");
+let emailField;
+let emailContactSend;
+let errorContactMsg = document.getElementById("errorContactMsg");
+
+emailContactValidation.addEventListener("keyup", function () {
+  emailField = emailContactValidation.value;
+  // let value = data.target.value;
+  let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(emailField)
+    ? "Invalid email"
+    : "";
+
+  if (error.length) {
+    errorContactMsg.innerHTML = error;
+    emailContactSend = false;
+
+  } else {
+    errorContactMsg.innerHTML = error;
+    emailContactSend = true;
+  }
+});
+
+submitButtonContact.addEventListener("click", function () {
+  //  newsletterSubmit = () => {
+  //Below is the testing details.
+  // var url =
+  //   'https://api.hsforms.com/submissions/v3/integration/submit/8723062/4a1234b0-fede-4e1b-bdcf-6813c28f5ac9';
+  var url =
+    "https://api.hsforms.com/submissions/v3/integration/submit/7393862/1ebe5cf0-a4ce-4bfd-9970-a3a2fd9ea1db";
+  var data = {
+    fields: [
+      {
+        name: "email",
+        value: emailField,
+      },
+    ],
+    context: {
+      pageUri: "www.soberpeer.com",
+      pageName: "newsletter",
+    },
+  };
+  if (emailContactSend) {
+    axios
+      .post(url, data)
+      .then((response) => {
+        emailContactValidation.value = "";
+        console.log("email success");
+        setTimeout(() => {
+          console.log("email fail");
+        }, 5000);
+        console.log(response);
+      })
+      .catch((error) => {
+      alert(emailContactValidation, emailContactValidation.value)
+        emailContactValidation.value = "";
+        console.log(error);
+        console.log("email invalid");
+      });
+    //  };
+  }
+});
+                </script>
                 {# support section ends here #}
