@@ -28,6 +28,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
 />
 <link href="../admin/config.yml" type="text/yaml" rel="cms-config-url">
+   <script src="js/cookie.notice.min.js"></script>
     <script  src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -69,6 +70,63 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./script.js"></script>
+ 
+<script>
+    new cookieNoticeJS({
+
+        // Localizations of the notice message
+        'messageLocales': {
+            'en': 'We use cookies to make sure you can have the best experience on our website. If you continue to use this site we assume that you will be happy with it.'
+        },
+
+        // Localizations of the dismiss button text
+        'buttonLocales': {
+            'it': 'Chiudi'
+        },
+
+        // Position for the cookie-notifier (default=bottom)
+        'cookieNoticePosition': 'bottom',
+
+        // Shows the "learn more button (default=false)
+        'learnMoreLinkEnabled': false,
+
+        // The href of the learn more link must be applied if (learnMoreLinkEnabled=true)
+        'learnMoreLinkHref': '/learn/more/index.html',
+
+        // Text for optional learn more button
+        'learnMoreLinkText': {
+            'en': 'learn more'
+        },
+
+        // The message will be shown again in X days
+        'expiresIn': 30,
+
+        // Specify a custom font family and size in pixels
+        'fontFamily': 'inherit',
+        'fontSize': '12px',
+
+        // Dismiss button background color
+        'buttonBgColor': '#d35400',
+
+        // Dismiss button text color
+        'buttonTextColor': '#fff',
+
+        // Notice background color
+        'noticeBgColor': '#000',
+
+        // Notice text color
+        'noticeTextColor': '#fff',
+
+        // the learnMoreLink color (default='#009fdd')
+        'linkColor': '#f00',
+
+        // The target of the learn more link (default='', or '_blank')
+        'linkTarget': '',
+
+        // Print debug output to the console (default=false)
+        'debug': false
+    });
+</script>
   </body>
 
 </html>
