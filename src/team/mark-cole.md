@@ -3,11 +3,11 @@ name: Mark Cole
 designation: "- Chief Operating Officer"
 image: /assets/mark.svg
 date: 2023-03-10T00:00:00+05:30
-description: >-
-  Mark is the Chief Operating Officer for Sober Peer. From start-ups to national
-  federated associations, he has served as a senior-level executive and led
-  counseling, human services, and technology companies through a broad range of
-  business cycles and stages of evolution..
-
-  During his career, he has consistently forged strategic relationships that met the needs of both the partner company and their constituents, employees and customers. He has also led highly-complex service organizations to deliver promised results through direct service channels and collaborative technology platforms.
+description: From start-ups to national federated associations, Mark has served
+  as a senior executive and led companies through a broad range of business
+  cycles and stages of evolution. During his career, he has consistently forged
+  strategic relationships that met the needs of both the partner company and
+  their constituents, employees & customers. He has also led highly-complex
+  service organizations to deliver promised results through direct service
+  channels and collaborative technology platforms.
 ---
