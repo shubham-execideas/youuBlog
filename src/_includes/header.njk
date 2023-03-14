@@ -26,13 +26,13 @@
 
     <nav class="hidden lg:inline-block ml-6 max-[1024px]:ml-10 nav-bar">
       <ul class="flex justify-between menu-items font-normal flex-wrap nav-items">
-       <li class="text-md font-semibold mx-4  hover:text-sumireVoilet"><a href="/">Home</a></li>
-       <li class="text-md font-semibold mx-4  hover:text-sumireVoilet"><a href="/about/">About Us</a></li>
-        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"><a href="/our-team/">Our Team</a></li>
-        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"> <a href="/contact/">Contact</a></li>
-        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"> <a href="/support/">Support</a></li>
-        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"><a href="/blog/" >Blogs</a></li>
-        <li class="text-md font-semibold mx-4 hover:text-sumireVoilet"> <a href="/news/">News</a></li>
+       <li class="text-md font-normal mx-4  hover:text-sumireVoilet"><a href="/">Home</a></li>
+       <li class="text-md font-normal mx-4  hover:text-sumireVoilet"><a href="/about/">About Us</a></li>
+        <li class="text-md font-normal mx-4 hover:text-sumireVoilet"><a href="/our-team/">Our Team</a></li>
+        <li class="text-md font-normal mx-4 hover:text-sumireVoilet"> <a href="/contact/">Contact</a></li>
+        <li class="text-md font-normal mx-4 hover:text-sumireVoilet"> <a href="/support/">Support</a></li>
+        <li class="text-md font-normal mx-4 hover:text-sumireVoilet"><a href="/blog/" >Blogs</a></li>
+        <li class="text-md font-normal mx-4 hover:text-sumireVoilet"> <a href="/news/">News</a></li>
 
       </ul>
     </nav>
@@ -116,9 +116,13 @@ for(let i = 0 ; i < navItems.getElementsByTagName("li").length ; i++){
 
   if(url == "/"){
   navItems.getElementsByTagName("li")[0].classList.add("text-sumireVoilet");
+  navItems.getElementsByTagName("li")[0].classList.add("font-bold");
+
   }
 else if(i != 0 && url.includes(urlPathnames[i])){
   navItems.getElementsByTagName("li")[i].classList.add("text-sumireVoilet");
+  navItems.getElementsByTagName("li")[i].classList.add("font-bold");
+
 }
 
 }
