@@ -1,0 +1,164 @@
+<div
+    id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="text-xl font-bold mb-3">Download White Paper</p>
+        <p class="text-lg mb-10">Download our white paper to know more</p>
+        <div class="flex flex-wrap">
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="First Name"
+                id="firstNameField"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Last Name"
+                id="lastNameField"/>
+            <input
+                type="phone"
+                class="border-gray-300 w-full mb-5 mr-4  lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Phone"
+                id="phoneField"/>
+            <div class=" w-full lg:w-[47%] mb-5 mr-4">
+                <input
+                    type="text"
+                    class="border-gray-300 w-full  border-2 px-4 py-2 text-xs rounded-md"
+                    placeholder="Email*"
+                    id="emailField"
+                    required="required"/>
+                <p id="emailErrorMsg" class="text-red-600 "></p>
+            </div>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Company Name"
+                id="companyField"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Job Title"
+                id="jobField"/>
+            <p class="w-full mb-5 mr-4 px-4 py-2 text-base rounded-md">
+                <input type="checkbox" id="subs" name="subs" value="subs" checked="checked">
+                    <label for="subs">
+                        Subscribe me to the newsletter to get all the coolest updates in inbox.</label>
+                </p>
+                <a
+                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download="download">
+                    {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
+                    Download
+                    {# </button> #}
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks the button, open the modal
+        btn.onclick = function () {
+            alert("btn web clicked")
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        let emailField = document.getElementById("emailField");
+        let downloadBtn = document.getElementById("downloadBtn");
+        let emailInput;
+        emailField.addEventListener("keyup", function () {
+            emailInput = emailField.value;
+            let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(emailInput)
+                ? "Invalid email"
+                : "";
+            if (error.length) {
+                downloadBtn.classList.add("anchor-disabled");
+            } else {
+                downloadBtn.classList.remove("anchor-disabled");
+            }
+        });
+        downloadBtn.addEventListener("click", function (e) {
+            let emailField = document.getElementById("emailField");
+            let firstNameField = document.getElementById("firstNameField");
+            let lastNameField = document.getElementById("lastNameField");
+            let phoneField = document.getElementById("phoneField");
+            let companyField = document.getElementById("companyField");
+            let jobField = document.getElementById("jobField");
+            let emailErrorMsg = document.getElementById("emailErrorMsg");
+            let subs = document.getElementById("subs");
+            var url = "https://api.hsforms.com/submissions/v3/integration/submit/7393862/768442e1-8b52-4ddc-90d0-d7e4c1b6f29c";
+            let tempData = [
+                {
+                    name: "email",
+                    value: emailField.value
+                },
+                {
+                    name: "firstName",
+                    value: firstNameField.value
+                },
+                {
+                    name: "lastName",
+                    value: lastNameField.value
+                },
+                {
+                    name: "phone",
+                    value: phoneField.value
+                }, {
+                    name: "job",
+                    value: jobField.value
+                }, {
+                    name: "company",
+                    value: companyField.value
+                }, {
+                    name: "Subscribe to News Letter",
+                    value: subs.checked
+                }
+            ];
+            tempData = tempData.filter((item) => item.value);
+            debugger;
+            var data = {
+                fields: tempData,
+                context: {
+                    pageUri: "www.youu.com",
+                    pageName: "White Papet"
+                }
+            };
+            axios
+                .post(url, data)
+                .then((response) => {
+                    console.log("email success");
+                    setTimeout(() => {
+                        console.log("email fail");
+                    }, 5000);
+                    console.log(response);
+                })
+                .catch((error) => {
+                    console.log(error);
+                    console.log("email invalid");
+                });
+            emailField.value = ""
+            firstNameField.value = ""
+            lastNameField.value = ""
+            phoneField.value = ""
+            companyField.value = ""
+            jobField.value = ""
+            modal.style.display = "none";
+
+        }) // form ends here
+    </script>

@@ -1,0 +1,164 @@
+<div
+    id="myModalMobile" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content" style="width: 390px">
+        <span class="closeMobile">&times;</span>
+        <p class="text-xl font-bold mb-3">Download White Paper</p>
+        <p class="text-lg mb-10">Download our white paper to know more</p>
+        <div class="flex flex-wrap">
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="First Name"
+                id="firstNameFieldMobile"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Last Name"
+                id="lastNameFieldMobile"/>
+            <input
+                type="phone"
+                class="border-gray-300 w-full mb-5 mr-4  lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Phone"
+                id="phoneFieldMobile"/>
+            <div class=" w-full lg:w-[47%] mb-5 mr-4">
+                <input
+                    type="text"
+                    class="border-gray-300 w-full  border-2 px-4 py-2 text-xs rounded-md"
+                    placeholder="Email*"
+                    id="emailFieldMobile"
+                    required="required"/>
+                <p id="emailErrorMsg" class="text-red-600 "></p>
+            </div>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Company Name"
+                id="companyFieldMobile"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Job Title"
+                id="jobFieldMobile"/>
+            <p class="w-full mb-5 mr-4 px-4 py-2 text-base rounded-md">
+                <input type="checkbox" id="subsMobile" name="subsMobile" value="subsMobile" checked="checked">
+                    <label for="subsMobile">
+                        Subscribe me to the newsletter to get all the coolest updates in inbox.</label>
+                </p>
+                <a
+                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download="download">
+                    {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
+                    Download
+                    {# </button> #}
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Get the modal
+        var myModalMobile = document.getElementById("myModalMobile");
+        // Get the button that opens the modal
+        var modalBtn = document.getElementById("modalBtn");
+
+        
+        // Get the <span> element that closes the modal
+        var closeMobile = document.getElementsByClassName("closeMobile")[0];
+        // When the user clicks the button, open the modal
+        
+
+        modalBtn.onclick = function () {
+            alert("btn mobile clicked")
+            myModalMobile.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        closeMobile.onclick = function () {
+            myModalMobile.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == myModalMobile) {
+                myModalMobile.style.display = "none";
+            }
+        }
+        let emailFieldMobile = document.getElementById("emailFieldMobile");
+        let downloadBtnMobile = document.getElementById("downloadBtnMobile");
+        let emailInputMobile;
+        emailFieldMobile.addEventListener("keyup", function () {
+            emailInputMobile = emailFieldMobile.value;
+            let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(emailInputMobile)
+                ? "Invalid email"
+                : "";
+            if (error.length) {
+                downloadBtnMobile.classList.add("anchor-disabled");
+            } else {
+                downloadBtnMobile.classList.remove("anchor-disabled");
+            }
+        });
+        downloadBtnMobile.addEventListener("click", function (e) {
+            let emailFieldMobile = document.getElementById("emailFieldMobile");
+            let firstNameFieldMobile = document.getElementById("firstNameFieldMobile");
+            let lastNameFieldMobile = document.getElementById("lastNameFieldMobile");
+            let phoneFieldMobile = document.getElementById("phoneFieldMobile");
+            let companyFieldMobile = document.getElementById("companyFieldMobile");
+            let jobFieldMobile = document.getElementById("jobFieldMobile");
+            let emailErrorMsg = document.getElementById("emailErrorMsg");
+            let subsMobile = document.getElementById("subsMobile");
+            var url = "https://api.hsforms.com/submissions/v3/integration/submit/7393862/768442e1-8b52-4ddc-90d0-d7e4c1b6f29c";
+            let tempData = [
+                {
+                    name: "email",
+                    value: emailFieldMobile.value
+                },
+                {
+                    name: "firstName",
+                    value: firstNameFieldMobile.value
+                },
+                {
+                    name: "lastName",
+                    value: lastNameFieldMobile.value
+                },
+                {
+                    name: "phone",
+                    value: phoneFieldMobile.value
+                }, {
+                    name: "job",
+                    value: jobFieldMobile.value
+                }, {
+                    name: "company",
+                    value: companyFieldMobile.value
+                }, {
+                    name: "Subscribe to News Letter",
+                    value: subsMobile.checked
+                }
+            ];
+            tempData = tempData.filter((item) => item.value);
+            debugger;
+            var data = {
+                fields: tempData,
+                context: {
+                    pageUri: "www.youu.com",
+                    pageName: "White Papet"
+                }
+            };
+            axios
+                .post(url, data)
+                .then((response) => {
+                    console.log("email success");
+                    setTimeout(() => {
+                        console.log("email fail");
+                    }, 5000);
+                    console.log(response);
+                })
+                .catch((error) => {
+                    console.log(error);
+                    console.log("email invalid");
+                });
+            emailFieldMobile.value = ""
+            firstNameFieldMobile.value = ""
+            lastNameFieldMobile.value = ""
+            phoneFieldMobile.value = ""
+            companyFieldMobile.value = ""
+            jobFieldMobile.value = ""
+            myModalMobile.style.display = "none";
+        }) // form ends here
+    </script>
