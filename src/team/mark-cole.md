@@ -1,7 +1,7 @@
 ---
 name: Mark Cole
 designation: "- Chief Operating Officer"
-image: /assets/sp-stills_6-1-copy-1-.jpeg
+image: /assets/sp-stills_6-1-copy-1.svg
 date: 2023-03-10T00:00:00+05:30
 description: From start-ups to national federated associations, Mark has served
   as a senior executive and led companies through a broad range of business
