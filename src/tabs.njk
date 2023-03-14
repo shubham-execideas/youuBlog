@@ -25,10 +25,11 @@
   <select
     name=""
     id="tabTitle"
+    onchange="redirect(this.value)"
     style="width: 92%"
     class="mb-8 mt-5 mx-4 border-2 p-2.5 rounded-md bg-sumireVoilet text-white font-semibold outline-0 border-sumireVoilet ">
     {%- for slider in collections.slider -%}
-      <option value="{{ slider.data.slideButtonText }}">
+      <option value="{{ slider.url }}">
         <a href="{{ slider.url }}">{{ slider.data.slideButtonText }}</a>
       </option>
     {%- endfor -%}
@@ -82,4 +83,13 @@
           {%- endfor -%}
         </div>
       </div>
+
+
+      <script>
+        function redirect(value){
+        console.log(value)
+        window.location = value;
+        }
+
+      </script>
       {# Tabs section ends here #}
