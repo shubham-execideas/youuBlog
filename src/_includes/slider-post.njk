@@ -264,7 +264,7 @@ bg-45 bg-50 h-auto mb-10">
     ]
     let url = window.location.pathname;
     for (let i = 0; i < urlPathnames.length; i++) {
-        if (url.includes(urlPathnames[i])) {
+        if (url.toLowerCase().includes(urlPathnames[i])) {
             _class("tab-header")[0]
                 .getElementsByClassName("active")[0]
                 .classList
