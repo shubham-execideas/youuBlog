@@ -1,13 +1,14 @@
 <div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5">
     <p class="text-3xl font-semibold">Download White Paper</p>
     <p class="my-3">Download our white paper to know more</p>
-    <div class="relative text-center">
+    <section class="relative text-center">
         <img src="/assets/features/white_paper_blur.png" alt="whitepaper" class="w-full"/>
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[212px]">
+        <section class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[212px]">
             <img src="/assets/features/paper.svg" alt="whitepaper" class="mx-auto mb-2">
             <p class="mb-7 font-semibold">Download our white paper to know more</p>
-            <button id="myBtn" target="_blank" class="text-white bg-sumireVoilet cursor-pointer p-3 rounded-md" download>Download</button>
-        </div>
-    </div>
+            <button id="modalBtn" target="_blank" class="text-white bg-sumireVoilet cursor-pointer p-3 rounded-md">Download</button>
+
+        </section>
+    </section>
 </div>
-{% include 'white-paper-modal.njk' %}
+{% include 'white-paper-modal-mobile.njk' %}
