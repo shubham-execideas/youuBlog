@@ -49,10 +49,15 @@ layout: 'base.njk'
                 </div>
             </div>
             <div>
-                <div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5">
+                <div class="schedule-calendar hidden lg:inline-block  flex-col bg-white rounded-xl text-center p-5 lg:m-5">
                    {% include 'download_whitepaper.njk' %}
                     {% include 'schedule.njk' %}
                 </div>
+
+                <div class="inline-block lg:hidden ">
+                        {% include 'download_whitepaper-mobile.njk' %}
+                        {% include 'schedule.njk' %}
+                    </div>
             </div>
         </div>
         <section class="w-full mt-10 px-4 lg:px-20 relative">
