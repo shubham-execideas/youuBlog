@@ -45,12 +45,28 @@
                     <label for="subsMobile">
                         Subscribe me to the newsletter to get all the coolest updates in inbox.</label>
                 </p>
-                <a
-                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download="download">
+
+               
+            {%- if sliderWhitePaper.length -%}
+              <a
+                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
                     {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
                     Download
                     {# </button> #}
                 </a>
+            {%- else -%}
+             <a
+                    href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
+                    {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
+                    Download
+                    {# </button> #}
+                </a>
+              {%- endif -%}
+           
+                {# <a
+                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download="download">
+                    Download
+                </a> #}
             </div>
         </div>
     </div>
@@ -131,7 +147,6 @@
                 }
             ];
             tempData = tempData.filter((item) => item.value);
-            debugger;
             var data = {
                 fields: tempData,
                 context: {
