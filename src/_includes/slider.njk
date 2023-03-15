@@ -5,7 +5,7 @@
                 <iframe src="{{ slider.data.videoURL }}" class="bg-purple-200 aspect-video max-[1024px]:aspect-square  h-72" autoplay="0" frameborder="0" allowfullscreen></iframe>
             {%- else -%}
                 <video playsinline   controls class="bg-purple-200 aspect-video max-[1024px]:aspect-square  h-72" name="media">
-                    <source src="{{ slider.data.videoURL }}" type="video/mp4"></video>
+                    <source src="{{ slider.data.videoURL }}#t=0.001" type="video/mp4"></video>
                 {%- endif -%}
                 <img
                 src="./assets/tab_footer_photo.svg" alt="" class="w-64 m-auto"/>
