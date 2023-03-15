@@ -38,14 +38,14 @@
     {%- for slider in collections.slider -%}
       {# {% include 'feature.njk' %} #}
       <div class="absolute mx-4" id="{{ slider.data.slideButtonText }}">
-        <p class="mb-5">{{ slider.data.slideShortTitle }}</p>
+        <p class="mb-5 ">{{ slider.data.slideShortTitle }}</p>
         <h2 class="font-bold text-3xl lg:text-4xl mb-5">
           {{ slider.data.slideTitle }}
         </h2>
-        <p class="mb-5">
+        <p class="mb-5 text-lg">
           {{ slider.data.sliderDescription }}
         </p>
-        <span class="mb-5 flex items-start">
+        <span class="mb-5 flex items-start text-lg">
           <img src="./assets/pointer.svg" class="mr-3 mt-1" alt="">
             <p>	Our super smart YOUUtility <sup>TM </sup> Augmented Intelligence, value-based interconnected care workflows and mobile devices makes providing care easier with less hassle.</p>
           </span>

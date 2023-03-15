@@ -17,7 +17,7 @@
   /* font-family: 'Open Sans',Arial,sans-serif !important; */
 }
 
-.tab-content .text-lg {
+.tab-content .text-lg, .tabContent .text-lg {
   font-weight: 300 !important;
   font-size: 20px !important;
 }
