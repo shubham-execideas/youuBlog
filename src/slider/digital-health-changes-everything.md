@@ -18,7 +18,7 @@ postDescription: "Why building a healthy community matters to best-in-class prov
 date: 2023-02-12T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 postVideoURL: https://drdevattach.blob.core.windows.net/public/YouuHabitsFinal.mp4
-sliderWhitePaper: /assets/dummy-3-.pdf
+sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 label: Digital health changes everything
 title: Digital health changes everything
 ---
