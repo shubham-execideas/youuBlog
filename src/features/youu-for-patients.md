@@ -15,7 +15,7 @@ postDescription: Why building a healthy community matters to best-in-class provi
 date: 2023-02-13T00:00:00+05:30
 image: /assets/patientssvg.svg
 imageAlt: patients
-postVideoURL: https://drdevattach.blob.core.windows.net/public/YouuHabitsFinal.mp4
+postVideoURL: /assets/youuhabitsfinal-1-.mp4
 whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 
