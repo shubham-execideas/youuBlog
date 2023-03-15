@@ -34,7 +34,7 @@ layout: 'base.njk'
             {%- if videoURL.includes("youtube") -%}
               <iframe src="{{ videoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
             {%- else -%}
-              <video playsinline controls class="w-full rounded-lg h-[300px] lg:h-[500px]" name="media">
+              <video playsinline controls preload = "auto" class="w-full rounded-lg h-[300px] lg:h-[500px]" name="media">
                 <source src="{{ videoURL }}" type="video/mp4"></video>
               {%- endif -%}
             </div>
