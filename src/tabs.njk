@@ -78,7 +78,7 @@
               {# <iframe src="{{ slider.data.videoURL }}" class="bg-purple-200  h-72" frameborder="0" allowfullscreen style="width: 100%"></iframe> #}
                 {%- if slider.data.videoURL.includes("youtube") -%}<iframe src="{{ slider.data.videoURL }}" id="iframe" class="bg-purple-200  h-72" style="width: 100%" frameborder="0" allowfullscreen> </iframe>
               {%- else -%}
-                <video playsinline controls   class="bg-purple-200 h-72" style="width: 100%" name="media">
+                <video playsinline controls   class="bg-purple-200" style="width: 100%" name="media">
                   <source src="{{ slider.data.videoURL }}#t=0.001" type="video/mp4"></video>
                 {%- endif -%}
                 <img src="./assets/tab_footer_photo.svg" alt="" class="w-64 m-auto"/>

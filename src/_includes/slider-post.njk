@@ -110,11 +110,11 @@ bg-45 bg-50 h-auto mb-10">
                     class="sm:w-full md:w-full lg:w-4/6">
                         {# <div class="">{{videoURL}}</div> #}
                         {%- if postVideoURL.length %}
-                            <div class="bg-white rounded-xl p-6">
+                            <div class="bg-white rounded-xl p-2">
                                 {%- if postVideoURL.includes("youtube") -%}
                                     <iframe src="{{ postVideoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
                                 {%- else -%}
-                                    <video playsinline   controls class="w-full rounded-lg h-[300px] lg:h-[300px]" name="media">
+                                    <video playsinline   controls class="w-full rounded-lg" name="media">
                                         <source src="{{ postVideoURL }}#t=0.001" type="video/mp4"></video>
                                 {%- endif -%}
                             </div>
