@@ -6,11 +6,12 @@
         class="social-icons bg-white rounded-full  h-10 w-10 flex justify-center items-center">
         <img src="/assets/blog/linkdn.svg" alt="" class="h-5 w-5">
     </a>
-    <button
+    <a
+        target="_blank"
         class="social-icons bg-white rounded-full h-10 w-10 flex justify-center items-center"
         id="twitterShare">
         <img src="/assets/blog/twitter.svg" alt="" class="h-5 w-5">
-    </button>
+    </a>
     <a
         href="https://www.instagram.com/youuhealth/"
         target="_blank"
@@ -36,9 +37,9 @@ let twitterShare = document.getElementById("twitterShare");
 twitterShare.addEventListener("click", function () {
 
 
-  let url = window.location.href;
+  let url = encodeURI(window.location.href);
  let Shareurl = `https://twitter.com/intent/tweet?url=${url}`;
-   window.open(Shareurl,"NewWindow");
+  twitterShare.href = Shareurl;
  });
 
 </script>
