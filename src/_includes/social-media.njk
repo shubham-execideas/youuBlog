@@ -1,7 +1,7 @@
 <div class="social-links my-3 lg:my-0 flex items-center w-330 justify-between">
     <p class="uppercase">share</p>
     <a
-        href="https://www.linkedin.com/company/youuhealth/"
+        id="linkedinShare"
         target="_blank"
         class="social-icons bg-white rounded-full  h-10 w-10 flex justify-center items-center">
         <img src="/assets/blog/linkdn.svg" alt="" class="h-5 w-5">
@@ -41,5 +41,20 @@ twitterShare.addEventListener("click", function () {
  let Shareurl = `https://twitter.com/intent/tweet?url=${url}`;
   twitterShare.href = Shareurl;
  });
+
+
+ let linkedinShare = document.getElementById("linkedinShare");
+
+linkedinShare.addEventListener("click", function () {
+
+
+  let url = encodeURI(window.location.href);
+ let Shareurl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+  linkedinShare.href = Shareurl;
+ });
+
+
+
+ {# https://www.linkedin.com/sharing/share-offsite/?url=${link} #}
 
 </script>
