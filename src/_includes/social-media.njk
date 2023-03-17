@@ -29,11 +29,10 @@
             </a> #}
 </div>
 <script>
-    let url = encodeURI(window.location.href);
 
     let twitterShare = document.getElementById("twitterShare");
     twitterShare.addEventListener("click", function () {
-        
+        let url = encodeURI(window.location.href);
         let Shareurl = `https://twitter.com/intent/tweet?url=${url}`;
         twitterShare.href = Shareurl;
     });
@@ -41,13 +40,15 @@
 
     let linkedinShare = document.getElementById("linkedinShare");
     linkedinShare.addEventListener("click", function () {
+    let url = encodeURI(window.location.href);
         let Shareurl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
         linkedinShare.href = Shareurl;
     });
 
-    
+
     let facebookShare = document.getElementById("facebookShare");
     facebookShare.addEventListener("click", function () {
+    let url = encodeURI(window.location.href);
         let Shareurl = `https://www.facebook.com/share.php?u=${url}`;
         facebookShare.href = Shareurl;
     });
