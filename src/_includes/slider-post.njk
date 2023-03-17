@@ -48,7 +48,7 @@ bg-45 bg-50 h-auto mb-10">
                                     {%- if postVideoURL.includes("youtube") -%}
                                         <iframe src="{{ postVideoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
                                     {%- else -%}
-                                        <video playsinline   controls class="w-full rounded-lg h-[300px] lg:h-[300px]" name="media">
+                                        <video playsinline autoplay="false"  controls class="w-full rounded-lg h-[300px] lg:h-[300px]" name="media">
                                             <source src="{{ postVideoURL }}#t=0.001" type="video/mp4"></video>
                                     {%- endif -%}
                                 </div>
@@ -114,7 +114,7 @@ bg-45 bg-50 h-auto mb-10">
                                 {%- if postVideoURL.includes("youtube") -%}
                                     <iframe src="{{ postVideoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
                                 {%- else -%}
-                                    <video playsinline   controls class="w-full rounded-lg" name="media">
+                                    <video playsinline autoplay="false"  controls class="w-full rounded-lg" name="media">
                                         <source src="{{ postVideoURL }}#t=0.001" type="video/mp4"></video>
                                 {%- endif -%}
                             </div>
