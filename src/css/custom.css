@@ -17,7 +17,12 @@
   /* font-family: 'Open Sans',Arial,sans-serif !important; */
 }
 
-.tab-content .text-lg, .tabContent .text-lg {
+.tabContent .text-lg {
+  font-weight: 300 !important;
+  font-size: 20px !important;
+}
+
+.font-body{
   font-weight: 300 !important;
   font-size: 20px !important;
 }
@@ -306,8 +311,9 @@ select option {
 } */
 
 .accordion .contentBx .label::before{
-  content: '<';
-  transform: rotate(90deg);
+   content: '<';
+  transform: rotate(-90deg);
+  
   position: absolute;
 /*   top: 50%; */
   right: 20px;
@@ -318,8 +324,8 @@ select option {
 }
 
 .accordion .contentBx.active .label::before{
-  content: '<';
-  transform: rotate(-90deg);
+ content: '<';
+  transform: rotate(90deg);
   transition: 0.5s;
   
 }
