@@ -4,7 +4,7 @@ layout: 'base.njk'
 ---
 <meta property="og:title" content={{title}} />
 <meta property="og:type" content="website" />
-<meta property="og:image" content={{image || post.data.image}} />
+<meta property="og:image" content={{image}} />
 <meta property="og:url" content="{{ page.url }}" />
 
  {# Facebook Meta Tags #}
@@ -12,7 +12,7 @@ layout: 'base.njk'
   <meta property="og:type" content="website">
   <meta property="og:title" content={{title}} >
   <meta property="og:description" content={{title}} >
-  <meta property="og:image" content={{image || post.data.image}} >
+  <meta property="og:image" content={{image}} >
 
 {# Twitter Meta Tags #}
   <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,7 @@ layout: 'base.njk'
   <meta property="twitter:url" content="{{ page.url }}">
   <meta name="twitter:title" content={{title}} >
   <meta name="twitter:description" content={{title}}>
-  <meta name="twitter:image" content={{image || post.data.image}} >
+  <meta name="twitter:image" content={{image}} >
 
 
 
