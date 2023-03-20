@@ -3,11 +3,11 @@
     <div class="flex justify-between items-center">
       <a href="/">
         <span class="flex items-center">
-          <img src="/assets/youu_logo.svg" class="max-[1024px]:h-7 h-10 mr-2" alt=""/>
-          <p class="text-[#4C3B66] max-[1024px]:text-3xl text-5xl relative mb-5 font-semibold  after:content-['HEALTH'] after:max-[1024px]:text-xs after:text-[0.775rem]
+          <img src="/assets/youu_logo_.svg" class="max-[1024px]:h-7 h-10 mr-2" alt=""/>
+          {# <p class="text-[#4C3B66] max-[1024px]:text-3xl text-5xl relative mb-5 font-semibold  after:content-['HEALTH'] after:max-[1024px]:text-xs after:text-[0.775rem]
               after:text-black after:absolute after:top-[95%] after:right-[3px]">
             youu
-          </p>
+          </p> #}
         </span>
       </a>
       {# <nav class="hidden lg:inline-block ml-6 max-[1024px]:ml-10">
@@ -85,46 +85,3 @@
   </div>
 </header>
 
-<script>
-  function MyClick(e) {
-  let list = document.getElementById("nav-item");
-
-  e.name === "menu-outline"
-    ? ((e.name = "close-outline"),
-      list.classList.remove("-top-full"),
-      list.classList.add("top-25"),
-      list.classList.add("w-full"))
-    : ((e.name = "menu-outline"),
-      list.classList.add("-top-full"),
-      list.classList.remove("top-25"),
-      list.classList.add("w-full"));
-}
-
-
-let navItems = document.getElementsByClassName("nav-items")[0];
-let url = window.location.pathname;
-
-function _class(name) {
-  return document.getElementsByClassName(name);
-}
-
-let urlPathnames = [
-                " ", "/about/", "/our-team/", "/contact/", "/support/", "/blog/", "/news/" 
-            ]
-
-for(let i = 0 ; i < navItems.getElementsByTagName("li").length ; i++){
-
-  if(url == "/"){
-  navItems.getElementsByTagName("li")[0].classList.add("text-sumireVoilet");
-  navItems.getElementsByTagName("li")[0].classList.add("font-bold");
-
-  }
-else if(i != 0 && url.includes(urlPathnames[i])){
-  navItems.getElementsByTagName("li")[i].classList.add("text-sumireVoilet");
-  navItems.getElementsByTagName("li")[i].classList.add("font-bold");
-
-}
-
-}
-
-</script>

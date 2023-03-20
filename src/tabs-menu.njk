@@ -1,0 +1,41 @@
+{# <div class="relative">
+    <div class="tab-header relative pr-2 h-fit  border-r-4 ml-1.2">
+        {%- for slider in collections.slider -%}
+            {% include 'sliderTitle.njk' %}
+        {%- endfor -%}
+    </div>
+    {%- for contact in collections.contact -%}
+        {% include 'contact.njk' %}
+    {%- endfor -%}
+</div> #}
+<div class="hidden lg:inline-block">
+    <div class="relative">
+        <div class="tab-header  relative pr-2 h-fit  border-r-4 ml-1.2">
+            {%- for slider in collections.slider -%}
+                {% include 'sliderTitle.njk' %}
+            {%- endfor -%}
+        </div>
+        {%- for contact in collections.contact -%}
+            {% include 'contact.njk' %}
+        {%- endfor -%}
+    </div>
+    {# <div class="tab-indicator"></div> #}
+</div>
+<!-- col-span-2 relative h-full overflow-hidden -->
+<div class=" relative  sm:inline-block md:inline-block lg:hidden overflow-hidden" style="width: 100%">
+    <select
+        name=""
+        id="tabTitle"
+        onchange="redirect(this.value)"
+        style="width: 92%"
+        class="mb-8 mt-5 mx-4 border-2 p-2.5 rounded-md text-gray-500  font-semibold outline-0">
+        <option value="/" selected>
+            Select Menu
+        </option>
+        {%- for slider in collections.slider -%}
+            <option value="{{ slider.url }}">
+                {{ slider.data.slideButtonText }}
+            </option>
+        {%- endfor -%}
+    </select>
+</div>

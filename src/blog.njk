@@ -3,61 +3,13 @@ title: Blogs
 layout: 'base.njk'
 ---
 
-{# Blogs section starts here #}
-<section class="w-full lg:px-16 relative">
-  <span class="ml-5 text-2xl font-semibold">Featured</span>
-  <div>
-    {%- for post in collections.post | reverse -%}
-      {%- if loop.index == 1 %}
-        <div class="m-5 flex flex-col lg:flex-row p-3 border-2  shadow-sm rounded-lg bg-white mt-2">
-          <img src="{{ post.data.image }}" alt="{{ post.index }}" style="width:800px;" class="h-[400px] lg:h-[500px] object-cover rounded-lg"/>
-          <div class=" lg:ml-8 flex flex-col justify-center items-start">
-            <p class="text-xl order-3 lg:order-1 font-semibold lg:text-4xl blog-title-cut">{{ post.data.title }}</p>
-            {# <p class="text-xs mt-3 order-1 lg:order-2">Published Date : {{ post.date | postDate }}</p> #}
-            <div class="flex my-2 flex-wrap order-2 lg:order-3 whitespace-nowrap ">
-              {% for tag in  post.data.postTags %}
-                <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">
-                  {{ tag }}
-                </p>
-              {%- endfor %}
-            </div>
-            <p class="mt-3 text-lg order-4">
-              {{ post.data.description }}
-              {# {{ post.templateContent }} #}
-            </p>
-            <a href="{{ post.url }}" target="_blank" class="text-sumireVoilet px-4 order-5 border-2 py-2 mt-8 border-sumireVoilet rounded-md">
-              Read Article
-            </a>
-          </div>
-        </div>
-      {%- endif -%}
-    {%- endfor -%}
-    <div class="flex flex-wrap">
-      {%- for post in collections.post | reverse -%}
-        {%- if loop.index != 1 %}
-          <div class="m-5 p-3 h-fit lg:p-5 border-2  shadow-sm inline-flex items-start flex-col w-full lg:w-[45%] rounded-lg bg-white">
-            <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 400px; width:790px;" class="object-cover rounded-lg">
-              {# <p class="text-xs mt-5">Published Date: {{ post.data.date | postDate }}</p> #}
-              {# <div class=" ml-3"> #}
-              <div class="flex my-2 flex-wrap whitespace-nowrap ">
-                {% for tag in  post.data.postTags %}
-                  <p class="bg-pink-50 uppercase p-1 mr-2 mt-1" style="font-size: 10px;">
-                    {{ tag }}
-                  </p>
-                {%- endfor %}
-              </div>
-              <p class="text-xl font-semibold blog-title-cut">{{ post.data.title }}</p>
-              <p class="mt-3 blog-description text-lg">
-                {{ post.data.description }}
-                {# {{ post.templateContent }} #}
-              </p>
-              <a href="{{ post.url }}" target="_blank" class="text-sumireVoilet px-4 border-2 py-2 mt-8 border-sumireVoilet rounded-md">
-                Read Article
-              </a>
-            </div>
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
+
+<div class="lg:px-16 py-5 h-auto mb-10 inline-block">
+  <div class="tabs lg:grid grid-cols-5 h-auto relative">
+    {%  include './tabs-menu.njk'%}
+    <div class="tab-content lg:col-span-4 h-auto">
+      {% include './templates/blog-template.njk' %}
     </div>
-  </section>
-  {# Blogs section ends here #}
+  </div>
+</div>
+
