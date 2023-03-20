@@ -7,6 +7,21 @@ layout: 'base.njk'
 <meta property="og:image" content={{ image }} />
 <meta property="og:url" content="{{ page.url }}" />
 
+<!-- Facebook Meta Tags -->
+  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content={{ title }} >
+  <meta property="og:description" content="undefined">
+  <meta property="og:image" content={{ image }} >
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="dev.youu.com">
+  <meta property="twitter:url" content="{{ page.url }}">
+  <meta name="twitter:title" content={{ title }} >
+  <meta name="twitter:description" content="undefined">
+  <meta name="twitter:image" content={{ image }} >
+
 
 <div class="px-16 py-5 h-auto mb-10 hidden lg:inline-block">
   <div class="tabs grid grid-cols-5 h-auto relative">
