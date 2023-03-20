@@ -2,7 +2,10 @@
 title: post
 layout: 'base.njk'
 ---
-
+<meta property="og:title" content={{ title }} />
+<meta property="og:type" content="website" />
+<meta property="og:image" content={{ image }} />
+<meta property="og:url" content="{{ page.url }}" />
 
 
 <div class="px-16 py-5 h-auto mb-10 hidden lg:inline-block">
