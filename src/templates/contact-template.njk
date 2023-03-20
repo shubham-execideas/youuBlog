@@ -1,0 +1,105 @@
+<section class="w-full px-6 relative mt-5">
+  <p class="text-4xl font-bold mb-5">Contact</p>
+  <div class="flex flex-col relative p-3 lg:p-5 flex-wrap bg-white rounded-xl justify-between lg:flex-row team-cards-container">
+    <div class="find-us-here relative p-5 lg:p-8 rounded-xl bg-gradient-to-r from-[#E7E4F0] via-[#FBF2F4] to-[#F6F2FF] w-full
+        lg:w-[35%]">
+      <p class="text-3xl font-semibold">Find Us Here</p>
+      <div class="phone mt-8 flex">
+        <img class="mr-2 h-5 mt-[0.35rem]" src="/assets/phone.svg" alt=""/>
+        <div>
+          <p class="text-[#021425]">Phone</p>
+          {% for contact in collections.contact | reverse %}
+            <a
+              href="tel:{{ contact.data.contact }}"
+              class="text-[#021425] text-sm font-semibold flex items-center whitespace-nowrap">
+              {{ contact.data.contact }}
+            </a>
+          {%- endfor %}
+        </div>
+      </div>
+      <div class="email mt-8 items-baseline mb-[6.5rem] flex">
+        <img class="mr-2 h-3" src="/assets/email.svg" alt=""/>
+        <div>
+          <p>Email</p>
+          <p>inquiry@youu.com</p>
+        </div>
+      </div>
+      <div class="social-links flex-col lg:flex-row lg:bottom-14 lg:absolute my-3 lg:my-0 mt-5 lg:items-center w-[385px]
+          lg:justify-between">
+        <p class="uppercase">follow us</p>
+        <div class="flex mt-5">
+          <a
+            href="https://www.linkedin.com/company/youuhealth/"
+            target="_blank"
+            class="social-icons bg-white rounded-full mx-3 lg:mx-3  h-10 w-10 flex justify-center items-center">
+            <img src="/assets/blog/linkdn.svg" alt="" class="h-5 w-5"></a>
+            <a
+              href="https://twitter.com/youuhealth"
+              target="_blank"
+              class="social-icons bg-white rounded-full mx-3 lg:mx-3 h-10 w-10 flex justify-center items-center">
+              <img src="/assets/blog/twitter.svg" alt="" class="h-5 w-5"></a>
+              <a
+                href="https://www.instagram.com/youuhealth/"
+                target="_blank"
+                class="social-icons bg-white rounded-full mx-3 lg:mx-3 h-10 w-10 flex justify-center items-center">
+                <img src="/assets/blog/insta.svg" alt="" class="h-5 w-5"></a>
+                <a
+                  href="https://www.facebook.com/youuhealth"
+                  target="_blank"
+                  class="social-icons bg-white rounded-full mx-3 lg:mx-3 h-10 w-10 flex justify-center items-center">
+                  <img src="/assets/blog/facebook.svg" alt="" class="h-5 w-5"></a>
+                </div>
+              </div>
+            </div>
+            <div class="drop-us-line w-full mt-5 lg:mt-0 lg:w-[55%]">
+              <p class="text-3xl font-semibold mb-8">Drop Us a Line</p>
+              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+              <script>
+                hbspt.forms.create({region: "na1", portalId: "7393862", formId: "79e039c8-fa75-444c-95c1-3c5bd5cd241e"});
+              </script>
+              <div class="px-7 pt-7 text-center mt-5 md:text-left lg:text-left flex justify-between rounded-md relative bg-gradient-to-r
+                  from-[#EFDBE9] via-[#F8DDE4] to-[#FAE5E0]">
+                <div>
+                  <p class="font-semibold text-xl mb-4">Have Questions? Lets Meet</p>
+                  <p class="text-lg mb-4">
+                    Select a time you like to meet with us
+                  </p>
+                  <img src="/assets/calendar.svg" class="h-32 inline-block md:hidden lg:hidden mb-[40px] lg:mb-0" alt=""/>
+                  <div class="input mb-[35px] lg:mb-0 lg:pb-7 md:mt-[30px] lg:mt-[30px]">
+                    <a
+                      href="https://meetings.hubspot.com/rlubeck"
+                      target="_blank"
+                      class="bg-sumireVoilet text-white p-3 text-sm rounded-md">
+                      Schedule Now
+                    </a>
+                  </div>
+                </div>
+                <img src="/assets/calendar.svg" class="h-32 hidden md:inline-block lg:inline-block " alt=""/>
+              </div>
+            </div>
+          </div>
+          <div class="px-7 flex flex-col md:flex-row mt-8 justify-between items-end bg-gradient-to-r from-[#F6F2FF] via-[#FBF2F4]
+              to-[#FFFFFF] pt-7 rounded-md relative b">
+            <div class=" ">
+              <p class="font-semibold text-xl mb-4">Subscribe to our newsletter</p>
+              <p class="text-md mb-4">
+                Stay up to date with the latest news from us! Sign up for our newsletter and get all the coolest updates in your inbox &
+                stay ahead of the game.
+              </p>
+              <div class="input flex items-center flex-wrap pb-7">
+                <div class="md:w-1/2 w-full lg:w-30">
+                  <input
+                    type="email"
+                    class="border-gray-300 w-full border-2 px-4 py-2 text-xs rounded-md"
+                    placeholder="Email"
+                    id="emailContact"/>
+                  <p id="errorContactMsg" class="absolute"></p>
+                </div>
+                <button class="bg-sumireVoilet md:ml-5 mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="submitButtonContact">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <img src="/assets/subscriber_inbox.svg" class="h-32 right-0" alt=""/>
+          </div>
+        </section>

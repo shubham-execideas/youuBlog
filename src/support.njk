@@ -3,65 +3,11 @@ title: Support
 layout: 'base.njk'
 ---
 
-{# support section starts here #}
-<section class="w-full px-4 lg:px-16 relative mt-5">
-    <p class="text-4xl font-bold ml-8">Support</p>
-    <div class="flex flex-col relative mt-5 p-5 flex-wrap  rounded-xl justify-between lg:flex-row team-cards-container">
-        <div class="find-us-here flex flex-col md:flex-row justify-between relative p-5 lg:p-8 m-3 rounded-xl bg-gradient-to-r from-[#F6F2FF] via-[#FBF2F4] to-[#FFFFFF] w-full">
-            <div>
-                <p class="text-3xl font-semibold">Reach out to us for any help you need</p>
-                <div class="phone w-full md:w-[80%] lg:w-full mt-8 items-center flex p-5 rounded-xl bg-white">
-                    <img class="mr-2 h-12 mt-[0.35rem]" src="/assets/phone_support.svg" alt=""/>
-                    <div>
-                        <p class="text-[#021425] font-semibold text-lg">Phone</p>
-                        {% for contact in collections.contact | reverse %}
-                            <a
-                                href="tel:{{ contact.data.contact }}"
-                                class="underline text-base text-sumireVoilet font-semibold flex items-center whitespace-nowrap">
-                                {{ contact.data.contact }}
-                            </a>
-                        {%- endfor %}
-                    </div>
-                </div>
-                <div class="email w-full md:w-[80%] lg:w-full rounded-xl items-center bg-white p-5 mt-8 flex">
-                    <img class="mr-2 w-[50px] h-12" src="/assets/email.svg" alt=""/>
-                    <div>
-                        <p class="font-semibold text-lg">Email</p>
-                        <p class="underline text-base font-semibold text-sumireVoilet">inquiry@youu.com</p>
-                    </div>
-                </div>
-            </div>
-            <img src="/assets/support-img.svg" class="w-[230px] self-center md:self-end lg:w-[350px] items-s h-[270px]" alt="">
-        </div>
-    </div>
-
-    <p class="text-4xl ml-6 font-bold mb-5 mt-12">FAQs</p>
-
-    {% for faq in collections.faq | reverse %}
-                            <div class="accordion">
-  <div class="contentBx border-2 rounded-xl">
-    <div class="label rounded-xl">{{ faq.data.question }}</div>
-    <div class="content rounded-xl">
-      {{ faq.data.description }}
+<div class="lg:px-16 py-5 h-auto mb-10 inline-block">
+  <div class="tabs lg:grid grid-cols-5 h-auto relative">
+    {%  include './tabs-menu.njk'%}
+    <div class="tab-content lg:col-span-4 h-auto">
+      {% include './templates/support-template.njk' %}
     </div>
   </div>
-  </div>
-                        {%- endfor %}
-
-    
-
-
-    
-</section>
-
-
-<script>
-    const accordion = document.getElementsByClassName("contentBx");
-
-for( i = 0; i < accordion.length; i++){
-  accordion[i].addEventListener("click", function(){
-    this.classList.toggle("active")
-  })
-}
-</script>
-{# support section ends here #}
+</div>
