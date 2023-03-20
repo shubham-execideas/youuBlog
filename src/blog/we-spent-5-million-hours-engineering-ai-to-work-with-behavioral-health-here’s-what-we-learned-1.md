@@ -25,7 +25,7 @@ The use of Augmented Intelligence (AI) is one of the most promising technologica
 
 
 
-As a philanthropist and private equity investor, I’ve put AI into practice for over 20 years serving millions of consumers. I studied it at MIT and Harvard. Through my associations there, I’ve had some eye-opening epiphanies and made my share of mistakes. In my case, it wasn’t until 2019, when we were among a very small number of companies to workbench the earliest version of GPT, or “generative pre-trained transformer”, that my team took a deep interest in behavioral health. Why we did it is a long story. But, it is now clear behavioral health is one of the most interesting uses of this technology. Today, the world has been introduced to its simpler consumer version, GPTChat, and the world will have the chance to taste its power.
+As a philanthropist and private equity investor, I’ve put AI into practice for over 20 years serving millions of consumers. I studied it at MIT and Harvard. Through my associations there, I’ve had some eye-opening epiphanies and made my share of mistakes. In my case, it wasn’t until 2021, when we were among a very small number of companies to workbench the earliest version of GPT, or “generative pre-trained transformer”, that my team took a deep interest in behavioral health. Why we did it is a long story. But, it is now clear behavioral health is one of the most interesting uses of this technology. Today, the world has been introduced to its simpler consumer version, GPTChat, and the world will have the chance to taste its power.
 
 
 
