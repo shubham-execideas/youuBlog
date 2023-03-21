@@ -15,7 +15,7 @@ postTags:
   - Mental Health
   - Addiction
   - Drugs
-image: /assets/ai-twin.webp
+image: /assets/digital_twin.webp
 imageAlt: Twin
 ---
 Let’s define the field into two broad categories: bio-wearables and digital therapeutics. Each promise better health outcomes especially when considering long-term chronic care of patients. The two can have vast difference in their function and it’s often not clear from their claims which one is the most effective given an application use case.
