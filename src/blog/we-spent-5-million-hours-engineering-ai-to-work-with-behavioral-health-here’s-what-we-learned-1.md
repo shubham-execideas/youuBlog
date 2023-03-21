@@ -16,7 +16,7 @@ postTags:
   - Mental Health
   - Addiction
   - Drugs
-image: /assets/5-million-hrs.webp
+image: /assets/5_million_hrs.webp
 imageAlt: AI
 ---
 
