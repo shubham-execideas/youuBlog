@@ -15,7 +15,7 @@ postTags:
   - Mental Health
   - Addiction
   - Drugs
-image: /assets/feedback.webp
+image: /assets/ques.webp
 imageAlt: Feedback
 ---
 What do you suppose happens if you hand a patient a smart phone or an iPad and ask them to start talking about their health? We quickly found out for ourselves; patients started feeding their healthcare record an incredible amount of articulated data. And, they overwhelmingly felt empowered in doing so. All this, is without the direct involvement of the healthcare staff where the data collection cost was a few pennies per day.
