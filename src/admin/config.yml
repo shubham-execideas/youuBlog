@@ -9,7 +9,7 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "src/blog"
-    create: false
+    create: true
     slug: "{{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" , hint: "you can write instruction here"}
@@ -80,7 +80,7 @@ collections:
   - name: "slider"
     label: "Slider"
     folder: "src/slider"
-    create: true
+    create: false
     slug:  "{{postTitle}}"
     sortable_fields: ['date']
     fields:
