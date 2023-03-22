@@ -1,6 +1,6 @@
 ---
-title: "We spent 5 million hours engineering AI to work with Behavioral Health:
-  Here’s what we learned."
+title: "We spent five million hours engineering AI to work with Behavioral
+  Health: Here’s what we learned."
 description: The article describes the process of engineering artificial
   intelligence (AI) to work with behavioral health, and the insights gained from
   this effort. The authors share the importance of using a human-centered
