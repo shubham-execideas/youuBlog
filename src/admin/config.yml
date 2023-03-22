@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: youuBlog2
+  branch: youuDevTest
 media_folder: public/assets
 public_folder: /assets
 local_backend: true
