@@ -80,7 +80,7 @@ collections:
   - name: "slider"
     label: "Slider"
     folder: "src/slider"
-    create: true
+    create: false
     slug:  "{{postTitle}}"
     sortable_fields: ['date']
     fields:
