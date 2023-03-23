@@ -12,10 +12,10 @@ collections:
     create: true
     slug: "{{title}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" , hint: "you can write instruction here"}
-      - { label: "Description", name: "description", widget: "text" , hint: "you can write instruction here"}
+      - { label: "Title", name: "title", widget: "string" , hint: "Enter a descriptive and attention-grabbing title for your blog."}
+      - { label: "Description", name: "description", widget: "text" , hint: "Write a brief summary of your blog's content"}
       # - { label: "Author", name: "author", widget: "string" }
-      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "you can write instruction here"}
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "Choose the date you want your blog to be published on"}
       - { label: "Tags", name: "tags", widget: "list", default: ["Post","Featured"],hint: "you can write instruction here" }
       - { label: "Post Tags", 
           name: "postTags", 
@@ -23,12 +23,12 @@ collections:
           max: 4, 
           min: 1, 
           default: ["Exclusive","Mental Health","Addiction","Drugs"] ,
-          hint: "you can write instruction here"
+          hint: "Add any specific tags that are relevant to your blog’s content "
         }
-      - { label: "Featured Image", name: "image", widget: "image" , required: false, hint: "you can write instruction here"}
+      - { label: "Featured Image", name: "image", widget: "image", hint: "Upload a image that represents your blog’s content "}
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "you can only use embed url for videos."}
-      - { label: "Body", name: "body", widget: "markdown", hint: "you can write instruction here"}
+      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "If your blog includes a video, enter the URL here"}
+      - { label: "Body", name: "body", widget: "markdown", hint: "Write your blog's content here, including any relevant information, examples, or insights you want to share."}
 
       # - { label: "Category",
       #     name: "category",
@@ -141,14 +141,14 @@ collections:
     create: true
     slug: "{{title}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" , hint: "you can write instruction here"}
-      - { label: "Description", name: "description", widget: "text" , hint: "you can write instruction here"}
+      - { label: "Title", name: "title", widget: "string" , hint: "Enter a descriptive and attention-grabbing title for your news"}
+      - { label: "Description", name: "description", widget: "text" , hint: "Write a brief summary of your news content "}
       # - { label: "Author", name: "author", widget: "string" }
-      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "you can write instruction here"}
-      - { label: "Featured Image", name: "image", widget: "image" , required: false, hint: "you can write instruction here"}
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "Choose the date you want your news to be published on"}
+      - { label: "Featured Image", name: "image", widget: "image", hint: "Upload a image that represents your news content "}
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "you can only use embed url for videos."}
-      - { label: "Body", name: "body", widget: "markdown", hint: "you can write instruction here"}
+      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "If your news post includes a video, enter the URL here"}
+      - { label: "Body", name: "body", widget: "markdown", hint: "Write your news content here, including any relevant information, examples, or insights you want to share."}
 
   - name: "about"
     label: "About Us"
