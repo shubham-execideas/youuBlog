@@ -1,6 +1,6 @@
 ---
 title: "We spent five million hours engineering AI to work with Behavioral
-  Health: Here’s what we learned."
+  Health: Here’s what we learned. Datta"
 description: The article describes the process of engineering artificial
   intelligence (AI) to work with behavioral health, and the insights gained from
   this effort. The authors share the importance of using a human-centered
@@ -18,6 +18,7 @@ postTags:
   - Drugs
 image: /assets/5-million-hrs.webp
 imageAlt: AI
+videoURL: https://www.youtube.com/embed/65Xs3jLYF1s
 ---
 
 
