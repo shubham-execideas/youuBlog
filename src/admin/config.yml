@@ -61,7 +61,7 @@ collections:
   - name: "feature"
     label: "Feature"
     folder: "src/features"
-    create: true
+    create: false
     slug:  "{{postTitle}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
