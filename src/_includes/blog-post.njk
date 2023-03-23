@@ -15,12 +15,15 @@ layout: 'base.njk'
   <meta property="og:image" content={{image || post.data.image}} > #}
 
   <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
+  <head>
+    <meta name="twitter:card" content="summary_large_image">
   <meta property="twitter:domain" content="dev.youu.com">
   <meta property="twitter:url" content="{{ page.url }}">
   <meta name="twitter:title" content="{{title}}" >
   <meta name="twitter:description" content="{{title}}">
   <meta name="twitter:image" content="{{image}}" >
+  </head>
+  
 
 
 <div class="px-16 py-5 h-auto mb-10 hidden lg:inline-block">
