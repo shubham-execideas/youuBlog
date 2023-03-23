@@ -16,7 +16,7 @@ collections:
       - { label: "Description", name: "description", widget: "text" , hint: "Write a brief summary of your blog's content"}
       # - { label: "Author", name: "author", widget: "string" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "Choose the date you want your blog to be published on"}
-      - { label: "Tags", name: "tags", widget: "list", default: ["Post","Featured"],hint: "you can write instruction here" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["Post","Featured"],hint: "Do not add anything in this field" }
       - { label: "Post Tags", 
           name: "postTags", 
           widget: "list", 
