@@ -73,8 +73,8 @@ collections:
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false }
-      - { label: "Post Image", name: "postImage", widget: "image", required: false  }
+      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false, hint: "Please upload a video which is less than 55MB for better website performance" }
+      - { label: "Post Image", name: "postImage", widget: "image", required: false, hint: "Please upload either video or image but not both"  }
       - { label: "White paper", name: "whitePaper", widget: "file" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "slider"
@@ -94,8 +94,8 @@ collections:
       - { label: "Post Description", name: "postDescription", widget: "string" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
       - { label: "Video", name: "videoURL", widget: "file" }
-      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false }
-      - { label: "Post Image", name: "postImage", widget: "image",required: false  }
+      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false, hint: "Please upload a video which is less than 55MB for better website performance" }
+      - { label: "Post Image", name: "postImage", widget: "image",required: false, hint: "Please upload either video or image but not both"  }
       - { label: "White paper", name: "sliderWhitePaper", widget: "file" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "contact"
@@ -107,6 +107,7 @@ collections:
       - { label: "Contact Number",
           name: "contact", 
           widget: "string",
+          hint: "Please provide a number for users to contact."
         }
   - name: "team"
     label: "Team"
@@ -117,7 +118,7 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Designation", name: "designation", widget: "string" }
-      - { label: "Image", name: "image", widget: "image"  }
+      - { label: "Image", name: "image", widget: "image", hint: "Please upload a clear image" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
       - { label: "LinkedIn URL", name: "linkedIn", widget: "string", required: false }
       - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
