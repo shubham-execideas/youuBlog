@@ -3,7 +3,7 @@ title: YOUU Health Cloud among the first to support GPT-4 for behavioral health
 description: YOUU Health will use GPT-4 with its finely-tuned data from 7
   million days of clinical observations
 date: 2023-03-22T00:00:00-05:00
-image: /assets/linkedin-banner.png
+image: /assets/linkedin-banner-600-×-600-px-.png
 imageAlt: Just Ask the YOUUniverse.
 ---
 DALLAS, TX, USA, March 22, 2023 /[EINPresswire.com](http://www.einpresswire.com/)/ -- [YOUU Health](http://youu.com/) announced today that its fine-tuned behavioral health dataset using GPT-3.5 will be upgraded immediately to GPT-4 upon its commercial release from Microsoft Azure in early April 2023. YOUU Health joins other existing priority users to be the first to support this new large language generative AI model.\
