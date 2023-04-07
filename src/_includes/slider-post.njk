@@ -41,7 +41,7 @@ layout: 'base.njk'
                     <h1 class="article-title text-[2rem] font-bold mb-3">
                         {{ postTitle }}
                     </h1>
-                    <p class="mb-8 text-lg italic">{{ postDescription }}</p>
+                    <p class="mb-5 text-lg italic">{{ postDescription }}</p>
                     {% include 'social-media.njk' %}
                     <div class="lg:flex">
                         <div class="sm:w-full md:w-full lg:w-4/6">
@@ -56,7 +56,7 @@ layout: 'base.njk'
                                     </div>
                                 {%- endif -%}
                                 {%- if postImage.length %}
-                                    <div class="bg-white rounded-xl p-6 flex h-[300px] lg:h-[500px]">
+                                    <div class="bg-white image-bg rounded-xl p-6 flex h-[300px] lg:h-[500px]">
                                         <img src="{{ postImage }}" alt="whitepaper" class="w-full object-contain"/>
                                     </div>
                                 {%- endif -%}
@@ -175,7 +175,7 @@ layout: 'base.njk'
             return document.getElementsByClassName(name);
         }
         let tabPanes = _class("tab-header")[0].getElementsByTagName("a");
-        _class("tab-content")[0]
+        {# _class("tab-content")[0]
             .getElementsByTagName("div")[0]
             .classList
             .add("relative");
@@ -186,7 +186,7 @@ layout: 'base.njk'
         _class("tab-header")[0]
             .getElementsByTagName("a")[0]
             .classList
-            .add("active");
+            .add("active"); #}
         let urlPathnames = [
             "preparing-you-for-a-new-care-model-",
             "why-you-will-want-in-and-why",
@@ -201,10 +201,10 @@ layout: 'base.njk'
         let url = window.location.pathname;
         for (let i = 0; i < urlPathnames.length; i++) {
             if (url.toLowerCase().includes(urlPathnames[i])) {
-                _class("tab-header")[0]
-                    .getElementsByClassName("active")[0]
-                    .classList
-                    .remove("active");
+               // _class("tab-header")[0]
+                //    .getElementsByClassName("active")[0]
+                  //  .classList
+                  //  .remove("active");
                 tabPanes[i].classList.add("active");
                 _class("tab-indicator")[0].style.top = `calc(10px + ${
                     i * 56
