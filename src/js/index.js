@@ -180,6 +180,29 @@ facebookShare && facebookShare.addEventListener("click", function () {
 });
 //articles sharing on social media end here
 
+let shareArticleByEmail = document.getElementById("emailShare");
+shareArticleByEmail &&
+  shareArticleByEmail.addEventListener("click", function () {
+    // let url = encodeURI(window.location.href);
+    // let Shareurl = `https://www.facebook.com/share.php?u=${url}`;
+    // facebookShare.href = Shareurl;
+    var articleUrl = window.location.href;
+    var articleTitle = document.title;
+
+    // Compose the email subject and body
+    var subject = articleTitle;
+    var body = "Hi,\n\nCheck out this article: \n" + articleUrl;
+
+    // Create a mailto link with the subject and body
+    var mailtoLink =
+      "mailto:?subject=" +
+      encodeURIComponent(subject) +
+      "&body=" +
+      encodeURIComponent(body);
+
+    // Open the user's email client with the mailto link
+    window.location.href = mailtoLink;
+  });
 
 //modal for download white paper starts here
 var modal = document.getElementById("myModal");
