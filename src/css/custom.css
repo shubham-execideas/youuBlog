@@ -351,6 +351,10 @@ select option {
   font-weight: bolder !important;
 } 
 
+ .blog-body strong{
+  font-weight: bolder !important;
+ }
+
 /* .blog-body h1{
   font-size: 32px !important;
 }
