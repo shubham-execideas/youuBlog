@@ -2,40 +2,12 @@
 title: post
 layout: 'base.njk'
 ---
-<div class="px-16 py-5 h-auto mb-10 hidden lg:inline-block">
-  <div class="tabs grid grid-cols-5 h-auto relative">
-{%  include '../tabs-menu.njk'%}
 
-<div class="tab-content col-span-4 h-auto">
-      
-   {% include 'blog-post-template.njk' %} 
+<div class="lg:px-16 py-5 h-auto mb-10 inline-block">
+  <div class="tabs lg:grid grid-cols-5 h-auto relative">
+    {%  include '../tabs-menu.njk'%}
+    <div class="tab-content lg:col-span-4 h-auto">
+      {% include 'blog-post-template.njk' %} 
     </div>
-
   </div>
 </div>
-
-
-
-<div class=" relative non-slider  sm:inline-block md:inline-block lg:hidden overflow-hidden" style="width: 100%">
-  <select
-    name=""
-    id="tabTitle"
-    onchange="redirect(this.value)"
-    style="width: 92%"
-    class="mb-8 mt-5 mx-4 border-2 p-2.5 rounded-md text-gray-500 font-semibold outline-0 ">
-    <option value="/" selected>
-       Select Menu
-      </option>
-    {%- for slider in collections.slider -%}
-      <option value="{{ slider.url }}">
-        <a href="{{ slider.url }}">{{ slider.data.slideButtonText }}</a>
-      </option>
-    {%- endfor -%}
-  </select>
-  <div id="" class="tabContent" style="min-height: 500px">
-    
-      {% include 'blog-post-template.njk' %} 
-
-
-        </div>
-      </div>
