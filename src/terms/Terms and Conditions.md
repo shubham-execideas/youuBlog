@@ -1,6 +1,8 @@
-These terms and conditions ("Terms", "Agreement") are an agreement between Sober Peer, LLC ("Sober Peer, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
 
-**Accounts and membership**
+
+These terms and conditions ("Terms", "Agreement") are an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+
+### **Accounts and membership**
 
 You must be at least 18 years of age to use this Website. By using this Website and by agreeing to this Agreement you warrant and represent that you are at least 18 years of age. If you create an account on the Website, you are responsible for maintaining the security of your account and you are fully responsible for all activities that occur under the account and any other actions taken in connection with it. We may monitor and review new accounts before you may sign in and use our Services. Providing false contact information of any kind may result in the termination of your account. You must immediately notify us of any unauthorized uses of your account or any other breaches of security. We will not be liable for any acts or omissions by you, including any damages of any kind incurred as a result of such acts or omissions. We may suspend, disable, or delete your account (or any part thereof) if we determine that you have violated any provision of this Agreement or that your conduct or content would tend to damage our reputation and goodwill. If we delete your account for the foregoing reasons, you may not re-register for our Services. We may block your email address and Internet protocol address to prevent further registration.
 
@@ -8,51 +10,54 @@ You must be at least 18 years of age to use this Website. By using this Website 
 
 We do not own any data, information or material ("Content") that you submit on the Website in the course of using the Service. You shall have sole responsibility for the accuracy, quality, integrity, legality, reliability, appropriateness, and intellectual property ownership or right to use of all submitted Content. We may monitor and review Content on the Website submitted or created using our Services by you. Unless specifically permitted by you, your use of the Website does not grant us the license to use, reproduce, adapt, modify, publish or distribute the Content created by you or stored in your user account for commercial, marketing or any similar purpose. But you grant us permission to access, copy, distribute, store, transmit, reformat, display and perform the Content of your user account solely as required for the purpose of providing the Services to you. Without limiting any of those representations or warranties, we have the right, though not the obligation, to, in our own sole discretion, refuse or remove any Content that, in our reasonable opinion, violates any of our policies or is in any way harmful or objectionable.
 
-##### Billing and payments
+### **Billing and payments**
 
 You shall pay all fees or charges to your account in accordance with the fees, charges, and billing terms in effect at the time a fee or charge is due and payable. If auto-renewal is enabled for the Services you have subscribed for, you will be charged automatically in accordance with the term you selected. If, in our judgment, your purchase constitutes a high-risk transaction, we will require you to provide us with a copy of your valid government-issued photo identification, and possibly a copy of a recent bank statement for the credit or debit card used for the purchase. We reserve the right to change product pricing at any time. We also reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account, the same credit card, and/or orders that use the same billing and/or shipping address. In the event that we make a change to or cancel an order, we may attempt to notify you by contacting the e-mail and/or billing address/phone number provided at the time the order was made.
 
-##### Accuracy of information
+### **Accuracy of information**
 
 Occasionally there may be information on the Website that contains typographical errors, inaccuracies or omissions that may relate to product descriptions, pricing, availability, promotions and offers. We reserve the right to correct any errors, inaccuracies or omissions, and to change or update information or cancel orders if any information on the Website or on any related Service is inaccurate at any time without prior notice (including after you have submitted your order). We undertake no obligation to update, amend or clarify information on the Website including, without limitation, pricing information, except as required by law. No specified update or refresh date applied on the Website should be taken to indicate that all information on the Website or on any related Service has been modified or updated.
 
-##### Uptime guarantee
+### **Uptime guarantee**
 
 We offer a Service uptime guarantee of 99% of available time per month. The service uptime guarantee does not apply to service interruptions caused by: (1) periodic scheduled maintenance or repairs we may undertake from time to time; (2) interruptions caused by you or your activities; (3) outages that do not affect core Service functionality; (4) causes beyond our control or that are not reasonably foreseeable; and (5) outages related to the reliability of certain programming environments.
 
-##### Backups
+### **Backups**
 
 We perform regular backups of the Website and Content and will do our best to ensure completeness and accuracy of these backups. In the event of the hardware failure or data loss we will restore backups automatically to minimize the impact and downtime.
 
-##### Links to other websites
+### **Links to other websites**
 
 Although this Website may link to other websites, we are not, directly or indirectly, implying any approval, association, sponsorship, endorsement, or affiliation with any linked website, unless specifically stated herein. We are not responsible for examining or evaluating, and we do not warrant the offerings of, any businesses or individuals or the content of their websites. We do not assume any responsibility or liability for the actions, products, services, and content of any other third-parties. You should carefully review the legal statements and other conditions of use of any website which you access through a link from this Website. Your linking to any other off-site websites is at your own risk.
 
-##### Changes and amendments
+### **Changes and amendments**
 
 We reserve the right to modify this Agreement or its policies relating to the Website or Services at any time, effective upon posting of an updated version of this Agreement on the Website. When we do, we will revise the updated date at the bottom of this page. Continued use of the Website after any such changes shall constitute your consent to such changes.
 
-##### Acceptance of these terms
+### **Acceptance of these terms**
 
 You acknowledge that you have read this Agreement and agree to all its terms and conditions. By using the Website or its Services you agree to be bound by this Agreement. If you do not agree to abide by the terms of this Agreement, you are not authorized to use or access the Website and its Services.
 
-##### Contacting us
+### **Contacting us**
 
 If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, you may send an email to support@soberpeer.com
 
 This document was last updated on March 29, 2020
 
-## Acceptable use policy
+### **Acceptable use policy**
 
-These acceptable use policy ("Acceptable Use Policy", "AUP", "Policy") is an agreement between Sober Peer, LLC ("Sober Peer, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Policy sets forth the general guidelines and acceptable and prohibited uses of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+These acceptable use policy ("Acceptable Use Policy", "AUP", "Policy") is an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Policy sets forth the general guidelines and acceptable and prohibited uses of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
 
-##### Prohibited activities and uses
+### **Prohibited activities and uses**
 
 You may not use the Services to publish content or engage in activity that is illegal under applicable law, that is harmful to others, or that would subject us to liability, including, without limitation, in connection with any of the following, each of which is prohibited under this Policy:
 
-* Distributing malware or other malicious code.
-* Disclosing sensitive personal information about others.
-* Collecting, or attempting to collect, personal information about third parties without their knowledge or consent.
+\* Distributing malware or other malicious code.
+
+\* Disclosing sensitive personal information about others.
+
+\* Collecting, or attempting to collect, personal information about third parties without their knowledge or consent.
+
 * Distributing pornography or adult related content.
 * Promoting or facilitating prostitution or any escort services.
 * Hosting, distributing or linking to child pornography or content that is harmful to minors.
@@ -64,7 +69,7 @@ You may not use the Services to publish content or engage in activity that is il
 * Infringing the intellectual property or other proprietary rights of others.
 * Facilitating, aiding, or encouraging any of the above activities through our Services.
 
-##### System abuse
+###  **System abuse**
 
 Any User in violation of our Services security is subject to criminal and civil liability, as well as immediate account termination. Examples include, but are not limited to the following:
 
@@ -73,7 +78,7 @@ Any User in violation of our Services security is subject to criminal and civil 
 * Accessing another network without permission, including to probe or scan for vulnerabilities or breach security or authentication measures.
 * Unauthorized scanning or monitoring of data on any network or system without proper authorization of the owner of the system or network.
 
-##### Service resources
+### **Service resources**
 
 You may not consume excessive amounts of the Services or use the Services in any way which results in performance issues or which interrupts the services for other Users. Prohibited activities that contribute to excessive use, include without limitation:
 
@@ -83,7 +88,7 @@ You may not consume excessive amounts of the Services or use the Services in any
 * Operating a file sharing site or scripts for BitTorrent or similar, which includes sending or receiving files containing these mechanisms.
 * Web proxy scripts, such as those that allow anyone to browse to a third-party website anonymously, are prohibited.
 
-##### No spam policy
+### **No spam policy**
 
 You may not use our Services to send spam or bulk unsolicited messages. We maintain a zero tolerance policy for use of our Services in any manner associated with the transmission, distribution or delivery of any bulk e-mail, including unsolicited bulk or unsolicited commercial e-mail, or the sending, assisting, or commissioning the transmission of commercial e-mail that does not comply with the U.S. CAN-SPAM Act of 2003 ("SPAM").
 
@@ -91,21 +96,21 @@ Your products or services advertised via SPAM (i.e. Spamvertised) may not be use
 
 Sending emails through our Services to purchased email lists ("safe lists") will be treated as SPAM.
 
-##### Defamation and objectionable content
+### **Defamation and objectionable content**
 
 We value the freedom of expression and encourage Users to be respectful with the content they post. We are not a publisher of User content and are not in a position to investigate the veracity of individual defamation claims or to determine whether certain material, which we may find objectionable, should be censored. However, we reserve the right to moderate, disable or remove any content to prevent harm to others or to us or our Services, as determined in our sole discretion.
 
-##### Copyrighted content
+### **Copyrighted content**
 
 Copyrighted material must not be published via our Services without the explicit permission of the copyright owner or a person explicitly authorized to give such permission by the copyright owner. Upon receipt of a claim for copyright infringement, or a notice of such violation, we will immediately run full investigation and, upon confirmation, will promptly remove the infringing material from the Services. We may terminate the Service of Users with repeated copyright infringements. Further procedures may be carried out if necessary. We will assume no liability to any User of the Services for the removal of any such material.
 
 If you believe your copyright is being infringed by a person or persons using our Services, please send a report of the copyright infringement to the contact details listed at the end of this Policy.
 
-##### Security
+### **Security**
 
 You take full responsibility for maintaining reasonable security precautions for your account. You are responsible for protecting and updating any login account provided to you for our Services. You must protect the confidentiality of your login details, and you should change your password periodically. You are responsible for ensuring all User provided software installed by you on our Services is updated and patched following industry best practice.
 
-##### Enforcement
+### **Enforcement**
 
 We reserve our right to be the sole arbiter in determining the seriousness of each infringement and to immediately take corrective actions, including but not limited to:
 
@@ -113,36 +118,35 @@ We reserve our right to be the sole arbiter in determining the seriousness of ea
 * Disabling or removing any content which is prohibited by this Policy, including to prevent harm to others or to us or our Services, as determined by us in our sole discretion.
 * Reporting violations to law enforcement as determined by us in our sole discretion.
 * A failure to respond to an email from our abuse team within 2 days, or as otherwise specified in the communication to you, may result in the suspension or termination of your Services.
-
-Suspended and terminated User accounts due to violations will not be re-activated. A backup of User’s data may be requested, however, we may not be able to provide you with one and, as such, you are strongly encouraged to take your own backups.
+* Suspended and terminated User accounts due to violations will not be re-activated. A backup of User’s data may be requested, however, we may not be able to provide you with one and, as such, you are strongly encouraged to take your own backups.
 
 Nothing contained in this Policy shall be construed to limit our actions or remedies in any way with respect to any of the prohibited activities. We reserve the right to take any and all additional actions we may deem appropriate with respect to such activities, including without limitation taking action to recover the costs and expenses of identifying offenders and removing them from our Services, and levying cancellation charges to cover our costs. In addition, we reserve at all times all rights and remedies available to us with respect to such activities at law or in equity.
 
-##### Reporting violations
+### **Reporting violations**
 
 If you have discovered and would like to report a violation of this Policy, please contact us immediately. We will investigate the situation and provide you with full assistance.
 
-##### Changes and amendments
+### **Changes and amendments**
 
 We reserve the right to modify this Policy or its terms relating to the Website or Services at any time, effective upon posting of an updated version of this Policy on the Website. When we do, we will revise the updated date at the bottom of this page. Continued use of the Website after any such changes shall constitute your consent to such changes.
 
-##### Acceptance of this policy
+### **Acceptance of this policy**
 
 You acknowledge that you have read this Policy and agree to all its terms and conditions. By using the Website or its Services you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to use or access the Website and its Services.
 
-##### Contacting us
+### **Contacting us**
 
 If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to it, you may send an email to support@soberpeer.com
 
 This document was last updated on March 29, 2020
 
-## Cookie policy
+### **Cookie policy**
 
-This cookie policy ("Policy") describes what cookies are and how Sober Peer, LLC ("Sober Peer, LLC", "we", "us" or "our") uses them on the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+This cookie policy ("Policy") describes what cookies are and how YOUU, LLC ("YOUU, LLC", "we", "us" or "our") uses them on the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
 
-You should read this Policy so you can understand what type of cookies we use, the information we collect using cookies and how that information is used. It also describes the choices available to you regarding accepting or declining the use of cookies. For further information on how we use, store and keep your personal data secure, see our [Privacy Policy](http://www.soberpeer.com/privacy).
+You should read this Policy so you can understand what type of cookies we use, the information we collect using cookies and how that information is used. It also describes the choices available to you regarding accepting or declining the use of cookies. For further information on how we use, store and keep your personal data secure, see our \[Privacy Policy](http://www.soberpeer.com/privacy).
 
-##### What are cookies?
+### **What are cookies?**
 
 Cookies are small pieces of data stored in text files that are saved on your computer or other devices when websites are loaded in a browser. They are widely used to remember you and your preferences, either for a single visit (through a "session cookie") or for multiple repeat visits (using a "persistent cookie").
 
@@ -152,87 +156,87 @@ Persistent cookies are used to remember your preferences within our Website and 
 
 Cookies may be set by the Website ("first-party cookies"), or by third parties, such as those who serve content or provide advertising or analytics services on the website ("third party cookies"). These third parties can recognize you when you visit our website and also when you visit certain other websites.
 
-##### What type of cookies do we use?
+### What type of cookies do we use?
 
-##### Necessary cookies
+#### **Necessary cookies**
 
 Necessary cookies allow us to offer you the best possible experience when accessing and navigating through our Website and using its features. For example, these cookies let us recognize that you have created an account and have logged into that account to access the content.
 
-##### Functionality cookies
+#### **Functionality cookies**
 
 Functionality cookies let us operate the Website and our Services in accordance with the choices you make. For example, we will recognize your username and remember how you customized the Website and Services during future visits.
 
-##### What are your cookie options?
+### **What are your cookie options?**
 
-If you don't like the idea of cookies or certain types of cookies, you can change your browser's settings to delete cookies that have already been set and to not accept new cookies. To learn more about how to do this or to learn more about cookies, visit [internetcookies.org](https://www.internetcookies.org/)
+If you don't like the idea of cookies or certain types of cookies, you can change your browser's settings to delete cookies that have already been set and to not accept new cookies. To learn more about how to do this or to learn more about cookies, visit \[internetcookies.org](https://www.internetcookies.org/)
 
-##### Changes and amendments
+### **Changes and amendments**
 
 We reserve the right to modify this Policy relating to the Website or Services at any time, effective upon posting of an updated version of this Policy on the Website. When we do we will revise the updated date at the bottom of this page. Continued use of the Website after any such changes shall constitute your consent to such changes.
 
-##### Acceptance of this policy
+### **Acceptance of this policy**
 
 You acknowledge that you have read this Policy and agree to all its terms and conditions. By using the Website or its Services you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to use or access the Website and its Services.
 
-##### Contacting us
+### **Contacting us**
 
 If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to our use of cookies, you may send an email to support@soberpeer.com
 
 This document was last updated on March 29, 2020
 
-## Refund policy
+### **Refund policy**
 
 Since our Website offers non-tangible, irrevocable goods we do not provide refunds after the product is purchased, which you acknowledge prior to purchasing any product on the Website. Please make sure that you've carefully read service description before making a purchase.
 
-##### Contacting us
+### **Contacting us**
 
 If you would like to contact us concerning any matter relating to this Refund Policy, you may send an email to support@soberpeer.com
 
 This document was last updated on March 29, 2020
 
-## Disclaimer
+### **Disclaimer**
 
-This disclaimer ("Disclaimer", "Agreement") is an agreement between Sober Peer, LLC ("Sober Peer, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Disclaimer sets forth the general guidelines, terms and conditions of your use of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+This disclaimer ("Disclaimer", "Agreement") is an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Disclaimer sets forth the general guidelines, terms and conditions of your use of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
 
-##### Representation
+### **Representation**
 
-Any views or opinions represented in this Website reflect the views and opinions of Sober Peer, LLC, its affiliates, Content creators or employees. Any views or opinions are not intended to malign any religion, ethnic group, club, organization, company, or individual.
+Any views or opinions represented in this Website reflect the views and opinions of YOUU, LLC, its affiliates, Content creators or employees. Any views or opinions are not intended to malign any religion, ethnic group, club, organization, company, or individual.
 
-##### Content and postings
+### **Content and postings**
 
-You may not modify, print or copy any part of the Website. Inclusion of any part of this Website in another work, whether in printed or electronic or another form or inclusion of any part of the Website in another website by embedding, framing or otherwise without the express permission of Sober Peer, LLC is prohibited.
+You may not modify, print or copy any part of the Website. Inclusion of any part of this Website in another work, whether in printed or electronic or another form or inclusion of any part of the Website in another website by embedding, framing or otherwise without the express permission of YOUU, LLC is prohibited.
 
-You may submit comments for the Content available on the Website. By uploading or otherwise making available any information to Sober Peer, LLC, you grant Sober Peer, LLC the unlimited, perpetual right to distribute, display, publish, reproduce, reuse and copy the information contained therein. You may not impersonate any other person through the Website. You may not post content that is defamatory, fraudulent, obscene, threatening, invasive of another person's privacy rights or that is otherwise unlawful. You may not post content that infringes on the intellectual property rights of any other person or entity. You may not post any content that includes any computer virus or other code designed to disrupt, damage, or limit the functioning of any computer software or hardware. By submitting or posting Content on the Website, you grant Sober Peer, LLC the right to edit and, if necessary, remove any Content at any time and for any reason.
+You may submit comments for the Content available on the Website. By uploading or otherwise making available any information to YOUU, LLC, you grant YOUU, LLC the unlimited, perpetual right to distribute, display, publish, reproduce, reuse and copy the information contained therein. You may not impersonate any other person through the Website. You may not post content that is defamatory, fraudulent, obscene, threatening, invasive of another person's privacy rights or that is otherwise unlawful. You may not post content that infringes on the intellectual property rights of any other person or entity. You may not post any content that includes any computer virus or other code designed to disrupt, damage, or limit the functioning of any computer software or hardware. By submitting or posting Content on the Website, you grant YOUU, LLC the right to edit and, if necessary, remove any Content at any time and for any reason.
 
-##### Indemnification and warranties
+### **Indemnification and warranties**
 
-While we have made every attempt to ensure that the information contained on the Website is correct, Sober Peer, LLC is not responsible for any errors or omissions, or for the results obtained from the use of this information. All information on the Website is provided "as is", with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied. In no event will Sober Peer, LLC, or its partners, employees or agents, be liable to you or anyone else for any decision made or action taken in reliance on the information on the Website or for any consequential, special or similar damages, even if advised of the possibility of such damages. Furthermore, information contained on the Website and any pages linked to and from it are subject to change at any time and without warning.
+While we have made every attempt to ensure that the information contained on the Website is correct, YOUU, LLC is not responsible for any errors or omissions, or for the results obtained from the use of this information. All information on the Website is provided "as is", with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied. In no event will YOUU, LLC, or its partners, employees or agents, be liable to you or anyone else for any decision made or action taken in reliance on the information on the Website or for any consequential, special or similar damages, even if advised of the possibility of such damages. Furthermore, information contained on the Website and any pages linked to and from it are subject to change at any time and without warning.
 
 We reserve the right to modify this Disclaimer relating to the Website or Services at any time, effective upon posting of an updated version of this Disclaimer on the Website. When we do we will revise the updated date at the bottom of this page. Continued use of the Website after any such changes shall constitute your consent to such changes.
 
-##### Acceptance of this disclaimer
+### **Acceptance of this disclaimer**
 
 You acknowledge that you have read this Disclaimer and agree to all its terms and conditions. By accessing the Website you agree to be bound by this Disclaimer. If you do not agree to abide by the terms of this Disclaimer, you are not authorized to use or access the Website.
 
-##### Contacting us
+### **Contacting us**
 
 If you would like to contact us to understand more about this Disclaimer or wish to contact us concerning any matter relating to it, you may send an email to support@soberpeer.com
 
 This document was last updated on March 29, 2020
 
-## Privacy policy
+### **Privacy policy**
 
-This privacy policy ("Policy") describes how Sober Peer, LLC ("Sober Peer, LLC", "we", "us" or "our") collects, protects and uses the personally identifiable information ("Personal Information") you ("User", "you" or "your") may provide on the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+This privacy policy ("Policy") describes how YOUU, LLC ("YOUU, LLC", "we", "us" or "our") collects, protects and uses the personally identifiable information ("Personal Information") you ("User", "you" or "your") may provide on the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
 
 It also describes the choices available to you regarding our use of your Personal Information and how you can access and update this information. This Policy does not apply to the practices of companies that we do not own or control, or to individuals that we do not employ or manage.
 
-##### Automatic collection of information
+### **Automatic collection of information**
 
 When you visit the Website our servers automatically record information that your browser sends. This data may include information such as your device's IP address, browser type and version, operating system type and version, language preferences or the webpage you were visiting before you came to our Website, pages of our Website that you visit, the time spent on those pages, information you search for on our Website, access times and dates, and other statistics.
 
 Information collected automatically is used only to identify potential cases of abuse and establish statistical information regarding Website usage. This statistical information is not otherwise aggregated in such a way that would identify any particular user of the system.
 
-##### Collection of personal information
+### **Collection of personal information**
 
 You can visit the Website without telling us who you are or revealing any information by which someone could identify you as a specific, identifiable individual. If, however, you wish to use some of the Website's features, you will be asked to provide certain Personal Information (for example, your name and e-mail address). We receive and store any information you knowingly provide to us when you create an account, publish content, make a purchase, or fill any online forms on the Website. When required, this information may include the following:
 
@@ -244,15 +248,15 @@ You can visit the Website without telling us who you are or revealing any inform
 
 You can choose not to provide us with your Personal Information, but then you may not be able to take advantage of some of the Website's features. Users who are uncertain about what information is mandatory are welcome to contact us.
 
-##### Managing personal information
+### **Managing personal information**
 
 You are able to delete certain Personal Information we have about you. The Personal Information you can delete may change as the Website or Services change. When you delete Personal Information, however, we may maintain a copy of the unrevised Personal Information in our records for the duration necessary to comply with our obligations to our affiliates and partners, and for the purposes described below. If you would like to delete your Personal Information or permanently delete your account, you can do so on the settings page of your account on the Website.
 
-##### Storing personal information
+### **Storing personal information**
 
 We will retain and use your Personal Information for the period necessary to comply with our legal obligations, resolve disputes, and enforce our agreements unless a longer retention period is required or permitted by law. We may use any aggregated data derived from or incorporating your Personal Information after you update or delete it, but not in a manner that would identify you personally. Once the retention period expires, Personal Information shall be deleted. Therefore, the right to access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after the expiration of the retention period.
 
-##### Use and processing of collected information
+### **Use and processing of collected information**
 
 In order to make our Website and Services available to you, or to meet a legal obligation, we need to collect and use certain Personal Information. If you do not provide the information that we request, we may not be able to provide you with the requested products or services. Some of the information we collect is directly from you via our Website. However, we may also collect Personal Information about you from other sources. Any of the information we collect from you may be used for the following purposes:
 
@@ -272,76 +276,78 @@ Processing your Personal Information depends on how you interact with our Websit
 
 Note that under some legislations we may be allowed to process information until you object to such processing (by opting out), without having to rely on consent or any other of the following legal bases below. In any case, we will be happy to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Information is a statutory or contractual requirement, or a requirement necessary to enter into a contract.
 
-##### Information transfer and storage
+### **Information transfer and storage**
 
 Depending on your location, data transfers may involve transferring and storing your information in a country other than your own. You are entitled to learn about the legal basis of information transfers to a country outside the European Union or to any international organization governed by public international law or set up by two or more countries, such as the UN, and about the security measures taken by us to safeguard your information. If any such transfer takes place, you can find out more by checking the relevant sections of this document or inquire with us using the information provided in the contact section.
 
-##### The rights of users
+### **The rights of users**
 
 You may exercise certain rights regarding your information processed by us. In particular, you have the right to do the following: (i) you have the right to withdraw consent where you have previously given your consent to the processing of your information; (ii) you have the right to object to the processing of your information if the processing is carried out on a legal basis other than consent; (iii) you have the right to learn if information is being processed by us, obtain disclosure regarding certain aspects of the processing and obtain a copy of the information undergoing processing; (iv) you have the right to verify the accuracy of your information and ask for it to be updated or corrected; (v) you have the right, under certain circumstances, to restrict the processing of your information, in which case, we will not process your information for any purpose other than storing it; (vi) you have the right, under certain circumstances, to obtain the erasure of your Personal Information from us; (vii) you have the right to receive your information in a structured, commonly used and machine readable format and, if technically feasible, to have it transmitted to another controller without any hindrance. This provision is applicable provided that your information is processed by automated means and that the processing is based on your consent, on a contract which you are part of or on pre-contractual obligations thereof.
 
-##### The right to object to processing
+### **The right to object to processing**
 
 Where Personal Information is processed for the public interest, in the exercise of an official authority vested in us or for the purposes of the legitimate interests pursued by us, you may object to such processing by providing a ground related to your particular situation to justify the objection. You must know that, however, should your Personal Information be processed for direct marketing purposes, you can object to that processing at any time without providing any justification. To learn, whether we are processing Personal Information for direct marketing purposes, you may refer to the relevant sections of this document.
 
-##### How to exercise these rights
+### **How to exercise these rights**
 
 Any requests to exercise User rights can be directed to the Owner through the contact details provided in this document. These requests can be exercised free of charge and will be addressed by the Owner as early as possible.
 
-##### California privacy rights
+### **California privacy rights**
 
 In addition to the rights as explained in this Privacy Policy, California residents who provide Personal Information (as defined in the statute) to obtain products or services for personal, family, or household use are entitled to request and obtain from us, once a calendar year, information about the Personal Information we shared, if any, with other businesses for marketing uses. If applicable, this information would include the categories of Personal Information and the names and addresses of those businesses with which we shared such personal information for the immediately prior calendar year (e.g., requests made in the current year will receive information about the prior year). To obtain this information please contact us.
 
-##### Billing and payments
+### **Billing and payments**
 
 We use third-party payment processors to assist us in processing your payment information securely. Such third-party processors' use of your Personal Information is governed by their respective privacy policies which may or may not contain privacy protections as protective as this Privacy Policy. We suggest that you review their respective privacy policies.
 
-##### Product and service providers
+### **Product and service providers**
 
 We may contract with other companies to provide certain products and services. These service providers are not authorized to use or disclose the information except as necessary to perform services on our behalf or comply with legal requirements. We may share Personal Information for these purposes only with third-parties whose privacy policies are consistent with ours or who agree to abide by our policies with respect to Personal Information Our service providers are given the information they need to perform their designated functions, and we do not authorize them to use or disclose Personal Information for their own marketing or other purposes.
 
-##### Privacy of children
+### **Privacy of children**
 
 We do not knowingly collect any Personal Information from children under the age of 13. If you are under the age of 13, please do not submit any Personal Information through our Website or Service. We encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide Personal Information through our Website or Service without their permission.
 
 If you have reason to believe that a child under the age of 13 has provided Personal Information to us through our Website or Service, please contact us. You must also be at least 16 years of age to consent to the processing of your Personal Information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
 
-##### Newsletters
+### **Newsletters**
 
 We offer electronic newsletters to which you may voluntarily subscribe at any time. We are committed to keeping your e-mail address confidential and will not disclose your email address to any third parties except as allowed in the information use and processing section or for the purposes of utilizing a third-party provider to send such emails. We will maintain the information sent via e-mail in accordance with applicable laws and regulations.
 
 In compliance with the CAN-SPAM Act, all e-mails sent from us will clearly state who the e-mail is from and provide clear information on how to contact the sender. You may choose to stop receiving our newsletter or marketing emails by following the unsubscribe instructions included in these emails or by contacting us. However, you will continue to receive essential transactional emails.
 
-##### Cookies
+### **Cookies**
 
 The Website uses "cookies" to help personalize your online experience. A cookie is a text file that is placed on your hard disk by a web page server. Cookies cannot be used to run programs or deliver viruses to your computer. Cookies are uniquely assigned to you, and can only be read by a web server in the domain that issued the cookie to you.
 
-We may use cookies to collect, store, and track information for statistical purposes to operate our Website and Services. You have the ability to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. If you choose to decline cookies, you may not be able to fully experience the features of the Website and Services. To learn more about cookies and how to manage them, visit [internetcookies.org](https://www.internetcookies.org/)
+We may use cookies to collect, store, and track information for statistical purposes to operate our Website and Services. You have the ability to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. If you choose to decline cookies, you may not be able to fully experience the features of the Website and Services. To learn more about cookies and how to manage them, visit \[internetcookies.org](https://www.internetcookies.org/)
 
-##### Do Not Track signals
+### **Do Not Track signals**
 
 Some browsers incorporate a Do Not Track feature that signals to websites you visit that you do not want to have your online activity tracked. Tracking is not the same as using or collecting information in connection with a website. For these purposes, tracking refers to collecting personally identifiable information from consumers who use or visit a website or online service as they move across different websites over time. Our Website does not track its visitors over time and across third party websites. However, some third party sites may keep track of your browsing activities when they serve you content, which enables them to tailor what they present to you.
 
-##### Affiliates
+### **Affiliates**
 
 We may disclose information about you to our affiliates for the purpose of being able to offer you related or additional products and services. Any information relating to you that we provide to our affiliates will be treated by those affiliates in accordance with the terms of this Privacy Policy.
 
-##### Links to other websites
+### **Links to other websites**
 
 Our Website contains links to other websites that are not owned or controlled by us. Please be aware that we are not responsible for the privacy practices of such other websites or third-parties. We encourage you to be aware when you leave our Website and to read the privacy statements of each and every website that may collect Personal Information.
 
-##### Information security
+### **Information security**
 
 We secure information you provide on computer servers in a controlled, secure environment, protected from unauthorized access, use, or disclosure. We maintain reasonable administrative, technical, and physical safeguards in an effort to protect against unauthorized access, use, modification, and disclosure of Personal Information in its control and custody. However, no data transmission over the Internet or wireless network can be guaranteed. Therefore, while we strive to protect your Personal Information, you acknowledge that (i) there are security and privacy limitations of the Internet which are beyond our control; (ii) the security, integrity, and privacy of any and all information and data exchanged between you and our Website cannot be guaranteed; and (iii) any such information and data may be viewed or tampered with in transit by a third-party, despite best efforts.
 
-##### Data breach
+### **Data breach**
 
 In the event we become aware that the security of the Website has been compromised or users Personal Information has been disclosed to unrelated third parties as a result of external activity, including, but not limited to, security attacks or fraud, we reserve the right to take reasonably appropriate measures, including, but not limited to, investigation and reporting, as well as notification to and cooperation with law enforcement authorities. In the event of a data breach, we will make reasonable efforts to notify affected individuals if we believe that there is a reasonable risk of harm to the user as a result of the breach or if notice is otherwise required by law. When we do, we will post a notice on the Website, send you an email.
 
-##### Changes and amendments
+### **Changes and amendments**
 
 We may update this Privacy Policy from time to time in our discretion and will notify you of any material changes to the way in which we treat Personal Information. When changes are made, we will revise the updated date at the bottom of this page. We may also provide notice to you in other ways in our discretion, such as through contact information you have provided. Any updated version of this Privacy Policy will be effective immediately upon the posting of the revised Privacy Policy unless otherwise specified. Your continued use of the Website or Services after the effective date of the revised Privacy Policy (or such other act specified at that time) will constitute your consent to those changes. However, we will not, without your consent, use your Personal Data in a manner materially different than what was stated at the time your Personal Data was collected.
 
-##### Acceptance of this policy
+###  **Acceptance of this policy**
 
 You acknowledge that you have read this Policy and agree to all its terms and conditions. By using the Website or its Services you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to use or access the Website and its Services.
+
+<!--EndFragment-->
