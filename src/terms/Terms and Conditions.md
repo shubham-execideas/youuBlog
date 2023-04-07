@@ -1,4 +1,4 @@
-These terms and conditions ("Terms", "Agreement") are an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+These terms and conditions ("Terms", "Agreement") are an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of the provider.soberpeer.com website and any of its products or services (collectively, "Website" or "Services").
 
 ### **Accounts and membership**
 
@@ -38,13 +38,13 @@ You acknowledge that you have read this Agreement and agree to all its terms and
 
 ### **Contacting us**
 
-If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, you may send an email to support@soberpeer.com
+If you would like to contact us to understand more about this Agreement or wish to contact us concerning any matter relating to it, you may send an email to inquiry@youu.com
 
 This document was last updated on March 29, 2020
 
 ### **Acceptable use policy**
 
-These acceptable use policy ("Acceptable Use Policy", "AUP", "Policy") is an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Policy sets forth the general guidelines and acceptable and prohibited uses of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+These acceptable use policy ("Acceptable Use Policy", "AUP", "Policy") is an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Policy sets forth the general guidelines and acceptable and prohibited uses of the provider.soberpeer.com website and any of its products or services (collectively, "Website" or "Services").
 
 ### **Prohibited activities and uses**
 
@@ -131,13 +131,13 @@ You acknowledge that you have read this Policy and agree to all its terms and co
 
 ### **Contacting us**
 
-If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to it, you may send an email to support@soberpeer.com
+If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to it, you may send an email to inquiry@youu.com
 
 This document was last updated on March 29, 2020
 
 ### **Cookie policy**
 
-This cookie policy ("Policy") describes what cookies are and how YOUU, LLC ("YOUU, LLC", "we", "us" or "our") uses them on the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+This cookie policy ("Policy") describes what cookies are and how YOUU, LLC ("YOUU, LLC", "we", "us" or "our") uses them on the provider.soberpeer.com website and any of its products or services (collectively, "Website" or "Services").
 
 You should read this Policy so you can understand what type of cookies we use, the information we collect using cookies and how that information is used. It also describes the choices available to you regarding accepting or declining the use of cookies. For further information on how we use, store and keep your personal data secure, see our \[Privacy Policy](http://www.soberpeer.com/privacy).
 
@@ -175,7 +175,7 @@ You acknowledge that you have read this Policy and agree to all its terms and co
 
 ### **Contacting us**
 
-If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to our use of cookies, you may send an email to support@soberpeer.com
+If you would like to contact us to understand more about this Policy or wish to contact us concerning any matter relating to our use of cookies, you may send an email to inquiry@youu.com
 
 This document was last updated on March 29, 2020
 
@@ -185,13 +185,13 @@ Since our Website offers non-tangible, irrevocable goods we do not provide refun
 
 ### **Contacting us**
 
-If you would like to contact us concerning any matter relating to this Refund Policy, you may send an email to support@soberpeer.com
+If you would like to contact us concerning any matter relating to this Refund Policy, you may send an email to inquiry@youu.com
 
 This document was last updated on March 29, 2020
 
 ### **Disclaimer**
 
-This disclaimer ("Disclaimer", "Agreement") is an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Disclaimer sets forth the general guidelines, terms and conditions of your use of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+This disclaimer ("Disclaimer", "Agreement") is an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Disclaimer sets forth the general guidelines, terms and conditions of your use of the provider.soberpeer.com website and any of its products or services (collectively, "Website" or "Services").
 
 ### **Representation**
 
@@ -215,13 +215,13 @@ You acknowledge that you have read this Disclaimer and agree to all its terms an
 
 ### **Contacting us**
 
-If you would like to contact us to understand more about this Disclaimer or wish to contact us concerning any matter relating to it, you may send an email to support@soberpeer.com
+If you would like to contact us to understand more about this Disclaimer or wish to contact us concerning any matter relating to it, you may send an email to inquiry@youu.com
 
 This document was last updated on March 29, 2020
 
 ### **Privacy policy**
 
-This privacy policy ("Policy") describes how YOUU, LLC ("YOUU, LLC", "we", "us" or "our") collects, protects and uses the personally identifiable information ("Personal Information") you ("User", "you" or "your") may provide on the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
+This privacy policy ("Policy") describes how YOUU, LLC ("YOUU, LLC", "we", "us" or "our") collects, protects and uses the personally identifiable information ("Personal Information") you ("User", "you" or "your") may provide on the provider.soberpeer.com website and any of its products or services (collectively, "Website" or "Services").
 
 It also describes the choices available to you regarding our use of your Personal Information and how you can access and update this information. This Policy does not apply to the practices of companies that we do not own or control, or to individuals that we do not employ or manage.
 
