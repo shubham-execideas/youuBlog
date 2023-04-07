@@ -1,5 +1,3 @@
-
-
 These terms and conditions ("Terms", "Agreement") are an agreement between YOUU, LLC ("YOUU, LLC", "us", "we" or "our") and you ("User", "you" or "your"). This Agreement sets forth the general terms and conditions of your use of the provider.soberpeer.comwebsite and any of its products or services (collectively, "Website" or "Services").
 
 ### **Accounts and membership**
@@ -52,12 +50,9 @@ These acceptable use policy ("Acceptable Use Policy", "AUP", "Policy") is an agr
 
 You may not use the Services to publish content or engage in activity that is illegal under applicable law, that is harmful to others, or that would subject us to liability, including, without limitation, in connection with any of the following, each of which is prohibited under this Policy:
 
-\* Distributing malware or other malicious code.
-
-\* Disclosing sensitive personal information about others.
-
-\* Collecting, or attempting to collect, personal information about third parties without their knowledge or consent.
-
+* Distributing malware or other malicious code.
+* Disclosing sensitive personal information about others.
+* Collecting, or attempting to collect, personal information about third parties without their knowledge or consent.
 * Distributing pornography or adult related content.
 * Promoting or facilitating prostitution or any escort services.
 * Hosting, distributing or linking to child pornography or content that is harmful to minors.
@@ -69,7 +64,7 @@ You may not use the Services to publish content or engage in activity that is il
 * Infringing the intellectual property or other proprietary rights of others.
 * Facilitating, aiding, or encouraging any of the above activities through our Services.
 
-###  **System abuse**
+### **System abuse**
 
 Any User in violation of our Services security is subject to criminal and civil liability, as well as immediate account termination. Examples include, but are not limited to the following:
 
@@ -346,7 +341,7 @@ In the event we become aware that the security of the Website has been compromis
 
 We may update this Privacy Policy from time to time in our discretion and will notify you of any material changes to the way in which we treat Personal Information. When changes are made, we will revise the updated date at the bottom of this page. We may also provide notice to you in other ways in our discretion, such as through contact information you have provided. Any updated version of this Privacy Policy will be effective immediately upon the posting of the revised Privacy Policy unless otherwise specified. Your continued use of the Website or Services after the effective date of the revised Privacy Policy (or such other act specified at that time) will constitute your consent to those changes. However, we will not, without your consent, use your Personal Data in a manner materially different than what was stated at the time your Personal Data was collected.
 
-###  **Acceptance of this policy**
+### **Acceptance of this policy**
 
 You acknowledge that you have read this Policy and agree to all its terms and conditions. By using the Website or its Services you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to use or access the Website and its Services.
 
