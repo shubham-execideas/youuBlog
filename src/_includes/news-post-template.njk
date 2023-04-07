@@ -1,7 +1,6 @@
-
 <article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
   <div class="flow md:px-8 px-6">
-    <div class="md:block lg:flex justify-between items-center">
+    {# <div class="md:block lg:flex mt-10 justify-between items-center">
       <div>
         <div class="flex">
           <p>Published Date:</p>
@@ -16,11 +15,12 @@
         </div>
       </div>
       {% include 'social-media.njk' %}
-    </div>
+    </div> #}
     <h1 class="article-title text-[2rem] font-bold mb-3">
       {{ title }}
     </h1>
-    <p class="mb-8 text-lg italic">{{ description }}</p>
+    <p class="mb-5 text-lg italic">{{ description }}</p>
+    {% include 'social-media.njk' %}
     <div class="lg:flex">
       <div
         class="sm:w-full md:w-full lg:w-4/6">
@@ -30,7 +30,7 @@
             {%- if videoURL.includes("youtube") -%}
               <iframe src="{{ videoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
             {%- else -%}
-              <video playsinline controls   class="w-full rounded-lg h-[300px] lg:h-[500px]" name="media">
+              <video  playsinline   controls class="w-full rounded-lg h-[300px] lg:h-[500px]" name="media">
                 <source src="{{ videoURL }}#t=0.001" type="video/mp4"></video>
               {%- endif -%}
             </div>
@@ -41,8 +41,8 @@
         </div>
         <div class="h-fit sm:w-full md:w-full lg:w-2/6">
           <div class="hidden sm:hidden md:hidden lg:inline-block">
-            <h1 class="font-semibold text-2xl ml-5">Other Blogs</h1>
-            {%- for post in collections.post | reverse -%}
+            <h1 class="font-semibold text-2xl ml-5">Other News</h1>
+            {%- for post in collections.news | reverse -%}
               {%- if loop.index <= 4 %}
                 <a href="{{ post.url }}" class="m-5 flex p-3 rounded-lg bg-white">
                   <img src="{{ post.data.image }}" alt="{{ post.index }}" style="height: 90px; width:90px; margin-top: 10px;" class="object-cover rounded-lg">
@@ -64,7 +64,7 @@
             <section class="w-full mt-10 relative sm:inline-block md:inline-block lg:hidden">
               <div class="flex justify-between items-center flex-wrap mb-8">
                 <div>
-                  <h3 class="text-4xl font-bold mb-3">Other Blogs</h3>
+                  <h3 class="text-4xl font-bold mb-3">Other News</h3>
                   {# <span class="text-sm">Catchup on the good stuff</span> #}
                 </div>
                 <div class="flex lg:justify-end justify-between m-[15px]">
@@ -80,7 +80,7 @@
               </div>
               <div class="swiper blog-Swiper">
                 <div class="swiper-wrapper w-96 content">
-                  {%- for post in collections.post | reverse -%}
+                  {%- for post in collections.news | reverse -%}
                     {# {% include 'article-snippts.njk' %} #}
                     <div class="swiper-slide card rounded-lg">
                       <div class="card-content w-full flex flex-col items-start">
@@ -108,7 +108,7 @@
             </div>
           </div>
         </article>
-        {# <script type="module">
+        <script type="module">
           import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
           var swiper = new Swiper(".blog-Swiper", {
             slidesPerView: 1.1,
@@ -146,4 +146,4 @@
               }
             }
           });
-        </script> #}
+        </script>

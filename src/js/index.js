@@ -178,6 +178,58 @@ facebookShare && facebookShare.addEventListener("click", function () {
   let Shareurl = `https://www.facebook.com/share.php?u=${url}`;
   facebookShare.href = Shareurl;
 });
+
+
+
+let shareArticleByEmail = document.getElementById("emailShare");
+shareArticleByEmail &&
+  shareArticleByEmail.addEventListener("click", function () {
+    // let url = encodeURI(window.location.href);
+    // let Shareurl = `https://www.facebook.com/share.php?u=${url}`;
+    // facebookShare.href = Shareurl;
+    var articleUrl = window.location.href;
+    var articleTitle = document.title;
+
+    // Compose the email subject and body
+    var subject = articleTitle;
+    var body =
+      "Hi,\n\nCheck out this article: \n" +
+      articleUrl
+
+    // Create a mailto link with the subject and body
+    var mailtoLink =
+      "mailto:?subject=" +
+      encodeURIComponent(subject) +
+      "&body=" +
+      encodeURIComponent(body);
+
+    // Open the user's email client with the mailto link
+    window.location.href = mailtoLink;
+  });
+
+
+// function shareArticleByEmail() {
+//   // Get the article URL and title
+//   var articleUrl = window.location.href;
+//   var articleTitle = document.title;
+
+//   // Compose the email subject and body
+//   var subject = "Check out this article: " + articleTitle;
+//   var body =
+//     "Hi,\n\nI thought you might be interested in reading this article:\n" +
+//     articleUrl +
+//     "\n\nBest regards,\n[Your Name]";
+
+//   // Create a mailto link with the subject and body
+//   var mailtoLink =
+//     "mailto:?subject=" +
+//     encodeURIComponent(subject) +
+//     "&body=" +
+//     encodeURIComponent(body);
+
+//   // Open the user's email client with the mailto link
+//   window.location.href = mailtoLink;
+// }
 //articles sharing on social media end here
 
 
