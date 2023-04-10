@@ -20,11 +20,6 @@
     </nav> #}
       <div class="lg:hidden flex items-center">
         {# <img src="/assets/search_icon.svg" class="h-6 mx-4" alt=""/> #}
-        <form class="search-form">
-  <input type="search" id="search-input" placeholder="Search">
-</form>
-<div id="search-results">
-</div>
         <ion-icon name="menu-outline" onclick="MyClick(this)" class=" text-sumireVoilet cursor-pointer text-4xl"></ion-icon>
       </div>
     </div>
@@ -94,32 +89,4 @@
     </div>
   </div>
 </header>
-
-<script>
-  const search = instantsearch({
-  indexName: 'Youu_Website',
-  searchClient: algoliasearch('MOJFSHYLU6', '39cf10b4f7ccd398f2a06e4f65344b34')
-});
-
-search.addWidgets([
-  instantsearch.widgets.searchBox({
-    container: '#search-input'
-  }),
-
-  instantsearch.widgets.hits({
-    container: '#search-results',
-    templates: {
-      item: `
-        <div>
-          <h2>{{title}}</h2>
-          <p>{{description}}</p>
-        </div>
-      `
-    }
-  })
-]);
-
-search.start();
-
-</script>
 
