@@ -233,6 +233,77 @@ shareArticleByEmail &&
 //articles sharing on social media end here
 
 
+
+
+
+//search modal
+
+
+
+var searchModal = document.getElementById("searchModal");
+
+// Get the button that opens the modal
+var searchBtn = document.getElementById("searchBtn");
+
+// Get the <span> element that closes the modal
+var searchClose = document.getElementsByClassName("searchClose")[0];
+
+// When the user clicks the button, open the modal
+
+searchBtn &&
+  searchBtn.addEventListener("click", function () {
+    searchModal.style.display = "block";
+  });
+
+// When the user clicks on <span> (x), close the modal
+
+searchClose &&
+  searchClose.addEventListener("click", function () {
+    searchModal.style.display = "none";
+  });
+
+
+window.onclick = function (event) {
+    if (event.target == searchModal) {
+      searchModal.style.display = "none";
+    }
+  };
+
+
+
+  
+var searchModalMobile = document.getElementById("searchModalMobile");
+
+// Get the button that opens the modal
+var searchBtnMobile = document.getElementById("searchBtnMobile");
+
+// Get the <span> element that closes the modal
+var searchCloseMobile = document.getElementsByClassName("searchCloseMobile")[0];
+
+// When the user clicks the button, open the modal
+
+searchBtnMobile &&
+  searchBtnMobile.addEventListener("click", function () {
+    searchModalMobile.style.display = "block";
+  });
+
+// When the user clicks on <span> (x), close the modal
+
+searchCloseMobile &&
+  searchCloseMobile.addEventListener("click", function () {
+    searchModalMobile.style.display = "none";
+  });
+
+window.onclick = function (event) {
+  if (event.target == searchModalMobile) {
+    searchModalMobile.style.display = "none";
+  }
+};
+
+
+
+
+
 //modal for download white paper starts here
 var modal = document.getElementById("myModal");
 
