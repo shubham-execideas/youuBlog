@@ -204,6 +204,40 @@ shareArticleByEmail &&
     window.location.href = mailtoLink;
   });
 
+
+
+var searchModal = document.getElementById("searchModal");
+
+// Get the button that opens the modal
+var searchBtn = document.getElementById("searchBtn");
+
+// Get the <span> element that closes the modal
+var searchClose = document.getElementsByClassName("searchClose")[0];
+
+// When the user clicks the button, open the modal
+
+searchBtn &&
+  searchBtn.addEventListener("click", function () {
+    searchModal.style.display = "block";
+  });
+
+// When the user clicks on <span> (x), close the modal
+
+searchClose &&
+  searchClose.addEventListener("click", function () {
+    searchModal.style.display = "none";
+  });
+
+window.onclick = function (event) {
+  if (event.target == searchModal) {
+    searchModal.style.display = "none";
+  }
+};
+
+
+
+
+
 //modal for download white paper starts here
 var modal = document.getElementById("myModal");
 

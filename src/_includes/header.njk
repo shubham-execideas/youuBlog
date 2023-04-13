@@ -38,6 +38,17 @@
     </nav>
     <div class="hidden lg:flex justify-center items-center">
       {# <img src="/assets/search_icon.svg" class="h-6 max-[1024px]:mx-0 mx-3 hidden md:inline-block lg:inline-block" alt=""/> #}
+      <img
+        src="/assets/search_icon.svg"
+        id="searchBtn"
+        class="h-6 cursor-pointer max-[1024px]:mx-0 mx-3 hidden md:inline-block lg:inline-block"
+        alt=""/>
+      <div id="searchModal" class="modal">
+        <div class="modal-content" style="min-height: 500px;">
+          <span class="searchClose">&times;</span>
+          <div id="search"></div>
+        </div>
+      </div>
       <div class="flex justify-around items-center">
         <div class="contact flex justify-between mx-4">
           <a class="mr-2 text-md font-semibold whitespace-nowrap">Contact Us</a>
