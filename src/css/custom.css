@@ -410,7 +410,7 @@ select option {
 }
 
 /* The Close Button */
-.close, .closeMobile, .searchClose {
+.close, .closeMobile, .searchClose, .searchMobileClose {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -418,7 +418,7 @@ select option {
 }
 
 .close:hover,
-.close:focus, .closeMobile:hover, .closeMobile:focus, .searchClose:hover, .searchClose:focus {
+.close:focus, .closeMobile:hover, .closeMobile:focus, .searchClose:hover, .searchClose:focus, .searchMobileClose:focus, .searchMobileClose:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -442,4 +442,19 @@ a{
   /* background-size: contain; */
   /* background-clip: content-box; */
 
+}
+.aa-DetachedOverlay{
+  z-index: 50 !important;
+}
+
+.aa-DetachedSearchButton{
+  border: none !important;
+}
+
+.aa-DetachedSearchButtonPlaceholder{
+  display: none;
+}
+
+.aa-SubmitIcon{
+  cursor: pointer;
 }

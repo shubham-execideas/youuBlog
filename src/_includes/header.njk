@@ -20,6 +20,17 @@
     </nav> #}
       <div class="lg:hidden flex items-center">
         {# <img src="/assets/search_icon.svg" class="h-6 mx-4" alt=""/> #}
+        {# <img
+        src="/assets/search_icon.svg"
+        id="searchMobileBtn"
+        class="h-6 cursor-pointer mx-3 inline-block lg:inline-block"
+        alt=""/> #}
+      {# <div id="searchMobileModal" class="modal">
+        <div class="modal-content" style="min-height: 500px; width: 80%;">
+          <span class="searchMobileClose">&times;</span> #}
+          <div class="DocSearch"></div>
+        {# </div>
+      </div> #}
         <ion-icon name="menu-outline" onclick="MyClick(this)" class=" text-sumireVoilet cursor-pointer text-4xl"></ion-icon>
       </div>
     </div>
@@ -38,17 +49,17 @@
     </nav>
     <div class="hidden lg:flex justify-center items-center">
       {# <img src="/assets/search_icon.svg" class="h-6 max-[1024px]:mx-0 mx-3 hidden md:inline-block lg:inline-block" alt=""/> #}
-      <img
+      {# <img
         src="/assets/search_icon.svg"
         id="searchBtn"
         class="h-6 cursor-pointer max-[1024px]:mx-0 mx-3 hidden md:inline-block lg:inline-block"
         alt=""/>
       <div id="searchModal" class="modal">
         <div class="modal-content" style="min-height: 500px;">
-          <span class="searchClose">&times;</span>
+          <span class="searchClose">&times;</span> #}
           <div id="search"></div>
-        </div>
-      </div>
+        {# </div>
+      </div> #}
       <div class="flex justify-around items-center">
         <div class="contact flex justify-between mx-4">
           <a class="mr-2 text-md font-semibold whitespace-nowrap">Contact Us</a>
@@ -96,3 +107,33 @@
   </div>
 </header>
 
+<script>
+  
+var searchMobileModal = document.getElementById("searchMobileModal");
+
+// Get the button that opens the modal
+var searchMobileBtn = document.getElementById("searchMobileBtn");
+
+// Get the <span> element that closes the modal
+var searchMobileClose = document.getElementsByClassName("searchMobileClose")[0];
+
+// When the user clicks the button, open the modal
+
+searchMobileBtn &&
+  searchMobileBtn.addEventListener("click", function () {
+    searchMobileModal.style.display = "block";
+  });
+
+// When the user clicks on <span> (x), close the modal
+
+searchMobileClose &&
+  searchMobileClose.addEventListener("click", function () {
+    searchMobileModal.style.display = "none";
+  });
+
+window.onclick = function (event) {
+  if (event.target == searchMobileModal) {
+    searchMobileModal.style.display = "none";
+  }
+};
+</script>

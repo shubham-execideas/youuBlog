@@ -236,6 +236,36 @@ window.onclick = function (event) {
 
 
 
+// var searchMobileModal = document.getElementById("searchMobileModal");
+
+// // Get the button that opens the modal
+// var searchMobileBtn = document.getElementById("searchMobileBtn");
+
+// // Get the <span> element that closes the modal
+// var searchMobileClose = document.getElementsByClassName("searchMobileClose")[0];
+
+// // When the user clicks the button, open the modal
+
+// searchMobileBtn &&
+//   searchMobileBtn.addEventListener("click", function () {
+//     searchMobileModal.style.display = "block";
+//   });
+
+// // When the user clicks on <span> (x), close the modal
+
+// searchMobileClose &&
+//   searchMobileClose.addEventListener("click", function () {
+//     searchMobileModal.style.display = "none";
+//   });
+
+// window.onclick = function (event) {
+//   if (event.target == searchMobileModal) {
+//     searchMobileModal.style.display = "none";
+//   }
+// };
+
+
+
 
 
 //modal for download white paper starts here
