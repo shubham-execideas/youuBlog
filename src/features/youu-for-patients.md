@@ -1,4 +1,6 @@
 ---
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+imageAlt: patients
 title: Youu for Patients
 postTitle: Digital health changes everything
 label: patients
@@ -13,10 +15,10 @@ description: YOUU for Patients ™ is the most powerful, self-reporting remote
   appreciate you for it.
 postDescription: Why building a healthy community matters to best-in-class provider
 date: 2023-02-13T00:00:00+05:30
-image: /assets/patientssvg.svg
-imageAlt: patients
+image: /assets/youu_cms_logo-white-bg.svg
+icon: /assets/patientssvg.svg
+iconAlt: patients
 postVideoURL: /assets/youuhabitsfinal-1-.mp4
-whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 
 
