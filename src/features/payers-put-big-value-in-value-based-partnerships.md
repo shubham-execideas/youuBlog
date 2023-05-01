@@ -1,4 +1,6 @@
 ---
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+imageAlt: payer
 title: Payers Put Big Value In Value-Based Partnerships
 postTitle: "Why the YOUUniverse changes the Payer and Provider conversation "
 label: payers
@@ -16,11 +18,11 @@ postDescription: A tectonic shift to value-based care is coming.  Most EHR
   Cloud was designed to help you focus on the core components of your new
   healthcare business model
 date: 2023-02-11T00:00:00+05:30
-image: /assets/payer.svg
-imageAlt: payer
+image: /assets/youu_cms_logo-white-bg.svg
+icon: /assets/payer.svg
+iconAlt: payers
 postVideoURL: /assets/youumakesvaluebasedpaymenteasy.mp4
 postImage: /assets/5-million-hrs.webp
-whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 
 
