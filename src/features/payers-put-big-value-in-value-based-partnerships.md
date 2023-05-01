@@ -19,7 +19,7 @@ date: 2023-02-11T00:00:00+05:30
 image: /assets/test123.jpg
 imageAlt: payer
 postVideoURL: /assets/youumakesvaluebasedpaymenteasy.mp4
-postImage: /assets/test123.jpg
+postImage: ""
 whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 
