@@ -14,7 +14,7 @@ postDescription: "With the YOUUniverse you’ll be empowered to access the most
   disruptive technologies that are going to drive the future of your behavioral
   health delivery including:"
 date: 2023-02-10T00:00:00+05:30
-image: /assets/linkedin-banner-600-×-600-px-.png
+image: /assets/pexels-photo-3184291.webp
 icon: /assets/provider.svg
 iconAlt: Provider
 postImage: /assets/youuniverse-health-cloud-continumm-pyramid-500x500-jpg-1-.jpg
