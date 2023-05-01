@@ -1,4 +1,6 @@
 ---
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+imageAlt: public sector
 title: Making a YOUUNIVERSAL SocietyTM Work Better
 postTitle: PUBLIC SECTOR
 label: public sector
@@ -14,9 +16,9 @@ postDescription: "Monitoring of public populations is an important public
   is designed to be a hyper-personalized, interconnected public community
   serving:"
 date: 2023-02-13T00:00:00+05:30
-image: /assets/public_sector.svg
-imageAlt: public sector
-whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+image: /assets/youu_cms_logo-white-bg.svg
+icon: /assets/public_sector.svg
+iconAlt: public-sector
 ---
 * health providers,
 * corrections,
