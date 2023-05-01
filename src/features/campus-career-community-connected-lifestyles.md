@@ -1,4 +1,6 @@
 ---
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+imageAlt: college
 title: Campus, Career, Community-Connected Lifestyles
 postTitle: "Shaping Campus, Careers and Lifestyle Communities "
 label: College/Universities
@@ -11,9 +13,9 @@ description: YOUUniversityTM connects campus and career with a
   their wellness, passions, lifestyle and interests.
 postDescription: Helping Students Build Healthy & Productive Lives
 date: 2023-02-16T00:00:00+05:30
-image: /assets/college.svg
-imageAlt: college
-whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+image: /assets/youu_cms_logo-white-bg.svg
+icon: /assets/college.svg
+iconAlt: college
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
