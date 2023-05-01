@@ -13,7 +13,7 @@ description: Edge connected healthcare devices are the future. They’re able to
   personalized care. Connect your Edge Device to a YOUUNIVERSETM of options.
 postDescription: Edge devices scale healthy communities and build innovative practices
 date: 2023-02-12T00:00:00+05:30
-image: /assets/linkedin-banner-600-×-600-px-.png
+image: /assets/pexels-photo-3184291.webp
 icon: /assets/medtech.svg
 iconAlt: medtech
 postImage: /assets/image-11-.png
