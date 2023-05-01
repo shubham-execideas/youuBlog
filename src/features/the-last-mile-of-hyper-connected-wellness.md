@@ -13,7 +13,7 @@ description: Control the last mile In hyper-connected wellness while you connect
   with your healthcare delivery.
 postDescription: Designing a winning formula with consumers
 date: 2023-02-15T00:00:00+05:30
-image: /assets/youulogo.jpg
+image: /assets/linkedin-banner-600-×-600-px-.png
 icon: /assets/consumers.svg
 iconAlt: consumers
 ---
