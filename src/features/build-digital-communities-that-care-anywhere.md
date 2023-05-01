@@ -1,4 +1,6 @@
 ---
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+imageAlt: Other Communities
 title: Build Digital Communities That Care. Anywhere.
 postTitle: Be creative. Create your own unique community
 label: Other Communities
@@ -11,9 +13,9 @@ description: Imagine a digital community for your YOUUNIVERSE TM. Find and
   best ideas, practices, educational resources and develop innovative solutions
 postDescription: We’re built on a simple idea; let’s live together for a better society
 date: 2023-02-17T00:00:00+05:30
-image: /assets/communities.svg
-imageAlt: Other Communities
-whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+image: /assets/youu_cms_logo-white-bg.svg
+icon: /assets/communities.svg
+iconAlt: communities
 ---
 
 
