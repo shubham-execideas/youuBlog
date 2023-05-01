@@ -18,7 +18,7 @@ postDescription: A tectonic shift to value-based care is coming.  Most EHR
   Cloud was designed to help you focus on the core components of your new
   healthcare business model
 date: 2023-02-11T00:00:00+05:30
-image: /assets/youulogo.webp
+image: /assets/5-million-hrs.webp
 icon: /assets/payer.svg
 iconAlt: payers
 postVideoURL: /assets/youumakesvaluebasedpaymenteasy.mp4
