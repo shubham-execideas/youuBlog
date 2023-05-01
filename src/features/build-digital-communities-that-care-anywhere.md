@@ -13,7 +13,7 @@ description: Imagine a digital community for your YOUUNIVERSE TM. Find and
   best ideas, practices, educational resources and develop innovative solutions
 postDescription: We’re built on a simple idea; let’s live together for a better society
 date: 2023-02-17T00:00:00+05:30
-image: /assets/ai.webp
+image: /assets/youulogo.webp
 icon: /assets/communities.svg
 iconAlt: communities
 ---
