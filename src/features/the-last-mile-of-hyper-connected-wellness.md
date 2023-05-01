@@ -1,4 +1,6 @@
 ---
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+imageAlt: consumers
 title: The Last Mile Of Hyper-Connected Wellness
 postTitle: "Building your consumer-connected community "
 label: consumers
@@ -11,9 +13,9 @@ description: Control the last mile In hyper-connected wellness while you connect
   with your healthcare delivery.
 postDescription: Designing a winning formula with consumers
 date: 2023-02-15T00:00:00+05:30
-image: /assets/consumers.svg
-imageAlt: consumers
-whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+image: /assets/youu_cms_logo-white-bg.svg
+icon: /assets/consumers.svg
+iconAlt: consumers
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
