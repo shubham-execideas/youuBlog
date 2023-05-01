@@ -15,7 +15,7 @@ description: YOUU for Patients ™ is the most powerful, self-reporting remote
   appreciate you for it.
 postDescription: Why building a healthy community matters to best-in-class provider
 date: 2023-02-13T00:00:00+05:30
-image: /assets/linkedin-banner-600-×-600-px-.png
+image: /assets/pexels-photo-3184291.webp
 icon: /assets/patientssvg.svg
 iconAlt: patients
 postVideoURL: /assets/youuhabitsfinal-1-.mp4
