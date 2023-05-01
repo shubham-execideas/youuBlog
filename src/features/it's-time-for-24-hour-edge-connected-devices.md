@@ -1,4 +1,6 @@
 ---
+whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
+imageAlt: medtech
 title: It’s Time for 24-Hour Edge Connected Devices
 postTitle: Get connected with your connected device
 label: medtech
@@ -11,10 +13,10 @@ description: Edge connected healthcare devices are the future. They’re able to
   personalized care. Connect your Edge Device to a YOUUNIVERSETM of options.
 postDescription: Edge devices scale healthy communities and build innovative practices
 date: 2023-02-12T00:00:00+05:30
-image: /assets/medtech.svg
-imageAlt: medtech
+image: /assets/youu_cms_logo-white-bg.svg
+icon: /assets/medtech.svg
+iconAlt: medtech
 postImage: /assets/image-11-.png
-whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
