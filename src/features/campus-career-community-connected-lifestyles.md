@@ -13,7 +13,7 @@ description: YOUUniversityTM connects campus and career with a
   their wellness, passions, lifestyle and interests.
 postDescription: Helping Students Build Healthy & Productive Lives
 date: 2023-02-16T00:00:00+05:30
-image: /assets/youulogo.jpg
+image: /assets/youulogo.webp
 icon: /assets/college.svg
 iconAlt: college
 ---
