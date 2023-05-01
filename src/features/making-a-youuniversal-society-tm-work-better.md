@@ -16,7 +16,7 @@ postDescription: "Monitoring of public populations is an important public
   is designed to be a hyper-personalized, interconnected public community
   serving:"
 date: 2023-02-13T00:00:00+05:30
-image: /assets/youu_cms_logo-white-bg.svg
+image: /assets/youulogo.jpg
 icon: /assets/public_sector.svg
 iconAlt: public-sector
 ---
