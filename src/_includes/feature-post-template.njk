@@ -2,17 +2,17 @@
     <div
         class="flow md:px-8 px-6">
         {# <div class="md:block lg:flex mt-10 justify-between items-center">
-                    <div style="width: 60%">
-                        <div class="">
-                            <h1 class="article-title text-[2rem] font-bold mb-3">
-                    {{ postTitle }}
-                </h1>
-                <p class="mb-8 text-lg">{{ postDescription }}</p>
-                        </div>
-                        
-                    </div>
-                    {% include 'social-media.njk' %}
-                </div> #}
+                                    <div style="width: 60%">
+                                        <div class="">
+                                            <h1 class="article-title text-[2rem] font-bold mb-3">
+                                    {{ postTitle }}
+                                </h1>
+                                <p class="mb-8 text-lg">{{ postDescription }}</p>
+                                        </div>
+                                        
+                                    </div>
+                                    {% include 'social-media.njk' %}
+                                </div> #}
         <h1 class="article-title text-[2rem] font-bold mb-3">
             {{ postTitle }}
         </h1>
@@ -33,11 +33,12 @@
                                 <source src="{{ postVideoURL }}#t=0.001" type="video/mp4"></video>
                             {%- endif -%}
                         </div>
-                    {%- endif -%}
-                    {%- if postImage.length %}
-                        <div class="bg-white rounded-xl p-6 h-[300px] lg:h-[500px] flex">
-                            <img src="{{ postImage }}" alt="whitepaper" class="w-full object-contain"/>
-                        </div>
+                    {%- else -%}
+                        {%- if postImage.length %}
+                            <div class="bg-white rounded-xl p-6 h-[300px] lg:h-[500px] flex">
+                                <img src="{{ postImage }}" alt="whitepaper" class="w-full object-contain"/>
+                            </div>
+                        {%- endif -%}
                     {%- endif -%}
                     <div class="blog-body text-lg">
                         {{ content | safe }}
@@ -49,15 +50,9 @@
                         {% include 'schedule.njk' %}
                     </div>
                     <div class="inline-block lg:hidden ">
-                                            {% include 'download_whitepaper-mobile.njk' %}
-                                            {% include 'schedule.njk' %}
-                                        </div>
+                        {% include 'download_whitepaper-mobile.njk' %}
+                        {% include 'schedule.njk' %}
+                    </div>
                 </div>
             </div>
-            
         </article>
-
-
-
-        
- 

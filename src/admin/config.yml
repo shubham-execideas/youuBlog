@@ -71,8 +71,9 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Post Description", name: "postDescription", widget: "string" }
       - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Thumbnail Image", name: "image", widget: "image", hint: 'This image will be used as thumbnail image while sharing the article.' }
+      - { label: "Label Icon", name: "icon", widget: "image" }
+      - { label: "Label Icon Caption", name: "iconAlt", widget: "string" }
       - { label: "Post Video", name: "postVideoURL", widget: "file", required: false, hint: "Please upload a video which is less than 55MB for better website performance" }
       - { label: "Post Image", name: "postImage", widget: "image", required: false, hint: "Please upload either video or image but not both"  }
       - { label: "White paper", name: "whitePaper", widget: "file" }
