@@ -3,7 +3,7 @@ title: Here’s More Information About How We Measure a Patient’s Progress
 description: One of the categories Sober Peer measures each day is called
   “Thinking Differently”; an important predictor of recovery.
 date: 2023-03-01T00:00:00+05:30
-image: /assets/pexels-photo-3912976.webp
+image: /assets/pexels-photo-3912976.jpeg
 imageAlt: laptop
 ---
 <!--StartFragment-->
