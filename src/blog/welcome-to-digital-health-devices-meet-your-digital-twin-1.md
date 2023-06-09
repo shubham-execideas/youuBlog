@@ -4,7 +4,8 @@ description: >+
   Digital Health is one of the fastest growing technologies in healthcare. Edge
   devices, or remote digital electronics, can measure patient progress, actively
   or passively, and send those signals to care providers. Or they can simply
-  help keep the patient aware of their personal health.
+  help keep the patient aware of their personal health or find their digital
+  health "twin".
 
 date: 2023-02-28T12:08:49+05:30
 tags:
