@@ -4,8 +4,8 @@ description: >+
   Digital Health is one of the fastest growing technologies in healthcare. Edge
   devices, or remote digital electronics, can measure patient progress, actively
   or passively, and send those signals to care providers. Or they can simply
-  help keep the patient aware of their personal health or find their digital
-  health "twin".
+  help keep the patient aware of their personal health or even find their
+  digital health "twin".
 
 date: 2023-02-28T12:08:49+05:30
 tags:
@@ -21,9 +21,7 @@ imageAlt: Twin
 ---
 Let’s define the field into two broad categories: bio-wearables and digital therapeutics. Each promise better health outcomes especially when considering long-term chronic care of patients. The two can have vast difference in their function and it’s often not clear from their claims which one is the most effective given an application use case.
 
-Bio-wearables are devices that measure biological signals such as heart rate, temperature, and movement. These devices are typically worn on the body and can provide real-time feedback to help users track their health or performance. Digital therapeutics, on the other hand, go beyond data collection by providing personalized interventions designed to improve a person’s health outcomes through digital technology such as mobile apps or software programs. Digital therapeutics use evidence-based treatments including cognitive behavioral therapy (CBT) techniques delivered via digital platforms, or health clouds to augment treatment decisions by care
-
-providers like depression and anxiety without using medication alone. While bio-wearables offer insights into an individual’s current state of physical well-being, digital therapeutics take it one step further by helping individuals actively manage their health needs in a more comprehensive manner than traditional therapies can provide.
+Bio-wearables are devices that measure biological signals such as heart rate, temperature, and movement. These devices are typically worn on the body and can provide real-time feedback to help users track their health or performance. Digital therapeutics, on the other hand, go beyond data collection by providing personalized interventions designed to improve a person’s health outcomes through digital technology such as mobile apps or software programs. Digital therapeutics use evidence-based treatments including cognitive behavioral therapy (CBT) techniques delivered via digital platforms, or health clouds to augment treatment decisions by care providers like depression and anxiety without using medication alone. While bio-wearables offer insights into an individual’s current state of physical well-being, digital therapeutics take it one step further by helping individuals actively manage their health needs in a more comprehensive manner than traditional therapies can provide.
 
 The most-often missed element among most digital devices is its predictive power. Despite developing as an important healthcare tool, the device itself acts merely as an input device. It can’t easily simulate and suggest a care model using augmented intelligence drawn from a broader body of evidence to support it. The datasets are simply too small. However, when digital devices are networked and simulated against large populations of similar subjects you have a deep digital phenotyping that holds great promise to simulate patient outcomes by linking digital therapeutics with their digital twins.
 
