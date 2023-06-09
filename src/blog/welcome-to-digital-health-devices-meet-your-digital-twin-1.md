@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Digital Health of The Future: Meet Your Digital Twin"
+title: "Welcome to Digital Health's Future: Meet Your Digital Twin"
 description: >+
   Digital Health is one of the fastest growing technologies in healthcare. Edge
   devices, or remote digital electronics, can measure patient progress, actively
