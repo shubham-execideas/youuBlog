@@ -4,9 +4,9 @@ description: >+
   Digital Health is one of the fastest growing technologies in healthcare. Edge
   devices, or remote digital electronics, can measure patient progress, actively
   or passively, and instantly send those signals to care providers. This data,
-  collected by patients introduces exciting advances in "digital twin" science
-  that can predict which characteristics may determine outcome success, or
-  failure.
+  collected by patients, introduces real-world evidence in "digital twin"
+  science that can predict which characteristics may determine outcome success,
+  or failure.
 
 date: 2023-02-28T12:08:49+05:30
 tags:
