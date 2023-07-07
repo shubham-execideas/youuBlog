@@ -13,11 +13,13 @@ postTags:
 image: /assets/user927_smart_computer_saving_healthcare_doctors_and_people_in__42e479ca-1ce1-433d-bae6-01ef608eb56a.png
 imageAlt: "Why AI is a key value-creator needed for next generation healthcare  "
 ---
+> *"Behind value-based healthcare lies the art of anticipating a patient outcome while deflecting an unanticipated risk of a negative patient outcome. If you can find that probability you can price a benefit, and establish a reimbursement that works. Everything else is just process."* 
+
 Let’s start with a core premise. Behind value-based healthcare lies the art of anticipating a future patient outcome while deflecting an unanticipated risk of a negative patient outcome. If you can find that probability you can price a benefit.   Everything else is just process. 
 
 Insurance companies, or payers, are experts at this. AI is a key driver, and I would argue that without this new deep learning model, getting beyond fee-for-service and razor thin provider profit margins are impossible. 
 
-McKinsey & Company, the global consulting firm, agrees.  There is now emerging a new technology infrastructure class that is suitable for the new value-based model. Our office has invested heavily in this premise with the YOUU Health team. What’s pretty clear is that your EHR isn’t going to be adaptable and therefore you’re going to be looking for a new value-based infrastructure in the next two years. In the meantime, you’re going to need to operate in both fee-for-service and value-based care models at the same time.  
+McKinsey & Company, the global consulting firm, agrees.  There is now emerging a new technology infrastructure class that is suitable for the new value-based model. Our office has invested heavily in this premise with the [YOUU Health](youu.com) team. What’s pretty clear is that your EHR isn’t going to be adaptable and therefore you’re going to be looking for a new value-based infrastructure in the next two years. In the meantime, you’re going to need to operate in both fee-for-service and [value-based care models](https://youu.com/slider/preparing-you-for-a-new-care-model-/) at the same time.  
 
 I first learned about this risk principle on Wall Street. Our investment office was building a bond fund that was highly dependent on risk avoidance. The better we were able to deflect risk the higher our financial rating and the more sellable our bonds – and so forth. To get the highest possible rating we had to build an insurance product from scratch. If for some reason our projections failed our bonds wouldn’t. This is not dissimilar to how payers view healthcare claims.       
 
@@ -27,7 +29,9 @@ Unfortunately, providers don’t do risk well.  But payers do and that gives t
 
 Value-based care has a lot of moving parts. So many in fact, that there are few infrastructure platforms yet developed to make it practical and affordable. Your EHR isn’t designed for it. It’s going to be as the analogy suggests, “one foot in the canoe and the other on shore” for a while. Our folks over at YOUU Health are leading on the infrastructure for value-based care and they’d be glad to help when you’re ready. 
 
-Downstream there’s the real health care world that operates under the axiom that “when the patient is happy, the provider is happy”. That’s real value. But, what about the payer?  
+Downstream there’s the real health care world that operates under the axiom that “when the patient is happy, the provider is happy”. That’s real value.[ But, what about the payer?  ](https://youu.com/slider/why-the-youuniverse-changes-the-payer-and-provider-conversation/)
+
+> *Let’s face it, “happy” isn’t an appropriate measure for a payer. A payer is merely obligated to pay. To satisfy a payer the policy’s obligor (the entity that owns the risk) must have a policy underwritten well enough so they’re happy to keep more of their premium income -- the income you usually want more of.*  
 
 Let’s face it, “happy” isn’t an appropriate measure for a payer. A payer is merely obligated to pay. To satisfy a payer the policy’s obligor (the entity that owns the risk) must have a policy underwritten well enough so they’re happy to keep more of their premium income -- the income you usually want more of.  They’re using AI for that. So, it’s Payer 1, Provider zero unless you can counter with your own analytics.
 
@@ -35,21 +39,15 @@ If you unpack value-based care where patient outcome risk is predictable and sha
 
 McKinsey also predicts that early adopters of value-based care models will out-perform financially and with better quality of care and increased enterprise valuations of 2%-20% for their practices.  In fact, current private equity investments now favor, by a factor of 300%, value-based providers vs. investments in traditional facility investments indicating that value-based models’ capitalization will increase valuations $1 trillion by 2030.     
 
- 
-
 **Here are three things you should consider:**
 
 ***Set your clock.  If you aren’t an adopter of value-based care, you will be.***
 
 You should start planning now. Within the next couple of years, your fee-for-service options will become more limited. By 2030, fee-for-service will be exotic. You’ll be expected to share some level of risk or settle for reimbursement rates that aren’t likely to keep up with inflation – which is forecasted to continue for the foreseeable future. Adopting a plan now will attract payers as valuable partners who want the same goals for healthcare as you; better quality, lower costs, wider access and better patient outcomes. 
 
- 
-
 ***There is a way forward so start now and avoid the noise***
 
 Avoid the temptation to accept the rhetoric that you’ll need two years of data before a payer will work with you to increase your profitability. With the right plan and the right infrastructure, you’ll teach payers about your risk and work together to design your own goals for value. You’ll free yourself from the burdensome fee-for-service billing workflows and get more time with the patient. 
-
- 
 
 ***You’ll be investing in a new infrastructure. Your EHR isn’t going to work.***
 
