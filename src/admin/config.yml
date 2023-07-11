@@ -192,9 +192,9 @@ collections:
     fields:
       - { label: "Acceptable Use Policy", name: "body", widget: "markdown"}
 
-  - name: "disclaiemr"
+  - name: "disclaimer"
     label: "Disclaimer"
-    folder: "src/disclaiemr"
+    folder: "src/disclaimer"
     create: false
     slug: "Disclaimer"
     fields:
