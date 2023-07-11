@@ -194,7 +194,7 @@ collections:
 
   - name: "disclaiemr"
     label: "Disclaimer"
-    folder: "src/disclamier"
+    folder: "src/disclaiemr"
     create: false
     slug: "Disclaimer"
     fields:
