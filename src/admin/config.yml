@@ -195,7 +195,7 @@ collections:
   - name: "disclaimer"
     label: "Disclaimer"
     folder: "src/disclaimer"
-    create: false
+    create: true
     slug: "Disclaimer"
     fields:
       - { label: "Disclaimer", name: "body", widget: "markdown"}
