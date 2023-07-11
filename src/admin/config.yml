@@ -168,3 +168,34 @@ collections:
     slug: "Terms and Conditions"
     fields:
       - { label: "Terms and Conditions", name: "body", widget: "markdown"}
+  - name: "privacy"
+    label: "Privacy Policy"
+    folder: "src/privacy"
+    create: true
+    slug: "Privacy Policy"
+    fields:
+      - { label: "Privacy Policy", name: "body", widget: "markdown"}
+
+  - name: "refund"
+    label: "Refund Policy"
+    folder: "src/refund"
+    create: true
+    slug: "Refund Policy"
+    fields:
+      - { label: "Refund Policy", name: "body", widget: "markdown"}
+
+  - name: "acceptable"
+    label: "Acceptable Use Policy"
+    folder: "src/acceptable"
+    create: true
+    slug: "Acceptable Use Policy"
+    fields:
+      - { label: "Acceptable Use Policy", name: "body", widget: "markdown"}
+
+  - name: "disclaiemr"
+    label: "Disclaimer Cookie Policy"
+    folder: "src/disclamier"
+    create: true
+    slug: "Disclaimer Cookie Policy"
+    fields:
+      - { label: "Disclaimer Cookie Policy", name: "body", widget: "markdown"}
