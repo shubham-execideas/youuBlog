@@ -1,0 +1,15 @@
+---
+title: Cookie Policy
+layout: 'base.njk'
+---
+
+{# support section starts here #}
+<section class="w-full px-4 lg:px-16 relative mt-5">
+    <p class="text-4xl font-bold mt-12">Cookie Policy</p>
+    {%- for cookie in collections.cookie -%}
+        <div class="blog-body text-lg">
+            {{ cookie.templateContent | safe }}
+        </div>
+    {%- endfor -%}
+</section>
+{# support section ends here #}

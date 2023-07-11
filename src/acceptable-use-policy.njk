@@ -1,0 +1,15 @@
+---
+title: Acceptable Use Policy
+layout: 'base.njk'
+---
+
+{# support section starts here #}
+<section class="w-full px-4 lg:px-16 relative mt-5">
+    <p class="text-4xl font-bold mt-12">Acceptable Use Policy</p>
+    {%- for acceptable in collections.acceptable -%}
+        <div class="blog-body text-lg">
+            {{ acceptable.templateContent | safe }}
+        </div>
+    {%- endfor -%}
+</section>
+{# support section ends here #}
