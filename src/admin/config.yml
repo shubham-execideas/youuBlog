@@ -187,7 +187,7 @@ collections:
   - name: "acceptable"
     label: "Acceptable Use Policy"
     folder: "src/acceptable"
-    create: true
+    create: false
     slug: "Acceptable Use Policy"
     fields:
       - { label: "Acceptable Use Policy", name: "body", widget: "markdown"}
@@ -195,7 +195,7 @@ collections:
   - name: "disclaimer"
     label: "Disclaimer"
     folder: "src/disclaimer"
-    create: true
+    create: false
     slug: "Disclaimer"
     fields:
       - { label: "Disclaimer", name: "body", widget: "markdown"}
@@ -203,7 +203,7 @@ collections:
   - name: "cookie"
     label: "Cookie Policy"
     folder: "src/cookie"
-    create: true
+    create: false
     slug: "Cookie Policy"
     fields:
       - { label: "Cookie Policy", name: "body", widget: "markdown"}
