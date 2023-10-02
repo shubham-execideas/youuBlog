@@ -7,10 +7,8 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Patient Centered care
+  - treatment
 image: /assets/user927_healthcare_person_excited_working_with_tablet_in_hospit_c8346f56-8ee1-4807-9aba-4e6510d3a79b.png
 imageAlt: Why a clinicians' viewpoint always works better with longitudinal
   patient reported data
