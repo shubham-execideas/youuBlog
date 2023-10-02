@@ -13,10 +13,8 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Digital Health
+  - Behavioral Health
 image: /assets/digital_twin.webp
 imageAlt: Twin
 ---
