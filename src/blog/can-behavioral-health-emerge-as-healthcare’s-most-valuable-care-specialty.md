@@ -7,10 +7,8 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Behavioral health
+  - healthcare
 image: /assets/user927_person_climbing_side_of_moutain_with_the_summit_it_sigh_df529a14-61d0-475c-89e8-58238edd0426.png
 imageAlt: There’s a lot of evidence out there to support the thesis that
   behavioral health could emerge as a high-value care specialty.
