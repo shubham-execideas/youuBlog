@@ -12,10 +12,9 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - AI
+  - Behavioral Health
+  - GPT
 image: /assets/5_million_hrs.webp
 imageAlt: AI
 ---
