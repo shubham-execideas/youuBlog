@@ -16,10 +16,8 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Community Health
+  - Behavioral Health
 image: /assets/community.webp
 imageAlt: community
 ---
