@@ -12,10 +12,8 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Behavioral Health
+  - ChatGPT
 image: /assets/chatgpt-beha.webp
 imageAlt: chatGPT
 ---
