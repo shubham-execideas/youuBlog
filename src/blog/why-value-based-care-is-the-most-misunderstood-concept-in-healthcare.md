@@ -12,9 +12,9 @@ tags:
   - Featured
 postTags:
   - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Value-Based Care
+  - AI
+  - Behavioral Health
 image: /assets/doc-s.webp
 imageAlt: Doc's
 ---
