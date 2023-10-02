@@ -8,6 +8,8 @@ tags:
 postTags:
   - Payers
   - Behavioral Health
+  - Exclusive
+  - Mental Health
 image: /assets/user927_chinese_warrior_diverting_attention_gaining_advantage_l_f637b9fa-d131-47b3-9e37-3445fbdd42dd.png
 imageAlt: Mental health parity has reached its Sun Tzh moment
 ---
