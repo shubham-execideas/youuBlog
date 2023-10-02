@@ -8,9 +8,8 @@ tags:
   - Featured
 postTags:
   - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Behavioral Health
+  - AI
 image: /assets/trust-ai-in-healthcare.png
 imageAlt: Should you trust AI with your healthcare?
 ---
