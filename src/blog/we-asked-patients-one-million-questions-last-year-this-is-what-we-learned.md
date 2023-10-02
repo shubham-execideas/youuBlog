@@ -11,10 +11,8 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Patient-Centered Care
+  - AI
 image: /assets/ques.webp
 imageAlt: Feedback
 ---
