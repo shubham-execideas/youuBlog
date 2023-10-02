@@ -7,7 +7,9 @@ tags:
   - Featured
 postTags:
   - Fee-for-service
-  - payers
+  - Patients
+  - Payer
+  - Provider
 image: /assets/user927_healthcare_worker_standing_under_money_falling_from_the_6caa1ebc-115b-432b-b155-51b5795d61ba.png
 imageAlt: Selling value vs. time makes healthcare work.
 ---
