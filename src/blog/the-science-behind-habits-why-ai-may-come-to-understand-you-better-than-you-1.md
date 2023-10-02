@@ -13,9 +13,8 @@ tags:
   - Featured
 postTags:
   - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - AI
+  - Habits
 image: /assets/know-you.webp
 imageAlt: Know you better
 ---
