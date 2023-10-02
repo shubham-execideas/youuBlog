@@ -8,9 +8,9 @@ tags:
   - Featured
 postTags:
   - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Research
+  - Patient Outcomes
+  - AI
 image: /assets/image-3-.png
 imageAlt: Will future patient outcome models face a rocky future with
   value-based healthcare
