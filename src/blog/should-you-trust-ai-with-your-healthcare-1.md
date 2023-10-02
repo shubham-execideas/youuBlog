@@ -7,9 +7,8 @@ tags:
   - Featured
 postTags:
   - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - AI
+  - Value Based Care
 image: /assets/user927_smart_computer_saving_healthcare_doctors_and_people_in__42e479ca-1ce1-433d-bae6-01ef608eb56a.png
 imageAlt: "Why AI is a key value-creator needed for next generation healthcare  "
 ---
