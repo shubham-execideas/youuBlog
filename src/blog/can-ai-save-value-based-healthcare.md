@@ -3,8 +3,8 @@ title: Can AI Save Value-Based Healthcare?
 description: Why AI is a key value-creator needed for next generation health care
 date: 2023-09-28T00:00:00-05:00
 tags:
-  - Post
-  - Featured
+  - AI
+  - Value Based Care
 postTags:
   - Exclusive
   - Mental Health
