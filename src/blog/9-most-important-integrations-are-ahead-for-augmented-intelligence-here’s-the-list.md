@@ -11,10 +11,8 @@ tags:
   - Post
   - Featured
 postTags:
-  - Exclusive
-  - Mental Health
-  - Addiction
-  - Drugs
+  - Augmented Intelligence
+  - Machine Learning
 image: /assets/ai.webp
 imageAlt: ai
 ---
