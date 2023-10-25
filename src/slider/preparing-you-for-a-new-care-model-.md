@@ -3,6 +3,12 @@ slideButtonText: Health Cloud
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
 postTitle: Preparing you for a new care model
+date: 2023-02-09T19:04:44+05:30
+videoURL: /assets/animationopen.mp4
+sliderWhitePaper: /assets/youu-health-white-paper-10_24_23.pdf
+label: Preparing you for a new care model
+postVideoURL: /assets/youuniversehealthcloud.mp4
+title: Preparing you for a new care model
 tags:
   - slider
 sliderPointer:
@@ -15,12 +21,6 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
 postDescription: Where are we headed with our health systems of tomorrow?
-date: 2023-02-09T19:04:44+05:30
-videoURL: /assets/animationopen.mp4
-postVideoURL: /assets/youuniversehealthcloud.mp4
-sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
-label: Preparing you for a new care model
-title: Preparing you for a new care model
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
