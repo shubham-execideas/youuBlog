@@ -5,7 +5,7 @@ slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
 postTitle: " Creating a Value-based Enterprise in one easy-to-use platform."
 date: 2023-02-09T19:04:44+05:30
 videoURL: /assets/animationopen.mp4
-sliderWhitePaper: /assets/youu-health-white-paper-10_24_23.pdf
+sliderWhitePaper: /assets/youu-health-white-paper-10_24_23-1-.pdf
 label: Preparing you for a new care model
 postVideoURL: /assets/youuniversehealthcloud.mp4
 title: Preparing you for a new care model
