@@ -23,7 +23,7 @@ sliderDescription: >
   call the YOUUniverse. 
 
 
-  The YOUUniverse delivers specifics workflows for providers, payers and patients emphasizing the significance of patient reporting in defining success and its relevance to a value-based care model.  Our goal is to help you define how you can better control the financial reporting, cost controls, risk underwriting and outcome accountability required for the value-centric enterprise of the future.  
+  The YOUUniverse delivers specific workflows for providers, payers and patients emphasizing the significance of patient reporting in defining success and its relevance to a value-based care model.  Our goal is to help you define how you can better control the financial reporting, cost controls, risk underwriting and outcome accountability required for the value-centric enterprise of the future.  
 
 
   To find out more about the YOUUniverse download the White Paper, “The Balance of Therapeutic Outcome and Payment Compensation in Value-Based Healthcare” or set-up a demonstration by registering on this page.  
@@ -693,7 +693,7 @@ postDescription: Where are we headed with our health systems of tomorrow?
 
 One of the most important questions facing healthcare is how value-based compensation will work, and how the industry will achieve this goal after years of conjecture. We’ve built these dynamics into specific solutions to structure a compensation model for managing a value-enabled health system, we call the YOUUniverse. 
 
-The YOUUniverse delivers specifics workflows for providers, payers and patients emphasizing the significance of patient reporting in defining success and its relevance to a value-based care model.  Our goal is to help you define how you can better control the financial reporting, cost controls, risk underwriting and outcome accountability required for the value-centric enterprise of the future.  
+The YOUUniverse delivers specific workflows for providers, payers and patients emphasizing the significance of patient reporting in defining success and its relevance to a value-based care model.  Our goal is to help you define how you can better control the financial reporting, cost controls, risk underwriting and outcome accountability required for the value-centric enterprise of the future.  
 
 To find out more about the YOUUniverse download the White Paper, “The Balance of Therapeutic Outcome and Payment Compensation in Value-Based Healthcare” or set-up a demonstration by registering on this page.  
 
