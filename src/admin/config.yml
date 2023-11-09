@@ -215,4 +215,4 @@ collections:
     slug: "White Paper"
     fields:
       - { label: "Title", name: "title", widget: "text", required: true, pattern: ['^.{0,106}$', "Max character limit 106"] }
-      - { label: "Description", name: "description", widget: "body", required: true, hint: 'Only 164 characters will be visible in the screen remaining will be hidden'  }
+      - { label: "Description", name: "description", widget: "markdown", required: true, hint: 'Only 164 characters will be visible in the screen remaining will be hidden'  }
