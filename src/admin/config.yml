@@ -207,3 +207,12 @@ collections:
     slug: "Cookie Policy"
     fields:
       - { label: "Cookie Policy", name: "body", widget: "markdown"}
+
+  - name: "whitepaper"
+    label: "White Paper"
+    folder: "src/whitePaper"
+    create: true
+    slug: "White Paper"
+    fields:
+      - { label: "Title", name: "title", widget: "text", required: true, pattern: ['^.{0,106}$', "Max character limit 106"] }
+      - { label: "Description", name: "description", widget: "body", required: true, hint: 'Only 164 characters will be visible in the screen remaining will be hidden'  }
