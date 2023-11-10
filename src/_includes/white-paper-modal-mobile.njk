@@ -46,22 +46,25 @@
                         Subscribe me to the newsletter to get all the coolest updates in inbox.</label>
                 </p>
 
+
+                {%- for whitepaper in collections.whitepaper -%}
+                    <a href="{{ whitepaper.data.whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
+                        Download
+                    </a>
+                {%- endfor -%}
+
                
-            {%- if sliderWhitePaper.length -%}
+            {# {%- if whitePaper.length -%}
               <a
-                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
-                    {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
+                    href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
                     Download
-                    {# </button> #}
                 </a>
             {%- else -%}
              <a
                     href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
-                    {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
                     Download
-                    {# </button> #}
                 </a>
-              {%- endif -%}
+              {%- endif -%} #}
            
                 {# <a
                     href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download="download">

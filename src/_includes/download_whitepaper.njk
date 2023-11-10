@@ -1,4 +1,4 @@
-<div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5">
+{# <div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5">
     <p class="text-2xl lg:text-3xl font-semibold">Download White Paper</p>
     <p class="my-3">Download our white paper to know more</p>
     <div class="relative text-center">
@@ -10,4 +10,25 @@
         </div>
     </div>
 </div>
-{% include 'white-paper-modal.njk' %}
+{% include 'white-paper-modal.njk' %} #}
+<div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5 download-box-height w-[430px]">
+    <p class="text-2xl lg:text-3xl font-semibold">Download White Paper</p>
+    {# <p class="my-3">Download our white paper to know more</p> #}
+    <div class="w-[300px] max-w-screen-lg mx-auto">
+        {%- for whitepaper in collections.whitepaper -%}
+            <p class="font-semibold text-center p-5 text-sm">{{ whitepaper.data.title }}<p>
+                    <p class="text-xs revel-text">{{ whitepaper.data.description | safe }}
+                    </p>
+                {%- endfor -%}
+            </div>
+            <div
+                class="relative text-center">
+                {# <img src="/assets/features/white_paper_blur.png" alt="whitepaper" class="w-full"/> #}
+                <div class="absolute top-16 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[212px]">
+                    <img src="/assets/features/paper.svg" alt="whitepaper" class="mx-auto mb-2 hidden">
+                        <p class="mb-7 font-semibold">Download our white paper to know more</p>
+                        <button id="myBtn" target="_blank" class="text-white bg-sumireVoilet cursor-pointer p-3 rounded-md" download>Download</button>
+                    </div>
+                </div>
+            </div>
+            {% include 'white-paper-modal.njk' %}

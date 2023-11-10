@@ -8,8 +8,6 @@
   <i class="fa-solid fa-xmark closeToast"></i>
   <div class="progress"></div>
 </div> #}
-
-
 <div
     id="myModal" class="modal">
     <!-- Modal content -->
@@ -57,28 +55,24 @@
                     <label for="subs">
                         Subscribe me to the newsletter to get all the coolest updates in inbox.</label>
                 </p>
-
-
-                {%- if sliderWhitePaper.length -%}
-              <a
-                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
-                    {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
-                    Download
-                    {# </button> #}
-                </a>
-            {%- else -%}
-             <a
-                    href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
-                    {# <button type="submit" class="cursor-not-allowed"  id ="downloadButton"> #}
-                    Download
-                    {# </button> #}
-                </a>
-              {%- endif -%}
+                {%- for whitepaper in collections.whitepaper -%}
+                    <a href="{{ whitepaper.data.whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
+                        Download
+                    </a>
+                {%- endfor -%}
+                {# {%- if sliderWhitePaper.length -%}
+                    <a href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
+                        Download
+                    </a>
+                {%- else -%}
+                    <a href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
+                        Download
+                    </a>
+                {%- endif -%} #}
                 {# <a
-                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download="download">
-                    Download
-                </a> #}
+                                                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download="download">
+                                                    Download
+                                                </a> #}
             </div>
         </div>
     </div>
-    

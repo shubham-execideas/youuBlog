@@ -588,3 +588,20 @@ a{
 .toast.active ~ button {
   pointer-events: none;
 }
+
+
+.revel-text {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  content: "";
+  background: -webkit-linear-gradient(#000, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.download-box-height {
+  height: 400px;
+}
