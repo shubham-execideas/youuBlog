@@ -208,9 +208,9 @@ collections:
     fields:
       - { label: "Cookie Policy", name: "body", widget: "markdown"}
 
-  - name: "whitepaper"
+  - name: "whitepaperdownload"
     label: "White Paper"
-    folder: "src/whitePaper"
+    folder: "src/whitepaperdownload"
     create: true
     slug: "White Paper"
     fields:
