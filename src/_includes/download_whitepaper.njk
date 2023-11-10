@@ -17,9 +17,8 @@
     <div class="w-[300px] max-w-screen-lg mx-auto">
         {# <p class="font-semibold text-center p-5 text-sm">The Balance Between Therapeutic Outcome and Payment Compensation in Value-based Healthcare.</p> #}
         {# <p class="text-xs revel-text">Rethinking compensation for delivering behavioral health using a shared responsibility approach and the strategy needed to get there.</p> #}
-        {%- for whitepaper in collections.whitepaper | reverse -%}
-            <p class="font-semibold text-center p-5 text-sm">{{ whitepaper.data.title }}<p>
-                    <p class="text-xs revel-text">{{ whitepaper.data.description | safe }}
+            {%- for whitepaperdownload in collections.whitepaperdownload | reverse -%}<p class="font-semibold text-center p-5 text-sm">{{ whitepaperdownload.data.title }}<p>
+                    <p class="text-xs revel-text">{{ whitepaperdownload.data.description | safe }}
                     </p>
                 {%- endfor -%}
             </div>
