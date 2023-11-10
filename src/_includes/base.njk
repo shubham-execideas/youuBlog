@@ -1,22 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta
-    name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    {# <link rel="icon" href="./assets/favicon.ico" type="image/x-icon"/> #}
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="manifest" href="/assets/site.webmanifest">
+<link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+/>
+<link href="../admin/config.yml" type="text/yaml" rel="cms-config-url">
+   <script src="js/cookie.notice.min.js"></script>
+    <script  src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700..900&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+{# <script async src="https://www.googletagmanager.com/gtag/js?id=G-C08C69CDKP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        <link rel="stylesheet" href="/style.css">
+  gtag('config', 'G-C08C69CDKP');
+</script> #}
 
-        <title>{{ title }}</title>
-    </head>
-    <body>
-        {% include "header.njk" %}
-        <main>
-            {{ content | safe }}</main>
-        {% include "footer.njk" %}
-    </body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'JSW7LPDB1K',
+    apiKey: '96115371583bdec7cb75fed226c4e78d',
+    siteId: '151f80ea-f2b1-4e7d-b856-7a15ececf96c',
+    branch: 'youuBlog2',
+    selector: 'div.DocSearch',
+    hitsPerPage: 7,
+  detached: true,
+  placeholder: "Search",
+
+  });
+</script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'JSW7LPDB1K',
+    apiKey: '96115371583bdec7cb75fed226c4e78d',
+    siteId: '151f80ea-f2b1-4e7d-b856-7a15ececf96c',
+    branch: 'youuBlog2',
+    selector: 'div#search',
+    hitsPerPage: 7,
+     detached: true,
+  placeholder: "Search",
+  });
+</script>
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{title}}" />
+<meta property="og:description" content="{{description}}" />
+<meta property="og:url" content="{{ page.url }}" />
+<meta property="og:site_name" content="www.youu.com" />
+<meta property="og:image" content="https://youu.com{{image}}" />
+<meta property="og:image:secure_url" content="https://youu.com{{image}}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="629" /> 
+<meta property="og:image:type" content="image/jpg" />
+<meta name="twitter:image" content="https://youu.com{{image}}">
+
+  </head>
+  <body class="max-w-[110rem] mx-auto " style="background: #FCFAFA">
+    {% include "header.njk" %}
+
+    <main>
+      {{ content | safe }}
+      {{ scripts | safe }}
+    </main>
+    {% include "footer.njk" %}
+
+    <script>
+      if (window.netlifyIdentity) {
+        window
+          .netlifyIdentity
+          .on("init", user => {
+            if (!user) {
+              window
+                .netlifyIdentity
+                .on("login", () => {
+                  document.location.href = "/admin/";
+                });
+            }
+          });
+      }
+    </script>
+
+    <!-- Start of LiveChat (www.livechat.com) code -->
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 11883642;
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/11883642/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="/js/index.js"></script>
+ 
+<script>
+    new cookieNoticeJS({
+
+        // Localizations of the notice message
+        'messageLocales': {
+            'en': 'We use cookies to make sure you can have the best experience on our website. If you continue to use this site we assume that you will be happy with it.'
+        },
+
+        // Localizations of the dismiss button text
+        'buttonLocales': {
+            'it': 'Chiudi'
+        },
+
+        // Position for the cookie-notifier (default=bottom)
+        'cookieNoticePosition': 'bottom',
+
+        // Shows the "learn more button (default=false)
+        'learnMoreLinkEnabled': false,
+
+        // The href of the learn more link must be applied if (learnMoreLinkEnabled=true)
+        'learnMoreLinkHref': '/learn/more/index.html',
+
+        // Text for optional learn more button
+        'learnMoreLinkText': {
+            'en': 'learn more'
+        },
+
+        // The message will be shown again in X days
+        'expiresIn': 30,
+
+        // Specify a custom font family and size in pixels
+        'fontFamily': 'inherit',
+        'fontSize': '12px',
+
+        // Dismiss button background color
+        'buttonBgColor': '#d35400',
+
+        // Dismiss button text color
+        'buttonTextColor': '#fff',
+
+        // Notice background color
+        'noticeBgColor': '#000',
+
+        // Notice text color
+        'noticeTextColor': '#fff',
+
+        // the learnMoreLink color (default='#009fdd')
+        'linkColor': '#f00',
+
+        // The target of the learn more link (default='', or '_blank')
+        'linkTarget': '',
+
+        // Print debug output to the console (default=false)
+        'debug': false
+    });
+</script>
+  </body>
 </html>

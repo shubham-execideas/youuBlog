@@ -1,0 +1,15 @@
+---
+title: Disclaimer
+layout: 'base.njk'
+---
+
+{# support section starts here #}
+<section class="w-full px-4 lg:px-16 relative mt-5">
+    <p class="text-4xl font-bold mt-12">Disclaimer</p>
+    {%- for disclaimer in collections.disclaimer -%}
+        <div class="blog-body text-lg">
+            {{ disclaimer.templateContent | safe }}
+        </div>
+    {%- endfor -%}
+</section>
+{# support section ends here #}

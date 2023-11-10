@@ -1,0 +1,78 @@
+<div
+    id="myModalMobile" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content" style="width: 390px">
+        <span class="closeMobile">&times;</span>
+        <p class="text-xl font-bold mb-3">Download White Paper</p>
+        <p class="text-lg mb-10">Download our white paper to know more</p>
+        <div class="flex flex-wrap">
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="First Name"
+                id="firstNameFieldMobile"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Last Name"
+                id="lastNameFieldMobile"/>
+            <input
+                type="phone"
+                class="border-gray-300 w-full mb-5 mr-4  lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Phone"
+                id="phoneFieldMobile"/>
+            <div class=" w-full lg:w-[47%] mb-5 mr-4">
+                <input
+                    type="text"
+                    class="border-gray-300 w-full  border-2 px-4 py-2 text-xs rounded-md"
+                    placeholder="Email*"
+                    id="emailFieldMobile"
+                    required="required"/>
+                <p id="emailErrorMsg" class="text-red-600 "></p>
+            </div>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Company Name"
+                id="companyFieldMobile"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Job Title"
+                id="jobFieldMobile"/>
+            <p class="w-full mb-5 mr-4 px-4 py-2 text-base rounded-md">
+                <input type="checkbox" id="subsMobile" name="subsMobile" value="subsMobile" checked="checked">
+                    <label for="subsMobile">
+                        Subscribe me to the newsletter to get all the coolest updates in inbox.</label>
+                </p>
+
+
+                {%- for whitepaper in collections.whitepaper | reverse -%}
+                    <a href="{{ whitepaper.data.whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
+                        Download
+                    </a>
+                {%- endfor -%}
+
+               
+            {# {%- if whitePaper.length -%}
+              <a
+                    href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
+                    Download
+                </a>
+            {%- else -%}
+             <a
+                    href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download>
+                    Download
+                </a>
+              {%- endif -%} #}
+           
+                {# <a
+                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtnMobile" download="download">
+                    Download
+                </a> #}
+            </div>
+        </div>
+    </div>
+    {# <script>
+       
+    </script> #}

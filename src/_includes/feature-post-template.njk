@@ -1,0 +1,60 @@
+<article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
+    <div
+        class="flow md:px-8 px-6">
+        {# <div class="md:block lg:flex mt-10 justify-between items-center">
+                                    <div style="width: 60%">
+                                        <div class="">
+                                            <h1 class="article-title text-[2rem] font-bold mb-3">
+                                    {{ postTitle }}
+                                </h1>
+                                <p class="mb-8 text-lg">{{ postDescription }}</p>
+                                        </div>
+                                        
+                                    </div>
+                                    {% include 'social-media.njk' %}
+                                </div> #}
+        <h1 class="article-title text-[2rem] font-bold mb-3">
+            {{ postTitle }}
+        </h1>
+        <p class="mb-5 text-lg italic">{{ postDescription }}</p>
+        {% include 'social-media.njk' %}
+        <div class="lg:flex mt-5">
+            <div
+                class="sm:w-full md:w-full lg:w-4/6">
+                {# <div class="">{{videoURL}}</div> #}
+                {%- if postVideoURL.length %}
+                    <div
+                        class="bg-white rounded-xl p-2">
+                        {# <iframe src="{{ videoURL }}" frameborder="0" allowfullscreen="" class="w-full rounded-lg h-[300px] lg:h-[500px]"></iframe> #}
+                        {%- if postVideoURL.includes("youtube") -%}
+                            <iframe src="{{ postVideoURL }}" id="iframe" class="w-full rounded-lg h-[300px] lg:h-[500px]" frameborder="0" allowfullscreen></iframe>
+                        {%- else -%}
+                            <video playsinline controls class="w-full rounded-lg" name="media">
+                                <source src="{{ postVideoURL }}#t=0.001" type="video/mp4"></video>
+                            {%- endif -%}
+                        </div>
+                    {%- else -%}
+                        {%- if postImage.length %}
+                            <div class="bg-white rounded-xl p-6 h-[300px] lg:h-[500px] flex">
+                                <img src="{{ postImage }}" alt="whitepaper" class="w-full object-contain"/>
+                            </div>
+                        {%- endif -%}
+                    {%- endif -%}
+                    <div class="blog-body text-lg">
+                        {{ content | safe }}
+                    </div>
+                </div>
+                <div>
+                    <div class="schedule-calendar hidden lg:inline-block  flex-col  rounded-xl text-center p-5 lg:m-5 lg:mt-0">
+                        {% include 'download_whitepaper.njk' %}
+                        {% include 'toast-message.njk' %}
+                        {% include 'schedule.njk' %}
+                    </div>
+                    <div class="inline-block lg:hidden ">
+                        {% include 'download_whitepaper-mobile.njk' %}
+                        {% include 'toast-message-mobile.njk' %}
+                        {% include 'schedule.njk' %}
+                    </div>
+                </div>
+            </div>
+        </article>

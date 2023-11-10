@@ -1,0 +1,219 @@
+backend:
+  name: git-gateway
+  branch: youuBlog2
+media_folder: public/assets
+public_folder: /assets
+local_backend: true
+logo_url: /assets/youu_cms_logo.svg
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/blog"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" , hint: "Enter a descriptive and attention-grabbing title for your blog."}
+      - { label: "Description", name: "description", widget: "text" , hint: "Write a brief summary of your blog's content"}
+      # - { label: "Author", name: "author", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "Choose the date you want your blog to be published on"}
+      - { label: "Tags", name: "tags", widget: "list", default: ["Post","Featured"],hint: "Do not add anything in this field" }
+      - { label: "Post Tags", 
+          name: "postTags", 
+          widget: "list", 
+          max: 4, 
+          min: 1, 
+          default: ["Exclusive","Mental Health","Addiction","Drugs"] ,
+          hint: "Add any specific tags that are relevant to your blog’s content "
+        }
+      - { label: "Featured Image", name: "image", widget: "image", hint: "Upload a image that represents your blog’s content "}
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "If your blog includes a video, enter the URL here"}
+      - { label: "Body", name: "body", widget: "markdown", hint: "Write your blog's content here, including any relevant information, examples, or insights you want to share."}
+
+      # - { label: "Category",
+      #     name: "category",
+      #     widget: "select",
+      #     multiple: true,
+      #     min: 1,
+      #     max: 3,
+      #     options: ["Design", "UX", "Dev"],
+      #     default: ["Design"]
+      #   }
+      # - { 
+      #   label: "Gallery",
+      #   name: "galleryImages",
+      #   widget: "list",
+      #   summary: '{{fields.image}}',
+      #   field: {label: Image, name: image, widget: image}
+      #   }
+      # - label: "Testimonials"
+      #   name: "testimonials"
+      #   widget: "list"
+      #   summary: '{{fields.quote}} - {{fields.author.name}}'
+      #   fields:
+      #     - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+      #     - label: Author
+      #       name: author
+      #       widget: object
+      #       fields:
+      #         - {label: Name, name: name, widget: string, default: "Emmet"}
+      #         - {label: Avatar, name: avatar, widget: image, default: "/assets/blog.svg"}
+  - name: "feature"
+    label: "Feature"
+    folder: "src/features"
+    create: false
+    slug:  "{{postTitle}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Post Title", name: "postTitle", widget: "string" }
+      - { label: "Label", name: "label", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["feature"] }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Post Description", name: "postDescription", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false }
+      - { label: "Thumbnail Image", name: "image", widget: "image", hint: 'This image will be used as thumbnail image while sharing the article.' }
+      - { label: "Label Icon", name: "icon", widget: "image" }
+      - { label: "Label Icon Caption", name: "iconAlt", widget: "string" }
+      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false, hint: "Please upload a video which is less than 55MB for better website performance" }
+      - { label: "Post Image", name: "postImage", widget: "image", required: false, hint: "Please upload either video or image but not both"  }
+      - { label: "White paper", name: "whitePaper", widget: "file" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "slider"
+    label: "Slider"
+    folder: "src/slider"
+    create: false
+    slug:  "{{postTitle}}"
+    sortable_fields: ['date']
+    fields:
+      - { label: "Button Text", name: "slideButtonText", widget: "string" }
+      - { label: "Short Title", name: "slideShortTitle", widget: "string" }
+      - { label: "Slide Title", name: "slideTitle", widget: "string" }
+      - { label: "Post Title", name: "postTitle", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["slider"] }
+      - { label: "Pointer", name: "sliderPointer", widget: "list" }
+      - { label: "Description", name: "sliderDescription", widget: "text"}
+      - { label: "Post Description", name: "postDescription", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
+      - { label: "Video", name: "videoURL", widget: "file" }
+      - { label: "Post Video", name: "postVideoURL", widget: "file", required: false, hint: "Please upload a video which is less than 55MB for better website performance" }
+      - { label: "Post Image", name: "postImage", widget: "image",required: false, hint: "Please upload either video or image but not both"  }
+      - { label: "White paper", name: "sliderWhitePaper", widget: "file" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "contact"
+    label: "contact"
+    folder: "src/contact"
+    create: false
+    slug:  "{{title}}"
+    fields:
+      - { label: "Contact Number",
+          name: "contact", 
+          widget: "string",
+          hint: "Please provide a number for users to contact."
+        }
+  - name: "team"
+    label: "Team"
+    folder: "src/team"
+    create: true
+    slug:  "{{name}}"
+    sortable_fields: ['date']
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Designation", name: "designation", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", hint: "Please upload a clear image" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
+      - { label: "LinkedIn URL", name: "linkedIn", widget: "string", required: false }
+      - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+      - { label: "Twitter URL", name: "twitter", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+  - name: "faq"
+    label: "FAQ"
+    folder: "src/faq"
+    create: true
+    slug:  "{{question}}"
+    sortable_fields: ['date']
+    fields:
+      - { label: "Question", name: "question", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "The purpose of date field is for sorting the items in UI" }
+      - { label: "Description", name: "description", widget: "text"}
+
+  - name: "news"
+    label: "News"
+    folder: "src/news"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" , hint: "Enter a descriptive and attention-grabbing title for your news"}
+      - { label: "Description", name: "description", widget: "text" , hint: "Write a brief summary of your news content "}
+      # - { label: "Author", name: "author", widget: "string" }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '', date_format: 'dddd MMMM Do', time_format: 'ha', format: 'YYYY-MM-DDTHH:mm:ssZ', picker_utc: false, hint: "Choose the date you want your news to be published on"}
+      - { label: "Featured Image", name: "image", widget: "image", hint: "Upload a image that represents your news content "}
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Video URL", name: "videoURL", widget: "string", required: false ,hint: "If your news post includes a video, enter the URL here"}
+      - { label: "Body", name: "body", widget: "markdown", hint: "Write your news content here, including any relevant information, examples, or insights you want to share."}
+
+  - name: "about"
+    label: "About Us"
+    folder: "src/About"
+    create: true
+    slug: "About Us"
+    fields:
+      - { label: "Description", name: "description", widget: "text", required: false, }
+      - { label: "Body", name: "body", widget: "markdown"}
+      
+  - name: "terms"
+    label: "Terms and Conditions"
+    folder: "src/terms"
+    create: false
+    slug: "Terms and Conditions"
+    fields:
+      - { label: "Terms and Conditions", name: "body", widget: "markdown"}
+  - name: "privacy"
+    label: "Privacy Policy"
+    folder: "src/privacy"
+    create: false
+    slug: "Privacy Policy"
+    fields:
+      - { label: "Privacy Policy", name: "body", widget: "markdown"}
+
+  - name: "refund"
+    label: "Refund Policy"
+    folder: "src/refund"
+    create: false
+    slug: "Refund Policy"
+    fields:
+      - { label: "Refund Policy", name: "body", widget: "markdown"}
+
+  - name: "acceptable"
+    label: "Acceptable Use Policy"
+    folder: "src/acceptable"
+    create: false
+    slug: "Acceptable Use Policy"
+    fields:
+      - { label: "Acceptable Use Policy", name: "body", widget: "markdown"}
+
+  - name: "disclaimer"
+    label: "Disclaimer"
+    folder: "src/disclaimer"
+    create: false
+    slug: "Disclaimer"
+    fields:
+      - { label: "Disclaimer", name: "body", widget: "markdown"}
+
+  - name: "cookie"
+    label: "Cookie Policy"
+    folder: "src/cookie"
+    create: false
+    slug: "Cookie Policy"
+    fields:
+      - { label: "Cookie Policy", name: "body", widget: "markdown"}
+
+  - name: "whitepaper"
+    label: "White Paper"
+    folder: "src/whitePaper"
+    create: true
+    slug: "White Paper"
+    fields:
+      - { label: "Title", name: "title", widget: "text", required: true, pattern: ['^.{0,106}$', "Max character limit 106"] }
+      - { label: "Description", name: "description", widget: "markdown", required: true, hint: 'Only 164 characters will be visible in the screen remaining will be hidden'  }
+      - { label: "White paper", name: "whitePaper", widget: "file", required: true, }

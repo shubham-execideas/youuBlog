@@ -1,0 +1,15 @@
+---
+title: Refund Policy
+layout: 'base.njk'
+---
+
+{# support section starts here #}
+<section class="w-full px-4 lg:px-16 relative mt-5">
+    <p class="text-4xl font-bold mt-12">Refund Policy</p>
+    {%- for refund in collections.refund -%}
+        <div class="blog-body text-lg">
+            {{ refund.templateContent | safe }}
+        </div>
+    {%- endfor -%}
+</section>
+{# support section ends here #}

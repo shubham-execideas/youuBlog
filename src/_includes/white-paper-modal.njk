@@ -1,0 +1,78 @@
+{# <div class="toast" id="toast">
+  <div class="toast-content">
+    <i class="fas fa-solid fa-check check"></i>
+    <div class="message">
+      <span class="text text-1">Submitted Successfully</span>
+    </div>
+  </div>
+  <i class="fa-solid fa-xmark closeToast"></i>
+  <div class="progress"></div>
+</div> #}
+<div
+    id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="text-xl font-bold mb-3">Download White Paper</p>
+        <p class="text-lg mb-10">Download our white paper to know more</p>
+        <div class="flex flex-wrap">
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="First Name"
+                id="firstNameField"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Last Name"
+                id="lastNameField"/>
+            <input
+                type="phone"
+                class="border-gray-300 w-full mb-5 mr-4  lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Phone"
+                id="phoneField"/>
+            <div class=" w-full lg:w-[47%] mb-5 mr-4">
+                <input
+                    type="text"
+                    class="border-gray-300 w-full  border-2 px-4 py-2 text-xs rounded-md"
+                    placeholder="Email*"
+                    id="emailField"
+                    required="required"/>
+                <p id="emailErrorMsg" class="text-red-600 "></p>
+            </div>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Company Name"
+                id="companyField"/>
+            <input
+                type="text"
+                class="border-gray-300 w-full mb-5 mr-4 lg:w-[47%] border-2 px-4 py-2 text-xs rounded-md"
+                placeholder="Job Title"
+                id="jobField"/>
+            <p class="w-full mb-5 mr-4 px-4 py-2 text-base rounded-md">
+                <input type="checkbox" id="subs" name="subs" value="subs" checked="checked">
+                    <label for="subs">
+                        Subscribe me to the newsletter to get all the coolest updates in inbox.</label>
+                </p>
+                {%- for whitepaper in collections.whitepaper | reverse -%}
+                    <a href="{{ whitepaper.data.whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
+                        Download
+                    </a>
+                {%- endfor -%}
+                {# {%- if sliderWhitePaper.length -%}
+                    <a href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
+                        Download
+                    </a>
+                {%- else -%}
+                    <a href="{{ whitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download>
+                        Download
+                    </a>
+                {%- endif -%} #}
+                {# <a
+                                                    href="{{ sliderWhitePaper }}" target="_blank" class="anchor-disabled bg-sumireVoilet md:ml-5  mt-5 md:mt-0 text-white p-3 md:px-5 text-sm rounded-md" id="downloadBtn" download="download">
+                                                    Download
+                                                </a> #}
+            </div>
+        </div>
+    </div>
