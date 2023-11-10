@@ -15,11 +15,13 @@
     <p class="text-2xl lg:text-3xl font-semibold">Download White Paper</p>
     {# <p class="my-3">Download our white paper to know more</p> #}
     <div class="w-[300px] max-w-screen-lg mx-auto">
-        {%- for whitepaper in collections.whitepaper | reverse -%}
+        <p class="font-semibold text-center p-5 text-sm">The Balance Between Therapeutic Outcome and Payment Compensation in Value-based Healthcare.</p>
+        <p class="text-xs revel-text">Rethinking compensation for delivering behavioral health using a shared responsibility approach and the strategy needed to get there.</p>
+        {# {%- for whitepaper in collections.whitepaper | reverse -%}
             <p class="font-semibold text-center p-5 text-sm">{{ whitepaper.data.title }}<p>
                     <p class="text-xs revel-text">{{ whitepaper.data.description | safe }}
                     </p>
-                {%- endfor -%}
+                {%- endfor -%} #}
             </div>
             <div
                 class="relative text-center">
