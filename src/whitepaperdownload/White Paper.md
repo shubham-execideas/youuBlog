@@ -1,6 +1,6 @@
 ---
 title: The Balance Between Therapeutic Outcome and Payment Compensation in
-  Value-based Healthcare.
+  Value-based Healthcare.YOYOYOYOYOYO
 description: >-
   Rethinking compensation for delivering behavioral health using a
 
