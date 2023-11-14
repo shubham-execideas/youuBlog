@@ -24,8 +24,7 @@ layout: 'base.njk'
             <select
                 name=""
                 id="tabTitle"
-    onchange="redirect(this.value)"
-
+                onchange="redirect(this.value)"
                 style="width: 92%"
                 class="mb-8 mt-5 mx-4 border-2 p-2.5 rounded-md bg-sumireVoilet text-white font-semibold outline-0 border-sumireVoilet ">
                 {%- for slider in collections.slider -%}
@@ -65,17 +64,19 @@ layout: 'base.njk'
                                 </div>
                             </div>
                             <div>
-                    <div class="schedule-calendar hidden lg:inline-block  flex-col  rounded-xl text-center p-5 lg:m-5 lg:mt-0">
-                        {% include 'download_whitepaper.njk' %}
-                        {% include 'toast-message.njk' %}
-                        {% include 'schedule.njk' %}
-                    </div>
-                    <div class="inline-block lg:hidden ">
-                                            {% include 'download_whitepaper-mobile.njk' %}
-                                            {% include 'toast-message-mobile.njk' %}
-                                            {% include 'schedule.njk' %}
-                                        </div>
-                </div>
+                                {# hidden lg: #}
+                                <div class="schedule-calendar inline-block  flex-col  rounded-xl text-center p-5 lg:m-5 lg:mt-0">
+                                    {% include 'download_whitepaper.njk' %}
+                                    {% include 'toast-message.njk' %}
+                                    {% include 'schedule.njk' %}
+                                </div>
+                                {# <div class="inline-block lg:hidden ">
+                                                                            {% include 'download_whitepaper.njk' %}
+                                                                            {% include 'toast-message-mobile.njk' %}
+                                                                            {% include 'schedule.njk' %}
+                                                                        </div> #}
+                                {# {% include 'download_whitepaper-mobile.njk' %} #}
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -106,6 +107,14 @@ layout: 'base.njk'
                 {%- endfor -%}
             </div>
         </div>
+        <div
+    id="whitePaperModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content flex flex-row-reverse w-[390px] lg:w-[536px]">
+        <span class="modalClose">&times;</span>
+                {% include 'download_whitepaper-mobile.njk' %}
+        </div>
+    </div>
     </section>
     <script type="module">
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
@@ -147,48 +156,10 @@ layout: 'base.njk'
             }
         });
         let title = document.getElementById("tabTitle");
-        {# let tabContent = _class("tabContent")[0].getElementsByTagName("div");
-            _class("tabContent")[0]
-                .getElementsByTagName("div")[0]
-                .classList
-                .add("active");
-            _class("tabContent")[0]
-                .getElementsByTagName("div")[0]
-                .classList
-                .add("relative");
-            title.addEventListener("change", function () {
-                for (let i = 0; i < tabContent.length; i++) {
-                    if (tabContent[i].id == title.value) {
-                        _class("tabContent")[0]
-                            .getElementsByClassName("relative")[0]
-                            .classList
-                            .remove("relative");
-                        _class("tabContent")[0]
-                            .getElementsByClassName("active")[0]
-                            .classList
-                            .remove("active");
-                        tabContent[i].classList.add("active");
-                        tabContent[i].classList.add("relative");
-                    }
-                }
-            });
-            #}
         function _class(name) {
             return document.getElementsByClassName(name);
         }
         let tabPanes = _class("tab-header")[0].getElementsByTagName("a");
-        {# _class("tab-content")[0]
-            .getElementsByTagName("div")[0]
-            .classList
-            .add("relative");
-        _class("tab-content")[0]
-            .getElementsByTagName("div")[0]
-            .classList
-            .add("active");
-        _class("tab-header")[0]
-            .getElementsByTagName("a")[0]
-            .classList
-            .add("active"); #}
         let urlPathnames = [
             "preparing-you-for-a-new-care-model-",
             "why-you-will-want-in-and-why",
@@ -203,10 +174,6 @@ layout: 'base.njk'
         let url = window.location.pathname;
         for (let i = 0; i < urlPathnames.length; i++) {
             if (url.toLowerCase().includes(urlPathnames[i])) {
-               // _class("tab-header")[0]
-                //    .getElementsByClassName("active")[0]
-                  //  .classList
-                  //  .remove("active");
                 tabPanes[i].classList.add("active");
                 _class("tab-indicator")[0].style.top = `calc(10px + ${
                     i * 56
@@ -223,4 +190,18 @@ layout: 'base.njk'
         tabTitle.addEventListener("change", function (e) {
             window.location = e.target.value;
         })
+        let isWPDownloaded = sessionStorage.getItem("isWPDownloaded");
+
+        if (isWPDownloaded != 'true' && url.toLowerCase().includes(urlPathnames[0])) {
+            let initModal = document.getElementById("whitePaperModal");
+            let close = document.getElementsByClassName("modalClose")[0];
+            if (initModal) {
+            initModal.style.display = "block";
+            }
+            console.log(isWPDownloaded, initModal, url, "this is sairam");
+            close && close.addEventListener("click", function () {
+                initModal.style.display = "none";
+            });
+        }
+        document.addEventListener("DOMContentLoaded", function () {});
     </script>

@@ -45,16 +45,17 @@
                     </div>
                 </div>
                 <div>
-                    <div class="schedule-calendar hidden lg:inline-block  flex-col  rounded-xl text-center p-5 lg:m-5 lg:mt-0">
+                     {# hidden lg: #}
+                    <div class="schedule-calendar inline-block  flex-col  rounded-xl text-center p-5 lg:m-5 lg:mt-0">
                         {% include 'download_whitepaper.njk' %}
                         {% include 'toast-message.njk' %}
                         {% include 'schedule.njk' %}
                     </div>
-                    <div class="inline-block lg:hidden ">
+                    {# <div class="inline-block lg:hidden ">
                         {% include 'download_whitepaper-mobile.njk' %}
                         {% include 'toast-message-mobile.njk' %}
                         {% include 'schedule.njk' %}
-                    </div>
+                    </div> #}
                 </div>
             </div>
         </article>

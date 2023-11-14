@@ -272,3 +272,19 @@ for (let i = 0; i < socialMediaPanes.length; i++) {
       [i].classList.add("relative");
   });
 }
+
+
+let isWPDownloaded = sessionStorage.getItem("isWPDownloaded");
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (isWPDownloaded != 'true') {
+    let modal = document.getElementById("whitePaperModal");
+    let close = document.getElementsByClassName("modalClose")[0];
+    modal.style.display = "block";
+    close &&
+      close.addEventListener("click", function () {
+        modal.style.display = "none";
+      });
+  }
+  
+});

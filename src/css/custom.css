@@ -415,7 +415,7 @@ select option {
 }
 
 /* The Close Button */
-.close, .closeMobile, .searchClose, .searchMobileClose {
+.close, .closeMobile, .searchClose, .searchMobileClose, .modalClose {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -423,7 +423,7 @@ select option {
 }
 
 .close:hover,
-.close:focus, .closeMobile:hover, .closeMobile:focus, .searchClose:hover, .searchClose:focus, .searchMobileClose:focus, .searchMobileClose:hover {
+.close:focus, .modalClose:hover, .modalClose:focus, .closeMobile:hover, .closeMobile:focus, .searchClose:hover, .searchClose:focus, .searchMobileClose:focus, .searchMobileClose:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;

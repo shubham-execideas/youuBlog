@@ -256,6 +256,7 @@ window.onclick = function (event) {
 
 //modal for download white paper starts here
 var modal = document.getElementById("myModal");
+let initModal = document.getElementById("whitePaperModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -376,7 +377,9 @@ downloadBtn &&
     companyField.value = "";
     jobField.value = "";
     modal.style.display = "none";
+    initModal.style.display = 'none';
     downloadBtn.classList.add("anchor-disabled");
+    sessionStorage.setItem("isWPDownloaded", true)
 
     toast.classList.add("active");
     progress.classList.add("active");
@@ -421,13 +424,21 @@ let timer1Mobile, timer2Mobile;
         // When the user clicks the button, open the modal
         
 
-        modalBtn.onclick = function () {
-            myModalMobile.style.display = "block";
-        }
+//          modalBtn.onclick = function () {
+//           myModalMobile.style.display = "block";
+// };
+modalBtn && modalBtn.addEventListener('click', function () { 
+   myModalMobile.style.display = "block";
+})
         // When the user clicks on <span> (x), close the modal
-        closeMobile.onclick = function () {
-            myModalMobile.style.display = "none";
-        }
+//          closeMobile.onclick = function () {
+//             myModalMobile.style.display = "none";
+// }
+        
+
+closeMobile && closeMobile.addEventListener('click', function () { 
+   myModalMobile.style.display = "none";
+})
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
             if (event.target == myModalMobile) {
@@ -437,83 +448,98 @@ let timer1Mobile, timer2Mobile;
         let emailFieldMobile = document.getElementById("emailFieldMobile");
         let downloadBtnMobile = document.getElementById("downloadBtnMobile");
         let emailInputMobile;
-        emailFieldMobile.addEventListener("keyup", function () {
-            emailInputMobile = emailFieldMobile.value;
-            let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(emailInputMobile)
-                ? "Invalid email"
-                : "";
-            if (error.length) {
-                downloadBtnMobile.classList.add("anchor-disabled");
-            } else {
-                downloadBtnMobile.classList.remove("anchor-disabled");
-            }
+        emailFieldMobile && emailFieldMobile.addEventListener("keyup", function () {
+          emailInputMobile = emailFieldMobile.value;
+          let error = !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(
+            emailInputMobile
+          )
+            ? "Invalid email"
+            : "";
+          if (error.length) {
+            downloadBtnMobile.classList.add("anchor-disabled");
+          } else {
+            downloadBtnMobile.classList.remove("anchor-disabled");
+          }
         });
-        downloadBtnMobile.addEventListener("click", function (e) {
+        downloadBtnMobile && downloadBtnMobile.addEventListener(
+          "click",
+          function (e) {
             let emailFieldMobile = document.getElementById("emailFieldMobile");
-            let firstNameFieldMobile = document.getElementById("firstNameFieldMobile");
-            let lastNameFieldMobile = document.getElementById("lastNameFieldMobile");
+            let firstNameFieldMobile = document.getElementById(
+              "firstNameFieldMobile"
+            );
+            let lastNameFieldMobile = document.getElementById(
+              "lastNameFieldMobile"
+            );
             let phoneFieldMobile = document.getElementById("phoneFieldMobile");
-            let companyFieldMobile = document.getElementById("companyFieldMobile");
+            let companyFieldMobile =
+              document.getElementById("companyFieldMobile");
             let jobFieldMobile = document.getElementById("jobFieldMobile");
             let emailErrorMsg = document.getElementById("emailErrorMsg");
             let subsMobile = document.getElementById("subsMobile");
-            var url = "https://api.hsforms.com/submissions/v3/integration/submit/7393862/768442e1-8b52-4ddc-90d0-d7e4c1b6f29c";
+            var url =
+              "https://api.hsforms.com/submissions/v3/integration/submit/7393862/768442e1-8b52-4ddc-90d0-d7e4c1b6f29c";
             let tempData = [
-                {
-                    name: "email",
-                    value: emailFieldMobile.value
-                },
-                {
-                    name: "firstName",
-                    value: firstNameFieldMobile.value
-                },
-                {
-                    name: "lastName",
-                    value: lastNameFieldMobile.value
-                },
-                {
-                    name: "phone",
-                    value: phoneFieldMobile.value
-                }, {
-                    name: "job",
-                    value: jobFieldMobile.value
-                }, {
-                    name: "company",
-                    value: companyFieldMobile.value
-                }, {
-                    name: "Subscribe to News Letter",
-                    value: subsMobile.checked
-                }
+              {
+                name: "email",
+                value: emailFieldMobile.value,
+              },
+              {
+                name: "firstName",
+                value: firstNameFieldMobile.value,
+              },
+              {
+                name: "lastName",
+                value: lastNameFieldMobile.value,
+              },
+              {
+                name: "phone",
+                value: phoneFieldMobile.value,
+              },
+              {
+                name: "job",
+                value: jobFieldMobile.value,
+              },
+              {
+                name: "company",
+                value: companyFieldMobile.value,
+              },
+              {
+                name: "Subscribe to News Letter",
+                value: subsMobile.checked,
+              },
             ];
             tempData = tempData.filter((item) => item.value);
             var data = {
-                fields: tempData,
-                context: {
-                    pageUri: "www.youu.com",
-                    pageName: "White Papet"
-                }
+              fields: tempData,
+              context: {
+                pageUri: "www.youu.com",
+                pageName: "White Papet",
+              },
             };
             axios
-                .post(url, data)
-                .then((response) => {
-                    console.log("email success");
-                    setTimeout(() => {
-                        console.log("email fail");
-                    }, 5000);
-                    console.log(response);
-                })
-                .catch((error) => {
-                    console.log(error);
-                    console.log("email invalid");
-                });
-            emailFieldMobile.value = ""
-            firstNameFieldMobile.value = ""
-            lastNameFieldMobile.value = ""
-            phoneFieldMobile.value = ""
-            companyFieldMobile.value = ""
-            jobFieldMobile.value = ""
+              .post(url, data)
+              .then((response) => {
+                console.log("email success");
+                setTimeout(() => {
+                  console.log("email fail");
+                }, 5000);
+                console.log(response);
+              })
+              .catch((error) => {
+                console.log(error);
+                console.log("email invalid");
+              });
+            emailFieldMobile.value = "";
+            firstNameFieldMobile.value = "";
+            lastNameFieldMobile.value = "";
+            phoneFieldMobile.value = "";
+            companyFieldMobile.value = "";
+            jobFieldMobile.value = "";
             myModalMobile.style.display = "none";
             downloadBtnMobile.classList.add("anchor-disabled");
+             initModal.style.display = "none";
+             sessionStorage.setItem("isWPDownloaded", true);
             toastMobile.classList.add("active");
             progressMobile.classList.add("active");
 
@@ -535,8 +561,9 @@ let timer1Mobile, timer2Mobile;
               clearTimeout(timer1Mobile);
               clearTimeout(timer2Mobile);
             });
-        }) // form ends here
-      
+          }
+); // form ends here
+        
       
 
 //modal for download white paper end here
