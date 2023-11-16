@@ -2,7 +2,7 @@
 slideButtonText: Health Cloud
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
-postTitle: " Creating a Value-based Enterprise in one easy-to-use platform."
+postTitle: 100 Problems we solved with the YOUUniverse
 tags:
   - slider
 sliderPointer:
