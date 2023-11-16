@@ -889,7 +889,6 @@ The YOUUniverse’s APM model makes it easier to motivate providers to reach CAT
 Thr YOUUniverse supports lower classifications of APM (e.g..CAT 1-3) where more than one type of payment is received. It also supports CAT 1 FFS.
 
 **31. We solved the problems for centers of excellence, accountable care organizations, and patient-centered medical homes to support the CMS APM Framework**
-
 The YOUUniverse framework permits provider and payers to realign payment incentives and care delivery to improve care quality while reducing costs.
 
 Stay tuned for more...
