@@ -22,13 +22,13 @@ sliderWhitePaper: /assets/youu-health-white-paper-10_24_23-1-.pdf
 label: Preparing you for a new care model
 title: Preparing you for a new care model
 ---
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -67,9 +67,9 @@ title: Preparing you for a new care model
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 9]><xml>
+<!--\\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -648,9 +648,9 @@ title: Preparing you for a new care model
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\\[endif]-->
+</xml><!\\\\[endif]-->
 
-<!--\\\[if gte mso 10]>
+<!--\\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -678,7 +678,7 @@ title: Preparing you for a new care model
 	mso-ansi-language:EN-US;
 	mso-fareast-language:EN-US;}
 </style>
-<!\\\[endif]-->
+<!\\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -888,7 +888,7 @@ The YOUUniverse’s APM model makes it easier to motivate providers to reach CAT
 **32. We solved the problem of APM classification when using more than one type of payment.**
 Thr YOUUniverse supports lower classifications of APM (e.g..CAT 1-3) where more than one type of payment is received. It also supports CAT 1 FFS.
 
-**31. We solved the problems for centers of excellence, accountable care organizations, and patient-centered medical homes to support the CMS APM Framework**
+**31. We solved the problems for centers of excellence, accountable care organizations, and patient-centered medical homes to support the CMS APM Framework.**
 The YOUUniverse framework permits provider and payers to realign payment incentives and care delivery to improve care quality while reducing costs.
 
 Stay tuned for more...
