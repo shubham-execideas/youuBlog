@@ -3,31 +3,24 @@ slideButtonText: Health Cloud
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
 postTitle: " Creating a Value-based Enterprise in one easy-to-use platform."
-date: 2023-02-09T19:04:44+05:30
-videoURL: /assets/animationopen.mp4
-sliderWhitePaper: /assets/youu-health-white-paper-10_24_23-1-.pdf
-label: Preparing you for a new care model
-postVideoURL: /assets/youuniversehealthcloud.mp4
-title: Preparing you for a new care model
 tags:
   - slider
 sliderPointer:
   - one
   - two
   - three
-sliderDescription: >
-  One of the most important questions facing healthcare is how value-based
-  compensation will work, and how the industry will achieve this goal after
-  years of conjecture. We’ve built these dynamics into specific solutions to
-  structure a compensation model for managing a value-enabled health system, we
-  call the YOUUniverse. 
-
-
-  The YOUUniverse delivers specific workflows for providers, payers and patients emphasizing the significance of patient reporting in defining success and its relevance to a value-based care model.  Our goal is to help you define how you can better control the financial reporting, cost controls, risk underwriting and outcome accountability required for the value-centric enterprise of the future.  
-
-
-  To find out more about the YOUUniverse download the White Paper, “The Balance of Therapeutic Outcome and Payment Compensation in Value-Based Healthcare” or set-up a demonstration by registering on this page.  
+sliderDescription: Our hyper-connected health cloud allows you to quickly build
+  digital healthcare communities across any care continuum for the life of the
+  patient. Keep your existing systems, or your EHR (or, use ours - it's really
+  good)! Then, wrap it with the important revenue driving and outcome producing
+  workflows. That'll save you time and money.
 postDescription: Where are we headed with our health systems of tomorrow?
+date: 2023-02-09T19:04:44+05:30
+videoURL: /assets/animationopen.mp4
+postVideoURL: /assets/youuniversehealthcloud.mp4
+sliderWhitePaper: /assets/youu-health-white-paper-10_24_23-1-.pdf
+label: Preparing you for a new care model
+title: Preparing you for a new care model
 ---
 <!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
