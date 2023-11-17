@@ -1,16 +1,7 @@
 ---
-title: The Balance Between Therapeutic Outcome and Payment Compensation in
-  Value-based Healthcare.
-description: >-
-  Rethinking compensation for delivering behavioral health using a
-
-
-    shared responsibility approach and the strategy needed to get there.Rethinking
-
-
-    compensation for delivering behavioral health using a shared responsibility
-
-
-    approach and the strategy needed to get there
+title: 100 Problems we solved with the YOUUniverse.
+description: At YOUU Health, we start every day committed to answer a bold
+  question; How can we reimagine a better software platform to solve the big
+  problems in managing healthcare’s most difficult challenges?
 whitePaper: /assets/top-100-white-paper.pdf
 ---
