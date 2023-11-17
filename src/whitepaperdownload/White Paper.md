@@ -12,5 +12,5 @@ description: >-
 
 
     approach and the strategy needed to get there
-whitePaper: /assets/top-100-white-paper-2.pdf
+whitePaper: /assets/top-100-white-paper.pdf
 ---
