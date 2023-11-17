@@ -12,5 +12,5 @@ description: >-
 
 
     approach and the strategy needed to get there
-whitePaper: /assets/youu-health-white-paper-10_24_23-1-.pdf
+whitePaper: /assets/top-100-white-paper-2.pdf
 ---
