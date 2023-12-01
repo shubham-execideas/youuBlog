@@ -192,6 +192,7 @@ layout: 'base.njk'
         })
         let isWPDownloaded = sessionStorage.getItem("isWPDownloaded");
 
+        setTimeout(function(){
         if (isWPDownloaded != 'true' && url.toLowerCase().includes(urlPathnames[0])) {
             let initModal = document.getElementById("whitePaperModal");
             let close = document.getElementsByClassName("modalClose")[0];
@@ -203,5 +204,8 @@ layout: 'base.njk'
                 initModal.style.display = "none";
             });
         }
+        },5000);
+
+        
         document.addEventListener("DOMContentLoaded", function () {});
     </script>
