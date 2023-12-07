@@ -290,5 +290,5 @@ document.addEventListener("DOMContentLoaded", function () {
           modal.style.display = "none";
         });
     }
-  }, 5000);
+  }, 15000);
 });

@@ -1,0 +1,21 @@
+
+<div class="schedule-calendar flex flex-col bg-white rounded-xl text-center p-5 lg:m-5 w-full">
+    <img src="/assets/whitepaper.svg" alt="whitepaper" class="w-full h-[150px] lg:h-[190px]"/>
+    <p class="text-xl lg:text-2xl font-semibold mt-3">Download White Paper</p>
+    <div class="w-[300px] lg:w-[600px] max-w-screen-lg mx-auto">
+        {%- for whitepaperdownload in collections.whitepaperdownload | reverse -%}<p class="text-center mt-1 text-md">{{ whitepaperdownload.data.title }}</p>
+                    <p class="text-md mt-5 mb-5">{{ whitepaperdownload.data.description | safe }}
+                    </p>
+                {%- endfor -%}
+            </div>
+            <div
+                class="relative text-center">
+                
+                <div class="absolute top-16 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <img src="/assets/features/paper.svg" alt="whitepaper" class="mx-auto mb-2 hidden">
+                        <p class="mb-7 font-semibold">Download our white paper to know more</p>
+                        <button id="myBtn" target="_blank" class="text-white bg-sumireVoilet cursor-pointer p-3 rounded-md" download>Download</button>
+                    </div>
+                </div>
+            </div>
+            {% include 'white-paper-modal.njk' %}
