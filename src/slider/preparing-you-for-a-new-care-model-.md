@@ -683,7 +683,7 @@ postDescription: Where are we headed with our health systems of tomorrow?
 
 <!--StartFragment-->
 
-# 100 Problems we solved with the YOUUniverse.
+<!-- # 100 Problems we solved with the YOUUniverse.
 
 **100. We solved the AI Alignment problem with health data trained by 2,500 pros like you.**
 
@@ -707,6 +707,6 @@ postDescription: Where are we headed with our health systems of tomorrow?
 
 **90. We solved the problem with authorization friction by connecting you to multi-payer workflows.**
 
-Want to find out more? Download our White Paper to get all 100 Problems and their descriptions.
+Want to find out more? Download our White Paper to get all 100 Problems and their descriptions. -->
 
 <!--EndFragment-->
