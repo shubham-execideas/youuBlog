@@ -3,11 +3,12 @@ slideButtonText: Health Cloud
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
 postTitle: 100 Problems we solved with the YOUUniverse
+postImage: /assets/YOUUniverse-vs-EHR-Feature-Checklist.jpg
 date: 2023-02-09T19:04:44+05:30
-videoURL: /assets/animationopen.mp4
+videoURL: /assets/animationOpenerNew.mp4
 sliderWhitePaper: /assets/top-100-white-paper-2.pdf
 label: Preparing you for a new care model
-postVideoURL: /assets/youuniversehealthcloud.mp4
+postVideoURL: /assets/animationopen.mp4
 title: Preparing you for a new care model
 tags:
   - slider
