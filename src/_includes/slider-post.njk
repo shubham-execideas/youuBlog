@@ -56,7 +56,7 @@ layout: 'base.njk'
                                 {%- endif -%}
                                 {%- if postImage.length %}
                                     <div class="bg-white image-bg rounded-xl p-6 flex h-[300px] lg:h-[500px]">
-                                        <img src="{{ postImage }}" alt="whitepaper" class="w-full object-contain"/>
+                                        <img id="myImg" src="{{ postImage }}" alt="whitepaper" class="w-full object-contain"/>
                                     </div>
                                 {%- endif -%}
                                 <div class="blog-body text-lg">
@@ -83,6 +83,20 @@ layout: 'base.njk'
             </div>
         </div>
     </div>
+
+    <!-- The Modal -->
+<div id="myModal2" class="modal2">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content2" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  {# <div id="caption"></div> #}
+</div>
+
     <section class="w-full mt-10 px-4 lg:px-20 relative">
         <div class="flex justify-between items-center flex-wrap mb-8">
             <div>
@@ -207,4 +221,27 @@ layout: 'base.njk'
 
         
         document.addEventListener("DOMContentLoaded", function () {});
+
+        //youu new image modal js start 
+        // Get the modal
+  var modal2 = document.getElementById("myModal2");
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById("myImg");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function () {
+    modal2.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  };
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[1];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal2.style.display = "none";
+  };
+  // youu new image js end
     </script>
