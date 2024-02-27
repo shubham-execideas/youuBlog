@@ -5,7 +5,7 @@ image: /assets/ed.svg
 date: 2023-03-08T17:45:41+05:30
 linkedIn: https://www.linkedin.com/in/ed-deshields-82525354
 twitter: https://twitter.com/DeshieldsEd?t=a_aT4yqKx1E4CY0cxxiK9A&s=09
-description: "Ed is the Founder of Sober Peer, LLC, a behavioral sciences
+description: "Ed is the Founder of YOUU Health, LLC, a behavioral sciences
   company.  For twenty years, his technology platforms have served millions of
   consumers with advanced artificial intelligence and cognitive models for
   assessing consumer-side behavioral outcomes.  His companies have been among
