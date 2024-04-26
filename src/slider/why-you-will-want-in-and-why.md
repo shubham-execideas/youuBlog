@@ -1,7 +1,7 @@
 ---
 slideButtonText: Providers
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
-slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
+slideTitle: "The YOUUniverse Health Cloud spans the care continuum completely. "
 postTitle: Why you’ll want in. And why.
 tags:
   - slider
