@@ -11,7 +11,7 @@ sliderPointer:
   - three
 sliderDescription: Our hyper-connected health cloud allows you to quickly build
   healthcare communities across any care continuum for the life of the patient.
-  Connect to any provider or care team seamlessly - in one platform - to manage
+  Connect to any provider or care team anywhere - in one platform - to manage
   your patient's progress with ease. Then, wrap it with the important revenue
   driving and outcome producing workflows. You'll be amazed how easy it is to
   build a thriving practice.
