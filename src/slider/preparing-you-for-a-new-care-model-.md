@@ -1,15 +1,8 @@
 ---
 slideButtonText: Health Cloud
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
-slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
+slideTitle: The Most Powerful Interconnected Healthcare Navigation Platform Ever
 postTitle: 100 Problems we solved with the YOUUniverse
-postImage: /assets/100WithoutText.jpg
-date: 2023-02-09T19:04:44+05:30
-videoURL: /assets/animationOpenerNew.mp4
-sliderWhitePaper: /assets/top-100-white-paper-2.pdf
-label: Preparing you for a new care model
-postVideoURL: /assets/animationopen.mp4
-title: Preparing you for a new care model
 tags:
   - slider
 sliderPointer:
@@ -22,6 +15,13 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That'll save you time and money.
 postDescription: Where are we headed with our health systems of tomorrow?
+date: 2023-02-09T19:04:44+05:30
+videoURL: /assets/animationOpenerNew.mp4
+postVideoURL: /assets/animationopen.mp4
+postImage: /assets/100WithoutText.jpg
+sliderWhitePaper: /assets/top-100-white-paper-2.pdf
+label: Preparing you for a new care model
+title: Preparing you for a new care model
 ---
 <!--\\\\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
