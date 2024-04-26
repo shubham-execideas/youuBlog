@@ -2,7 +2,7 @@
 slideButtonText: Health Cloud
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: The Most Powerful Interconnected Healthcare Navigation Platform Ever
-postTitle: 100 Problems we solved with the YOUUniverse
+postTitle: Packed With More Features Than Any Other Healthcare Application
 tags:
   - slider
 sliderPointer:
