@@ -15,7 +15,7 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   manage your patient's progress with ease. Then, wrap it with the important
   revenue driving and outcome producing workflows. You'll be amazed how easy it
   is to build a thriving practice.
-postDescription: Where are we headed with our health systems of tomorrow?
+postDescription: "Design and build your own health system of tomorrow. "
 date: 2023-02-09T19:04:44+05:30
 videoURL: /assets/animationOpenerNew.mp4
 postVideoURL: /assets/animationopen.mp4
