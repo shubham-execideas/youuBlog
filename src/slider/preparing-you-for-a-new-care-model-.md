@@ -11,9 +11,10 @@ sliderPointer:
   - three
 sliderDescription: Our hyper-connected health cloud allows you to quickly build
   digital healthcare communities across any care continuum for the life of the
-  patient. Keep your existing systems, or your EHR (or, use ours - it's really
-  good)! Then, wrap it with the important revenue driving and outcome producing
-  workflows. That'll save you time and money.
+  patient. Connect to any provider or community program seamlessly in one
+  platform to manage your population with ease. Then, wrap it with the important
+  revenue driving and outcome producing workflows. That'll save you time and
+  money.
 postDescription: Where are we headed with our health systems of tomorrow?
 date: 2023-02-09T19:04:44+05:30
 videoURL: /assets/animationOpenerNew.mp4
