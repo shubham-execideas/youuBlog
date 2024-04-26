@@ -2,7 +2,7 @@
 whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 imageAlt: patients
 title: Youu for Patients
-postTitle: Digital Interconnectivity Changes Everything
+postTitle: Interconnected Health Navigation Changes Everything
 label: patients
 tags:
   - feature
