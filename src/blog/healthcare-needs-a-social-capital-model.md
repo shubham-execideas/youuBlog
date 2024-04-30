@@ -18,7 +18,7 @@ imageAlt: Social Capital and its Network Effect Making Healthcare Work Better
 
 **Healthcare Needs a Social Capital Model**
 
-The network effect of hyper-localized healthcare will save your practice and drive better results*
+*The network effect of hyper-localized healthcare will save your practice and drive better results*
 
 More than three-quarters of the healthcare workforce in “traditional” roles —especially frontline care workers and clinicians— report they are connecting with others less frequently. According to recent survey data, healthcare workers have disproportionally smaller networks and spend less time and effort on relationship building across referral or care networks. This decline is concerning. As their world shrinks myopically into a volume-driven fee-for-service model, it’s almost universally agreed that it’s harder to keep healthcare sustainable.
 
