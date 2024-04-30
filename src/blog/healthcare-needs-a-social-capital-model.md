@@ -14,7 +14,9 @@ postTags:
 image: /assets/social-capital-and-network-effect-title-slide.jpg
 imageAlt: Social Capital and its Network Effect Making Healthcare Work Better
 ---
-**Healthcare Needs a Social Capital Model***The network effect of hyper-localized healthcare will save your practice and drive better results*
+**Healthcare Needs a Social Capital Model**
+
+The network effect of hyper-localized healthcare will save your practice and drive better results*
 
 More than three-quarters of the healthcare workforce in “traditional” roles —especially frontline care workers and clinicians— report they are connecting with others less frequently. According to recent survey data, healthcare workers have disproportionally smaller networks and spend less time and effort on relationship building across referral or care networks. This decline is concerning. As their world shrinks myopically into a volume-driven fee-for-service model, it’s almost universally agreed that it’s harder to keep healthcare sustainable.
 
@@ -40,7 +42,7 @@ Consider the following geographical community map in Figure 1. 
 
 Let’s look at the numbers.  The map here shows a representative example of Orange County, California.  It perfectly illustrates the behavioral health Network Effect.  Each dot represents a community of clinical or non-clinical referral sources (i.e. providers) serving this hyper-local market.
 
-![Geographical Community Map](/assets/social-capital-pic-1.png "Geographical Community Map")
+![Figure 1](/assets/social-capital-pic-1.png "Geographical Community Map")
 
 This map includes:
 
@@ -82,8 +84,6 @@ But will behavioral health emerge from its malaise to build its social capital a
 We’ll be watching.
 
 And, in the meantime we'll be listening and talking edTalk. See you next time.
-
- 
 
 About YOUU Health
 
