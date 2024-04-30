@@ -14,6 +14,8 @@ postTags:
 image: /assets/social-capital-and-network-effect-title-slide.jpg
 imageAlt: Social Capital and its Network Effect Making Healthcare Work Better
 ---
+![](/assets/social-capital-and-network-effect-title-slide.jpg "Social Capital")
+
 **Healthcare Needs a Social Capital Model**
 
 The network effect of hyper-localized healthcare will save your practice and drive better results*
