@@ -1,7 +1,7 @@
 ---
 slideButtonText: Health Cloud
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
-slideTitle: The Most Powerfully Interconnected Healthcare Navigation Platform Ever
+slideTitle: Why the Health Cloud beats the EHR every time
 postTitle: Packed With More Features Than Any Other Healthcare Application
 tags:
   - slider
