@@ -284,7 +284,8 @@ document.addEventListener("DOMContentLoaded", function () {
     if (isWPDownloaded != "true") {
       let modal = document.getElementById("whitePaperModal");
       let close = document.getElementsByClassName("modalClose")[0];
-      modal.style.display = "block";
+      //Stopping the modal to load automatically on homepage.
+      // modal.style.display = "block";
       close &&
         close.addEventListener("click", function () {
           modal.style.display = "none";
