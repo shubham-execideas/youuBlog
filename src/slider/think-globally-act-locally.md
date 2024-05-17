@@ -2,7 +2,7 @@
 slideButtonText: Public Sector
 slideShortTitle: EXPERIENCE YOUR YOUUNIVERSE
 slideTitle: Why Digital Health Cloud platforms beat EHR systems every time
-postTitle: Think globally. Act locally.
+postTitle: "Improving navigation and coordination for community-based behavioral health "
 tags:
   - slider
 sliderPointer:
