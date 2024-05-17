@@ -1,7 +1,7 @@
 ---
 whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 imageAlt: public sector
-title: Making a YOUUNIVERSAL SocietyTM Work Better
+title: Making a YOUUniversal Community Navigation Work Better
 postTitle: PUBLIC SECTOR
 label: "Navigation and Coordination for community-based behavioral health "
 tags:
