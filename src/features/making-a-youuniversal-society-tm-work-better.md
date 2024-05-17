@@ -3,10 +3,10 @@ whitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
 imageAlt: public sector
 title: Making a YOUUNIVERSAL SocietyTM Work Better
 postTitle: PUBLIC SECTOR
-label: public sector
+label: "Navigation and Coordination for community-based behavioral health "
 tags:
   - feature
-description: YOUUNIVERSAL Society (TM) helps government develop and sustain an
+description: YOUUniversal Society helps government develop and sustain an
   essential behavioral health workforce, enhance community-based services and
   programs. That promotes increased access to treatment and services, and
   promotes integrated physical and mental health care while incorporating
