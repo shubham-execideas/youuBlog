@@ -14,7 +14,8 @@ sliderDescription: Our hyper-connected health cloud allows you to quickly build
   patient. Keep your existing systems, or your EHR (or, use ours – it’s really
   good)! Then, wrap it with the important revenue driving and outcome producing
   workflows. That’ll save you time and money. Ask us how
-postDescription: " How digital engagement drives healthy communities"
+postDescription: YOUUniverse drives healthy communities with a no-wrong door
+  approach to behavioral healthcare
 date: 2023-02-15T19:04:44+05:30
 videoURL: https://drdevattach.blob.core.windows.net/public/YouuniverseHealthCloud.mp4
 sliderWhitePaper: /assets/ai-9-ways-youu-health-brochure-1-.pdf
