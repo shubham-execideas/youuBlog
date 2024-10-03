@@ -10,7 +10,7 @@ postTags:
   - Mental Health
   - Addiction
   - Drugs
-image: /assets/youulogo.webp
+image: /assets/how-payers-are-using-ai-to-outpace-manual-claims.png
 imageAlt: temporary photo
 ---
 \
