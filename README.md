@@ -12,6 +12,7 @@ The `src` folder contains files so that you can get your project up and running 
 
 The articles are written in Markdown, and include Front Matter. Depending on the Static Site Generator you use, it is possible that you will have to modify these a little if you wish to use them. 
 
+0. This is a Jamstack with Eleventy (11ty) based on package.json
 # How to Start the project
 1.Whatever you want in public folder of netllify you need to mention in .eleventy.js also.
 # How to Start the project
@@ -19,3 +20,4 @@ The articles are written in Markdown, and include Front Matter. Depending on the
 2.npm start
 # To convert tailwind css to netlify project css you need run at where package.json is there.
 3.npx tailwindcss -i ./tailwind.css -o ./public/css/style.css --watch 
+4. jotform was added as contactyouuniverse form
