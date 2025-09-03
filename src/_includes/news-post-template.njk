@@ -1,5 +1,40 @@
 
 <article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
+  <!-- NewsArticle Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "{{ title }}",
+    "description": "{{ description }}",
+    "image": "{{ image }}",
+    "author": {
+      "@type": "Organization",
+      "name": "YOUU",
+      "url": "https://youu.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "YOUU",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://youu.com/assets/logo.svg"
+      }
+    },
+    "datePublished": "{{ date }}",
+    "dateModified": "{{ date }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://youu.com{{ page.url }}"
+    },
+    "articleSection": "Healthcare News",
+    "keywords": "{% if postTags %}{{ postTags | join(', ') }}, {% endif %}healthcare news, behavioral health, AI healthcare",
+    "inLanguage": "en-US",
+    "wordCount": "{{ content | length }}",
+    "newsCategory": "Healthcare Technology"
+  }
+  </script>
+  
   <div class="flow md:px-8 px-6">
     <h1 class="article-title text-[2rem] font-bold mb-3">
       {{ title }}

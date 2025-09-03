@@ -1,5 +1,39 @@
 
 <article class="main-article bg-[url('/assets/blog_bg_image.svg')] bg-no-repeat bg-right-top bg-45 bg-50">
+  <!-- Article Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ title }}",
+    "description": "{{ description }}",
+    "image": "{{ image }}",
+    "author": {
+      "@type": "Organization",
+      "name": "YOUU",
+      "url": "https://youu.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "YOUU",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://youu.com/assets/logo.svg"
+      }
+    },
+    "datePublished": "{{ date }}",
+    "dateModified": "{{ date }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://youu.com{{ page.url }}"
+    },
+    "articleSection": "Behavioral Health",
+    "keywords": "{% if postTags %}{{ postTags | join(', ') }}, {% endif %}behavioral health, AI healthcare, mental health",
+    "inLanguage": "en-US",
+    "wordCount": "{{ content | length }}"
+  }
+  </script>
+  
   <div class="flow md:px-8 px-6">
     <div class="md:block lg:flex justify-between items-center">
       <div>
