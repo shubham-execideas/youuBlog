@@ -10,7 +10,7 @@ postTags:
   - Mental Health
   - Addiction
   - Drugs
-image: /assets/lady_liberty_economic_transformation-copy.tiff
+image: /assets/lady_liberty_economic_transformation-copy.jpg
 imageAlt: " "
 ---
 It seems to make sense now. Something big is happening. You can feel it—an invisible shift beneath the surface of the global economy. Most people haven’t noticed yet, but soon, they won’t be able to ignore it.
