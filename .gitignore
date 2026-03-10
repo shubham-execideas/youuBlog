@@ -11,3 +11,7 @@ css
 
 # macOS related files
 .DS_Store
+/.vs/youuBlogTest/FileContentIndex
+/.vs/youuBlogTest/v17
+/.vs/VSWorkspaceState.json
+/.vs

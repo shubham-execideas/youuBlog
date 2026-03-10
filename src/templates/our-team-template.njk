@@ -1,0 +1,27 @@
+<section class="w-full px-6 relative">
+    <p class="text-4xl font-bold ml-10 mb-5">Our Team</p>
+    <div class="flex flex-col flex-wrap justify-around lg:flex-row team-cards-container">
+        {% for team in collections.team %}
+            <div class="team-card flex lg:w-[46%] w-full  flex-col overflow-hidden relative bg-white rounded-2xl mt-5 lg:m-5 lg:mt-0 p-5">
+                <div class="flex">
+                    <img src="{{ team.data.image }}" alt="" class="rounded-2xl h-[90px] w-[90px] md:h-[160px] md:w-[160px] lg:h-[150px] lg:w-[150px]">
+                        <div class="ml-5">
+                            <p class="team-member-name text-base md:text-[1.7rem] font-bold whitespace-nowrap ">{{ team.data.name }}</p>
+                            <p class="team-member-designation md:text-lg text-sm lg:text-xl mt-1 md:mt-3 font-medium whitespace-nowrap">{{ team.data.designation }}</p>
+                            <div class="flex mt-2">
+                                <a href="{{ team.data.linkedIn }}" target="_blank" class="border-2 rounded-full m-3 ml-0 p-3 cursor-pointer">
+                                    <img src="/assets/blog/linkdn.svg" alt="" class="h-[15px] w-[15px] md:h-[20px] md:w-[20px]"></a>
+                                    <a href="{{ team.data.facebook }}" target="_blank" class="border-2 rounded-full m-3 p-3 cursor-pointer">
+                                        <img src="/assets/blog/facebook.svg" alt="" class="h-[15px] w-[15px] md:h-[20px] md:w-[20px]"></a>
+                                        <a href="{{ team.data.twitter }}" target="_blank" class="border-2 rounded-full m-3 p-3 cursor-pointer">
+                                            <img src="/assets/blog/twitter.svg" alt="" class="h-[15px] w-[15px] md:h-[20px] md:w-[20px]"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="text-lg mt-3">
+                                    {{ team.data.description }}
+                                </p>
+                            </div>
+                        {%- endfor %}
+                    </div>
+                </section>

@@ -1,0 +1,16 @@
+---
+title: "YOUU Privacy Policy - Data Protection & Security"
+description: "Learn about YOUU's commitment to protecting your privacy. Read our comprehensive privacy policy to understand how we collect, use, and safeguard your personal information."
+layout: 'base.njk'
+---
+
+{# support section starts here #}
+<section class="w-full px-4 lg:px-16 relative mt-5">
+    <p class="text-4xl font-bold mt-12">Privacy Policy</p>
+    {%- for privacy in collections.privacy -%}
+        <div class="blog-body text-lg">
+            {{ privacy.templateContent | safe }}
+        </div>
+    {%- endfor -%}
+</section>
+{# support section ends here #}

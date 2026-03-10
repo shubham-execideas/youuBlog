@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://youu.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /_includes/
+
+# Allow important pages
+Allow: /blog/
+Allow: /news/
+Allow: /features/
+Allow: /about/
+Allow: /contact/
+Allow: /our-team/
+Allow: /support/
+
+# Crawl delay (optional)
+Crawl-delay: 1

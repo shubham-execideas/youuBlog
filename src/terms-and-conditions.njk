@@ -1,0 +1,16 @@
+---
+title: "YOUU Terms & Conditions - Platform Usage Guidelines"
+description: "Read YOUU's terms and conditions to understand the rules and guidelines for using our behavioral health technology platform and services."
+layout: 'base.njk'
+---
+
+{# support section starts here #}
+<section class="w-full px-4 lg:px-16 relative mt-5">
+    <p class="text-4xl font-bold mt-12">Terms and Conditions</p>
+    {%- for terms in collections.terms -%}
+        <div class="blog-body text-lg">
+            {{ terms.templateContent | safe }}
+        </div>
+    {%- endfor -%}
+</section>
+{# support section ends here #}
